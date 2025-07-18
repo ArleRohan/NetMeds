@@ -1,0 +1,166 @@
+{
+    "ayurvedicProducts": [
+        {
+            "id": "1",
+            "name": "Himalaya Wellness Ashvagandha Tablet 60's",
+            "MRP": 240.00 ,
+            "saleProce": 225.60,
+            "discount": 5,
+            "description": [
+                "* Mkt: Himalaya Wellness Company",
+                "* Country of Origin: India"
+            ],
+            "category": "Ayush",
+            "image" : "assets/images/Ayush/Ayurvedic/himalaya_wellness_ashvagandha_tablet_60s_58979_0_3.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Pankajakasthuri Breathe Easy Granules 400 gm",
+            "MRP": 400.00,
+            "saleProce": 320.00,
+            "discount":  20,
+            "description": [
+                "Mkt: Pankajakasthuri Herbals India Pvt Ltd",
+                "* Country of Origin: India"
+            ],
+            "category": "Ayush",
+            "image" : "assets/images/Ayush/Ayurvedic/pankajakasthuri_breathe_easy_granules_400_gm_43929_0_2.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Lama Phalatrikadi Kwath Syrup 450 ml",
+            "MRP": 165.00,
+            "saleProce": 127.05 ,
+            "discount": 23,
+            "description": [
+                "Mkt:  Lama Pharmaceuticals",
+                "* Country of Origin: India"
+            ],
+            "category": "Ayush",
+            "image" : "assets/images/Ayush/Ayurvedic/lama_phalatrikadi_kwath_syrup_450_ml_132934_0_2.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Pankajakasthuri Breathe Easy Syrup 200 ml",
+            "MRP": 220.00,
+            "saleProce": 202.40,
+            "discount": 8,
+            "description": [
+                "Mkt: Pankajakasthuri Herbals India Pvt Ltd",
+                "* Country of Origin: India"
+            ],
+            "category": "Ayush",
+            "image" : "assets/images/Ayush/Ayurvedic/pankajakasthuri_breathe_easy_syrup_200_ml_0.jpg"
+        },
+        {
+            "id": "5",
+            "name": "Lama Isobael Granules 200 gm",
+            "MRP": 280.60,
+            "saleProce": 305.00 ,
+            "discount": 8,
+            "description": [
+                "Mkt: Lama Pharmaceuticals",
+                "* Country of Origin: India"
+            ],
+            "category": "Ayush",
+            "image" : "assets/images/Ayush/Ayurvedic/lama_isobael_granules_200_gm_0_0.jpg"
+        }
+    ],
+    "unaniProducts": [
+        {
+            "id": "1",
+            "name": "Hashmi Hard Rock Capsule 20's",
+            "MRP": 1900.00 ,
+            "saleProce": 1520.00,
+            "discount": 20 ,
+            "description": [
+                "Mkt:  Hashmi Unani Pharmacy",
+                "* Country of Origin: India"
+            ],
+            "category": "Ayush",
+            "image" : "assets/images/Ayush/Unani/hashmi_hard_rock_capsule_20s_0_0.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Hashmi Mughal-E-Azam Plus Capsule 10's",
+            "MRP": 915.00 ,
+            "saleProce": 823.50 ,
+            "discount": 10 ,
+            "description": [
+                "Mkt: Hashmi Unani Pharmacy",
+                "* Country of Origin: India"
+            ],
+            "category": "Ayush",
+            "image" : "assets/images/Ayush/Unani/hashmi_mughal_e_azam_plus_capsule_10s_0_0.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Hamdard Joshina Syrup 100 ml",
+            "MRP": 75.00,
+            "saleProce": 75.00,
+            "discount": 0,
+            "description": [
+                "Mkt:  Hamdard Laboratories India Pvt Ltd",
+                "* Country of Origin: India"
+            ],
+            "category": "Ayush",
+            "image" : "assets/images/Ayush/Unani/hamdard_joshina_syrup_100_ml_0.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Aroma Treasures Pure Essential Oil - Lemon Grass 10 ml",
+            "MRP": 20,
+            "saleProce": 20,
+            "discount": 5,
+            "description": [
+                "Mkt: Roohwellness",
+                "* Country of Origin: India"
+            ],
+            "category": "Medcine",
+            "image" : "assets/images/accu_chek_active_glucose_monitor_with_free_10_test_strips_33516_0_4.jpg"
+        },
+        {
+            "id": "5",
+            "name": "Aroma Treasures Pure Essential Oil - Lemon Grass 10 ml",
+            "MRP": 20,
+            "saleProce": 20,
+            "discount": 5,
+            "description": [
+                "Mkt: Roohwellness",
+                "* Country of Origin: India"
+            ],
+            "category": "Medcine",
+            "image" : "assets/images/accu_chek_active_glucose_monitor_with_free_10_test_strips_33516_0_4.jpg"
+        },
+        {
+            "id": "6",
+            "name": "Aroma Treasures Pure Essential Oil - Lemon Grass 10 ml",
+            "MRP": 20,
+            "saleProce": 20,
+            "discount": 5,
+            "description": [
+                "Mkt: Roohwellness",
+                "* Country of Origin: India"
+            ],
+            "category": "Medcine",
+            "image" : "assets/images/accu_chek_active_glucose_monitor_with_free_10_test_strips_33516_0_4.jpg"
+        }
+    ],
+    "homeopathyProducts": [
+        {
+            "id": "1",
+            "name": "Aroma Treasures Pure Essential Oil - Lemon Grass 10 ml",
+            "MRP": 20,
+            "saleProce": 20,
+            "discount": 5,
+            "description": [
+                "Mkt: Roohwellness",
+                "* Country of Origin: India"
+            ],
+            "category": "Medcine",
+            "image" : "assets/images/accu_chek_active_glucose_monitor_with_free_10_test_strips_33516_0_4.jpg"
+        }
+    ],
+    "users": [],
+    "orders": []
+}
