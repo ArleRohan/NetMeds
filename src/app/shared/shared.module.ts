@@ -42,9 +42,9 @@ const routes: Routes = [];
     RouterModule.forChild(routes),
     CommonModule
   ],
-  
-  exports:[
-    FooterComponent
+  exports: [
+    FooterComponent,
+    HeaderComponent
   ]
 })
 export class SharedModule { }
