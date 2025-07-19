@@ -18,7 +18,10 @@ import { CoronaAwarenessComponent } from './components/Health-Center/corona-awar
 import { RouterModule, Routes } from '@angular/router';
 
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:"BuyAgain", component:BuyAgainComponent},
+  {path:"OrderOnline",component:OrderOnlineComponent}
+];
 
 @NgModule({
   declarations: [

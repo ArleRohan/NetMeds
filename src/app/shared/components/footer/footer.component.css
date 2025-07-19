@@ -1,422 +1,222 @@
-
-.brand{
-    font-size: 17px;
-    position: relative;
-    top:10px;
-    font-family: LatoBold;
-}
-.sear{
-    font-family: Lato;
-    font-size: 16px;
-    width: 100%;
-    color: #6f7284;
-    background-color: rgba(10, 21, 27, .05);
-    background-repeat: no-repeat;
-    background-image:url('../../../../assets/images/footer/search.svg');
-    background-position:97% center;
-}
-.sear:focus
-{
-         outline: none !important;
-         box-shadow: none;
-         background-color: rgba(10, 21, 27, .05);
-}
-.check-menu{
-    font-size: 13px;
-    height:280px;
-    overflow-y:auto;
-    overflow-x: hidden;
-}
-.form-check{
-    font-size:16px;
-}
-.form-check-input{
-    border:1px solid black;
-}
-.form-check-input:focus
-{
-         box-shadow: none;
-}
-
-/* .card1{ */
-	/* width:300px; */
-	/* height:400px; */
-	/* background-color:white; */
-	/* border:1px solid black; */
-/* } */
-
-			
-			
-
+/* ===================== BASE FOOTER STYLES ===================== */
 footer {
     padding: 36px 30px 0;
     color: #0b1219;
     background: #fff;
     width: 100%;
-    display: inline-block;
     font-size: 12px;
-    margin: 300px 0 0;
-    background-image: linear-gradient(to bottom, rgba(36, 174, 177, 0) 50%, rgba(36, 174, 177, .7) 130%), linear-gradient(to bottom, #fff, #fff);
+    background-image: linear-gradient(to bottom, rgba(36, 174, 177, 0) 50%, rgba(36, 174, 177, .7) 130%), 
+                      linear-gradient(to bottom, #fff, #fff);
+    margin-top: 0; /* Removed extra top space */
 }
+
+/* Footer Top Stats (Stores, Pincodes, Customers) */
 .footer-btm {
     display: flex;
     justify-content: space-evenly;
-    min-width: 1030px;
     max-width: 1280px;
     margin: 0 auto 32px;
-    box-sizing: border-box;
-    padding: 0 0 32px;
+    padding-bottom: 32px;
     border-bottom: 1px solid rgba(11, 18, 25, .2);
 }
+
 .stores-content {
     display: flex;
     align-items: center;
 }
+
 .stores-content img {
     width: 100px;
     height: 100px;
-    margin: 0 20px 0 0;
-}
-.ft-txt {
-    font-family: LatoSemiBold;
-    font-size: 16px;
-    line-height: normal;
-    color: #0b1219;
-}
-.number {
-    font-size: 26px;
+    margin-right: 20px;
 }
 
+.ft-txt {
+    font-family: LatoSemiBold, sans-serif;
+    font-size: 16px;
+    color: #0b1219;
+}
+
+.number {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Logo & Intro Text */
 .footer-top {
     display: flex;
-    min-width: 1030px;
     max-width: 1280px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 0 0 32px;
-    margin-bottom: 50px;
+    margin: 0 auto 50px;
+    padding-bottom: 32px;
     border-bottom: 1px solid rgba(11, 18, 25, .2);
+    gap: 32px;
 }
+
 .footer-logo {
-    margin-right: 32px;
-    padding-right: 32px !important;
-    border-right: 0 solid rgba(195, 195, 195, .5);
-    height: 62px;
-    line-height: 62px;
     width: 212px;
 }
 
 .footer-txt {
-    width: 60%;
-    padding: 0;
+    flex: 1;
     font-size: 16px;
     line-height: 24px;
-    font-family: LatoSemiBold;
-    color: rgba(11, 18, 25, .5);
+    font-family: LatoSemiBold, sans-serif;
+    color: rgba(11, 18, 25, .7);
     display: flex;
     align-items: center;
 }
+
+/* Footer Links */
 .footer-container {
-    min-width: 1030px;
-    max-width: 1280px;
-    display: flex;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    gap: 32px;
 }
 
-footer .footer-container ul li .footer_title {
-    font-size: 14px;
-    line-height: 22px;
-    padding: 0;
-    text-transform: uppercase;
-    font-family: LatoBold;
-    font-weight: bold;
-}
-footer .footer-container ul li a {
-    line-height: 32px;
-    font-size: 14px;
-    font-family: Lato;
-    color: #0b1219;
-}
 footer .footer-container ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-footer .footer-container ul:nth-child(3) {
-    display: block !important;
+
+footer .footer-container ul li .footer_title {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: LatoBold, sans-serif;
+    font-weight: bold;
+    margin-bottom: 8px;
 }
+
+footer .footer-container ul li a {
+    line-height: 28px;
+    font-size: 14px;
+    font-family: Lato, sans-serif;
+    color: #0b1219;
+    text-decoration: none;
+}
+
+footer .footer-container ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Newsletter Subscribe */
 footer .footer-container .subscribe {
     width: 284px;
-    padding-left: 32px;
     font-size: 14px;
 }
-footer .footer-container .subscribe .footer_title {
-    font-size: 14px;
-    line-height: 22px;
-    padding: 0;
-    text-transform: uppercase;
-    font-family: LatoBold;
-    font-weight: bold;
-}
+
 footer .footer-container .subscribe form {
-    margin-top: 24px;
+    margin-top: 16px;
 }
+
 footer .footer-container .subscribe .control {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-    padding: 0 0 6px;
     border-bottom: 1px solid rgba(11, 18, 25, .2);
+    padding-bottom: 6px;
 }
+
 footer .footer-container .subscribe .control input {
-    width: 207px;
-    height: 40px;
-    border-radius: 4px;
-    border: 0;
-    padding: 0 12px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px;
 }
+
 footer .footer-container .subscribe .control .go-btn {
-    display: inline-block;
+    border: none;
+    background: none;
     width: 40px;
     height: 40px;
-    border-radius: 5px;
-    border: 0;
-    padding: 0;
-    font-size: 0;
-    position: relative;
-}
-.clearfix {
-    height: 0px;
-    clear: both;
-    display: flex;
-}
-.clearfix::after {
-    display: block;
-    clear: both;
-    content: "";
-}
-footer .footer-container .subscribe {
-    width: 46%;
-    display: block;
-    float: left;
-    margin: 16px 16px 0 0;
+    cursor: pointer;
 }
 
-footer .footer-container .subscribe .store-icon:last-child {
-    margin-right: 0;
-}
-footer .footer-container .app-div {
-    margin: 12px 22% 0;
-    display: none;
-}
-footer .footer-container .app-div a {
-    font-size: 14px;
-    font-family: LatoSemibold;
-    padding-left: 32px;
-    height: 24px;
-    display: flex;
-    line-height: 24px;
-    color: #0b1219;
-}
-footer .payment-partner1 {
-    min-width: 1030px;
-    max-width: 1280px;
-    margin: 0 auto;
-}
-footer .payment-partner1 .ft-head h2 {
-    font-family: LatoSemiBold;
-    font-size: 14px;
-    line-height: 1.57;
-    letter-spacing: .25px;
-    text-align: left;
-    color: #0b1219;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-footer .payment-partner1 .our-partners {
-    display: flex;
-}
-footer .payment-partner1 .our-partners img:first-child {
-    padding-left: 0;
-}
-footer .payment-partner1 .our-partners img {
-    padding: 0 16px;
-    margin: 12px 0 0;
-}
-footer .payment-partner1 .our-partners img:nth-child(4) {
-    border-right: 1px solid rgba(195, 195, 195, .5);
-    border-left: 1px solid rgba(195, 195, 195, .5);
-}
-.imgcustomfooter{
-        vertical-align: middle;
-        border-style: none;
-        max-width: 100%;
-}
-footer .copyblock {
-    min-width: 1030px;
-    max-width: 1280px;
-    padding: 0;
-    box-sizing: border-box;
-    margin: 32px auto 0;
-    line-height: 65px;
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid rgba(11, 18, 25, .1);
-    color: rgba(11, 18, 25, .5);
-    font-size: 14px;
-    font-family: Lato;
-}
-footer .copyblock a {
-    color: rgba(11, 18, 25, .5);
-}
-
-.footer{
-	position:relative;
-	top:2500px;
-	background-image: linear-gradient(to bottom, rgba(36, 174, 177, 0) 50%, rgba(36, 174, 177, .7) 130%), linear-gradient(to bottom, #fff, #fff);
-}
-/* ========== GLOBAL FOOTER OVERRIDES FOR RESPONSIVENESS ========== */
-
-/* Let flex items wrap instead of forcing horizontal scroll */
-.footer-btm,
-.footer-top,
-.footer-container,
-footer .payment-partner1,
-footer .copyblock {
-    max-width: 1280px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Ensure the app store icons line up (HTML unchanged) */
 .app-store {
     display: flex;
     gap: 16px;
     margin-top: 16px;
-    align-items: center;
 }
+
 .app-store .store-icon img {
-    display: block;
-    max-width: 100%;
     height: 40px;
 }
 
-/* Remove accidental float/width on .subscribe that broke layout in original CSS */
-footer .footer-container .subscribe {
-    float: none;
-    width: 284px;
-    margin: 0;
+/* Payment Partners */
+footer .payment-partner1 {
+    max-width: 1280px;
+    margin: 32px auto;
 }
 
-/* Allow the main footer link columns to wrap cleanly */
-.footer-container {
-    flex-wrap: wrap;
-    gap: 32px 40px; /* row gap | column gap */
+footer .payment-partner1 .ft-head h2 {
+    font-family: LatoSemiBold, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 12px;
 }
 
-/* Give each column a flexible basis on wide-ish screens before stacking */
-.footer-container > ul,
-.footer-container > .subscribe {
-    flex: 0 0 auto;
-}
-
-/* Payment partners line wrap safety */
 footer .payment-partner1 .our-partners {
+    display: flex;
     flex-wrap: wrap;
-    gap: 8px 16px;
+    gap: 16px;
 }
 
-/* Copyblock spacing cleanup */
+footer .payment-partner1 .our-partners img {
+    height: 40px;
+}
+
+/* Copy Block */
 footer .copyblock {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 16px;
+    border-top: 1px solid rgba(11, 18, 25, .1);
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 12px 24px;
-    line-height: 1.4;
-    padding: 16px 0;
+    font-size: 14px;
+    color: rgba(11, 18, 25, .5);
 }
 
-/* ========== BREAKPOINTS ========== */
+footer .copyblock a {
+    color: rgba(11, 18, 25, .5);
+    text-decoration: none;
+}
 
-/* Large tablets & below (≤ 1100px) – relax rigid min-widths */
-@media (max-width:1100px) {
+footer .copyblock a:hover {
+    text-decoration: underline;
+}
+
+/* ===================== RESPONSIVE STYLES ===================== */
+
+/* ≤ 900px: Two-column footer links */
+@media (max-width: 900px) {
+    .footer-container {
+        gap: 24px;
+    }
+    .footer-container > ul,
+    .footer-container > .subscribe {
+        flex: 1 1 calc(50% - 24px);
+    }
+}
+
+/* ≤ 600px: Stack columns */
+@media (max-width: 600px) {
     .footer-btm,
     .footer-top,
     .footer-container,
     footer .payment-partner1,
     footer .copyblock {
-        min-width: 0; /* override previous min-width:1030px */
-        padding-left: 24px;
-        padding-right: 24px;
-        box-sizing: border-box;
+        padding-left: 16px;
+        padding-right: 16px;
     }
-    .footer-top {
-        flex-wrap: wrap;
-        gap: 24px;
-    }
-    .footer-logo {
-        width: 180px;
-        margin-right: 0;
-        padding-right: 0 !important;
-    }
-    .footer-txt {
-        width: auto;
-        flex: 1 1 300px;
-    }
-    .footer-btm {
-        flex-wrap: wrap;
-        gap: 24px 40px;
-        justify-content: flex-start;
-        text-align: left;
-    }
-}
-
-/* Medium tablets & below (≤ 900px) – two-column footer links */
-@media (max-width:900px) {
-    .footer-container {
-        gap: 32px 32px;
-    }
-    .footer-container > ul,
-    .footer-container > .subscribe {
-        flex: 1 1 calc(50% - 32px);
-        /* Maintain visual order; newsletter will fall into flow */
-    }
-    .footer-container > .subscribe {
-        order: 99; /* push newsletter to bottom of grid on tablets */
-    }
-    .footer-top {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .footer-txt {
-        flex: 1 1 auto;
-    }
-    footer .payment-partner1 .our-partners img {
-        padding: 0 8px;
-        height: 40px;
-        width: auto;
-    }
-}
-
-/* Small tablets / large phones (≤ 680px) – stack columns single file */
-@media (max-width:680px) {
     .footer-container > ul,
     .footer-container > .subscribe {
         flex: 1 1 100%;
     }
-    .footer-container {
-        gap: 24px;
-    }
-    .footer-btm {
-        justify-content: center;
-        text-align: center;
-    }
     .stores-content img {
-        margin-right: 12px;
         width: 70px;
         height: 70px;
     }
@@ -425,79 +225,5 @@ footer .copyblock {
     }
     .number {
         font-size: 22px;
-    }
-    .footer-txt {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .app-store {
-        justify-content: flex-start;
-    }
-    .app-store .store-icon img {
-        height: 36px;
-    }
-    footer .copyblock {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-        font-size: 13px;
-    }
-}
-
-/* Small phones (≤ 480px) – tighten spacing & font sizes */
-@media (max-width:480px) {
-    footer {
-        padding: 28px 16px 0;
-        margin-top: 120px; /* reduce huge margin on tiny screens */
-    }
-    .footer-btm {
-        gap: 20px;
-    }
-    .stores-content img {
-        width: 56px;
-        height: 56px;
-    }
-    .number {
-        font-size: 20px;
-    }
-    .ft-txt {
-        font-size: 13px;
-    }
-    footer .footer-container ul li a {
-        line-height: 26px;
-        font-size: 13px;
-    }
-    footer .footer-container ul li .footer_title,
-    footer .footer-container .subscribe .footer_title {
-        font-size: 13px;
-    }
-    .footer-container > .subscribe {
-        padding-left: 0;
-    }
-    .app-store {
-        gap: 12px;
-    }
-    .app-store .store-icon img {
-        height: 34px;
-    }
-    footer .payment-partner1 .our-partners {
-        justify-content: flex-start;
-    }
-    footer .payment-partner1 .our-partners img {
-        height: 34px;
-        padding: 0 6px;
-    }
-}
-
-/* Ultra-small (≤ 360px) – final compression */
-@media (max-width:360px) {
-    .app-store .store-icon img {
-        height: 30px;
-    }
-    .footer-txt {
-        font-size: 13px;
-    }
-    footer .footer-container ul li a {
-        font-size: 12.5px;
     }
 }
