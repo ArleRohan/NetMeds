@@ -40,6 +40,9 @@ const routes: Routes = [];
   imports: [
     RouterModule.forChild(routes),
     CommonModule
+  ],
+  exports: [
+    HeaderComponent
   ]
 })
 export class SharedModule { }
