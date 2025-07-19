@@ -81,53 +81,53 @@
                 <img src="assets/images/header/wellness.svg" [height]="imgsize2" [width]="imgsize2" alt="wellness logo">
                 <a class="nav-link text-white ms-2 dropdown-toggle" href="#" data-bs-toggle="dropdown" id="megaMenu"
                     aria-expanded="false">Wellness</a>
-                <div class="dropdown-menu w-100 mt-0 p-3" aria-labelledby="megaMenu" style="max-width: 1000px;">
+                <div class="dropdown-menu mt-0 p-3" aria-labelledby="megaMenu" style="max-width: 850px;">
                     <div class="d-flex flex-nowrap justify-content-center">
                         <!-- Column 1 -->
-                        <div class="flex-wrap me-2" style="width: 175px;">
+                        <div class="flex-wrap me-2 border-end" style="width: 175px;">
                             <h6 [style]="dropdownstyle">Ayush</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of ayushroutes"
                                 routerLink="{{data.routepath}}">{{data.category}}</a>
-                            <hr>
+                            <br>
                             <h6 [style]="dropdownstyle">Covid Essentials</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of covidroutes"
                                 routerLink="{{data.routepath}}">{{data.category}}</a>
-                            <hr>
+                            <br>
                             <h6 [style]="dropdownstyle">Devices</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of devicesroutes"
                                 routerLink="{{data.routepath}}">{{data.category}}</a>
                         </div>
                         <!-- Column 2 -->
-                        <div class="flex-wrap me-2" style="width: 175px;">
+                        <div class="flex-wrap me-2 border-end" style="width: 175px;">
                             <h6 [style]="dropdownstyle">Diabetes Support</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of diabetesroutes"
                                 routerLink="{{data.routepath}}">{{data.category}}</a>
-                            <hr>
+                            <br>
                             <h6 [style]="dropdownstyle">Eyewear</h6>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Eye Glasses</a>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Reading Glasses</a>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Contact Lenses (EW)</a>
-                            <hr>
+                            <br>
                             <h6 [style]="dropdownstyle">Fitness</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of fitnessroutes"
                                 routerLink="{{data.routepath}}">{{data.category}}</a>
                         </div>
                         <!-- Column 3 -->
-                        <div class="flex-wrap me-2" style="width: 175px;">
+                        <div class="flex-wrap me-2 border-end" style="width: 175px;">
                             <h6 [style]="dropdownstyle">Health Conditions</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of healthroutes"
                                 routerLink="{{data.routepath}}">{{data.category}}</a>
-                            <hr>
+                            <br>
                             <h6 [style]="dropdownstyle">Mom & Baby</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of mombabyroutes"
                                 routerLink="{{data.routepath}}">{{data.category}}</a>
                         </div>
                         <!-- Column 4 -->
-                        <div class="flex-wrap me-2" style="width: 175px;">
+                        <div class="flex-wrap me-2 border-end" style="width: 175px;">
                             <h6 [style]="dropdownstyle">Personal Care</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of personalcareroutes"
                                 routerLink="{{data.routepath}}">{{data.category}}</a>
-                            <hr>
+                            <br>
                             <h6 [style]="dropdownstyle">Sexual Wellness</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of sexualwellnessroutes"
                                 routerLink="{{data.routepath}}">{{data.category}}</a>
@@ -137,16 +137,16 @@
                             <h6 [style]="dropdownstyle">Surgical</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of surgicalroutes"
                                 routerLink="{{data.routepath}}">{{data.category}}</a>
-                            <hr>
+                            <br>
                             <h6 [style]="dropdownstyle">Veterinary</h6>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Petcare</a>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Farm Animals</a>
-                            <hr>
+                            <br>
                             <h6 [style]="dropdownstyle">Stores</h6>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Vitamin Store</a>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Derma Cosmetics</a>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Diabetes Center</a>
-                            <hr>
+                            <br>
                             <h6 [style]="dropdownstyle">Trending</h6>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">CeraVe</a>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Cetaphill</a>
@@ -165,45 +165,45 @@
                 <img src="assets/images/header/wellness.svg" [height]="imgsize2" [width]="imgsize2" alt="wellness logo">
                 <a class="nav-link text-white ms-2 dropdown-toggle" href="#" data-bs-toggle="dropdown" id="megaMenu1"
                     aria-expanded="false">Beauty</a>
-                <div class="dropdown-menu mt-0 p-3" aria-labelledby="megaMenu1" style="width: 600px;">
+                <div class="dropdown-menu mt-0 p-3" aria-labelledby="megaMenu1" style="max-width: 600px;">
                     <div class="d-flex flex-nowrap justify-content-center">
                         <!-- Column 1 -->
-                        <div class="flex-wrap">
+                        <div class="flex-wrap me-2 border-end" style="width: 150px;">
                             <h6 [style]="dropdownstyle">Fragrances</h6>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Men</a>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Unisex</a>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Women</a>
-                            <hr>
+                            <br>
                             <h6 [style]="dropdownstyle">Hair</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of hairroutes"
                                 routerLink="{{data.routepath}}">{{data.category}}</a>
-                            <hr>
+                            <br>
                             <h6 [style]="dropdownstyle">Men's Grooming</h6>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Reading Glasses</a>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Contact Lenses (EW)</a>
                         </div>
                         <!-- Column 2 -->
-                        <div class="flex-wrap">
+                        <div class="flex-wrap me-2 border-end" style="width: 150px;">
                             <h6 [style]="dropdownstyle">Make-Up</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of makeuproutes"
                                 routerLink="{{data.routepath}}">{{data.category}}</a>
-                            <hr>
+                            <br>
                             <h6 [style]="dropdownstyle">Mom & Baby</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of momnbabyroutes"
                                 routerLink="{{data.routepath}}">{{data.category}}</a>
                         </div>
                         <!-- Column 3 -->
-                        <div class="flex-wrap">
+                        <div class="flex-wrap me-2 border-end" style="width: 150px;">
                             <h6 [style]="dropdownstyle">Personal Care</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of personalcareroutes"
                                 routerLink="{{data.routepath}}">{{data.category}}</a>
                         </div>
                         <!-- Column 4 -->
-                        <div class="flex-wrap">
+                        <div class="flex-wrap me-2" style="width: 150px;">
                             <h6 [style]="dropdownstyle">Skin Care</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of skincareroutes"
                                 routerLink="{{data.routepath}}">{{data.category}}</a>
-                            <hr>
+                            <br>
                             <h6 [style]="dropdownstyle">Tools & Appliances</h6>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Face/Skin Tools</a>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Hair Styling Tools</a>
