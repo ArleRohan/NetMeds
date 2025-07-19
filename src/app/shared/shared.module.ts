@@ -17,6 +17,7 @@ import { CancerComponent } from './components/Health-Center/cancer/cancer.compon
 import { CoronaAwarenessComponent } from './components/Health-Center/corona-awareness/corona-awareness.component';
 import { RouterModule, Routes } from '@angular/router';
 
+
 const routes: Routes = [];
 
 @NgModule({
@@ -40,6 +41,10 @@ const routes: Routes = [];
   imports: [
     RouterModule.forChild(routes),
     CommonModule
+  ],
+  
+  exports:[
+    FooterComponent
   ]
 })
 export class SharedModule { }
