@@ -1,0 +1,12 @@
+body {
+    font-family: LatoSemiBold;
+}
+
+/* Header section */
+.search-bar {
+    width: 600px;
+    height: 47px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+}

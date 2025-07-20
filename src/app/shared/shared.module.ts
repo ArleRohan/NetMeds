@@ -18,7 +18,11 @@ import { CoronaAwarenessComponent } from './components/Health-Center/corona-awar
 import { RouterModule, Routes } from '@angular/router';
 // import { CustomPipe } from './pipes/custom.pipe';
 
-const routes: Routes = [];
+
+const routes: Routes = [
+  {path:"BuyAgain", component:BuyAgainComponent},
+  {path:"OrderOnline",component:OrderOnlineComponent}
+];
 
 @NgModule({
   declarations: [
@@ -42,6 +46,10 @@ const routes: Routes = [];
   imports: [
     RouterModule.forChild(routes),
     CommonModule
+  ],
+  exports: [
+    FooterComponent,
+    HeaderComponent
   ]
 })
 export class SharedModule { }

@@ -1,30 +1,7 @@
-<!-- <a (click)="navigateToAyurvedic()"><h3>Ayurvedic</h3></a> <br>
+<app-header></app-header>
+<!-- 
+<a (click)="navigateToAyurvedic()"><h3>Ayurvedic</h3></a> <br>
 <a (click)="navigateToUnani()"><h3>Unani</h3></a> -->
-<div class="container">
-    <nav class="navbar navbar-expand bg-body-tertiary">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse " id="navbarNav">
-          <ul class="navbar-nav w-100 d-flex  justify-content-center">
-            <!-- lazy loading -->
-            <li class="nav-item dropdown">
-              <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Diabetes Support
-              </a>
-              <ul class="dropdown-menu">
-                <!-- <li><a class="dropdown-item" routerLink="diabetes/diabetes-care-ayurveda">Diabetes Care Ayurveda</a></li> -->
-                <li><a class="dropdown-item" routerLink="/products/productList/glucometers">Glucometers</a></li>
-                <li><a class="dropdown-item" routerLink="/products/productList/sugar-substitutes">Sugar Substitutes</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
-  
-  <div class="container">
-    <router-outlet></router-outlet>
-  </div>
-  
 
-<!-- <router-outlet></router-outlet> -->
+<router-outlet></router-outlet>
+<app-footer></app-footer>
