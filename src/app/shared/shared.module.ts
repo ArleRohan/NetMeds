@@ -17,6 +17,7 @@ import { CancerComponent } from './components/Health-Center/cancer/cancer.compon
 import { CoronaAwarenessComponent } from './components/Health-Center/corona-awareness/corona-awareness.component';
 import { RouterModule, Routes } from '@angular/router';
 import { EyesComponent } from './components/Beauty/make-up/eyes/eyes.component';
+// import { CustomPipe } from './pipes/custom.pipe';
 
 
 const routes: Routes = [
@@ -41,7 +42,8 @@ const routes: Routes = [
     HealthLibraryComponent,
     CancerComponent,
     CoronaAwarenessComponent,
-    EyesComponent
+    EyesComponent,
+    // CustomPipe
   ],
   imports: [
     RouterModule.forChild(routes),

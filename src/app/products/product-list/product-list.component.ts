@@ -19,42 +19,51 @@ export interface Products {
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
- public productsList: Products[] = []
+  //  public productsList: Products[] = []
   public key: any;
+  public products: any[] = [];
+  public bannerImg: any = '';
 
   constructor(
-    private prodServ: ProductService,
-    private actRoute: ActivatedRoute
+    private actRoute: ActivatedRoute, private prodServ:ProductService
   ) {
-   
+    // this.getAllProducts(this.key)
     // this.key = "unaniProducts"
   }
 
   ngOnInit() {
-    this.key = this.actRoute.snapshot.params['keyName']
-    console.log("keyName :",this.key)
-    this.getAllProducts(this.key);
+    // this.key = this.actRoute.snapshot.params['keyName']
+    // console.log("keyName :", this.key)
 
+    // this.getAllProducts(this.key);
+    this.actRoute.params.subscribe(params => {
+      this.key = params['keyName'];
+      console.log("keyName :", this.key);
+      this.getAllProducts(this.key);
+    });
   }
-
   // ngOnChanges(){
   //   this.key = this.actRoute.snapshot.params['keyName']
   //   console.log("keyName :",this.key)
-    
+
   //   this.getAllProducts(this.key);
   // }
 
-  ngAfterViewCheck(){
+  ngAfterViewCheck() {
     // this.key = this.actRoute.snapshot.params['keyName']
     // console.log("keyName :",this.key)
-    
+
     // this.getAllProducts(this.key);
   }
 
-  getAllProducts(key:any) {
+  getAllProducts(key: any) {
     // debugger
     this.prodServ.getAllAyurvedicProducts(key).subscribe((res: any) => {
-      this.productsList = res
+      // this.productsList = res
+      this.products = res.items;
+      this.bannerImg = res.banner;
+      console.log(res.items);
+      
     })
 
   }
