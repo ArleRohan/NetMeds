@@ -16,11 +16,12 @@ import { HealthLibraryComponent } from './components/Health-Center/health-librar
 import { CancerComponent } from './components/Health-Center/cancer/cancer.component';
 import { CoronaAwarenessComponent } from './components/Health-Center/corona-awareness/corona-awareness.component';
 import { RouterModule, Routes } from '@angular/router';
+import { EyesComponent } from './components/Beauty/make-up/eyes/eyes.component';
 
 
 const routes: Routes = [
   {path:"BuyAgain", component:BuyAgainComponent},
-  {path:"OrderOnline",component:OrderOnlineComponent}
+  {path:"OrderOnline",component:OrderOnlineComponent},
 ];
 
 @NgModule({
@@ -39,7 +40,8 @@ const routes: Routes = [
     SkinCareComponent,
     HealthLibraryComponent,
     CancerComponent,
-    CoronaAwarenessComponent
+    CoronaAwarenessComponent,
+    EyesComponent
   ],
   imports: [
     RouterModule.forChild(routes),

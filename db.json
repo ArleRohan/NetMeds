@@ -161,6 +161,438 @@
             "image" : "assets/images/accu_chek_active_glucose_monitor_with_free_10_test_strips_33516_0_4.jpg"
         }
     ],
+
+    "eyesProducts":[
+        {
+            "id": "1",
+            "name": "Colorbar Just Smoky Kajal - Just Black 001 1.2gm",
+            "MRP": 750.00 ,
+            "saleProce": 600,
+            "discount": 20,
+            "description": [
+                "Mkt: Colorbar Cosmetics India Pvt Ltd",
+                "* Country of Origin: United States"
+            ],
+            "category": "Eyes",
+            "image" : "assets/images/Make-Up/Eyes/colorbar_just_smoky_kajal_just_black_001_1_2gm_292446_0_1.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Colorbar I-Glide Eye Pencil Emerald Charm 016 1.1gm",
+            "MRP": 750.00 ,
+            "saleProce": 600,
+            "discount": 20,
+            "description": [
+                "Mkt: Colorbar Cosmetics India Pvt Ltd",
+                "* Country of Origin: United States"
+            ],
+            "category": "Eyes",
+            "image" : "assets/images/Make-Up/Eyes/colorbar_emerald_charm_016_1_gm_0_0.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Maybelline New York Hypercurl Waterproof, Very Black 9.2 ml",
+            "MRP": 429.00 ,
+            "saleProce": 300,
+            "discount": 20,
+            "description": [
+                "Mkt: Loreal India Pvt Ltd",
+                "*  Country of Origin: China"
+            ],
+            "category": "Eyes",
+            "image" : "assets/images/Make-Up/Eyes/maybelline_new_york_hypercurl_waterproof_very_black_9_2_ml_614158_0_2.jpg"
+        },
+         {
+            "id": "4",
+            "name": "Insight Cosmetics Mascara 9 ml",
+            "MRP": 140.00 ,
+            "saleProce": 133,
+            "discount": 5,
+            "description": [
+                "Mkt: Mayuri Kumkum",
+                "* Country of Origin: India"
+            ],
+            "category": "Eyes",
+            "image" : "assets/images/Make-Up/Eyes/insight_cosmetics_mascara_9_ml_245249_0_2.jpg"
+        },
+        {
+            "id": "5",
+            "name": "SUGAR Cosmetics Lash Mob Limitless Mascara - 01 Black With A Bang (Black) 9 ML",
+            "MRP": 849.00 ,
+            "saleProce": 764.10,
+            "discount": 10,
+            "description": [
+                "Mkt: Vellvette Lifestyle Private Limited",
+                "* Vellvette Lifestyle Private Limited"
+            ],
+            "category": "Eyes",
+           "image" : "assets/images/Make-Up/Eyes/sugar_cosmetics_lash_mob_limitless_mascara_01_black_with_a_bang_black_9_gm_0_0.jpg"
+        },
+        {
+            "id": "6",
+            "name": "SUGAR Cosmetics Arch Arrival Brow Definer 03 Woody Scooby Deep Brown 0.35 gm",
+            "MRP": 525.00 ,
+            "saleProce": 472.00,
+            "discount": 10,
+            "description": [
+                "Mkt: Vellvette Lifestyle Private Limited",
+                "*Country of Origin: South Korea"
+            ],
+            "category": "Eyes",
+            "image" : "assets/images/Make-Up/Eyes/sugar_cosmetics_arch_arrival_brow_definer_03_woody_scooby_deep_brown_3_5_gm_0_0.jpg"
+        },
+        {
+            "id": "7",
+            "name": "Wet N Wild Megalast Retractable Eyeliner - Blackest Black 0.23 gm",
+            "MRP": 425.00 ,
+            "saleProce": 340.00,
+            "discount": 20,
+            "description": [
+                "Mkt:Reliance Retail Limited",
+                "*Country of Origin: China"
+            ],
+            "category": "Eyes",
+            "image" : "assets/images/Make-Up/Eyes/wet_n_wild_megalast_retractable_eyeliner_blackest_black_0_23_gm_0_0.jpg"
+        },
+        {
+            "id": "8",
+            "name": "Wet N Wild H2O Proof Liquid Eyeliner - Black Noir 5 ml",
+            "MRP": 550.00 ,
+            "saleProce":467.50,
+            "discount": 15,
+            "description": [
+                "Mkt:Reliance Retail Limited",
+                "*Country of Origin: China"
+            ],
+            "category": "Eyes",
+            "image" : "assets/images/Make-Up/Eyes/wet_n_wild_h2o_proof_liquid_eyeliner_black_noir_3_5_ml_0_0.jpg"
+        }
+    ],
+
+    "FaceMakeupProduct":[
+        {
+           "id": "1",
+            "name": "Lakme 9to5 Powerplay Mousse Foundation Mini, Rose Ivory, 6 g",
+            "MRP": 350.00 ,
+            "saleProce":332.00,
+            "discount": 5,
+            "description": [
+                "Mkt: Hindustan Unilever Limited",
+                "*Country of Origin: india"
+            ],
+            "category": "Face Makeup",
+            "image" : "assets/images/Make-Up/Face-Makeup/lakme_9to5_powerplay_mousse_foundation_mini_rose_ivory_6_g_200418_0_4.jpg"
+        },
+        {
+           "id": "2",
+            "name": "Insight Cosmetics Concealer - Rose Ivory 3.5 gm",
+            "MRP": 125.00 ,
+            "saleProce":118.50,
+            "discount": 5,
+            "description": [
+                "Mkt: Mayuri Kumkum",
+                "*Country of Origin: india"
+            ],
+            "category": "Face Makeup",
+            "image" : "assets/images/Make-Up/Face-Makeup/insight_cosmetics_concealer_rose_ivory_3_5_gm_245936_0_2.jpg"
+        },
+        {
+           "id": "3",
+            "name": "Insight Cosmetics Pro Concealer Palette - Corrector 15 gm",
+            "MRP": 240.00 ,
+            "saleProce":228.00,
+            "discount": 5,
+            "description": [
+                "Mkt: Mayuri Kumkum",
+                "*Country of Origin: india"
+            ],
+            "category": "Face Makeup",
+            "image" : "assets/images/Make-Up/Face-Makeup/insight_cosmetics_pro_concealer_palette_corrector_15_gm_245927_0_4.jpg"
+        },
+        {
+           "id": "4",
+            "name": "Insight Cosmetics Stay Matte Liquid Foundation - Soft Tan 30 ml",
+            "MRP": 280.00 ,
+            "saleProce":260.00,
+            "discount": 5,
+            "description": [
+                "Mkt: Mayuri Kumkum",
+                "*Country of Origin: india"
+            ],
+            "category": "Face Makeup",
+            "image" : "assets/images/Make-Up/Face-Makeup/insight_cosmetics_stay_matte_liquid_foundation_soft_tan_30_ml_245824_0_1.jpg"
+        },
+        {
+           "id": "5",
+            "name": "Insight Cosmetics HD Finishing Loose Powder - Light 30 gm",
+            "MRP": 165.00 ,
+            "saleProce":153.00,
+            "discount": 7,
+            "description": [
+                "Mkt: Mayuri Kumkum",
+                "*Country of Origin: india"
+            ],
+            "category": "Face Makeup",
+            "image" : "assets/images/Make-Up/Face-Makeup/insight_cosmetics_hd_finishing_loose_powder_light_30_gm_245756_0_3.jpg"
+        },
+        {
+           "id": "6",
+            "name": "SUGAR Cosmetics Grand Finale Matte Setting Mist 50 Ml",
+            "MRP": 749.00 ,
+            "saleProce":650.00,
+            "discount": 10,
+            "description": [
+                "Mkt: Mayuri Kumkum",
+                "*Country of Origin: india"
+            ],
+            "category": "Face Makeup",
+            "image" : "assets/images/Make-Up/Face-Makeup/sugar_cosmetics_grand_finale_dewy_setting_mist_50_gm_0_0.jpg"
+        },
+         {
+           "id": "7",
+            "name": "SUGAR Cosmetics Grand Finale Dewy Setting Mist 50 Ml",
+            "MRP": 749.00 ,
+            "saleProce":650.00,
+            "discount": 10,
+            "description": [
+                "Mkt: Mayuri Kumkum",
+                "*Country of Origin: india"
+            ],
+            "category": "Face Makeup",
+            "image" : "assets/images/Make-Up/Face-Makeup/sugar_cosmetics_grand_finale_highlighting_setting_mist_50_gm_0_0.jpg"
+        },
+         {
+           "id": "8",
+            "name": "SUGAR Cosmetics Grand Finale Highlighting Setting Mist 50 Ml",
+            "MRP": 749.00 ,
+            "saleProce":650.00,
+            "discount": 10,
+            "description": [
+                "Mkt: Mayuri Kumkum",
+                "*Country of Origin: india"
+            ],
+            "category": "Face Makeup",
+            "image" : "assets/images/Make-Up/Face-Makeup/sugar_cosmetics_grand_finale_matte_setting_mist_50_gm_0_0.jpg"
+        }
+    ],
+
+    "LipsProduct":[
+        {
+            "id": "1",
+            "name": "Lakme Lip Love Cherry Lip Care 22 Hrs Moisture Spf 15 4.5Gm",
+            "MRP": 248.00 ,
+            "saleProce":236.00,
+            "discount": 5,
+            "description": [
+                "Mkt:Hindustan Unilever Limited",
+                "*Country of Origin: india"
+            ],
+            "category": "Lips",
+            "image" : "assets/images/Make-Up/Lips/lakme_lip_love_chapstick_cherry_4_5_gm_0_0.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Colorbar X Jacqueline Sinful Matte Lipcolour Hickey 028 3.5gm",
+            "MRP": 1499.00 ,
+            "saleProce":1199.00,
+            "discount": 20,
+            "description": [
+                "Mkt:Colorbar Cosmetics India Pvt Ltd",
+                "*Country of Origin: Italy"
+            ],
+            "category": "Lips",
+            "image" : "assets/images/Make-Up/Lips/colorbar_hickey_028_4_gm_0_0.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Colorbar X Jacqueline Sinful Matte Lipcolor Dirty Date 027 3.5gm",
+            "MRP": 1499.00 ,
+            "saleProce":1199.00,
+            "discount": 20,
+            "description": [
+                "Mkt:Colorbar Cosmetics India Pvt Ltd",
+                "*Country of Origin: Italy"
+            ],
+            "category": "Lips",
+            "image" : "assets/images/Make-Up/Lips/colorbar_dirty_date_027_4_gm_0_0.jpg"
+        },
+        {
+            "id": "4",
+            "name": "SUGAR Cosmetics Time To Shine Lip Gloss - 02 Velma Pinkley 4.5 ML",
+            "MRP": 599.00 ,
+            "saleProce":539.00,
+            "discount": 20,
+            "description": [
+                "Mkt:Vellvette Lifestyle Private Limited",
+                "*Country of Origin: China"
+            ],
+            "category": "Lips",
+            "image" : "assets/images/Make-Up/Lips/sugar_cosmetics_time_to_shine_lip_gloss_02_velma_pinkley_4_5_gm_0_1.jpg"
+        },
+        {
+            "id": "5",
+            "name": "SUGAR Cosmetics Lipping On The Edge Lip Liner - 05 Brazen Raisin 1.2 gm",
+            "MRP": 525.00 ,
+            "saleProce":500.00,
+            "discount": 5,
+            "description": [
+                "Mkt:Vellvette Lifestyle Private Limited",
+                "*Country of Origin: Taiwan"
+            ],
+            "category": "Lips",
+            "image" : "assets/images/Make-Up/Lips/sugar_cosmetics_lipping_on_the_edge_lip_liner_05_brazen_raisin_1_2_gm_0_0.jpg"
+        },
+        {
+            "id": "6",
+            "name": "SUGAR Cosmetics Lipping On The Edge Lip Liner - 02 Wooed By Nude 1.2 gm",
+            "MRP": 525.00 ,
+            "saleProce":500.00,
+            "discount": 5,
+            "description": [
+                "Mkt:Vellvette Lifestyle Private Limited",
+                "*Country of Origin: Taiwan"
+            ],
+            "category": "Lips",
+            "image" : "assets/images/Make-Up/Lips/sugar_cosmetics_lipping_on_the_edge_lip_liner_02_wooed_by_nude_1_2_gm_0_0.jpg"
+        },
+        {
+            "id": "7",
+            "name": "SUGAR Cosmetics Matte Attack Transferproof Lipstick - 06 Spring Crimson (Crimson Red) 2 gm",
+            "MRP": 748.00 ,
+            "saleProce":699.00,
+            "discount": 10,
+            "description": [
+                "Mkt:Vellvette Lifestyle Private Limited",
+                "*Country of Origin: Taiwan"
+            ],
+            "category": "Lips",
+            "image" : "assets/images/Make-Up/Lips/sugar_cosmetics_matte_attack_transferproof_lipstick_06_spring_crimson_crimson_red_2_gm_0_0.jpg"
+        },
+        {
+            "id": "8",
+            "name": "SUGAR Cosmetics Matte Attack Transferproof Lipstick - 05 Tan Halen (Chocolate Brown) 2 gm",
+            "MRP": 748.00 ,
+            "saleProce":699.00,
+            "discount": 10,
+            "description": [
+                "Mkt:Vellvette Lifestyle Private Limited",
+                "*Country of Origin: Taiwan"
+            ],
+            "category": "Lips",
+            "image" : "assets/images/Make-Up/Lips/sugar_cosmetics_matte_attack_transferproof_lipstick_05_tan_halen_chocolate_brown_2_gm_0_0.jpg"
+        }
+    ],
+
+    "NailsProduct":[
+        {
+            "id": "1",
+            "name": "Colorbar Instant Glow Cream for All Skin Types 15 gm",
+            "MRP": 1039.20 ,
+            "saleProce":1299.00,
+            "discount": 10,
+            "description": [
+                "Mkt: Colorbar Cosmetics India Pvt Ltd",
+                "*Country of Origin: Korea"
+            ],
+            "category": "Nails",
+            "image" : "assets/images/Make-Up/Nails/colorbar_instant_glow_cream_12_gm_0_0.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Lakme Color Crush Nail Art T2 6 Ml",
+            "MRP": 199.00 ,
+            "saleProce":150.00,
+            "discount": 3,
+            "description": [
+                "Mkt:Hindustan Unilever Limited",
+                "*Country of Origin: India"
+            ],
+            "category": "Nails",
+            "image" : "assets/images/Make-Up/Nails/lakme_color_crush_nail_art_t2_6_ml_202037_0_1.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Lakme Color Crush Nail Art M16 Mint Blue 6Ml",
+            "MRP": 199.00 ,
+            "saleProce":150.00,
+            "discount": 3,
+            "description": [
+                "Mkt:Hindustan Unilever Limited",
+                "*Country of Origin: India"
+            ],
+            "category": "Nails",
+            "image" : "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m16_mint_blue_6_ml_201633_0_1.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Lakme Color Crush Nail Art M11 Classic Silver 6Ml",
+            "MRP": 199.00 ,
+            "saleProce":150.00,
+            "discount": 3,
+            "description": [
+                "Mkt:Hindustan Unilever Limited",
+                "*Country of Origin: India"
+            ],
+            "category": "Nails",
+            "image" : "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m11_classic_silver_6_ml_201588_0_1.jpg"
+        },
+        {
+            "id": "5",
+            "name": "Lakme Color Crush Nail Art M10 Fern Green 6Ml",
+            "MRP": 199.00 ,
+            "saleProce":150.00,
+            "discount": 3,
+            "description": [
+                "Mkt:Hindustan Unilever Limited",
+                "*Country of Origin: India"
+            ],
+            "category": "Nails",
+            "image" : "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m10_fern_green_6_ml_201579_0_1.jpg"
+        },
+        {
+            "id": "6",
+            "name": "Lakme Color Crush Nail Art M9 fuschia 6Ml",
+            "MRP": 199.00 ,
+            "saleProce":150.00,
+            "discount": 3,
+            "description": [
+                "Mkt:Hindustan Unilever Limited",
+                "*Country of Origin: India"
+            ],
+            "category": "Nails",
+            "image" : "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m9_fuschia_6_ml_201570_0_1.jpg"
+        },
+        {
+            "id": "7",
+            "name": "Lakme Color Crush Nail Art M2 6Ml",
+            "MRP": 199.00 ,
+            "saleProce":150.00,
+            "discount": 3,
+            "description": [
+                "Mkt:Hindustan Unilever Limited",
+                "*Country of Origin: India"
+            ],
+            "category": "Nails",
+            "image" : "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m2_6ml_201507_0_3.jpg"
+        },
+        {
+            "id": "8",
+            "name": "Lakme Color Crush Nail Art M1 Ox Blood 6Ml",
+            "MRP": 199.00 ,
+            "saleProce":150.00,
+            "discount": 3,
+            "description": [
+                "Mkt:Hindustan Unilever Limited",
+                "*Country of Origin: India"
+            ],
+            "category": "Nails",
+            "image" : "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m1_ox_blood_6_ml_201498_0_2.jpg"
+        }
+
+
+    ],
+
+
     "users": [],
     "orders": []
 }

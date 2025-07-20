@@ -31,10 +31,10 @@ export class ProductListComponent {
   }
 
   ngOnInit() {
-     this.key = this.actRoute.snapshot.params['keyName']
+    this.key = this.actRoute.snapshot.params['keyName']
     console.log("keyName :",this.key)
-    
     this.getAllProducts(this.key);
+
   }
 
   // ngOnChanges(){

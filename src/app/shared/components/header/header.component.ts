@@ -120,11 +120,12 @@ export class HeaderComponent {
     ];
 
     public makeuproutes : any = [
-        {routepath: "", category : "Eyes"},
-        {routepath: "", category : "Face Makeup"},
-        {routepath: "", category : "Lips"},
+        {routepath: "eyesProducts", category : "Eyes"},
+        {routepath: "FaceMakeupProduct", category : "Face Makeup"},
+        {routepath: "LipsProduct", category : "Lips"},
+        {routepath: "NailsProduct", category : "Nails"},
         {routepath: "", category : "Make-Up Tools & Brushes"},
-        {routepath: "", category : "Nails"}
+
     ];
 
     public momnbabyroutes : any = [
