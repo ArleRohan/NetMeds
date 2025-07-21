@@ -17,12 +17,15 @@ import { CancerComponent } from './components/Health-Center/cancer/cancer.compon
 import { CoronaAwarenessComponent } from './components/Health-Center/corona-awareness/corona-awareness.component';
 import { RouterModule, Routes } from '@angular/router';
 import { EyesComponent } from './components/Beauty/make-up/eyes/eyes.component';
+import { LoginComponent } from '../auth/login/login.component';
+import { FormsModule } from '@angular/forms';
 // import { CustomPipe } from './pipes/custom.pipe';
 
 
 const routes: Routes = [
   {path:"BuyAgain", component:BuyAgainComponent},
   {path:"OrderOnline",component:OrderOnlineComponent},
+  {path:"signin", component:LoginComponent}
 ];
 
 @NgModule({
@@ -47,7 +50,9 @@ const routes: Routes = [
   ],
   imports: [
     RouterModule.forChild(routes),
-    CommonModule
+    CommonModule,
+    FormsModule,
+    
   ],
   exports: [
     FooterComponent,

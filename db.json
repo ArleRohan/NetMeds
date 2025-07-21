@@ -445,7 +445,7 @@
       },
       
     "eyesProducts": {
-      "banner": "assets/images/Make-up/Eyes/eyes.jpg",
+      "banner": "assets/images/Make-Up/Eyes/eyes.jpg",
         "items":[
             {
                 "id": "1",
@@ -481,7 +481,7 @@
                 "disc_price":300,
                 "price": "429.00",
                 "disc":20,
-                 "image" : "aassets/images/Make-Up/Eyes/maybelline_new_york_hypercurl_waterproof_very_black_9_2_ml_614158_0_2.jpg"
+                 "image" : "assets/images/Make-Up/Eyes/maybelline_new_york_hypercurl_waterproof_very_black_9_2_ml_614158_0_2.jpg"
             },
             {
                 "id": "4",
@@ -546,7 +546,7 @@
         ]
     } , 
      "FaceMakeupProduct":  {
-        "banner": "assets/images/Make-up/Face-Makeup/face_makeup.jpg",
+         "banner": "assets/images/Make-Up/Face-Makeup/face_makeup.jpg",
           "items":[
           {
             "id": 1,
@@ -648,7 +648,7 @@
      },
 
     "LipsProduct":{
-        "banner": "assets/images/Make-up/Lips/lips.jpg",
+        "banner": "assets/images/Make-Up/Lips/lips.jpg",
         "items":[
             {
             "id": 1,
@@ -750,7 +750,7 @@
     },
 
     "NailsProduct":{
-        "banner": "assets/images/Make-up/Nails/nails.jpg",
+        "banner": "assets/images/Make-Up/Nails/nails.jpg",
         "items":[
             {
             "id": 1,

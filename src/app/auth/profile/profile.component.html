@@ -1,0 +1,51 @@
+<p class="text-center mt-4 text-success fw-bold fs-4">🎉 Profile Loaded Successfully!</p>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+
+      <div class="card shadow rounded-4 border-0">
+        <div class="card-header bg-primary text-white text-center rounded-top-4">
+          <h4 class="mb-0">👤 User Profile</h4>
+        </div>
+
+        <!--User Data Display -->
+        <div class="card-body" *ngIf="userData; else noData">
+          <ul class="list-group list-group-flush fs-5">
+            <li class="list-group-item d-flex justify-content-between">
+              <strong>Full Name:</strong>
+              <span class="text-muted">{{ userData.fullname }}</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <strong>Email:</strong>
+              <span class="text-muted">{{ userData.email }}</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <strong>Gender:</strong>
+              <span class="text-muted">{{ userData.gender }}</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <strong>Address:</strong>
+              <span class="text-muted">{{ userData.address }}</span>
+            </li>
+          </ul>
+
+          <!-- Edit Button -->
+          <div class="text-center mt-4">
+            <button class="btn btn-warning btn-lg px-4" (click)="onEdit()">
+             Edit Profile
+            </button>
+          </div>
+        </div>
+
+        <!--  No Data Fallback -->
+        <ng-template #noData>
+          <div class="card-body text-center text-danger">
+            <p class="fs-5">⚠️ No user data found.<br>Please register or login.</p>
+          </div>
+        </ng-template>
+
+      </div>
+    </div>
+  </div>
+</div>
