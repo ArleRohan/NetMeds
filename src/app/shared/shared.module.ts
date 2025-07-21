@@ -16,8 +16,13 @@ import { HealthLibraryComponent } from './components/Health-Center/health-librar
 import { CancerComponent } from './components/Health-Center/cancer/cancer.component';
 import { CoronaAwarenessComponent } from './components/Health-Center/corona-awareness/corona-awareness.component';
 import { RouterModule, Routes } from '@angular/router';
+// import { CustomPipe } from './pipes/custom.pipe';
 
-const routes: Routes = [];
+
+const routes: Routes = [
+  {path:"BuyAgain", component:BuyAgainComponent},
+  {path:"OrderOnline",component:OrderOnlineComponent}
+];
 
 @NgModule({
   declarations: [
@@ -35,11 +40,16 @@ const routes: Routes = [];
     SkinCareComponent,
     HealthLibraryComponent,
     CancerComponent,
-    CoronaAwarenessComponent
+    CoronaAwarenessComponent,
+    // CustomPipe
   ],
   imports: [
     RouterModule.forChild(routes),
     CommonModule
+  ],
+  exports: [
+    FooterComponent,
+    HeaderComponent
   ]
 })
 export class SharedModule { }
