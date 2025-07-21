@@ -1,10 +1,26 @@
-import { Component } from '@angular/core';
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+import { ProfileComponent } from './profile/profile.component';
 
-@Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+const routes: Routes = [
+  {path:"login", component:LoginComponent},
+    {path:"register", component:RegisterComponent},
+    { path: "profile", component: ProfileComponent },
+];
+
+@NgModule({
+  declarations: [
+    LoginComponent,
+    RegisterComponent
+  ],
+  imports: [
+    RouterModule.forChild(routes),
+    CommonModule,
+    FormsModule
+  ]
 })
-export class LoginComponent {
-
-}
+export class AuthModule { }
