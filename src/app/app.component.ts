@@ -9,14 +9,14 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'NetMeds';
 
-  constructor(private route: Router) {
+  // constructor(private route: Router) {
 
-  }
+  // }
   
-  navigateToAyurvedic() {
-    this.route.navigate(['/products/productList/ayurvedicProducts'])
-  }
-  navigateToUnani() {
-    this.route.navigate(['/products/productList/unaniProducts'])
-  }
+  // navigateToAyurvedic() {
+  //   this.route.navigate(['/products/productList/ayurvedicProducts'])
+  // }
+  // navigateToUnani() {
+  //   this.route.navigate(['/products/productList/unaniProducts'])
+  // }
 }

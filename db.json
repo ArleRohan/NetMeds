@@ -1,449 +1,807 @@
 {
     "glucometers": {
-      "banner": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer_banner.jpg",
-      "items":[
-        {
-          "id": 1,
-          "name":"Accu-Chek Active Glucose Monitor with Free 10 Test Strips",
-          "brand":"Roche Diabetes Care India Pvt LTD",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":1263.21,
-          "price": "1599.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-1.jpg"
-        },
-        {
-          "id": 2,
-          "name":"Accu-Chek Instant S Blood Glucose Monitor with Free 10 Test Strips",
-          "brand":"Roche Diabetes Care India Pvt LTD",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":673.75,
-          "price": "875.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-2.jpg"
-        },
-        {
-          "id": 3,
-          "name":"Dr.Morepen GlucoOne Blood Glucose Test Strips (Pack of 50's) (BG03)",
-          "brand":"Morepen Laboratories Ltd",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":585.81,
-          "price": "849.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-3.jpg"
-        },
-        {
-          "id": 4,
-          "name":"Dr.Morepen GlucoOne Blood Glucose Test Strips (Pack of 25's) (BG03)",
-          "brand":"Morepen Laboratories Ltd",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":344.41,
-          "price": "499.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-4.jpg"
-        },
-        {
-          "id": 5,
-          "name":"Dr. Morepen GlucoOne Blood Glucose Monitor (BG03) (Meter Only)",
-          "brand":"Morepen Laboratories Ltd",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":232.33,
-          "price": "665.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-5.jpg"
-        },
-        {
-          "id": 6,
-          "name":"OneTouch Select Plus Simple Blood Glucose Monitoring System (Free 10 Test",
-          "brand":"Lifescan Medical Device India Pvt Ltd",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":894.22,
-          "price": "1147.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-6.jpg"
-        },
-        {
-          "id": 7,
-          "name":"AccuSure Simple Gluco Test Strip 25's",
-          "brand":"Microgene Diagnostic Systems Pvt Ltd",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":446.25,
-          "price": "595.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-7.jpg"
-        },
-        {
-          "id": 8,
-          "name":"Dr.Morepen Digital Blood Pressure Monitor (BP09)",
-          "brand":"Morepen Laboratories Ltd",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":1252.00,
-          "price": "1165.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-8.jpg"
-        },
-        {
-          "id": 9,
-          "name":"AccuSure Simple Glucose Meter Only",
-          "brand":"Microgene Diagnostic Systems Pvt Ltd",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":547.50,
-          "price": "730.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-9.jpg"
-        },
-        {
-          "id": 10,
-          "name":"Accu-Chek Instant Glucometer with Free 10 Test Strips",
-          "brand":"Roche Diabetes Care India Pvt LTD",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":1223.71,
-          "price": "1549.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-10.jpg"
-        },
-        {
-          "id": 11,
-          "name":"Accu-Chek Guide Glucometer Kit with Free 10 Strips",
-          "brand":"Roche Diabetes Care India Pvt LTD",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":1776.71,
-          "price": "2249.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-11.jpg"
-        },
-        {
-          "id": 12,
-          "name":"Contour Plus Blood Glucose Monitor with Free Strips 20's",
-          "brand":"Ascensia Diabetes Care India Pvt Ltd",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":696.00,
-          "price": "870.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-12.jpg"
-        },
-        {
-          "id": 13,
-          "name":"OneTouch Verio Flex Blood Glucose Monitoring System (Free 10 Test Strips + Lancing Device + 10 Lancets)",
-          "brand":"Lifescan Medical Device India Pvt Ltd",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":1242.00,
-          "price": "1380.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-13.jpg"
-        },
-        {
-          "id": 14,
-          "name":"FreeStyle Libre Flash Glucose Monitoring System Sensor",
-          "brand":"Abbott Healthcare Pvt. Ltd.",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":1549.00,
-          "price": "4666.10",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-14.jpg"
-        },
-        {
-          "id": 15,
-          "name":"Control D Blood Glucose Meter with 25 Strips, Swabs & Lancets",
-          "brand":"Haiden Technology Pvt Ltd",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":1259.00,
-          "price": "1799.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-15.jpg"
-        },
-        {
-          "id": 16,
-          "name":"Control D Blood Glucose Monitoring Device + Free Blood Glucose Test Strips 10's",
-          "brand":"Haiden Technology Pvt Ltd",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":331.55,
-          "price": "449.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-16.jpg"
-        },
-        {
-          "id": 17,
-          "name":"AccuSure Fora Blood Glucose Test Strips 50's",
-          "brand":"Microgene Diagnostic Systems Pvt Ltd",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":975.00,
-          "price": "1300.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-17.jpg"
-        },
-        {
-          "id": 18,
-          "name":"AccuSure Fora Blood Glucose Test Strips 50's",
-          "brand":"Healtharx Technologies Pvt. Ltd.",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":775.57,
-          "price": "1650.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-18.jpg"
-        },
-        {
-          "id": 19,
-          "name":"AccuSure Gold Blood Glucose Test Strip 50's",
-          "brand":"Microgene Diagnostic Systems Pvt Ltd",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":1087.00,
-          "price": "1450.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-19.jpg"
-        },
-        {
-          "id": 20,
-          "name":"Contour Plus Elite Blood Glucose Monitor with Free Strips 20's",
-          "brand":"Ascensia Diabetes Care India Pvt Ltd",
-          "category":[
-            "Devices","Measurement"
-          ],
-          "disc_price":1245.00,
-          "price": "1660.00",
-          "disc":21,
-          "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-20.jpg"
-        }
-      ]
-    },
-    
-    "sugar-substitutes":{
-        "banner":"assets/images/Wellness/Diabetes Support/Sugar/sugar_banner.jpg",
-        "items":[
-          {
-            "id": 1,
-            "name":"Sugar Free Gold Powder 100 gm",
-            "brand":"Ascensia Diabetes Care India Pvt Ltd",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":138.33,
-            "price": "159.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar1.jpg"
-          },
-          {
-            "id": 2,
-            "name":"Sugar Free Gold Powder 100 gm",
-            "brand":"Sugar Free Natura Sweet 200 Drops 10 ml",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":130.00,
-            "price": "145.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar2.jpg"
-          },
-          {
-            "id": 3,
-            "name":"Sugar Free Natura Pellet 100's",
-            "brand":"Ascensia Diabetes Care India Pvt Ltd",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":1245.00,
-            "price": "1660.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar3.jpg"
-          },
-          {
-            "id": 4,
-            "name":"Sugar Free Natura Sachet 100's",
-            "brand":"Ascensia Diabetes Care India Pvt Ltd",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":1245.00,
-            "price": "1660.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar4.jpg"
-          },
-          {
-            "id": 5,
-            "name":"Sugar Free Natura 300 Pellets",
-            "brand":"Ascensia Diabetes Care India Pvt Ltd",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":1245.00,
-            "price": "1660.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar5.jpg"
-          },
-          {
-            "id": 6,
-            "name":"Sugar Free Natura Pellet 200's",
-            "brand":"Ascensia Diabetes Care India Pvt Ltd",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":1245.00,
-            "price": "1660.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar6.jpg"
-          },
-          {
-            "id": 7,
-            "name":"So Sweet 100% Natural Sugarfree Sweetener Stevia Spoonable Powder 1000 gm",
-            "brand":"Ascensia Diabetes Care India Pvt Ltd",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":1245.00,
-            "price": "1660.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar7.jpg"
-          },
-          {
-            "id": 8,
-            "name":"Sugar Free Natura Powder 100 gm",
-            "brand":"Ascensia Diabetes Care India Pvt Ltd",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":1245.00,
-            "price": "1660.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar8.jpg"
-          },
-          {
-            "id": 9,
-            "name":"Sugar Free Green Stevia Pellets 100's",
-            "brand":"Ascensia Diabetes Care India Pvt Ltd",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":1245.00,
-            "price": "1660.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar9.jpg"
-          },
-          {
-            "id": 10,
-            "name":"Sugar Free Gold Sachet 50's",
-            "brand":"Ascensia Diabetes Care India Pvt Ltd",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":1245.00,
-            "price": "1660.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar10.jpg"
-          },
-          {
-            "id": 11,
-            "name":"Sugar Free Natura Sachet 50's",
-            "brand":"Ascensia Diabetes Care India Pvt Ltd",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":1245.00,
-            "price": "1660.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar11.jpg"
-          },
-          {
-            "id": 12,
-            "name":"So Sweet 100% Natural 0% Calories Sweetener Tablets 500's",
-            "brand":"Ascensia Diabetes Care India Pvt Ltd",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":1245.00,
-            "price": "1660.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar12.jpg"
-          },
-          {
-            "id": 13,
-            "name":"So Sweet 100% Natural 0% Calories Sweetener Stevia Liquid (Pack of 3) 1200 Drops 60 ml",
-            "brand":"Ascensia Diabetes Care India Pvt Ltd",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":1245.00,
-            "price": "1660.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar13.jpg"
-          },
-          {
-            "id": 14,
-            "name":"So Sweet 100% Natural Sugarfree Sweetener Stevia Liquid (Pack of 3) 300 Drops 15 ml",
-            "brand":"Ascensia Diabetes Care India Pvt Ltd",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":1245.00,
-            "price": "1660.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar14.jpg"
-          },
-          {
-            "id": 15,
-            "name":"So Sweet 100% Natural Sugarfree Sweetener Stevia Sachet 100's",
-            "brand":"Ascensia Diabetes Care India Pvt Ltd",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":1245.00,
-            "price": "1660.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar15.jpg"
-          },
-          {
-            "id": 16,
-            "name":"So Sweet 100% Natural 0% Calories Sweetener Stevia Tablets 600's",
-            "brand":"Ascensia Diabetes Care India Pvt Ltd",
-            "category":[
-              "Fitness","Family Nutrition"
-            ],
-            "disc_price":1245.00,
-            "price": "1660.00",
-            "disc":21,
-            "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar16.jpg"
-          }
-  
+        "banner": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer_banner.jpg",
+        "items": [
+            {
+                "id": 1,
+                "name": "Accu-Chek Active Glucose Monitor with Free 10 Test Strips",
+                "brand": "Roche Diabetes Care India Pvt LTD",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 1263.21,
+                "price": "1599.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-1.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Accu-Chek Instant S Blood Glucose Monitor with Free 10 Test Strips",
+                "brand": "Roche Diabetes Care India Pvt LTD",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 673.75,
+                "price": "875.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-2.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Dr.Morepen GlucoOne Blood Glucose Test Strips (Pack of 50's) (BG03)",
+                "brand": "Morepen Laboratories Ltd",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 585.81,
+                "price": "849.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-3.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Dr.Morepen GlucoOne Blood Glucose Test Strips (Pack of 25's) (BG03)",
+                "brand": "Morepen Laboratories Ltd",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 344.41,
+                "price": "499.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-4.jpg"
+            },
+            {
+                "id": 5,
+                "name": "Dr. Morepen GlucoOne Blood Glucose Monitor (BG03) (Meter Only)",
+                "brand": "Morepen Laboratories Ltd",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 232.33,
+                "price": "665.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-5.jpg"
+            },
+            {
+                "id": 6,
+                "name": "OneTouch Select Plus Simple Blood Glucose Monitoring System (Free 10 Test",
+                "brand": "Lifescan Medical Device India Pvt Ltd",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 894.22,
+                "price": "1147.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-6.jpg"
+            },
+            {
+                "id": 7,
+                "name": "AccuSure Simple Gluco Test Strip 25's",
+                "brand": "Microgene Diagnostic Systems Pvt Ltd",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 446.25,
+                "price": "595.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-7.jpg"
+            },
+            {
+                "id": 8,
+                "name": "Dr.Morepen Digital Blood Pressure Monitor (BP09)",
+                "brand": "Morepen Laboratories Ltd",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 1252.00,
+                "price": "1165.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-8.jpg"
+            },
+            {
+                "id": 9,
+                "name": "AccuSure Simple Glucose Meter Only",
+                "brand": "Microgene Diagnostic Systems Pvt Ltd",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 547.50,
+                "price": "730.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-9.jpg"
+            },
+            {
+                "id": 10,
+                "name": "Accu-Chek Instant Glucometer with Free 10 Test Strips",
+                "brand": "Roche Diabetes Care India Pvt LTD",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 1223.71,
+                "price": "1549.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-10.jpg"
+            },
+            {
+                "id": 11,
+                "name": "Accu-Chek Guide Glucometer Kit with Free 10 Strips",
+                "brand": "Roche Diabetes Care India Pvt LTD",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 1776.71,
+                "price": "2249.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-11.jpg"
+            },
+            {
+                "id": 12,
+                "name": "Contour Plus Blood Glucose Monitor with Free Strips 20's",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 696.00,
+                "price": "870.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-12.jpg"
+            },
+            {
+                "id": 13,
+                "name": "OneTouch Verio Flex Blood Glucose Monitoring System (Free 10 Test Strips + Lancing Device + 10 Lancets)",
+                "brand": "Lifescan Medical Device India Pvt Ltd",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 1242.00,
+                "price": "1380.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-13.jpg"
+            },
+            {
+                "id": 14,
+                "name": "FreeStyle Libre Flash Glucose Monitoring System Sensor",
+                "brand": "Abbott Healthcare Pvt. Ltd.",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 1549.00,
+                "price": "4666.10",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-14.jpg"
+            },
+            {
+                "id": 15,
+                "name": "Control D Blood Glucose Meter with 25 Strips, Swabs & Lancets",
+                "brand": "Haiden Technology Pvt Ltd",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 1259.00,
+                "price": "1799.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-15.jpg"
+            },
+            {
+                "id": 16,
+                "name": "Control D Blood Glucose Monitoring Device + Free Blood Glucose Test Strips 10's",
+                "brand": "Haiden Technology Pvt Ltd",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 331.55,
+                "price": "449.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-16.jpg"
+            },
+            {
+                "id": 17,
+                "name": "AccuSure Fora Blood Glucose Test Strips 50's",
+                "brand": "Microgene Diagnostic Systems Pvt Ltd",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 975.00,
+                "price": "1300.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-17.jpg"
+            },
+            {
+                "id": 18,
+                "name": "AccuSure Fora Blood Glucose Test Strips 50's",
+                "brand": "Healtharx Technologies Pvt. Ltd.",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 775.57,
+                "price": "1650.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-18.jpg"
+            },
+            {
+                "id": 19,
+                "name": "AccuSure Gold Blood Glucose Test Strip 50's",
+                "brand": "Microgene Diagnostic Systems Pvt Ltd",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 1087.00,
+                "price": "1450.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-19.jpg"
+            },
+            {
+                "id": 20,
+                "name": "Contour Plus Elite Blood Glucose Monitor with Free Strips 20's",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Devices",
+                    "Measurement"
+                ],
+                "disc_price": 1245.00,
+                "price": "1660.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-20.jpg"
+            }
         ]
-      }
-  
-  }
-    
-  
+    },
+    "sugar-substitutes": {
+        "banner": "assets/images/Wellness/Diabetes Support/Sugar/sugar_banner.jpg",
+        "items": [
+            {
+                "id": 1,
+                "name": "Sugar Free Gold Powder 100 gm",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar1.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Sugar Free Gold Powder 100 gm",
+                "brand": "Sugar Free Natura Sweet 200 Drops 10 ml",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 130.00,
+                "price": "145.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar2.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Sugar Free Natura Pellet 100's",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 1245.00,
+                "price": "1660.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar3.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Sugar Free Natura Sachet 100's",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 1245.00,
+                "price": "1660.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar4.jpg"
+            },
+            {
+                "id": 5,
+                "name": "Sugar Free Natura 300 Pellets",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 1245.00,
+                "price": "1660.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar5.jpg"
+            },
+            {
+                "id": 6,
+                "name": "Sugar Free Natura Pellet 200's",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 1245.00,
+                "price": "1660.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar6.jpg"
+            },
+            {
+                "id": 7,
+                "name": "So Sweet 100% Natural Sugarfree Sweetener Stevia Spoonable Powder 1000 gm",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 1245.00,
+                "price": "1660.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar7.jpg"
+            },
+            {
+                "id": 8,
+                "name": "Sugar Free Natura Powder 100 gm",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 1245.00,
+                "price": "1660.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar8.jpg"
+            },
+            {
+                "id": 9,
+                "name": "Sugar Free Green Stevia Pellets 100's",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 1245.00,
+                "price": "1660.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar9.jpg"
+            },
+            {
+                "id": 10,
+                "name": "Sugar Free Gold Sachet 50's",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 1245.00,
+                "price": "1660.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar10.jpg"
+            },
+            {
+                "id": 11,
+                "name": "Sugar Free Natura Sachet 50's",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 1245.00,
+                "price": "1660.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar11.jpg"
+            },
+            {
+                "id": 12,
+                "name": "So Sweet 100% Natural 0% Calories Sweetener Tablets 500's",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 1245.00,
+                "price": "1660.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar12.jpg"
+            },
+            {
+                "id": 13,
+                "name": "So Sweet 100% Natural 0% Calories Sweetener Stevia Liquid (Pack of 3) 1200 Drops 60 ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 1245.00,
+                "price": "1660.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar13.jpg"
+            },
+            {
+                "id": 14,
+                "name": "So Sweet 100% Natural Sugarfree Sweetener Stevia Liquid (Pack of 3) 300 Drops 15 ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 1245.00,
+                "price": "1660.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar14.jpg"
+            },
+            {
+                "id": 15,
+                "name": "So Sweet 100% Natural Sugarfree Sweetener Stevia Sachet 100's",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 1245.00,
+                "price": "1660.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar15.jpg"
+            },
+            {
+                "id": 16,
+                "name": "So Sweet 100% Natural 0% Calories Sweetener Stevia Tablets 600's",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fitness",
+                    "Family Nutrition"
+                ],
+                "disc_price": 1245.00,
+                "price": "1660.00",
+                "disc": 21,
+                "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar16.jpg"
+            }
+        ]
+    },
+    "MenProducts" : {
+        "banner" : "assets/images/Beauty/Fragrances/Men/men_banner.jpg",
+        "items" : [
+            {
+                "id": 1,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Vini Cosmetics Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 275.00,
+                "price": "275.00",
+                "disc": 0,
+                "image": "assets/images/Beauty/Fragrances/Men/men_1.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Fogg Scent Xpressio Eau De Parfum 100 ml",
+                "brand": "Vini Cosmetics Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 552.50,
+                "price": "650.00",
+                "disc": 15,
+                "image": "assets/images/Beauty/Fragrances/Men/men_2.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Fogg Scent Xtremo Eau De Parfum 100 ml",
+                "brand": "Vini Cosmetics Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 650.00,
+                "price": "650.00",
+                "disc": 0,
+                "image": "assets/images/Beauty/Fragrances/Men/men_3.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Fogg Fragrance Body Spray - Napolean 150 ml",
+                "brand": "Vini Cosmetics Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 275.00,
+                "price": "261.25",
+                "disc": 5,
+                "image": "assets/images/Beauty/Fragrances/Men/men_4.jpg"
+            },
+            {
+                "id": 5,
+                "name": "Nivea Men Roll On Deodorant - Fresh Active 72H 25 ml",
+                "brand": "Nivea India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 125.00,
+                "price": "125.00",
+                "disc": 0,
+                "image": "assets/images/Beauty/Fragrances/Men/men_5.jpg"
+            },
+            {
+                "id": 6,
+                "name": "Kamasutra Deodorant - Spark 150 ml",
+                "brand": "Raymond Consumer Care Private Limited",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 184.00,
+                "price": "230.00",
+                "disc": 20,
+                "image": "assets/images/Beauty/Fragrances/Men/men_6.jpg"
+            },
+            {
+                "id": 7,
+                "name": "Fogg Fragrance Body Spray - Napoleon 120 ml",
+                "brand": "Vini Cosmetics Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 191.25,
+                "price": "225.00",
+                "disc": 15,
+                "image": "assets/images/Beauty/Fragrances/Men/men_7.jpg"
+            },
+            {
+                "id": 8,
+                "name": "United Colors Of Benetton Colors Man Black Eau De Toilette 100 ml",
+                "brand": "Beauty Concepts Pvt. Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 2700.00,
+                "price": "2700.00",
+                "disc": 0,
+                "image": "assets/images/Beauty/Fragrances/Men/men_8.jpg"
+            }
+        ]
+    },
+    "UnisexProducts" : {
+        "banner" : "assets/images/Beauty/Fragrances/Unisex/sugar1.jpg",
+        "items" : [
+            {
+                "id": 1,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Unisex/sugar1.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Unisex/sugar1.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Unisex/sugar1.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Unisex/sugar1.jpg"
+            },
+            {
+                "id": 5,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Unisex/sugar1.jpg"
+            },
+            {
+                "id": 6,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Unisex/sugar1.jpg"
+            },
+            {
+                "id": 7,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Unisex/sugar1.jpg"
+            },
+            {
+                "id": 8,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Unisex/sugar1.jpg"
+            }
+        ]
+    },
+    "WomenProducts" : {
+        "banner" : "assets/images/Beauty/Fragrances/Women/sugar1.jpg",
+        "items" : [
+             {
+                "id": 1,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Women/sugar1.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Women/sugar1.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Women/sugar1.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Women/sugar1.jpg"
+            },
+            {
+                "id": 5,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Women/sugar1.jpg"
+            },
+            {
+                "id": 6,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Women/sugar1.jpg"
+            },
+            {
+                "id": 7,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Women/sugar1.jpg"
+            },
+            {
+                "id": 8,
+                "name": "Fogg Fresh Fougere Deo 120 Ml",
+                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "category": [
+                    "Fragrances",
+                    "Men"
+                ],
+                "disc_price": 138.33,
+                "price": "159.00",
+                "disc": 21,
+                "image": "assets/images/Beauty/Fragrances/Women/sugar1.jpg"
+            }
+        ]
+    }
+}

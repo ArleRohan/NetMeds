@@ -14,7 +14,7 @@ export class HeaderComponent {
 
     // Wellness component routes
     public ayushroutes : any = [
-        {routepath: "/products/productList/ayurvedicProducts", category : "Ayurvedic"},
+        {routepath: "ayurvedicProducts", category : "Ayurvedic"},
         {routepath: "", category : "Unani"},
         {routepath: "", category : "Homeopathy"},
         {routepath: "", category : "Siddha"}
@@ -36,8 +36,8 @@ export class HeaderComponent {
     ];
 
     public diabetesroutes : any = [
-        {routepath: "", category : "Glucometers"},
-        {routepath: "", category : "Sugar Substitutes"},
+        {routepath: "glucometers", category : "Glucometers"},
+        {routepath: "sugar-substitutes", category : "Sugar Substitutes"},
         {routepath: "", category : "Diabetes Management Supplements"},
         {routepath: "", category : "Diabetes Care Ayurveda"},
         {routepath: "", category : "Lancets & Test Strips"}
