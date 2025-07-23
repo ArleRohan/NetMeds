@@ -21,7 +21,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {path:"BuyAgain", component:BuyAgainComponent},
-  {path:"OrderOnline",component:OrderOnlineComponent}
+  {path:"OrderOnline",component:OrderOnlineComponent},
+  {path:"cancer",component:CancerComponent}
 ];
 
 @NgModule({
