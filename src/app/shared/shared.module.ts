@@ -25,6 +25,7 @@ import { FormsModule } from '@angular/forms';
 const routes: Routes = [
   {path:"BuyAgain", component:BuyAgainComponent},
   {path:"OrderOnline",component:OrderOnlineComponent},
+  {path:"cancer",component:CancerComponent},
   {path:"signin", component:LoginComponent}
 ];
 
