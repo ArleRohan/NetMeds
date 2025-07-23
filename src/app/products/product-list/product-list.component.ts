@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ProductService } from 'src/app/core/services/product.service';
 
 export interface Products {
@@ -25,41 +25,27 @@ export class ProductListComponent {
   public bannerImg: any = '';
 
   constructor(
-    private actRoute: ActivatedRoute, private prodServ:ProductService
+    private prodServ: ProductService,
+    private actRoute: ActivatedRoute,
+    private router:Router
   ) {
-    // this.getAllProducts(this.key)
-    // this.key = "unaniProducts"
+    
   }
 
   ngOnInit() {
-    // this.key = this.actRoute.snapshot.params['keyName']
-    // console.log("keyName :", this.key)
-
-    // this.getAllProducts(this.key);
+    
     this.actRoute.params.subscribe(params => {
       this.key = params['keyName'];
       console.log("keyName :", this.key);
       this.getAllProducts(this.key);
     });
   }
-  // ngOnChanges(){
-  //   this.key = this.actRoute.snapshot.params['keyName']
-  //   console.log("keyName :",this.key)
+  
 
-  //   this.getAllProducts(this.key);
-  // }
-
-  ngAfterViewCheck() {
-    // this.key = this.actRoute.snapshot.params['keyName']
-    // console.log("keyName :",this.key)
-
-    // this.getAllProducts(this.key);
-  }
 
   getAllProducts(key: any) {
     // debugger
-    this.prodServ.getAllAyurvedicProducts(key).subscribe((res: any) => {
-      // this.productsList = res
+    this.prodServ.getAllProducts(key).subscribe((res: any) => {
       this.products = res.items;
       this.bannerImg = res.banner;
       console.log(res.items);
@@ -70,6 +56,9 @@ export class ProductListComponent {
 
   addToCart(prod: any) {
 
+  }
+  goToDetail(productId: string) {
+    this.router.navigate(['/products/product-details', this.key, productId]);
   }
 
 }

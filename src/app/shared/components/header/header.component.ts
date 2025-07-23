@@ -54,10 +54,10 @@ export class HeaderComponent {
     ];
 
     public diabetesroutes : any = [
-        {routepath: "", category : "Glucometers"},
-        {routepath: "", category : "Sugar Substitutes"},
-        {routepath: "", category : "Diabetes Management Supplements"},
-        {routepath: "", category : "Diabetes Care Ayurveda"},
+        {routepath: "glucometers", category : "Glucometers"},
+        {routepath: "sugar-substitutes", category : "Sugar Substitutes"},
+        {routepath: "diabetes-management-supplement", category : "Diabetes Management Supplements"},
+        {routepath: "diabetes_care_ayurveda", category : "Diabetes Care Ayurveda"},
         {routepath: "", category : "Lancets & Test Strips"}
     ];
 
