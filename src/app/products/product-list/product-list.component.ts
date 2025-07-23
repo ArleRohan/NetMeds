@@ -25,8 +25,7 @@ export class ProductListComponent {
   public bannerImg: any = '';
 
   constructor(
-    private prodServ: ProductService,
-    private actRoute: ActivatedRoute
+    private actRoute: ActivatedRoute, private prodServ:ProductService
   ) {
     // this.getAllProducts(this.key)
     // this.key = "unaniProducts"

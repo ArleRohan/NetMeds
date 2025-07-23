@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-header',
@@ -11,6 +12,23 @@ export class HeaderComponent {
     public imgsize2: any = 42;
 
     public dropdownstyle = "color: #32aeb1;";
+
+    userName: string | null = null;
+    constructor(private router: Router) {}
+
+    ngOnInit(): void {
+        const user = sessionStorage.getItem('loggedInUser');
+        if (user) {
+        const parsedUser = JSON.parse(user);
+        this.userName = parsedUser.fullname;
+        }
+    }
+    logout() {
+        sessionStorage.removeItem('loggedInUser');
+        this.userName = null;
+        this.router.navigate(['']);  // 
+    }
+
 
     // Wellness component routes
     public ayushroutes : any = [
@@ -120,11 +138,12 @@ export class HeaderComponent {
     ];
 
     public makeuproutes : any = [
-        {routepath: "", category : "Eyes"},
-        {routepath: "", category : "Face Makeup"},
-        {routepath: "", category : "Lips"},
+        {routepath: "eyesProducts", category : "Eyes"},
+        {routepath: "FaceMakeupProduct", category : "Face Makeup"},
+        {routepath: "LipsProduct", category : "Lips"},
+        {routepath: "NailsProduct", category : "Nails"},
         {routepath: "", category : "Make-Up Tools & Brushes"},
-        {routepath: "", category : "Nails"}
+
     ];
 
     public momnbabyroutes : any = [
