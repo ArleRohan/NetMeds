@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ProductService } from 'src/app/core/services/product.service';
 
 export interface Products {
@@ -26,12 +26,15 @@ export class ProductListComponent {
 
   constructor(
     private prodServ: ProductService,
-    private actRoute: ActivatedRoute
+    private actRoute: ActivatedRoute,
+    private router:Router
   ) {
+    
     
   }
 
   ngOnInit() {
+    
     
     this.actRoute.params.subscribe(params => {
       this.key = params['keyName'];
@@ -40,11 +43,12 @@ export class ProductListComponent {
     });
   }
  
+  
+
 
   getAllProducts(key: any) {
     // debugger
-    this.prodServ.getAllAyurvedicProducts(key).subscribe((res: any) => {
-      // this.productsList = res
+    this.prodServ.getAllProducts(key).subscribe((res: any) => {
       this.products = res.items;
       this.bannerImg = res.banner;
       console.log(res.items);
@@ -55,6 +59,9 @@ export class ProductListComponent {
 
   addToCart(prod: any) {
 
+  }
+  goToDetail(productId: string) {
+    this.router.navigate(['/products/product-details', this.key, productId]);
   }
 
 }

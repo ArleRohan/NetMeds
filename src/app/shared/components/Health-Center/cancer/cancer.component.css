@@ -1,0 +1,45 @@
+/* Cancer Banner */
+.cancer-banner-wrapper {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.cancer-banner {
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 25px; /* Optional rounded for banner */
+}
+
+/* Rounded three images */
+.expand-on-hover {
+  border-radius: 25px;
+  width: 90%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.expand-on-hover:hover {
+  transform: scale(1.05);
+}
+
+/* text */
+h2 {
+  font-size: 35px;
+   font-family: LatoBold;
+  letter-spacing: 0.25px;
+  padding: 4px 0px 0;
+}
+
+p {
+  font-size: 21px;
+}
+

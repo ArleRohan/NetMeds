@@ -52,10 +52,18 @@
                 <a routerLink="" class="nav-link text-white ms-1" role="button">Cart</a>
             </div>
 
-            <!-- Sign-in-up -->
-            <div class="mx-3 d-flex">
-                <img src="assets/images/header/profile_icon.svg" [height]="imgsize1" [width]="imgsize1" alt="">
-                <a routerLink="" class="nav-link text-white ms-1" role="button">Sign in / Sign up</a>
+          <!-- Sign-in-up / Welcome -->
+            <div class="mx-3 d-flex align-items-center">
+            <img src="assets/images/header/profile_icon.svg" [height]="imgsize1" [width]="imgsize1" alt="">
+
+            <ng-container *ngIf="userName; else signInBlock">
+                <span routerLink="/auth/profile"  class="nav-link text-white ms-1 " role="button">{{ userName }}</span>
+                <button (click)="logout()" class="btn btn-sm btn-outline-danger ms-5">Logout</button>
+            </ng-container>
+
+            <ng-template #signInBlock>
+                <a routerLink="/auth/login" class="nav-link text-white ms-1" role="button">Sign in / Sign up</a>
+            </ng-template>
             </div>
         </div>
     </div>
@@ -186,7 +194,7 @@
                         <div class="flex-wrap me-2 border-end" style="width: 150px;">
                             <h6 [style]="dropdownstyle">Make-Up</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of makeuproutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                             <br>
                             <h6 [style]="dropdownstyle">Mom & Baby</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of momnbabyroutes"
@@ -220,7 +228,7 @@
                     aria-expanded="false">Health Corner</a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" routerLink="">Health Library</a></li>
-                    <li><a class="dropdown-item" routerLink="">All About Cancers</a></li>
+                   <li><a class="dropdown-item" routerLink="/shared/cancer">All About Cancers</a></li>  
                     <li><a class="dropdown-item" routerLink="">Corona Awareness</a></li>
                 </ul>
             </li>
