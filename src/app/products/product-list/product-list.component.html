@@ -1,10 +1,10 @@
-<div class="row pe-3" style="background-color: rgb(243, 243, 243)">
+<div class="row pe-3">
     <div class="col-3">
 
     </div>
     <div class="col-9">
-        <img [src]="bannerImg" class="shadow-sm w-100" />
-        <div class="d-flex flex-wrap border my-4 bg-light">
+        <img [src]="bannerImg" class="shadow-sm w-100 rounded" />
+        <div class="d-flex flex-wrap my-4 bg-white rounded-2">
             <div *ngFor="let product of products" class="card my-3 ms-3 p-2">
                 <div class="d-flex justify-content-center">
                     <img class="text-center" [src]="product.image" />

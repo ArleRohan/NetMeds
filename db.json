@@ -587,59 +587,59 @@
         ]
     },
     "UnisexProducts" : {
-        "banner" : "assets/images/Beauty/Fragrances/Unisex/sugar1.jpg",
+        "banner" : "assets/images/Beauty/Fragrances/Unisex/unisex_banner.jpg",
         "items" : [
             {
                 "id": 1,
                 "name": "Fogg Fresh Fougere Deo 120 Ml",
-                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "brand": "M/S Ajmal & Sons.",
                 "category": [
                     "Fragrances",
-                    "Men"
+                    "Unisex"
                 ],
-                "disc_price": 138.33,
-                "price": "159.00",
-                "disc": 21,
-                "image": "assets/images/Beauty/Fragrances/Unisex/sugar1.jpg"
+                "disc_price": 143.52,
+                "price": "299.00",
+                "disc": 52,
+                "image": "assets/images/Beauty/Fragrances/Unisex/unisex_1.jpg"
             },
             {
                 "id": 2,
                 "name": "Fogg Fresh Fougere Deo 120 Ml",
-                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "brand": "M/S Ajmal & Sons.",
                 "category": [
                     "Fragrances",
-                    "Men"
+                    "Unisex"
                 ],
-                "disc_price": 138.33,
-                "price": "159.00",
-                "disc": 21,
-                "image": "assets/images/Beauty/Fragrances/Unisex/sugar1.jpg"
+                "disc_price": 143.52,
+                "price": "299.00",
+                "disc": 52,
+                "image": "assets/images/Beauty/Fragrances/Unisex/unisex_1.jpg"
             },
             {
                 "id": 3,
                 "name": "Fogg Fresh Fougere Deo 120 Ml",
-                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "brand": "M/S Ajmal & Sons.",
                 "category": [
                     "Fragrances",
-                    "Men"
+                    "Unisex"
                 ],
-                "disc_price": 138.33,
-                "price": "159.00",
-                "disc": 21,
-                "image": "assets/images/Beauty/Fragrances/Unisex/sugar1.jpg"
+                "disc_price": 143.52,
+                "price": "299.00",
+                "disc": 52,
+                "image": "assets/images/Beauty/Fragrances/Unisex/unisex_1.jpg"
             },
             {
                 "id": 4,
                 "name": "Fogg Fresh Fougere Deo 120 Ml",
-                "brand": "Ascensia Diabetes Care India Pvt Ltd",
+                "brand": "M/S Ajmal & Sons.",
                 "category": [
                     "Fragrances",
-                    "Men"
+                    "Unisex"
                 ],
-                "disc_price": 138.33,
-                "price": "159.00",
-                "disc": 21,
-                "image": "assets/images/Beauty/Fragrances/Unisex/sugar1.jpg"
+                "disc_price": 143.52,
+                "price": "299.00",
+                "disc": 52,
+                "image": "assets/images/Beauty/Fragrances/Unisex/unisex_1.jpg"
             },
             {
                 "id": 5,
