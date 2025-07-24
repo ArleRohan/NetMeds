@@ -16,6 +16,7 @@ import { HealthLibraryComponent } from './components/Health-Center/health-librar
 import { CancerComponent } from './components/Health-Center/cancer/cancer.component';
 import { CoronaAwarenessComponent } from './components/Health-Center/corona-awareness/corona-awareness.component';
 import { RouterModule, Routes } from '@angular/router';
+import { SideBarComponent } from './components/side-bar/side-bar.component';
 // import { CustomPipe } from './pipes/custom.pipe';
 
 
@@ -41,6 +42,7 @@ const routes: Routes = [
     HealthLibraryComponent,
     CancerComponent,
     CoronaAwarenessComponent,
+    SideBarComponent,
     // CustomPipe
   ],
   imports: [
@@ -49,7 +51,8 @@ const routes: Routes = [
   ],
   exports: [
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    SideBarComponent
   ]
 })
 export class SharedModule { }

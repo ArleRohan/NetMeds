@@ -3,13 +3,13 @@ import { ActivatedRoute } from '@angular/router';
 import { ProductService } from 'src/app/core/services/product.service';
 
 export interface Products {
-  id: string;
+  id: number;
   name: string;
-  MRP: number;
-  saleProce: number;
-  discount: string;
-  description: [];
-  category: string,
+  brand : string;
+  price: string;
+  disc_price: number;
+  disc: number;
+  category: [];
   image: string,
 
 }
@@ -28,34 +28,18 @@ export class ProductListComponent {
     private prodServ: ProductService,
     private actRoute: ActivatedRoute
   ) {
-    // this.getAllProducts(this.key)
-    // this.key = "unaniProducts"
+    
   }
 
   ngOnInit() {
-    // this.key = this.actRoute.snapshot.params['keyName']
-    // console.log("keyName :", this.key)
-
-    // this.getAllProducts(this.key);
+    
     this.actRoute.params.subscribe(params => {
       this.key = params['keyName'];
       console.log("keyName :", this.key);
       this.getAllProducts(this.key);
     });
   }
-  // ngOnChanges(){
-  //   this.key = this.actRoute.snapshot.params['keyName']
-  //   console.log("keyName :",this.key)
-
-  //   this.getAllProducts(this.key);
-  // }
-
-  ngAfterViewCheck() {
-    // this.key = this.actRoute.snapshot.params['keyName']
-    // console.log("keyName :",this.key)
-
-    // this.getAllProducts(this.key);
-  }
+ 
 
   getAllProducts(key: any) {
     // debugger

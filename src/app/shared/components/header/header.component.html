@@ -87,7 +87,7 @@
                         <div class="flex-wrap me-2 border-end" style="width: 175px;">
                             <h6 [style]="dropdownstyle">Ayush</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of ayushroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                [routerLink]="['/products/productList',data.routepath]">{{data.category}}</a>
                             <br>
                             <h6 [style]="dropdownstyle">Covid Essentials</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of covidroutes"
@@ -101,7 +101,7 @@
                         <div class="flex-wrap me-2 border-end" style="width: 175px;">
                             <h6 [style]="dropdownstyle">Diabetes Support</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of diabetesroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                [routerLink]="['/products/productList',data.routepath]">{{data.category}}</a>
                             <br>
                             <h6 [style]="dropdownstyle">Eyewear</h6>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Eye Glasses</a>
@@ -233,7 +233,7 @@
     <nav class="navbar navbar-expand-lg">
         <ul class="navbar-nav d-flex flex-wrap">
             <li class="nav-item" *ngFor="let data of secondnav">
-                <a class="nav-link" role="button" routerLink="{{data.routepath}}">{{data.category}}</a>
+                <a class="nav-link" role="button" [routerLink]="['/products/productList',data.routepath]">{{data.category}}</a>
             </li>
         </ul>
     </nav>
