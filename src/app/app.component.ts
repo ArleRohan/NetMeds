@@ -13,10 +13,5 @@ export class AppComponent {
 
   // }
   
-  // navigateToAyurvedic() {
-  //   this.route.navigate(['/products/productList/ayurvedicProducts'])
-  // }
-  // navigateToUnani() {
-  //   this.route.navigate(['/products/productList/unaniProducts'])
-  // }
+  
 }
