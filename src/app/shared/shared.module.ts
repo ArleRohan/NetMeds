@@ -22,7 +22,6 @@ import { FormsModule } from '@angular/forms';
 import { BlogsComponent } from './components/Health-Center/health-library/blogs/blogs.component';
 
 
-
 const routes: Routes = [
   {path:"BuyAgain", component:BuyAgainComponent},
   {path:"OrderOnline",component:OrderOnlineComponent},
