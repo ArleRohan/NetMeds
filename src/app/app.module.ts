@@ -18,7 +18,8 @@ import { ProductsModule } from './products/products.module';
     CoreModule,
     SharedModule,
     FormsModule,
-    ProductsModule
+    ProductsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
