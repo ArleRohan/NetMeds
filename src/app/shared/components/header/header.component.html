@@ -1,23 +1,24 @@
 <!-- header -->
 <header class="navbar navbar-expand-lg sticky-top m-0" style="background-color: #32aeb1; max-height: 80px;">
     <div class="container d-flex">
-        <div class="d-flex">
+        <div class="d-flex align-items-center flex-wrap flex-lg-nowrap w-50">
             <!-- Logo -->
-            <div class="me-3 mt-2">
+            <div class="me-2 mt-2">
                 <a routerLink="">
                     <img src="assets/images/header/netmeds-new-logo.svg" width="160px" alt="Netmeds Logo">
                 </a>
             </div>
-
-            <div class="search-bar bg-white rounded-2 px-1 py-2 mt-2">
-                <!-- Delivery Location -->
-                <div class="border-end d-flex dropdown">
-                    <small>
+            <div class="d-flex flex-column flex-sm-row align-items-stretch bg-white rounded-2 px-2 py-2 my-2 w-100 w-lg-50"
+                style="min-width:0; max-width:640px;">
+                <!-- Delivery -->
+                <div class="d-flex align-items-center border-end pe-sm-2 dropdown mb-2 mb-sm-0"
+                    style="min-width:130px;">
+                    <small class="d-none d-md-inline">
                         Deliver to <span class="text-success"><strong>110002</strong></span>
                     </small>
-                    <p role="button" class="my-0 p-0 mx-1 dropdown-toggle" data-bs-toggle="dropdown" id="deliverId"
-                        aria-expanded="false"></p>
-                    <div class="dropdown-menu" aria-labelledby="deliverId" style="min-width: 350px;">
+                    <span class="dropdown-toggle ms-2 me-1 d-inline-block" data-bs-toggle="dropdown" id="deliverId"
+                        role="button" aria-expanded="false" style="cursor:pointer;"></span>
+                    <div class="dropdown-menu" aria-labelledby="deliverId" style="min-width: 300px;">
                         <div class="p-3">
                             <b>Where do you want the delivery?</b><br>
                             <small class="opacity-75">Get access to your Addresses, Orders, and Wishlist</small><br>
@@ -30,9 +31,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- Search Bar -->
-                <div class="w-75 ms-2 h-100">
-                    <input type="text" class="form-control border-0 p-1 opacity-75"
+                <!-- Search input -->
+                <div class="flex-grow-1 ms-sm-2 mt-2 mt-sm-0" style="min-width:150px;">
+                    <input type="text" class="form-control border-0 p-1 opacity-75 w-100"
                         placeholder="Search for medicine & wellness products...">
                 </div>
             </div>
@@ -42,9 +43,8 @@
             <!-- offers -->
             <div class="mx-3 d-flex">
                 <img src="assets/images/header/offers_icon.svg" [height]="imgsize1" [width]="imgsize1" alt="">
-                <a routerLink="" class="nav-link text-white ms-1" role="button">Offers</a>
+                <a class="nav-link text-white ms-1" role="button" routerLink="">Offers</a>
             </div>
-
             <!-- Cart -->
         <div class="position-relative mx-3 d-flex align-items-center">
                 <img src="assets/images/header/cart_icon.svg" [height]="imgsize1" [width]="imgsize1" alt="Cart">
@@ -53,25 +53,26 @@
         </div>
 
 
-          <!-- Sign-in-up / Welcome -->
+            <!-- Sign-in-up / Welcome -->
             <div class="mx-3 d-flex align-items-center">
-            <img src="assets/images/header/profile_icon.svg" [height]="imgsize1" [width]="imgsize1" alt="">
+                <img src="assets/images/header/profile_icon.svg" [height]="imgsize1" [width]="imgsize1" alt="">
 
-            <ng-container *ngIf="userName; else signInBlock">
-                <span routerLink="/auth/profile"  class="nav-link text-white ms-1 " role="button">{{ userName }}</span>
-                <button (click)="logout()" class="btn btn-sm btn-outline-danger ms-5">Logout</button>
-            </ng-container>
+                <ng-container *ngIf="userName; else signInBlock">
+                    <span routerLink="/auth/profile" class="nav-link text-white ms-1 " role="button">{{ userName
+                        }}</span>
+                    <button (click)="logout()" class="btn btn-sm btn-outline-danger ms-5">Logout</button>
+                </ng-container>
 
-            <ng-template #signInBlock>
-                <a routerLink="/auth/login" class="nav-link text-white ms-1" role="button">Sign in / Sign up</a>
-            </ng-template>
+                <ng-template #signInBlock>
+                    <a routerLink="/auth/login" class="nav-link text-white ms-1" role="button">Sign in / Sign up</a>
+                </ng-template>
             </div>
         </div>
     </div>
 </header>
 
 <!-- first navbar -->
-<div style="background-color: #32aeb1;" class="pt-3 mt-0">
+<div style="background-color: #32aeb1;" class="pt-2 mt-0">
     <nav class="container navbar navbar-expand-lg d-flex justify-content-center">
         <ul class="navbar-nav ">
             <!-- Medicine option -->
@@ -96,70 +97,79 @@
                         <div class="flex-wrap me-2 border-end" style="width: 175px;">
                             <h6 [style]="dropdownstyle">Ayush</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of ayushroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                             <br>
                             <h6 [style]="dropdownstyle">Covid Essentials</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of covidroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                             <br>
                             <h6 [style]="dropdownstyle">Devices</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of devicesroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                         </div>
                         <!-- Column 2 -->
                         <div class="flex-wrap me-2 border-end" style="width: 175px;">
                             <h6 [style]="dropdownstyle">Diabetes Support</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of diabetesroutes"
-                            [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
-                            
+                                [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                             <br>
                             <h6 [style]="dropdownstyle">Eyewear</h6>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Eye Glasses</a>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Reading Glasses</a>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Contact Lenses (EW)</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','']">Eye Glasses</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','']">Reading Glasses</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','']">Contact Lenses (EW)</a>
                             <br>
                             <h6 [style]="dropdownstyle">Fitness</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of fitnessroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                         </div>
                         <!-- Column 3 -->
                         <div class="flex-wrap me-2 border-end" style="width: 175px;">
                             <h6 [style]="dropdownstyle">Health Conditions</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of healthroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                             <br>
                             <h6 [style]="dropdownstyle">Mom & Baby</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of mombabyroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                         </div>
                         <!-- Column 4 -->
                         <div class="flex-wrap me-2 border-end" style="width: 175px;">
                             <h6 [style]="dropdownstyle">Personal Care</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of personalcareroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                 [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                             <br>
                             <h6 [style]="dropdownstyle">Sexual Wellness</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of sexualwellnessroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                         </div>
                         <!-- Column 5 -->
                         <div class="flex-wrap me-2" style="width: 175px;">
                             <h6 [style]="dropdownstyle">Surgical</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of surgicalroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                             <br>
                             <h6 [style]="dropdownstyle">Veterinary</h6>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Petcare</a>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Farm Animals</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','']">Petcare</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','']">Farm Animals</a>
                             <br>
                             <h6 [style]="dropdownstyle">Stores</h6>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Vitamin Store</a>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Derma Cosmetics</a>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Diabetes Center</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','']">Vitamin Store</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','']">Derma Cosmetics</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','']">Diabetes Center</a>
                             <br>
                             <h6 [style]="dropdownstyle">Trending</h6>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">CeraVe</a>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Cetaphill</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','']">CeraVe</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','']">Cetaphill</a>
                         </div>
                     </div>
                 </div>
@@ -168,7 +178,7 @@
             <li class="nav-item d-flex mx-4 dropdown">
                 <img src="assets/images/header/diagnostics.svg" [height]="imgsize2" [width]="imgsize2"
                     alt="diagnostic logo">
-                <a href="/" class="ms-2 nav-link text-white" role="button">Lab Tests</a>
+                <a class="ms-2 nav-link text-white" role="button" routerLink="">Lab Tests</a>
             </li>
             <!-- Beauty option -->
             <li class="nav-item d-flex mx-4 dropdown-center">
@@ -180,17 +190,22 @@
                         <!-- Column 1 -->
                         <div class="flex-wrap me-2 border-end" style="width: 150px;">
                             <h6 [style]="dropdownstyle">Fragrances</h6>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Men</a>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Unisex</a>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Women</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','MenProducts']">Men</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','UnisexProducts']">Unisex</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','WomenProducts']">Women</a>
                             <br>
                             <h6 [style]="dropdownstyle">Hair</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of hairroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                             <br>
                             <h6 [style]="dropdownstyle">Men's Grooming</h6>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Reading Glasses</a>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Contact Lenses (EW)</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','']">Reading Glasses</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','']">Contact Lenses (EW)</a>
                         </div>
                         <!-- Column 2 -->
                         <div class="flex-wrap me-2 border-end" style="width: 150px;">
@@ -200,13 +215,13 @@
                             <br>
                             <h6 [style]="dropdownstyle">Mom & Baby</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of momnbabyroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                         </div>
                         <!-- Column 3 -->
                         <div class="flex-wrap me-2 border-end" style="width: 150px;">
                             <h6 [style]="dropdownstyle">Personal Care</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of personalcareroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                         </div>
                         <!-- Column 4 -->
                         <div class="flex-wrap me-2" style="width: 150px;">
@@ -215,9 +230,12 @@
                                 [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                             <br>
                             <h6 [style]="dropdownstyle">Tools & Appliances</h6>
-                            <a class="dropdown-item opacity-75 text-wrap" >Face/Skin Tools</a>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Hair Styling Tools</a>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Massage Tools</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','']">Face/Skin Tools</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','']">Hair Styling Tools</a>
+                            <a class="dropdown-item opacity-75 text-wrap"
+                                [routerLink]="['/products/productList/','']">Massage Tools</a>
                         </div>
                     </div>
                 </div>
@@ -229,8 +247,8 @@
                 <a class="nav-link text-white ms-2 dropdown-toggle" href="#" data-bs-toggle="dropdown"
                     aria-expanded="false">Health Corner</a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" routerLink="">Health Library</a></li>
-                   <li><a class="dropdown-item" routerLink="/shared/cancer">All About Cancers</a></li>  
+                    <li><a class="dropdown-item" routerLink="/shared/HealthLibrary">Health Library</a></li>
+                    <li><a class="dropdown-item" routerLink="/shared/cancer">All About Cancers</a></li>
                     <li><a class="dropdown-item" routerLink="">Corona Awareness</a></li>
                 </ul>
             </li>
@@ -243,7 +261,8 @@
     <nav class="navbar navbar-expand-lg">
         <ul class="navbar-nav d-flex flex-wrap">
             <li class="nav-item" *ngFor="let data of secondnav">
-                <a class="nav-link" role="button" routerLink="{{data.routepath}}">{{data.category}}</a>
+                <a class="nav-link" role="button"
+                    [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
             </li>
         </ul>
     </nav>
