@@ -82,10 +82,10 @@ public carts = [
     ];
 
     public healthroutes : any = [
-        {routepath: "", category : "Women's Care"},
-        {routepath: "", category : "Bone And Joint Pain"},
-        {routepath: "", category : "Liver Care"},
-        {routepath: "", category : "Piles Care"},
+        {routepath: "women's_care", category : "Women's Care"},
+        {routepath: "bone_and_joint_care", category : "Bone And Joint Pain"},
+        {routepath: "liver_care", category : "Liver Care"},
+        {routepath: "piles_care", category : "Piles Care"},
         {routepath: "", category : "Weight Care (EW)"},
         {routepath: "", category : "Stomach Care"},
         {routepath: "", category : "Mental Care"},
