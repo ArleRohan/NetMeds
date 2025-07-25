@@ -22,19 +22,16 @@ import { FormsModule } from '@angular/forms';
 import { SupplementsComponent } from './components/Health-Center/cancer/supplements/supplements/supplements.component';
 import { AcidsComponent } from './components/Health-Center/cancer/supplements/acids/acids/acids.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-
-
-
-// import { CustomPipe } from './pipes/custom.pipe';
-
+import { BlogsComponent } from './components/Health-Center/health-library/blogs/blogs.component';
 
 const routes: Routes = [
-  {path:"BuyAgain", component:BuyAgainComponent},
-  {path:"OrderOnline",component:OrderOnlineComponent},
-  {path:"cancer",component:CancerComponent},
-  {path:"supplements",component:SupplementsComponent},
-  {path:"amoni-acids",component:AcidsComponent},
-  {path:"signin", component:LoginComponent}
+  { path: 'BuyAgain', component: BuyAgainComponent },
+  { path: 'OrderOnline', component: OrderOnlineComponent },
+  { path: 'cancer', component: CancerComponent },
+  { path: 'supplements', component: SupplementsComponent },
+  { path: 'amoni-acids', component: AcidsComponent },
+  { path: 'signin', component: LoginComponent },
+  { path: 'HealthLibrary', component: HealthLibraryComponent },
 ];
 
 @NgModule({
@@ -57,19 +54,14 @@ const routes: Routes = [
     EyesComponent,
     SupplementsComponent,
     AcidsComponent,
-
-    // CustomPipe
+    BlogsComponent,
   ],
   imports: [
     RouterModule.forChild(routes),
     CommonModule,
     FormsModule,
-    HttpClientModule
-    
+    HttpClientModule,
   ],
-  exports: [
-    FooterComponent,
-    HeaderComponent
-  ]
+  exports: [FooterComponent, HeaderComponent],
 })
-export class SharedModule { }
+export class SharedModule {}
