@@ -117,7 +117,7 @@
                         <div class="flex-wrap me-2 border-end" style="width: 175px;">
                             <h6 [style]="dropdownstyle">Health Conditions</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of healthroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                            [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                             <br>
                             <h6 [style]="dropdownstyle">Mom & Baby</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of mombabyroutes"

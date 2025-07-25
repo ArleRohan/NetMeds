@@ -23,6 +23,7 @@ export class ProductListComponent {
   public key: any;
   public products: any[] = [];
   public bannerImg: any = '';
+  public bannerText:any = '';
 
   constructor(
     private prodServ: ProductService,
@@ -48,6 +49,7 @@ export class ProductListComponent {
     this.prodServ.getAllProducts(key).subscribe((res: any) => {
       this.products = res.items;
       this.bannerImg = res.banner;
+      this.bannerText = res.bannerTxt
       console.log(res.items);
       
     })

@@ -116,7 +116,7 @@
 .product_category {
     padding: 5px 10px 5px 10px;
     border-radius: 30px;
-    font-size: 13px;
+    font-size: 11px;
     color: #24aeb1;
     background-color: #f3f7fb;
 
@@ -139,4 +139,10 @@
     gap: 5px;
     align-items: center;
     justify-content: center;
+}
+.banner-text{
+    font-size: 25px;
+}
+.banner-div{
+    background-color: #dff8ff;
 }
