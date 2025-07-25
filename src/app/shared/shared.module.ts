@@ -20,14 +20,17 @@ import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { EyesComponent } from './components/Beauty/make-up/eyes/eyes.component';
 import { LoginComponent } from '../auth/login/login.component';
 import { FormsModule } from '@angular/forms';
+import { CategoryComponent } from './components/category/category.component';
+import { CustomPipe } from './pipes/custom.pipe';
 // import { CustomPipe } from './pipes/custom.pipe';
 
 
 const routes: Routes = [
-  {path:"BuyAgain", component:BuyAgainComponent},
-  {path:"OrderOnline",component:OrderOnlineComponent},
-  {path:"cancer",component:CancerComponent},
-  {path:"signin", component:LoginComponent}
+  { path: "BuyAgain", component: BuyAgainComponent },
+  { path: "OrderOnline", component: OrderOnlineComponent },
+  { path: "cancer", component: CancerComponent },
+  { path: "signin", component: LoginComponent },
+  { path: "category/:keyName", component: CategoryComponent }
 ];
 
 @NgModule({
@@ -49,18 +52,20 @@ const routes: Routes = [
     CoronaAwarenessComponent,
     SideBarComponent,
     EyesComponent,
-    // CustomPipe
+    CategoryComponent,
+    CustomPipe
   ],
   imports: [
     RouterModule.forChild(routes),
     CommonModule,
     FormsModule,
-    
+
   ],
   exports: [
     FooterComponent,
     HeaderComponent,
-    SideBarComponent
+    SideBarComponent,
+    CustomPipe
   ]
 })
 export class SharedModule { }
