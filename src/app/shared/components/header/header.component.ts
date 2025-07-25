@@ -42,10 +42,10 @@ public carts = [
 
     // Wellness component routes
     public ayushroutes : any = [
-        {routepath: "ayurvedicProducts", category : "Ayurvedic"},
-        {routepath: "", category : "Unani"},
-        {routepath: "", category : "Homeopathy"},
-        {routepath: "", category : "Siddha"}
+        {routepath: "ayurvedic", category : "Ayurvedic"},
+        {routepath: "unani", category : "Unani"},
+        {routepath: "homeopathy", category : "Homeopathy"},
+        {routepath: "siddha", category : "Siddha"}
     ];
 
     public covidroutes : any = [
@@ -183,8 +183,8 @@ public carts = [
         {routepath: "", category : "Diabetes"},
         {routepath: "", category : "Cardiac Care"},
         {routepath: "", category : "Stomach Care"},
-        {routepath: "", category : "Ayurvedic"},
-        {routepath: "", category : "Homeopathy"},
+        {routepath: "ayurvedic", category : "Ayurvedic"},
+        {routepath: "homeopathy", category : "Homeopathy"},
         {routepath: "", category : "Fitness"},
         {routepath: "", category : "Mom & Baby"},
         {routepath: "", category : "Devices"},

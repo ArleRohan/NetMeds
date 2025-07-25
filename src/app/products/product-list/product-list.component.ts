@@ -57,13 +57,13 @@ import { CartserviceService } from 'src/app/carts/servicecart/cartservice.servic
 import { ProductService } from 'src/app/core/services/product.service';
 
 export interface Products {
-  id: string;
+  id: number;
   name: string;
-  MRP: number;
-  saleProce: number;
-  discount: string;
-  description: [];
-  category: string,
+  brand: string;
+  price: string;
+  disc_price: number;
+  disc: number;
+  category: [];
   image: string,
 
 }
@@ -73,7 +73,6 @@ export interface Products {
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
-  //  public productsList: Products[] = []
   public key: any;
   public products: any[] = [];
   public bannerImg: any = '';
@@ -85,18 +84,19 @@ export class ProductListComponent {
     private router:Router,
     private cartService:CartserviceService
   ) {
-    
+
+
   }
 
   ngOnInit() {
-    
     this.actRoute.params.subscribe(params => {
       this.key = params['keyName'];
       console.log("keyName :", this.key);
       this.getAllProducts(this.key);
     });
   }
-  
+
+
 
 
   getAllProducts(key: any) {
@@ -106,7 +106,7 @@ export class ProductListComponent {
       this.bannerImg = res.banner;
       this.bannerText = res.bannerTxt
       console.log(res.items);
-      
+
     })
 
   }

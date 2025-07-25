@@ -16,21 +16,25 @@ import { HealthLibraryComponent } from './components/Health-Center/health-librar
 import { CancerComponent } from './components/Health-Center/cancer/cancer.component';
 import { CoronaAwarenessComponent } from './components/Health-Center/corona-awareness/corona-awareness.component';
 import { RouterModule, Routes } from '@angular/router';
+import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { EyesComponent } from './components/Beauty/make-up/eyes/eyes.component';
 import { LoginComponent } from '../auth/login/login.component';
 import { FormsModule } from '@angular/forms';
+import { CategoryComponent } from './components/category/category.component';
+import { CustomPipe } from './pipes/custom.pipe';
 import { SupplementsComponent } from './components/Health-Center/cancer/supplements/supplements/supplements.component';
 import { AcidsComponent } from './components/Health-Center/cancer/supplements/acids/acids/acids.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BlogsComponent } from './components/Health-Center/health-library/blogs/blogs.component';
 
 const routes: Routes = [
-  { path: 'BuyAgain', component: BuyAgainComponent },
-  { path: 'OrderOnline', component: OrderOnlineComponent },
-  { path: 'cancer', component: CancerComponent },
-  { path: 'supplements', component: SupplementsComponent },
+  {  path:  'BuyAgain', component:  BuyAgainComponent  },
+  {  path:  'OrderOnline',  component:  OrderOnlineComponent  },
+  {  path:  'cancer',  component:  CancerComponent  },
+  {  path:  'supplements', component: SupplementsComponent },
   { path: 'amoni-acids', component: AcidsComponent },
-  { path: 'signin', component: LoginComponent },
+  { path: 'signin', component:  LoginComponent },
+  { path: "category/:keyName", component: CategoryComponent  },
   { path: 'HealthLibrary', component: HealthLibraryComponent },
 ];
 
@@ -51,17 +55,22 @@ const routes: Routes = [
     HealthLibraryComponent,
     CancerComponent,
     CoronaAwarenessComponent,
+    SideBarComponent,
     EyesComponent,
-    SupplementsComponent,
-    AcidsComponent,
     BlogsComponent,
+    CustomPipe,
+    CategoryComponent
   ],
   imports: [
     RouterModule.forChild(routes),
     CommonModule,
     FormsModule,
-    HttpClientModule,
+    // CustomPipe
   ],
-  exports: [FooterComponent, HeaderComponent],
+  exports: [
+    FooterComponent,
+    HeaderComponent,
+    CustomPipe
+  ]
 })
 export class SharedModule {}
