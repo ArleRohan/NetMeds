@@ -9,7 +9,7 @@ import { CustomPipe } from '../shared/pipes/custom.pipe';
 const routes: Routes = [
   { path: "productList/:keyName", component: ProductListComponent },
   { path: "productDetails", component: ProductDetailsComponent },
-  {path:"productList/:eyes",component:EyesComponent}
+  {path:"productList/:eyes",component:EyesComponent},
   { path: 'product-details/:type/:id', component: ProductDetailsComponent }
 ];
 

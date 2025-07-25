@@ -19,6 +19,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { EyesComponent } from './components/Beauty/make-up/eyes/eyes.component';
 import { LoginComponent } from '../auth/login/login.component';
 import { FormsModule } from '@angular/forms';
+import { SupplementsComponent } from './components/Health-Center/cancer/supplements/supplements/supplements.component';
+import { AcidsComponent } from './components/Health-Center/cancer/supplements/acids/acids/acids.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+
+
+
 // import { CustomPipe } from './pipes/custom.pipe';
 
 
@@ -26,6 +32,8 @@ const routes: Routes = [
   {path:"BuyAgain", component:BuyAgainComponent},
   {path:"OrderOnline",component:OrderOnlineComponent},
   {path:"cancer",component:CancerComponent},
+  {path:"supplements",component:SupplementsComponent},
+  {path:"amoni-acids",component:AcidsComponent},
   {path:"signin", component:LoginComponent}
 ];
 
@@ -47,12 +55,16 @@ const routes: Routes = [
     CancerComponent,
     CoronaAwarenessComponent,
     EyesComponent,
+    SupplementsComponent,
+    AcidsComponent,
+
     // CustomPipe
   ],
   imports: [
     RouterModule.forChild(routes),
     CommonModule,
     FormsModule,
+    HttpClientModule
     
   ],
   exports: [
