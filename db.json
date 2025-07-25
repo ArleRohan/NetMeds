@@ -6494,6 +6494,36 @@
       }
     ]
   },
+  "aminoAcidProducts": {
+    "items": [
+      {
+        "id": "1",
+        "name": "INLIFE L-Arginine 1000 mg - 60 Tablets",
+        "brand": "INLIFE Healthcare",
+        "category": [
+          "Fitness",
+          "Amino Acids"
+        ],
+        "disc_price": 480,
+        "price": "600.00",
+        "disc": 20,
+        "image": "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2.jpg"
+      },
+      {
+        "id": "2",
+        "name": "GNC Pro Performance Creatine Monohydrate - 250 gm",
+        "brand": "GNC India",
+        "category": [
+          "Fitness",
+          "Amino Acids"
+        ],
+        "disc_price": 950,
+        "price": "1190.00",
+        "disc": 20,
+        "image": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg"
+      }
+    ]
+  },
   "cart": [
     {
       "id": "1",
