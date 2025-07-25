@@ -19,13 +19,16 @@ import { RouterModule, Routes } from '@angular/router';
 import { EyesComponent } from './components/Beauty/make-up/eyes/eyes.component';
 import { LoginComponent } from '../auth/login/login.component';
 import { FormsModule } from '@angular/forms';
-// import { CustomPipe } from './pipes/custom.pipe';
+import { BlogsComponent } from './components/Health-Center/health-library/blogs/blogs.component';
+
 
 
 const routes: Routes = [
   {path:"BuyAgain", component:BuyAgainComponent},
   {path:"OrderOnline",component:OrderOnlineComponent},
-  {path:"signin", component:LoginComponent}
+  {path:"cancer",component:CancerComponent},
+  {path:"signin", component:LoginComponent},
+  {path: "HealthLibrary", component: HealthLibraryComponent}
 ];
 
 @NgModule({
@@ -46,7 +49,7 @@ const routes: Routes = [
     CancerComponent,
     CoronaAwarenessComponent,
     EyesComponent,
-    // CustomPipe
+    BlogsComponent
   ],
   imports: [
     RouterModule.forChild(routes),

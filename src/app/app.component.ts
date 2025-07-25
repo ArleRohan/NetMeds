@@ -9,9 +9,9 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'NetMeds';
 
-  constructor(private route: Router) {
+  // constructor(private route: Router) {
 
-  }
+  // }
   
   
 }

@@ -32,7 +32,7 @@ export class HeaderComponent {
 
     // Wellness component routes
     public ayushroutes : any = [
-        {routepath: "/products/productList/ayurvedicProducts", category : "Ayurvedic"},
+        {routepath: "ayurvedicProducts", category : "Ayurvedic"},
         {routepath: "", category : "Unani"},
         {routepath: "", category : "Homeopathy"},
         {routepath: "", category : "Siddha"}
