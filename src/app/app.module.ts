@@ -4,13 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
-import { SharedModule } from 'src/app/shared/shared.module';
+import { SharedModule } from './shared/shared.module';
 import { FormsModule } from '@angular/forms';
 import { ProductsModule } from './products/products.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -18,7 +18,8 @@ import { ProductsModule } from './products/products.module';
     CoreModule,
     SharedModule,
     FormsModule,
-    ProductsModule
+    ProductsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

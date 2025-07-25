@@ -235,6 +235,5 @@ export class AllMedicineComponent {
       'Wound Care (133)',
       'Wrinkle/Anti Ageing (21)'];
 
-
 }
 

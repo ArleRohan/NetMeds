@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { CartserviceService } from 'src/app/carts/servicecart/cartservice.service';
 
 @Component({
     selector: 'app-header',
@@ -10,11 +11,16 @@ export class HeaderComponent {
 
     public imgsize1: any = 24;
     public imgsize2: any = 42;
+        cartCount: number = 0;
 
     public dropdownstyle = "color: #32aeb1;";
+    // cart
+public carts = [
+    { routepath: "carts/cart", category: "Cart" }
+  ];
 
     userName: string | null = null;
-    constructor(private router: Router) {}
+    constructor(private router: Router,private cartService: CartserviceService) {}
 
     ngOnInit(): void {
         const user = sessionStorage.getItem('loggedInUser');
@@ -22,6 +28,10 @@ export class HeaderComponent {
         const parsedUser = JSON.parse(user);
         this.userName = parsedUser.fullname;
         }
+        // to show the count of cart items
+    this.cartService.cartCount$.subscribe((count) => {
+      this.cartCount = count;
+    });
     }
     logout() {
         sessionStorage.removeItem('loggedInUser');
@@ -32,10 +42,10 @@ export class HeaderComponent {
 
     // Wellness component routes
     public ayushroutes : any = [
-        {routepath: "/products/productList/ayurvedicProducts", category : "Ayurvedic"},
-        {routepath: "", category : "Unani"},
-        {routepath: "", category : "Homeopathy"},
-        {routepath: "", category : "Siddha"}
+        {routepath: "ayurvedic", category : "Ayurvedic"},
+        {routepath: "unani", category : "Unani"},
+        {routepath: "homeopathy", category : "Homeopathy"},
+        {routepath: "siddha", category : "Siddha"}
     ];
 
     public covidroutes : any = [
@@ -72,10 +82,10 @@ export class HeaderComponent {
     ];
 
     public healthroutes : any = [
-        {routepath: "", category : "Women's Care"},
-        {routepath: "", category : "Bone And Joint Pain"},
-        {routepath: "", category : "Liver Care"},
-        {routepath: "", category : "Piles Care"},
+        {routepath: "women's_care", category : "Women's Care"},
+        {routepath: "bone_and_joint_care", category : "Bone And Joint Pain"},
+        {routepath: "liver_care", category : "Liver Care"},
+        {routepath: "piles_care", category : "Piles Care"},
         {routepath: "", category : "Weight Care (EW)"},
         {routepath: "", category : "Stomach Care"},
         {routepath: "", category : "Mental Care"},
@@ -95,14 +105,15 @@ export class HeaderComponent {
         {routepath: "", category : "Maternity Accessories"}
     ];
 
+   
     public personalcareroutes : any = [
-        {routepath: "", category : "Home & Health"},
-        {routepath: "", category : "Senior Care"},
-        {routepath: "", category : "Face Personal Care"},
+        {routepath: "Home&HealthProducts", category : "Home & Health"},
+        {routepath: "SeniorCareProducts", category : "Senior Care"},
+        {routepath: "FacePersonalCareProducts", category : "Face Personal Care"},
         {routepath: "", category : "Hands & Feet"},
         {routepath: "", category : "Oral Care"},
         {routepath: "", category : "Bath & Shower"},
-        {routepath: "", category : "Body Care"},
+        {routepath: "BodyCareProducts", category : "Body Care"},
         {routepath: "", category : "Personal Care Tools & Accessories"},
         {routepath: "", category : "Lip Care"},
         {routepath: "", category : "Bathing Accessories"}
@@ -156,10 +167,10 @@ export class HeaderComponent {
     ];
 
     public skincareroutes : any = [
-        {routepath: "", category : "Aromatherapy"},
-        {routepath: "", category : "Cleansers"},
-        {routepath: "", category : "Eye Care"},
-        {routepath: "", category : "Face Skin Care"},
+        {routepath: "skinCareProducts", category : "Aromatherapy"},
+        {routepath: "CleansersProduct", category : "Cleansers"},
+        {routepath: "EyeCare", category : "Eye Care"},
+        {routepath: "FaceCare", category : "Face Skin Care"},
         {routepath: "", category : "Masks"},
         {routepath: "", category : "Moisturizers"},
         {routepath: "", category : "Sunscreen"},
@@ -172,8 +183,8 @@ export class HeaderComponent {
         {routepath: "", category : "Diabetes"},
         {routepath: "", category : "Cardiac Care"},
         {routepath: "", category : "Stomach Care"},
-        {routepath: "", category : "Ayurvedic"},
-        {routepath: "", category : "Homeopathy"},
+        {routepath: "ayurvedic", category : "Ayurvedic"},
+        {routepath: "homeopathy", category : "Homeopathy"},
         {routepath: "", category : "Fitness"},
         {routepath: "", category : "Mom & Baby"},
         {routepath: "", category : "Devices"},

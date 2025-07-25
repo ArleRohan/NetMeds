@@ -20,6 +20,7 @@ export class ProductService {
     );
   }
 
+  
   private apiUrl2="http://localhost:3000/medicine"
 
   getMedicineProducts():Observable<any>{

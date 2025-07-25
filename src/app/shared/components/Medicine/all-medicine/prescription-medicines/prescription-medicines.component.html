@@ -39,7 +39,7 @@
                 <div class="medicine-card" *ngFor="let med of data.medicines">
                     <p class="letter">{{ med.name }}</p>
                     <ul>
-                        <li *ngFor="let variant of med.variants">{{ variant }}</li>
+                        <li *ngFor="let variant of med.variants" ><a (click)="goToDetail(variant)">{{ variant }}</a></li>
                     </ul>
                 </div>
             </div>
