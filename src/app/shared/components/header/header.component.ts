@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { CartserviceService } from 'src/app/carts/servicecart/cartservice.service';
 
 @Component({
     selector: 'app-header',
@@ -10,11 +11,16 @@ export class HeaderComponent {
 
     public imgsize1: any = 24;
     public imgsize2: any = 42;
+        cartCount: number = 0;
 
     public dropdownstyle = "color: #32aeb1;";
+    // cart
+public carts = [
+    { routepath: "carts/cart", category: "Cart" }
+  ];
 
     userName: string | null = null;
-    constructor(private router: Router) {}
+    constructor(private router: Router,private cartService: CartserviceService) {}
 
     ngOnInit(): void {
         const user = sessionStorage.getItem('loggedInUser');
@@ -22,6 +28,10 @@ export class HeaderComponent {
         const parsedUser = JSON.parse(user);
         this.userName = parsedUser.fullname;
         }
+        // to show the count of cart items
+    this.cartService.cartCount$.subscribe((count) => {
+      this.cartCount = count;
+    });
     }
     logout() {
         sessionStorage.removeItem('loggedInUser');
@@ -156,10 +166,10 @@ export class HeaderComponent {
     ];
 
     public skincareroutes : any = [
-        {routepath: "", category : "Aromatherapy"},
-        {routepath: "", category : "Cleansers"},
-        {routepath: "", category : "Eye Care"},
-        {routepath: "", category : "Face Skin Care"},
+        {routepath: "skinCareProducts", category : "Aromatherapy"},
+        {routepath: "CleansersProduct", category : "Cleansers"},
+        {routepath: "EyeCare", category : "Eye Care"},
+        {routepath: "FaceCare", category : "Face Skin Care"},
         {routepath: "", category : "Masks"},
         {routepath: "", category : "Moisturizers"},
         {routepath: "", category : "Sunscreen"},

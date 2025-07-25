@@ -1,6 +1,6 @@
 <!-- <p>glucometers works!</p>
 <h2>Glucometers</h2> -->
-<img [src]="bannerImg" width="1010" height="200" />
+<!-- <img [src]="bannerImg" width="1010" height="200" />
 <div class="gluco_container">
     <div  *ngFor="let product of products" class="card m-2 p-2">
 <h2>Glucometers</h2>
@@ -27,7 +27,7 @@
       </div>
     </div>
   </div>
-</div> -->
+</div> --> 
 <!-- <div class="row pe-3">
   <div class="col-3">
 
@@ -83,10 +83,9 @@
           <span class="text-decoration-line-through product_old_price mt-1">
             MRP Rs.{{ product.price }}
           </span>
-          <button class="btn mt-4">Add To Cart</button>
+          <button class="btn mt-4" (click)="addToCart(product)">Add To Cart</button>
         </div>
       </div>
     </div>
   </div>
 </div>
-

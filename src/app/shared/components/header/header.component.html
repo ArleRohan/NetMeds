@@ -46,11 +46,12 @@
             </div>
 
             <!-- Cart -->
-            <div class="position-relative mx-3 d-flex">
-                <img src="assets/images/header/cart_icon.svg" [height]="imgsize1" [width]="imgsize1" alt="">
-                <span class="badge rounded-pill text-bg-danger bottom-50 end-50 position-absolute">0</span>
-                <a routerLink="" class="nav-link text-white ms-1" role="button">Cart</a>
-            </div>
+        <div class="position-relative mx-3 d-flex align-items-center">
+                <img src="assets/images/header/cart_icon.svg" [height]="imgsize1" [width]="imgsize1" alt="Cart">
+             <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" *ngIf="cartCount > 0">{{ cartCount }}</span>
+                <a [routerLink]="['/carts', 'cart']" class="nav-link text-white ms-1" role="button">Cart</a>
+        </div>
+
 
           <!-- Sign-in-up / Welcome -->
             <div class="mx-3 d-flex align-items-center">
@@ -211,10 +212,10 @@
                         <div class="flex-wrap me-2" style="width: 150px;">
                             <h6 [style]="dropdownstyle">Skin Care</h6>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of skincareroutes"
-                                routerLink="{{data.routepath}}">{{data.category}}</a>
+                                [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                             <br>
                             <h6 [style]="dropdownstyle">Tools & Appliances</h6>
-                            <a class="dropdown-item opacity-75 text-wrap" routerLink="">Face/Skin Tools</a>
+                            <a class="dropdown-item opacity-75 text-wrap" >Face/Skin Tools</a>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Hair Styling Tools</a>
                             <a class="dropdown-item opacity-75 text-wrap" routerLink="">Massage Tools</a>
                         </div>

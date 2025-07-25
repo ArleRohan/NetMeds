@@ -1,416 +1,4 @@
 {
-      
-    "eyesProducts": {
-      "banner": "assets/images/Make-Up/Eyes/eyes.jpg",
-        "items":[
-            {
-                "id": "1",
-                "name": "Colorbar Just Smoky Kajal - Just Black 001 1.2gm",
-                "brand":" Colorbar Cosmetics India Pvt Ltd",
-                "category":[
-                "MakeUp","Eyes"
-                ],
-                "disc_price":600,
-                "price": "750.00",
-                "disc":20,
-                "image" : "assets/images/Make-Up/Eyes/colorbar_just_smoky_kajal_just_black_001_1_2gm_292446_0_1.jpg"
-            },
-            {
-                "id": "2",
-                "name": "Colorbar Just Smoky Kajal - Just Black 001 1.2gm",
-                "brand":" Colorbar Cosmetics India Pvt Ltd",
-                "category":[
-                "MakeUp","Eyes"
-                ],
-                "disc_price":600,
-                "price": "750.00",
-                "disc":20,
-                "image" : "assets/images/Make-Up/Eyes/colorbar_emerald_charm_016_1_gm_0_0.jpg"
-            },
-            {
-                "id": "3",
-                "name": "Maybelline New York Hypercurl Waterproof, Very Black 9.2 ml",
-                "brand":"Loreal India Pvt Ltd",
-                "category":[
-                "MakeUp","Eyes"
-                ],
-                "disc_price":300,
-                "price": "429.00",
-                "disc":20,
-                 "image" : "assets/images/Make-Up/Eyes/maybelline_new_york_hypercurl_waterproof_very_black_9_2_ml_614158_0_2.jpg"
-            },
-            {
-                "id": "4",
-                "name": "Insight Cosmetics Mascara 9 ml",
-                "brand":" Mayuri Kumkum",
-                "category":[
-                "MakeUp","Eyes"
-                ],
-                "disc_price":133,
-                "price": "140.00",
-                "disc":5,
-                "image" : "assets/images/Make-Up/Eyes/insight_cosmetics_mascara_9_ml_245249_0_2.jpg"
-            },
-            {
-                "id": "5",
-                "name": "SUGAR Cosmetics Lash Mob Limitless Mascara - 01 Black With A Bang (Black) 9 ML",
-                "brand":" Vellvette Lifestyle Private Limited",
-                "category":[
-                "MakeUp","Eyes"
-                ],
-                "disc_price":764.10,
-                "price": "849.00",
-                "disc":10,
-                "image" : "assets/images/Make-Up/Eyes/sugar_cosmetics_lash_mob_limitless_mascara_01_black_with_a_bang_black_9_gm_0_0.jpg"
-            },
-            {
-                "id": "6",
-                "name": "SUGAR Cosmetics Arch Arrival Brow Definer 03 Woody Scooby Deep Brown 0.35 gm",
-                "brand":" Vellvette Lifestyle Private Limited",
-                "category":[
-                "MakeUp","Eyes"
-                ],
-                "disc_price":472.10,
-                "price": "525.00",
-                "disc":10,
-                "image" : "assets/images/Make-Up/Eyes/sugar_cosmetics_arch_arrival_brow_definer_03_woody_scooby_deep_brown_3_5_gm_0_0.jpg"
-            },
-            {
-                "id": "7",
-                "name": "Wet N Wild Megalast Retractable Eyeliner - Blackest Black 0.23 gm",
-                "brand":"Reliance Retail Limited",
-                "category":[
-                "MakeUp","Eyes"
-                ],
-                "disc_price":340.00,
-                "price": "425.00",
-                "disc":20,
-                "image" : "assets/images/Make-Up/Eyes/wet_n_wild_megalast_retractable_eyeliner_blackest_black_0_23_gm_0_0.jpg"
-            },
-            {
-                "id": "8",
-                "name": "Wet N Wild H2O Proof Liquid Eyeliner - Black Noir 5 ml",
-                "brand":"Reliance Retail Limited",
-                "category":[
-                "MakeUp","Eyes"
-                ],
-                "disc_price":467.00,
-                "price": "550.00",
-                "disc":15,
-                "image" : "assets/images/Make-Up/Eyes/wet_n_wild_h2o_proof_liquid_eyeliner_black_noir_3_5_ml_0_0.jpg"
-            }
-        ]
-    } , 
-     "FaceMakeupProduct":  {
-         "banner": "assets/images/Make-Up/Face-Makeup/face_makeup.jpg",
-          "items":[
-          {
-            "id": 1,
-            "name": "Lakme 9to5 Powerplay Mousse Foundation Mini, Rose Ivory, 6 g",
-            "brand":"Hindustan Unilever Limited",
-            "category":[
-              "MakeUp","Face-Makeup"
-            ],
-            "disc_price":332.33,
-            "price": "350.00",
-            "disc":5,
-              "image" : "assets/images/Make-Up/Face-Makeup/lakme_9to5_powerplay_mousse_foundation_mini_rose_ivory_6_g_200418_0_4.jpg"
-          },
-          {
-            "id": 2,
-            "name": "Insight Cosmetics Concealer - Rose Ivory 3.5 gm",
-            "brand":"Mayuri Kumkum",
-            "category":[
-              "MakeUp","Face-Makeup"
-            ],
-            "disc_price":118.50,
-            "price": "125.00",
-            "disc":5,
-            "image" : "assets/images/Make-Up/Face-Makeup/insight_cosmetics_concealer_rose_ivory_3_5_gm_245936_0_2.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Insight Cosmetics Pro Concealer Palette - Corrector 15 gm",
-            "brand":"Mayuri Kumkum",
-            "category":[
-              "MakeUp","Face-Makeup"
-            ],
-            "disc_price":228.50,
-            "price": "240.00",
-            "disc":5,
-            "image" : "assets/images/Make-Up/Face-Makeup/insight_cosmetics_pro_concealer_palette_corrector_15_gm_245927_0_4.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Insight Cosmetics Stay Matte Liquid Foundation - Soft Tan 30 ml",
-            "brand":"Mayuri Kumkum",
-            "category":[
-              "MakeUp","Face-Makeup"
-            ],
-            "disc_price":260.00,
-            "price": "280.00",
-            "disc":5,
-            "image" : "assets/images/Make-Up/Face-Makeup/insight_cosmetics_stay_matte_liquid_foundation_soft_tan_30_ml_245824_0_1.jpg"
-          },
-          {
-            "id": 5,
-            "name": "Insight Cosmetics HD Finishing Loose Powder - Light 30 gm",
-            "brand":"Mayuri Kumkum",
-            "category":[
-              "MakeUp","Face-Makeup"
-            ],
-            "disc_price":153.00,
-            "price": "165.00",
-            "disc":7,
-            "image" : "assets/images/Make-Up/Face-Makeup/insight_cosmetics_hd_finishing_loose_powder_light_30_gm_245756_0_3.jpg"
-          },
-          {
-            "id": 6,
-            "name": "SUGAR Cosmetics Grand Finale Matte Setting Mist 50 Ml",
-            "brand":"Mayuri Kumkum",
-            "category":[
-              "MakeUp","Face-Makeup"
-            ],
-            "disc_price":650.00,
-            "price": "749.00",
-            "disc":10,
-            "image" : "assets/images/Make-Up/Face-Makeup/sugar_cosmetics_grand_finale_dewy_setting_mist_50_gm_0_0.jpg"
-          },
-          {
-            "id": 7,
-            "name": "SUGAR Cosmetics Grand Finale Dewy Setting Mist 50 Ml",
-            "brand":"Mayuri Kumkum",
-            "category":[
-              "MakeUp","Face-Makeup"
-            ],
-            "disc_price":650.00,
-            "price": "749.00",
-            "disc":10,
-            "image" : "assets/images/Make-Up/Face-Makeup/sugar_cosmetics_grand_finale_highlighting_setting_mist_50_gm_0_0.jpg"
-          },
-          {
-            "id": 8,
-            "name": "SUGAR Cosmetics Grand Finale Highlighting Setting Mist 50 Ml",
-            "brand":"Mayuri Kumkum",
-            "category":[
-              "MakeUp","Face-Makeup"
-            ],
-            "disc_price":650.00,
-            "price": "749.00",
-            "disc":10,
-              "image" : "assets/images/Make-Up/Face-Makeup/sugar_cosmetics_grand_finale_matte_setting_mist_50_gm_0_0.jpg"
-          }
-        ]
-     },
-
-    "LipsProduct":{
-        "banner": "assets/images/Make-Up/Lips/lips.jpg",
-        "items":[
-            {
-            "id": 1,
-            "name": "Lakme Lip Love Cherry Lip Care 22 Hrs Moisture Spf 15 4.5Gm",
-            "brand":"Hindustan Unilever Limited",
-            "category":[
-              "MakeUp","Lips"
-            ],
-            "disc_price":236.00,
-            "price": "248.00",
-            "disc":5,
-            "image" : "assets/images/Make-Up/Lips/lakme_lip_love_chapstick_cherry_4_5_gm_0_0.jpg"
-            },
-            {
-            "id": 2,
-            "name": "Colorbar X Jacqueline Sinful Matte Lipcolour Hickey 028 3.5gm",
-            "brand":"Colorbar Cosmetics India Pvt Ltd",
-            "category":[
-              "MakeUp","Lips"
-            ],
-            "disc_price":1199.00,
-            "price": "1499.00",
-            "disc":20,
-            "image" : "assets/images/Make-Up/Lips/colorbar_hickey_028_4_gm_0_0.jpg"
-            },
-            {
-            "id": 3,
-            "name": "Colorbar X Jacqueline Sinful Matte Lipcolor Dirty Date 027 3.5gm",
-            "brand":"Colorbar Cosmetics India Pvt Ltd",
-            "category":[
-              "MakeUp","Lips"
-            ],
-            "disc_price":1199.00,
-            "price": "1499.00",
-            "disc":20,
-            "image" : "assets/images/Make-Up/Lips/colorbar_dirty_date_027_4_gm_0_0.jpg"
-            },
-            {
-            "id": 4,
-            "name": "SUGAR Cosmetics Time To Shine Lip Gloss - 02 Velma Pinkley 4.5 ML",
-            "brand":"Vellvette Lifestyle Private Limited",
-            "category":[
-              "MakeUp","Lips"
-            ],
-            "disc_price":539.00,
-            "price": "599.00",
-            "disc":20,
-            "image" : "assets/images/Make-Up/Lips/sugar_cosmetics_time_to_shine_lip_gloss_02_velma_pinkley_4_5_gm_0_1.jpg"
-            },
-            {
-            "id": 5,
-            "name": "SUGAR Cosmetics Lipping On The Edge Lip Liner - 05 Brazen Raisin 1.2 gm",
-            "brand":"Vellvette Lifestyle Private Limited",
-            "category":[
-              "MakeUp","Lips"
-            ],
-            "disc_price":500.00,
-            "price": "525.00",
-            "disc":20,
-            "image" : "assets/images/Make-Up/Lips/sugar_cosmetics_lipping_on_the_edge_lip_liner_05_brazen_raisin_1_2_gm_0_0.jpg"
-            },
-            {
-            "id": 6,
-            "name": "SUGAR Cosmetics Lipping On The Edge Lip Liner - 02 Wooed By Nude 1.2 gm",
-            "brand":"Vellvette Lifestyle Private Limited",
-            "category":[
-              "MakeUp","Lips"
-            ],
-            "disc_price":500.00,
-            "price": "525.00",
-            "disc":5,
-            "image" : "assets/images/Make-Up/Lips/sugar_cosmetics_lipping_on_the_edge_lip_liner_02_wooed_by_nude_1_2_gm_0_0.jpg"
-            },
-            {
-            "id": 7,
-            "name": "SUGAR Cosmetics Matte Attack Transferproof Lipstick - 06 Spring Crimson (Crimson Red) 2 gm",
-            "brand":"Vellvette Lifestyle Private Limited",
-            "category":[
-              "MakeUp","Lips"
-            ],
-            "disc_price":699.00,
-            "price": "748.00",
-            "disc":5,
-            "image" : "assets/images/Make-Up/Lips/sugar_cosmetics_matte_attack_transferproof_lipstick_06_spring_crimson_crimson_red_2_gm_0_0.jpg"
-            },
-            {
-            "id": 8,
-            "name": "SUGAR Cosmetics Matte Attack Transferproof Lipstick - 05 Tan Halen (Chocolate Brown) 2 gm",
-            "brand":"Vellvette Lifestyle Private Limited",
-            "category":[
-              "MakeUp","Lips"
-            ],
-            "disc_price":699.00,
-            "price": "748.00",
-            "disc":10,
-            "image" : "assets/images/Make-Up/Lips/sugar_cosmetics_matte_attack_transferproof_lipstick_05_tan_halen_chocolate_brown_2_gm_0_0.jpg"
-            }
-        ]
-    },
-
-    "NailsProduct":{
-        "banner": "assets/images/Make-Up/Nails/nails.jpg",
-        "items":[
-            {
-            "id": 1,
-            "name": "Colorbar Instant Glow Cream for All Skin Types 15 gm",
-            "brand":"Colorbar Cosmetics India Pvt Ltd",
-            "category":[
-              "MakeUp","Nails"
-            ],
-            "disc_price":1299.00,
-            "price": "1039.00",
-            "disc":10,
-            "image" : "assets/images/Make-Up/Nails/colorbar_instant_glow_cream_12_gm_0_0.jpg"
-            },
-            {
-            "id": 2,
-            "name": "Lakme Color Crush Nail Art T2 6 Ml",
-            "brand":"Hindustan Unilever Limited",
-            "category":[
-              "MakeUp","Nails"
-            ],
-            "disc_price":150.00,
-            "price": "199.00",
-            "disc":3,
-            "image" : "assets/images/Make-Up/Nails/lakme_color_crush_nail_art_t2_6_ml_202037_0_1.jpg"
-            },
-            {
-            "id": 3,
-            "name": "Lakme Color Crush Nail Art M16 Mint Blue 6Ml",
-            "brand":"Hindustan Unilever Limited",
-            "category":[
-              "MakeUp","Nails"
-            ],
-            "disc_price":150.00,
-            "price": "199.00",
-            "disc":3,
-            "image" : "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m16_mint_blue_6_ml_201633_0_1.jpg"
-            },
-            {
-            "id": 4,
-            "name": "Lakme Color Crush Nail Art M11 Classic Silver 6Ml",
-            "brand":"Hindustan Unilever Limited",
-            "category":[
-              "MakeUp","Nails"
-            ],
-            "disc_price":150.00,
-            "price": "199.00",
-            "disc":3,
-            "image" : "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m11_classic_silver_6_ml_201588_0_1.jpg"
-            },
-            {
-            "id": 5,
-            "name": "Lakme Color Crush Nail Art M10 Fern Green 6Ml",
-            "brand":"Hindustan Unilever Limited",
-            "category":[
-              "MakeUp","Nails"
-            ],
-            "disc_price":150.00,
-            "price": "199.00",
-            "disc":3,
-            "image" : "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m10_fern_green_6_ml_201579_0_1.jpg"
-            },
-            {
-            "id": 6,
-            "name": "Lakme Color Crush Nail Art M9 fuschia 6Ml",
-            "brand":"Hindustan Unilever Limited",
-            "category":[
-              "MakeUp","Nails"
-            ],
-            "disc_price":150.00,
-            "price": "199.00",
-            "disc":3,
-            "image" : "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m9_fuschia_6_ml_201570_0_1.jpg"
-            },
-            {
-            "id": 7,
-            "name": "Lakme Color Crush Nail Art M2 6Ml",
-            "brand":"Hindustan Unilever Limited",
-            "category":[
-              "MakeUp","Nails"
-            ],
-            "disc_price":150.00,
-            "price": "199.00",
-            "disc":3,
-            "image" : "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m2_6ml_201507_0_3.jpg"
-            },
-            {
-            "id": 8,
-            "name": "Lakme Color Crush Nail Art M1 Ox Blood 6Ml",
-            "brand":"Hindustan Unilever Limited",
-            "category":[
-              "MakeUp","Nails"
-            ],
-            "disc_price":150.00,
-            "price": "199.00",
-            "disc":3,
-            "image" : "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m1_ox_blood_6_ml_201498_0_2.jpg"
-            }
-        ]
-    },
-
-
-  
-    
-  
   "glucometers": {
     "banner": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer_banner.jpg",
     "items": [
@@ -418,7 +6,6 @@
         "id": 1,
         "name": "Accu-Chek Active Glucose Monitor with Free 10 Test Strips",
         "brand": "Roche Diabetes Care India Pvt LTD",
-        "mainImage": "assets/images/Wellness/Diabetes Support/Glucometers/gluco_details/gluco_main_image1.jpg",
         "category": [
           "Devices",
           "Measurement"
@@ -443,7 +30,6 @@
         "id": 2,
         "name": "Accu-Chek Instant S Blood Glucose Monitor with Free 10 Test Strips",
         "brand": "Roche Diabetes Care India Pvt LTD",
-        "mainImage": "assets/images/Wellness/Diabetes Support/Glucometers/gluco_details/gluco_main_image2.jpg",
         "category": [
           "Devices",
           "Measurement"
@@ -523,7 +109,7 @@
           "Devices",
           "Measurement"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Glucometers/gluco_details/gluco_small2-1.jpg",
           "assets/images/Wellness/Diabetes Support/Glucometers/gluco_details/gluco_small2-1.jpg",
           "assets/images/Wellness/Diabetes Support/Glucometers/gluco_details/gluco_small2-1.jpg"
@@ -609,7 +195,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1252.00,
+        "disc_price": 1252,
         "price": "1165.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-8.jpg"
@@ -634,7 +220,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 547.50,
+        "disc_price": 547.5,
         "price": "730.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-9.jpg"
@@ -709,7 +295,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 696.00,
+        "disc_price": 696,
         "price": "870.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-12.jpg"
@@ -734,7 +320,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1242.00,
+        "disc_price": 1242,
         "price": "1380.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-13.jpg"
@@ -759,7 +345,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1549.00,
+        "disc_price": 1549,
         "price": "4666.10",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-14.jpg"
@@ -775,7 +361,6 @@
         ],
         "images": [
           "assets/images/Wellness/Diabetes Support/Glucometers/gluco_details/gluco_small15-1.jpg"
-          
         ],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -783,7 +368,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1259.00,
+        "disc_price": 1259,
         "price": "1799.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-15.jpg"
@@ -833,7 +418,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 975.00,
+        "disc_price": 975,
         "price": "1300.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-17.jpg"
@@ -883,7 +468,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1087.00,
+        "disc_price": 1087,
         "price": "1450.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-19.jpg"
@@ -908,7 +493,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-20.jpg"
@@ -963,7 +548,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 130.00,
+        "disc_price": 130,
         "price": "145.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar2.jpg"
@@ -979,7 +564,6 @@
         ],
         "images": [
           "assets/images/Wellness/Diabetes Support/Sugar/sugar-details/sugar_small3-1.jpg"
-          
         ],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -987,7 +571,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar3.jpg"
@@ -1003,7 +587,6 @@
         ],
         "images": [
           "assets/images/Wellness/Diabetes Support/Sugar/sugar-details/sugar_small4-1.jpg"
-          
         ],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -1011,7 +594,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar4.jpg"
@@ -1027,7 +610,6 @@
         ],
         "images": [
           "assets/images/Wellness/Diabetes Support/Sugar/sugar-details/sugar_small5-1.jpg"
-          
         ],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -1035,7 +617,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar5.jpg"
@@ -1060,7 +642,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar6.jpg"
@@ -1085,7 +667,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar7.jpg"
@@ -1110,7 +692,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar8.jpg"
@@ -1135,7 +717,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar9.jpg"
@@ -1160,7 +742,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar10.jpg"
@@ -1185,7 +767,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar11.jpg"
@@ -1210,7 +792,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar12.jpg"
@@ -1235,7 +817,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar13.jpg"
@@ -1260,7 +842,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar14.jpg"
@@ -1276,7 +858,6 @@
         ],
         "images": [
           "assets/images/Wellness/Diabetes Support/Sugar/sugar-details/sugar_small15-1.jpg"
-          
         ],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -1284,7 +865,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar15.jpg"
@@ -1308,8 +889,8 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
-        "price": "1660.00",
+        "disc_price": 1245,
+        "price": 1660,
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar16.jpg"
       }
@@ -1322,14 +903,13 @@
         "id": 1,
         "name": "D Protin Chocolate Powder 500 gm",
         "brand": "Mkt: British Biologicals",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image1.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image1.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small1-1.jpg"
-          
         ],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -1337,7 +917,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 611.60,
+        "disc_price": 611.6,
         "price": "695.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement1.jpg"
@@ -1346,12 +926,12 @@
         "id": 2,
         "name": "Pro360 Diabetic Care Powder - Real Badam Flavour 500 gm",
         "brand": "Mkt: GMN HEALTHCARE PRIVATE LTD",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image2.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image2.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small2-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small2-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small2-3.jpg"
@@ -1362,7 +942,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 671.50,
+        "disc_price": 671.5,
         "price": "790.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement2.jpg"
@@ -1371,12 +951,12 @@
         "id": 3,
         "name": "INLIFE Diastan Plus Diabetic Care Powder 300 gm",
         "brand": "Mkt: Inlife Pharma Pvt Ltd",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image3.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image3.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small3-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small3-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small3-3.jpg"
@@ -1387,7 +967,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 549.00,
+        "disc_price": 549,
         "price": "900.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement3.jpg"
@@ -1396,12 +976,12 @@
         "id": 4,
         "name": "D Protin Vanilla Powder 500 gm",
         "brand": "Mkt: British Biologicals",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image4.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image4.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small4-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small4-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small4-3.jpg"
@@ -1412,7 +992,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 583.80,
+        "disc_price": 583.8,
         "price": "695.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement4.jpg"
@@ -1421,12 +1001,12 @@
         "id": 5,
         "name": "Ensure Diabetes Care Powder - Vanilla Flavour 200 gm (Refill Pack)",
         "brand": "Mkt: Abbott Healthcare Pvt. Ltd.",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image5.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image5.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small5-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small5-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small5-3.jpg"
@@ -1437,7 +1017,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 513.00,
+        "disc_price": 513,
         "price": "540.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement5.jpg"
@@ -1446,12 +1026,12 @@
         "id": 6,
         "name": "D Protin Chocolate Powder 200 gm",
         "brand": "Mkt: British Biologicals",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image6.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image6.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small6-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small6-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small6-3.jpg"
@@ -1471,12 +1051,12 @@
         "id": 7,
         "name": "Ensure Diabetes Care Powder - Chocolate Flavour 200 gm (Refill Pack)",
         "brand": "Mkt: Abbott Healthcare Pvt. Ltd.",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image7.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image7.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small7-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small7-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small7-3.jpg"
@@ -1487,7 +1067,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 523.80,
+        "disc_price": 523.8,
         "price": "540.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement7.jpg"
@@ -1496,12 +1076,12 @@
         "id": 8,
         "name": "D Protin Vanilla Powder 200 gm",
         "brand": "Mkt: British Biologicals",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image8.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image8.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small8-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small8-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small8-3.jpg"
@@ -1521,12 +1101,12 @@
         "id": 9,
         "name": "Nestle Resource Diabetic Powder - Vanilla Flavour 400 gm (Pet Jar)",
         "brand": "Mkt: Nestle India Ltd",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image9.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image9.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small9-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small9-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small9-3.jpg"
@@ -1537,7 +1117,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 949.00,
+        "disc_price": 949,
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement9.jpg"
       },
@@ -1545,12 +1125,12 @@
         "id": 10,
         "name": "Amrutanjan Decorn Corn Caps 4's",
         "brand": "Mkt: Amrutanjan Health Care Ltd",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image10.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image10.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small10-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small10-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small10-3.jpg"
@@ -1561,7 +1141,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 29.40,
+        "disc_price": 29.4,
         "price": "30.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement10.jpg"
@@ -1570,12 +1150,12 @@
         "id": 11,
         "name": "Protinex Diabetes Care Powder - Vanilla Flavour 400 gm",
         "brand": "Mkt: NUTRICIA INTERNATIONAL Pvt Ltd",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image11.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image11.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small11-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small11-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small11-3.jpg"
@@ -1586,7 +1166,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 699.20,
+        "disc_price": 699.2,
         "price": "699.20",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement11.jpg"
@@ -1595,12 +1175,12 @@
         "id": 12,
         "name": "Protinex Diabetes Care Powder - Creamy Vanilla Flavour 200 g",
         "brand": "Mkt: NUTRICIA INTERNATIONAL Pvt Ltd",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image12.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image12.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small12-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small12-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small12-3.jpg"
@@ -1611,7 +1191,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 410.00,
+        "disc_price": 410,
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement12.jpg"
       },
@@ -1619,12 +1199,12 @@
         "id": 13,
         "name": "Complan Nutrigro (2-6 Years) Powder - Chocolate Flavour 400 gm (Jar)",
         "brand": "Mkt: Zydus Wellness Products Ltd.",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image13.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image13.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small13-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small13-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small13-3.jpg"
@@ -1635,7 +1215,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 632.50,
+        "disc_price": 632.5,
         "price": "687.50",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement13.jpg"
@@ -1644,12 +1224,12 @@
         "id": 14,
         "name": "Jubilant Nutrihance Diabetes Care Sachet - Mango Badam (Pack of 10's x 35 gm)",
         "brand": "Mkt: JUBILANT GENERICS LIMITED",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image14.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image14.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small14-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small14-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small14-3.jpg"
@@ -1660,7 +1240,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 705.50,
+        "disc_price": 705.5,
         "price": "850.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement14.jpg"
@@ -1669,12 +1249,12 @@
         "id": 15,
         "name": "PentaSure DM Diabetes Care Powder - Vanilla Flavour 1 kg",
         "brand": "Mkt: Hexagon Nutrition Limited",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image15.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image15.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small15-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small15-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small15-3.jpg"
@@ -1694,12 +1274,12 @@
         "id": 16,
         "name": "Jubilant Nutrihance Diabetes Care Sachet - Kesar Elaichi (Pack of 10's x 35 gm)",
         "brand": "Mkt: JUBILANT GENERICS LIMITED",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image16.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image16.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small16-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small16-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small16-3.jpg"
@@ -1710,7 +1290,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 655.70,
+        "disc_price": 655.7,
         "price": "790.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement16.jpg"
@@ -1719,12 +1299,12 @@
         "id": 17,
         "name": "PRO 360 Diabeticare Pro Nutrition Powder Vanilla Flavour 200g",
         "brand": "Mkt: GMN HEALTHCARE PRIVATE LTD",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image17.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image17.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small17-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small17-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small17-3.jpg"
@@ -1744,12 +1324,12 @@
         "id": 18,
         "name": "New Life Diabesin N Sugar Free Syrup 100 ml",
         "brand": "Mkt: New Life Laboratories Pvt Ltd",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image18.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image18.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small18-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small18-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small18-3.jpg"
@@ -1760,7 +1340,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 72.00,
+        "disc_price": 72,
         "price": "100.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement18.jpg"
@@ -1769,12 +1349,12 @@
         "id": 19,
         "name": "Pro360 Diabetic Care Nutrition Powder - Roasted Coffee (Refill Pack) 200 gm",
         "brand": "Mkt: GMN HEALTHCARE PRIVATE LTD",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image19.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image19.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small19-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small19-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small19-3.jpg"
@@ -1794,12 +1374,12 @@
         "id": 20,
         "name": "Pro360 Diabetic Care Protein Powder - Vanilla Icecream Flavour 500 g",
         "brand": "Mkt: GMN HEALTHCARE PRIVATE LTD",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image20.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_main-image20.jpg",
         "category": [
           "Fitness",
           "Diabetes Care"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small20-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small20-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_details/diabetes_management_small20-3.jpg"
@@ -1810,7 +1390,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 711.00,
+        "disc_price": 711,
         "price": "790.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement20.jpg"
@@ -1824,23 +1404,23 @@
         "id": 1,
         "name": "Krishna's Herbal & Ayurveda Diabic Care Juice 1000 ml",
         "brand": "Mkt: Sandipani Healthcare Pvt. Ltd.",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image1.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image1.jpg",
         "category": [
           "Ayush",
           "Homeopathy"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small1-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small1-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small1-3.jpg"
         ],
-        "product-content":[
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 490.00,
+        "disc_price": 490,
         "price": "",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda1.jpg"
@@ -1849,17 +1429,17 @@
         "id": 2,
         "name": "Baidyanath Basant Kusumakar Ras Tablet 50's",
         "brand": "Mkt: Shree Baidyanath Ayurved Bhawan Pvt Ltd",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image2.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image2.jpg",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small2-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small2-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small2-3.jpg"
         ],
-        "product-content":[
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
@@ -1874,23 +1454,23 @@
         "id": 3,
         "name": "INLIFE Diastan Plus Diabetic Care Powder 300 gm",
         "brand": "Mkt: Inlife Pharma Pvt Ltd",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image3.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image3.jpg",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small3-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small3-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small3-3.jpg"
         ],
-        "product-content":[
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 549.00,
+        "disc_price": 549,
         "price": "900.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda3.jpg"
@@ -1899,23 +1479,23 @@
         "id": 4,
         "name": "Kapiva Dia Free Juice 1 ltr",
         "brand": "Mkt: Adret Retail Pvt Ltd (Kapiva)",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image4.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image4.jpg",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small4-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small4-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small4-3.jpg"
         ],
-        "product-content":[
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 599.00,
+        "disc_price": 599,
         "price": "",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda4.jpg"
@@ -1924,17 +1504,17 @@
         "id": 5,
         "name": "Kapiva Karela Jamun Juice 1 ltr",
         "brand": "Mkt: Adret Retail Pvt Ltd (Kapiva)",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image5.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image5.jpg",
         "category": [
           "Ayush",
           "Homeopathy"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small5-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small5-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small5-3.jpg"
         ],
-        "product-content":[
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
@@ -1949,17 +1529,17 @@
         "id": 6,
         "name": " Baidyanath Premium Karela Jamun Juice 1000 ml",
         "brand": "Mkt: Shree Baidyanath Ayurved Bhawan Pvt Ltd",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image6.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image6.jpg",
         "category": [
           "Ayush",
           "Homeopathy"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small6-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small6-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small6-3.jpg"
         ],
-        "product-content":[
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
@@ -1974,23 +1554,23 @@
         "id": 7,
         "name": "Nestle Resource Diabetic Powder - Vanilla Flavour 400 gm (Pet Jar)",
         "brand": "Mkt: Nestle India Ltd",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image7.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image7.jpg",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small7-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small7-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small7-3.jpg"
         ],
-        "product-content":[
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 949.00,
+        "disc_price": 949,
         "price": "",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda7.jpg"
@@ -1999,23 +1579,23 @@
         "id": 8,
         "name": "Lord's L 118 Diabetes Drops 30 ml",
         "brand": "Mkt: Lords Homoeopathic Labaratory Pvt. Ltd.",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image8.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image8.jpg",
         "category": [
           "Ayush",
           "Homeopathy"
         ],
-        "images":[
+        "images": [
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small8-1.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small8-2.jpg",
           "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_small8-3.jpg"
         ],
-        "product-content":[
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 124.20,
+        "disc_price": 124.2,
         "price": "180.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda8.jpg"
@@ -2024,21 +1604,19 @@
         "id": 9,
         "name": "Adel Syzygium Jamb. Ø Liquid 20 ml",
         "brand": "Mkt: Adelmar Pharma GMBH",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image9.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image9.jpg",
         "category": [
           "Ayush",
           "Homeopathy"
         ],
-        "images":[
-          
-        ],
-        "product-content":[
+        "images": [],
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 272.80,
+        "disc_price": 272.8,
         "price": "310.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda9.jpg"
@@ -2047,21 +1625,19 @@
         "id": 10,
         "name": "DIAPAL TABLET 10'S",
         "brand": "Mkt: Dr Palep'S Medical Research Foundation Pvt Ltd",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image10.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image10.jpg",
         "category": [
           "Ayush",
           "Homeopathy"
         ],
-        "images":[
-          
-        ],
-        "product-content":[
+        "images": [],
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 60.00,
+        "disc_price": 60,
         "price": "",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda10.jpg"
@@ -2070,21 +1646,19 @@
         "id": 11,
         "name": "Dr. Reckeweg R40 Diaglukon Disturbances in Blood Sugar Metabolism Drops 22 ml",
         "brand": "Mkt: Dr. Roshanlal Aggarwal & Sons P. Ltd",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image11.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image11.jpg",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
-        "images":[
-          
-        ],
-        "product-content":[
+        "images": [],
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 230.90,
+        "disc_price": 230.9,
         "price": "315.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda11.jpg"
@@ -2093,15 +1667,13 @@
         "id": 12,
         "name": "Cresvin Beta Capsule 10's",
         "brand": "Mkt: Apex Laboratories Pvt Ltd",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image12.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image12.jpg",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
-        "images":[
-          
-        ],
-        "product-content":[
+        "images": [],
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
@@ -2116,21 +1688,19 @@
         "id": 13,
         "name": "Dr.Willmar Schwabe Syzygium Jambolanum Ø Liquid 30 ml",
         "brand": "Mkt: Dr. Willmar Schwabe India Pvt. Ltd.",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image13.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image13.jpg",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
-        "images":[
-          
-        ],
-        "product-content":[
+        "images": [],
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 78.00,
+        "disc_price": 78,
         "price": "Rs. 120.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda13.jpg"
@@ -2139,15 +1709,13 @@
         "id": 14,
         "name": "Adel 18 Glucorect Drops 20 ml",
         "brand": "Mkt: Adelmar Pharma GMBH",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image14.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image14.jpg",
         "category": [
           "Ayush",
           "Homeopathy"
         ],
-        "images":[
-          
-        ],
-        "product-content":[
+        "images": [],
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
@@ -2162,15 +1730,13 @@
         "id": 15,
         "name": "Dr. Reckeweg Syzygium Jamb Ø Liquid 20 ml",
         "brand": "Mkt: Dr. Roshanlal Aggarwal & Sons P. Ltd",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image15.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image15.jpg",
         "category": [
           "Ayush",
           "Homeopathy"
         ],
-        "images":[
-          
-        ],
-        "product-content":[
+        "images": [],
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
@@ -2185,15 +1751,13 @@
         "id": 16,
         "name": "SBL Syzygium Jambolanum 1X Tablet 25 gm",
         "brand": "Mkt: SBL Pvt. Ltd.",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image16.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image16.jpg",
         "category": [
           "Ayush",
           "Homeopathy"
         ],
-        "images":[
-          
-        ],
-        "product-content":[
+        "images": [],
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
@@ -2208,21 +1772,19 @@
         "id": 17,
         "name": "Dr. Willmar Schwabe Syzygium Jambolanum 1X Tablet 20 gm",
         "brand": "Mkt: Dr. Willmar Schwabe India Pvt. Ltd.",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image17.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image17.jpg",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
-        "images":[
-          
-        ],
-        "product-content":[
+        "images": [],
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 711.00,
+        "disc_price": 711,
         "price": "790.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda17.jpg"
@@ -2231,15 +1793,13 @@
         "id": 18,
         "name": "SBL Dibonil Tablets 25 gm",
         "brand": "Mkt: SBL Pvt. Ltd.",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image18.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image18.jpg",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
-        "images":[
-          
-        ],
-        "product-content":[
+        "images": [],
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
@@ -2254,21 +1814,19 @@
         "id": 19,
         "name": "Aimil BGR-34 Tablet 100's",
         "brand": "Mkt: Aimil Pharmaceuticals (India) Limited",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image19.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image19.jpg",
         "category": [
           "Ayush",
           "Homeopathy"
         ],
-        "images":[
-          
-        ],
-        "product-content":[
+        "images": [],
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 633.60,
+        "disc_price": 633.6,
         "price": "660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda19.jpg"
@@ -2277,25 +1835,782 @@
         "id": 20,
         "name": "Dr. Reckeweg BC 7 Tablet 20 gm",
         "brand": "Mkt: Dr. Roshanlal Aggarwal & Sons P. Ltd",
-        "mainImage":"assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image20.jpg",
+        "mainImage": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda_details/diabetes_care_ayurveda_main_image20.jpg",
         "category": [
           "Ayush",
           "Homeopathy"
         ],
-        "images":[
-          
-        ],
-        "product-content":[
+        "images": [],
+        "product-content": [
           "*This product cannot be returned for a refund or exchange.",
           "* Mkt: Roche Diabetes Care India Pvt LTD",
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 174.00,
+        "disc_price": 174,
         "price": "200.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda20.jpg"
       }
     ]
-  }
+  },
+  "skinCareProducts": {
+    "banner": "assets/images/skinCare/aromatherapy.jpg",
+    "items": [
+      {
+        "id": 1,
+        "name": "Aroma Treasures Pure Essential Oil - Lemon Grass 10 ml",
+        "brand": "Roohwellness",
+        "mainImage": "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg",
+        "category": [
+          "Aromatherapy",
+          "skincare"
+        ],
+        "images": [
+          "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg"
+        ],
+        "product-content": [
+          "This product cannot be returned for a refund or exchange.",
+          " Country of Origin: Germany",
+          "Country of Origin: India",
+          "Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 182.7,
+        "price": 210,
+        "disc": 13,
+        "image": "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg"
+      },
+      {
+        "id": "2",
+        "name": "Aroma Treasures Pure Essential Oil - Lemon 10 ml",
+        "brand": "Roohwellness",
+        "mainImage": "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_10_ml_0.jpg",
+        "category": [
+          "Aromatherapy",
+          "skincare"
+        ],
+        "images": [
+          "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_10_ml_2(small).jpg",
+          "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_10_ml_3(small2).jpg",
+          "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_10_ml_4 (small3).jpg"
+        ],
+        "product-content": [
+          "This product cannot be returned for a refund or exchange.",
+          "Mkt: Roohwellness",
+          "Country of Origin: India",
+          "Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 182,
+        "price": 210,
+        "disc": 13,
+        "image": "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_10_ml_0.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Baidyanath Rogan Badam Shirin Oil 25 ml",
+        "brand": "Shree Baidyanath Ayurved Bhawan Pvt Ltd",
+        "mainImage":"assets/images/skinCare/baidyanath_rogan_badam_shirin_oil_25_ml_75219_0_1.jpg",
+        "category": [
+          "Aromatherapy",
+          "skincare"
+        ],
+        "images":[
+          "assets/images/skinCare/baidyanath_rogan_badam_shirin_oil_25_ml_623414_1_0(small1).jpg",
+          "assets/images/skinCare/baidyanath_rogan_badam_shirin_oil_25_ml_623415_2_0(small2).jpg"
+        ],
+        "product-content":[
+          "This product cannot be returned for a refund or exchange.",
+          "Mkt: Shree Baidyanath Ayurved Bhawan Pvt Ltd",
+          "Country of Origin: India",
+          "Delivery charges if applicable will be applied at checkout"
+        ],  
+        "disc_price": 118.75,
+        "price": 125,
+        "disc": 5,
+        "image": "assets/images/skinCare/baidyanath_rogan_badam_shirin_oil_25_ml_75219_0_1.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Aroma Treasures Pure Essential Oil - Citronella 10 ml",
+        "brand": " Roohwellness",
+        "mainImage":"assets/images/skinCare/aroma_treasures_pure_essential_oil_citronella_10_ml_0.jpg",
+        "category": [
+          "Aromatherapy",
+          "skincare"
+        ],
+        "images": [
+          "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_10_ml_2(small).jpg",
+          "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_10_ml_3(small2).jpg",
+          "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_10_ml_4 (small3).jpg"
+        ],
+        "product-content":[
+          "This product cannot be returned for a refund or exchange.",
+          "Mkt: Roohwellness",
+          "Country of Origin: India",
+          "Delivery charges if applicable will be applied at checkout"
+        ],  
+        "disc_price": 182.7,
+        "price": 210,
+        "disc": 13,
+        "image": "assets/images/skinCare/aroma_treasures_pure_essential_oil_citronella_10_ml_0.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Aroma Magic Essential Oil - Jasmine 20 ml",
+        "brand": "Blossom Kochhar Beauty Products Pvt Ltd",
+        "mainImage":"assets/images/skinCare/aroma_magic_essential_oil_jasmine_20_ml_0.jpg",
+        "category": [
+          "Aromatherapy",
+          "skincare"
+        ],
+        "images":[
+          "assets/images/skinCare/aroma_magic_essential_oil_jasmine_20_ml_0.jpg",
+          "assets/images/skinCare/aroma_magic_essential_oil_jasmine_20_ml_1(small1).jpg"
+        ],
+        "product-content":[
+          "This product cannot be returned for a refund or exchange.",
+          "Mkt: Blossom Kochhar Beauty Products Pvt Ltd",
+          " Country of Origin: India",
+          "Delivery charges if applicable will be applied at checkout"
+        ],    
+        "disc_price": 440,
+        "price": 550,
+        "disc": 20,
+        "image": "assets/images/skinCare/aroma_magic_essential_oil_jasmine_20_ml_0.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Aroma Treasures Pure Essential Oil - Turmeric 10 ml",
+        "brand": " Roohwellness",
+        "mainImage":"assets/images/skinCare/aroma_treasures_pure_essential_oil_turmeric_10_ml_0.jpg",
+        "category": [
+          "Aromatherapy",
+          "skincare"
+        ],
+        "images":[
+          "assets/images/skinCare/aroma_treasures_pure_essential_oil_turmeric_10_ml_0.jpg",
+          "assets/images/skinCare/aroma_treasures_pure_essential_oil_turmeric_10_ml_1(small1).jpg"
+        ],
+        "product-content":[
+          "This product cannot be returned for a refund or exchange.",
+          "Mkt: Roohwellness",
+          "Country of Origin: India",
+          "Delivery charges if applicable will be applied at checkout"
+        ],    
+        "disc_price": 182.7,
+        "price": 210,
+        "disc": 13,
+        "image": "assets/images/skinCare/aroma_treasures_pure_essential_oil_turmeric_10_ml_0.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Aroma Magic Beautiful Skin Oil 20 ml",
+        "brand": "Blossom Kochhar Beauty Products Pvt Ltd",
+        "mainImage":"assets/images/skinCare/aroma_magic_beautiful_skin_oil_20_ml_0.jpg",
+        "category": [
+          "Aromatherapy",
+          "skincare"
+        ],
+        "images":[
+           "assets/images/skinCare/khadi_pure_herbal_essential_oil_lavender_15_ml_445062_0_0.jpg",
+            "assets/images/skinCare/aroma_magic_beautiful_skin_oil_20_ml_1(small1).jpg",
+            "assets/images/skinCare/aroma_magic_beautiful_skin_oil_20_ml_2(small2).jpg"
+        ],
+        "product-content":[
+        "This product cannot be returned for a refund or exchange",        
+        "Mkt: Blossom Kochhar Beauty Products Pvt Ltd",
+        " Country of Origin: India",
+        "Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 360,
+        "price": 450,
+        "disc": 20,
+        "image": "assets/images/skinCare/aroma_magic_beautiful_skin_oil_20_ml_0.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Khadi Pure Herbal Essential Oil - Lavender 15 ml",
+        "brand": "Khadi Natural Healthcare",
+        "mainImage": "assets/images/skinCare/khadi_pure_herbal_essential_oil_lavender_15_ml_445062_0_0.jpg",
+        "category": [
+          "Aromatherapy",
+          "skincare"
+        ],
+        "images":[
+          "assets/images/skinCare/khadi_pure_herbal_essential_oil_lavender_15_ml_445062_0_0.jpg"
+        ],
+        "product-content":[
+          "This product cannot be returned for a refund or exchange.",
+          "* Mkt: Khadi Natural Healthcare",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 180,
+        "price": 300,
+        "disc": 40,
+        "image": "assets/images/skinCare/khadi_pure_herbal_essential_oil_lavender_15_ml_445062_0_0.jpg"
+      }
+    ]
+  },
+  "CleansersProduct": {
+    "banner": "assets/images/skinCare/cleansers.jpg",
+    "items": [
+      {
+        "id": 1,
+        "name": "Cetaphil Gentle Skin Cleanser For Dry to Normal - Sensitive Skin 1000 ml",
+        "brand": " Galderma India Pvt Ltd",
+        "mainImage":"assets/images/skinCare/cetaphil_gentle_skin_cleanser_for_dry_to_normal_sensitive_skin_1000_ml_409945_0_1.jpg",
+        "category": [
+          "skincare",
+          "cleansers"
+        ],
+        "product-content":[
+          "This product cannot be returned for a refund or exchange.",
+          "Mkt: Galderma India Pvt Ltd",
+          "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+        ],  
+        "disc_price": 1595.05,
+        "price": 1679,
+        "disc": 5,
+        "image": "assets/images/skinCare/cetaphil_gentle_skin_cleanser_for_dry_to_normal_sensitive_skin_1000_ml_409945_0_1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Cetaphil Gentle Skin Cleanser For Dry to Normal - Sensitive Skin 500 ml",
+        "brand": " Galderma India Pvt Ltd",
+        "mainImage":"assets/images/skinCare/cetaphil_gentle_skin_cleanser_for_dry_to_normal_sensitive_skin_1000_ml_409945_0_1.jpg",
+        "category": [
+          "skincare",
+          "cleansers"
+        ],
+        "product-content":[
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Galderma India Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+
+        ],  
+        "disc_price": 1089.46,
+        "price": 1159,
+        "disc": 6,
+        "image": "assets/images/skinCare/cetaphil_gentle_skin_cleanser_for_dry_to_normal_sensitive_skin_1000_ml_409945_0_1.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Tulips Cotton Pads 50's",
+        "brand": " Galderma India Pvt Ltd",
+        "mainImage":"assets/images/skinCare/tulips_cotton_pads_50s_151584_0_2.jpg",
+        "category": [
+          "skincare",
+          "cleansers"
+        ],
+        "product-content":[
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Suparshva Swabs (I)",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+          ],  
+        "disc_price": 99,
+        "price": 199,
+        "image": "assets/images/skinCare/tulips_cotton_pads_50s_151584_0_2.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Himalaya Purifying Neem Face Scrub Neem & Apricoti 100% Natural Exfoliants 50gm",
+        "brand": " Himalaya Wellness Company",
+        "mainImage":"assets/images/skinCare/himalaya_purifying_neem_scrub_50_gm_0_2.jpg",
+        "category": [
+          "skincare",
+          "cleansers"
+        ],
+        "product-content":[
+          "This product cannot be returned for a refund or exchange.",
+          "* Mkt: Himalaya Wellness Company",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],  
+        "disc_price": 85,
+        "price": 185,
+        "disc": 10,
+        "image": "assets/images/skinCare/himalaya_purifying_neem_scrub_50_gm_0_2.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Tulips Absorbent Cotton Roll 100 gm",
+        "brand": " Suparshva Swabs (I)",
+        "mainImage":"assets/images/skinCare/tulips_absorbent_cotton_roll_100_gm_151592_0_2.jpg",
+        "category": [
+          "skincare",
+          "cleansers"
+        ],
+        "product-content":[
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Suparshva Swabs (I)",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+        ],    
+        "disc_price": 135,
+        "price": 235,
+        "disc": 10,
+        "image": "assets/images/skinCare/tulips_absorbent_cotton_roll_100_gm_151592_0_2.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Tulips Cotton Balls - Colour 50's",
+        "brand": "Suparshva Swabs (I)",
+        "mainImage":"assets/images/skinCare/tulips_cotton_balls_colour_50s_151576_0_2.jpg",
+        "category": [
+          "skincare",
+          "cleansers"
+        ],
+        "product-content":[
+          "This product cannot be returned for a refund or exchange.",
+            "* Mkt: Suparshva Swabs (I)",
+            "* Country of Origin: India",
+            "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 65,
+        "price": 165,
+        "disc": 10,
+        "image": "assets/images/skinCare/tulips_cotton_balls_colour_50s_151576_0_2.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Plum Chamomile and White Tea Brighten-Up Face Scrub 75gm",
+        "brand": " Vardhaman Remedies Pvt Ltd",
+        "mainImage":"assets/images/skinCare/plum_chamomile_and_white_tea_brighten_up_face_scrub_75gm_118818_0_3.jpg",
+        "category": [
+          "skincare",
+          "cleansers"
+        ],
+        "product-content":[
+          "This product cannot be returned for a refund or exchange.",
+          "* Mkt: Vardhaman Remedies Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],    
+        "disc_price": 356.25,
+        "price": 375,
+        "disc": 5,
+        "image": "assets/images/skinCare/plum_chamomile_and_white_tea_brighten_up_face_scrub_75gm_118818_0_3.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Ustraa Men's Face Scrub for De-Tans & Exfoliates with Garden Cress & Vitamin C 100gm",
+        "brand": "  Happily Unmarried Marketing Private Limited",
+        "mainImage":"assets/images/skinCare/ustraa_mens_face_scrub_for_de_tans_100_gm_0_0.jpg",
+        "category": [
+          "skincare",
+          "cleansers"
+        ],
+        "product-content":[
+          "This product cannot be returned for a refund or exchange.",
+        "* Mkt: Happily Unmarried Marketing Private Limited",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+        ],    
+        "disc_price": 399,
+        "price": 499,
+        "disc": 10,
+        "image": "assets/images/skinCare/ustraa_mens_face_scrub_for_de_tans_100_gm_0_0.jpg"
+      }
+    ]
+  },
+  "EyeCare": {
+    "banner": "assets/images/skinCare/eye_care.jpg",
+    "items": [
+      {
+        "id": 1,
+        "name": "Himalaya Kajal Eye Definer for Extra Smooth Cool Eyes 2.7 gm",
+        "brand": " Himalaya Wellness Company",
+        "mainImage":"assets/images/skinCare/himalaya_kajal_eye_definer_for_extra_smooth_cool_eyes_2_7_gm_0.jpg",
+        "category": [
+          "skincare",
+          "eye-care"
+        ],
+        "product-content":[
+              "*This product cannot be returned for a refund or exchange.",
+              "* Mkt: Himalaya Wellness Company",
+              "* Country of Origin: India",
+              "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 116.2,
+        "price": 140,
+        "disc": 17,
+        "image": "assets/images/skinCare/himalaya_kajal_eye_definer_for_extra_smooth_cool_eyes_2_7_gm_0.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Lotus Herbals YouthRx Gineplex Active Anti Ageing Exfoliator",
+        "brand": "Lotus Herbals Pvt Ltd",
+        "mainImage":"assets/images/skinCare/lotus_herbals_youthrx_gineplex_active_anti_ageing_exfoliator_0_2.jpg",
+        "category": [
+          "skincare",
+          "eye-care"
+        ],
+        "product-content":[
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Sprivil Healthcare Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 338.8,
+        "price": 385,
+        "disc": 12,
+        "image": "assets/images/skinCare/lotus_herbals_youthrx_gineplex_active_anti_ageing_exfoliator_0_2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Plum Bright Years Under-Eye Recovery Gel 15 ml",
+        "brand": "Sprivil Healthcare Pvt Ltd",
+        "mainImage":"assets/images/skinCare/plum_bright_years_under_eye_recovery_gel_15_ml_0_1.jpg",
+        "category": [
+          "skincare",
+          "eye-care"
+        ],
+        "product-content":[
+         "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Sprivil Healthcare Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 878.75,
+        "price": 925,
+        "disc": 5,
+        "image": "assets/images/skinCare/plum_bright_years_under_eye_recovery_gel_15_ml_0_1.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Plum Bright Years All-Day Defence Cream - SPF PA+++ 45 50ml",
+        "brand": " Sprivil Healthcare Pvt Ltd",
+        "mainImage":"assets/images/skinCare/plum_bright_years_all_day_defence_cream_spf_45_50_ml_0_2.jpg",
+        "category": [
+          "skincare",
+          "eye-care"
+        ],
+        "product-content":[
+         "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Eliph Nutrition Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 787.5,
+        "price": 875,
+        "disc": 10,
+        "image": "assets/images/skinCare/plum_bright_years_all_day_defence_cream_spf_45_50_ml_0_2.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Evver Anti-Aging Anti-Oxidant Face Serum C 25 ml",
+        "brand": " Eliph Nutrition Pvt Ltd",
+        "mainImage": "assets/images/skinCare/evver_anti_aging_anti_oxidant_face_serum_c_25_ml_0.jpg",
+        "category": [
+          "skincare",
+          "eye-care"
+        ],
+        "images":[
+          "assets/images/skinCare/plum_bright_years_all_day_defence_cream_spf_45_50_ml_0_2.jpg",
+          "assets/images/skinCare/evver_anti_aging_anti_oxidant_face_serum_c_25_ml_1(small1).jpg",
+          "assets/images/skinCare/evver_anti_aging_anti_oxidant_face_serum_c_25_ml_3(small2).jpg"
+        ],
+        "product-content":[
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Eliph Nutrition Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1199.2,
+        "price": 1499,
+        "disc": 20,
+        "image": "assets/images/skinCare/evver_anti_aging_anti_oxidant_face_serum_c_25_ml_0.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Evver Age-Defying Anti-Wrinkle Night Cream 50 ml",
+        "brand": " Eliph Nutrition Pvt Ltd",
+        "mainImage":"assets/images/skinCare/evver_age_defying_anti_wrinkle_night_cream_50_ml_0.jpg",
+        "category": [
+          "skincare",
+          "eye-care"
+        ],
+        "images":[
+              "assets/images/skinCare/evver_age_defying_anti_wrinkle_night_cream_50_ml_1(small1).jpg",
+              "assets/images/skinCare/evver_age_defying_anti_wrinkle_night_cream_50_ml_2(small2).jpg"
+        ],
+        "product-content":[
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Silver Line Laboratories Pvt. Ltd.",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 959.2,
+        "price": 1199,
+        "disc": 20,
+        "image": "assets/images/skinCare/evver_age_defying_anti_wrinkle_night_cream_50_ml_0.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Silver Line gpFresh Hydra pH Balanced Contact Lens Solution 380 ml",
+        "brand": "Silver Line Laboratories Pvt. Ltd.",
+        "mainImage":"assets/images/skinCare/silver_line_gp_fresh_hydra_lens_solution_380_ml_0_1.jpg",
+        "category": [
+          "skincare",
+          "eye-care"
+        ],
+        "images":[
+          "assets/images/skinCare/silver_line_gp_fresh_hydra_lens_solution_380_ml_1_1(small1).jpg",
+          "assets/images/skinCare/silver_line_gp_fresh_hydra_lens_solution_380_ml_2_1(small2).jpg"
+        ],
+        "product-content":[
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Silver Line Laboratories Pvt. Ltd.",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 650,
+        "price": 750,
+        "image": "assets/images/skinCare/silver_line_gp_fresh_hydra_lens_solution_380_ml_0_1.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Melalumin Under Eye Serum 15 ml",
+        "brand": " A MENARINI INDIA PVT LTD",
+        "mainImage":"assets/images/skinCare/melalumin_under_eye_serum_15_ml_0_2.jpg",
+        "category": [
+          "skincare",
+          "eye-care"
+        ],
+        "images":[
+          "assets/images/skinCare/melalumin_under_eye_serum_15_ml_1_2(small1).jpg",
+          "assets/images/skinCare/melalumin_under_eye_serum_15_ml_2_0(small2).jpg"
+        ],
+        "product-content":[
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: A MENARINI INDIA PVT LTD",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 779,
+        "price": 950,
+        "image": "assets/images/skinCare/melalumin_under_eye_serum_15_ml_0_2.jpg"
+      }
+    ]
+  },
+  "FaceCare": {
+    "banner": "assets/images/skinCare/face_skin_care.jpg",
+    "items": [
+      {
+        "id": 1,
+        "name": "SEBAMED CLEAR FACE CARE Gel 50ml",
+        "brand": " Usv Private Ltd",
+        "mainImage":"assets/images/skinCare/sebamed_clear_face_care_gel_50ml_34074_0_1.jpg",
+        "category": [
+          "FaceCare",
+          "BodyCare"
+        ],
+        "images":[
+          "assets/images/skinCare/sebamed_clear_face_care_gel_50ml_34074_0_1.jpg",
+          "assets/images/skinCare/sebamed_clear_face_care_gel_50ml_768216_1_0(small1).jpg",
+          "assets/images/skinCare/sebamed_clear_face_care_gel_50ml_768217_2_0(small2).jpg"
+        ],
+        "product-content":[
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Usv Private Ltd",
+          "* Country of Origin: Germany",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 473,
+        "price": 550,
+        "disc": 14,
+        "image": "assets/images/skinCare/sebamed_clear_face_care_gel_50ml_34074_0_1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Casmara Beauty Plan 3 in 1 Cleanser Liquid - Green Tea 150 ml",
+        "brand": "Esskay Beauty Resources Pvt Ltd.",
+        "mainImage": "assets/images/skinCare/casmara_beauty_plan_3_in_1_cleanser_liquid_green_tea_150_ml_0_0.jpg",
+        "category": [
+          "FaceCare",
+          "skincare"
+        ],
+        "images":[
+           "assets/images/skinCare/casmara_beauty_plan_3_in_1_cleanser_liquid_green_tea_150_ml_0_0.jpg",
+           "assets/images/skinCare/casmara_beauty_plan_3_in_1_cleanser_liquid_green_tea_150_ml_1_0(small1).jpg"
+        ],
+        "product-content":[
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Esskay Beauty Resources Pvt Ltd.",
+          "* Country of Origin: Spain",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1554,
+        "price": 1850,
+        "disc": 16,
+        "image": "assets/images/skinCare/casmara_beauty_plan_3_in_1_cleanser_liquid_green_tea_150_ml_0_0.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Himalaya Natural Glow Kesar Face Cream 50 gm",
+        "brand": " Himalaya Wellness Company",
+        "mainImage": "assets/images/skinCare/himalaya_natural_glow_kesar_face_cream_50_gm_0.jpg",
+        "category": [
+          "FaceCare",
+          "BodyCare"
+        ],
+        "product-content":[
+          "*This product cannot be returned for a refund or exchange.",
+            "* Mkt: Himalaya Wellness Company",
+            "* Country of Origin: India",
+            "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 83,
+        "price": 100,
+        "disc": 17,
+        "image": "assets/images/skinCare/himalaya_natural_glow_kesar_face_cream_50_gm_0.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Plum Green Tea Alcohol-Free Toner 200 ml",
+        "brand": " Sprivil Healthcare Pvt Ltd",
+        "mainImage": "assets/images/skinCare/plum_green_tea_alcohol_free_toner_200_ml_0_2.jpg",
+        "category": [
+          "FaceCare",
+          "BodyCare"
+        ],
+        "product-content":[
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Sprivil Healthcare Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 369.6,
+        "price": 420,
+        "disc": 12,
+        "image": "assets/images/skinCare/plum_green_tea_alcohol_free_toner_200_ml_0_2.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Lacto Calamine Oil Balance for Oily Skin Lotion 30 ml",
+        "brand": "Piramal Pharma Limited",
+        "mainImage":"assets/images/skinCare/lacto_calamine_oil_balance_for_oily_skin_lotion_30_ml_56068_0_5.jpg",
+        "category": [
+          "FaceCare",
+          "BodyCare"
+        ],
+        "images":[
+          "assets/images/skinCare/lacto_calamine_oil_balance_for_oily_skin_lotion_30_ml_56068_0_5.jpg",
+          "assets/images/skinCare/lacto_calamine_oil_balance_for_oily_skin_lotion_30_ml_56069_1_5(small1).jpg",
+          "assets/images/skinCare/lacto_calamine_oil_balance_for_oily_skin_lotion_30_ml_2_3(small2).jpg"
+        ],
+        "product-content":[
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Piramal Pharma Limited",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 67.5,
+        "price": 75,
+        "disc": 10,
+        "image": "assets/images/skinCare/lacto_calamine_oil_balance_for_oily_skin_lotion_30_ml_56068_0_5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Emami Smart & Handsome Brightening Cream For Men 30 g",
+        "brand": " Emami Ltd",
+        "mainImage":"assets/images/skinCare/fair_and_handsome_long_lasting_radiance_cream_30_gm_484158_0_0.jpg",
+        "category": [
+          "FaceCare",
+          "BodyCare"
+        ],
+        "images":[
+            "assets/images/skinCare/fair_and_handsome_long_lasting_radiance_cream_30_gm_484158_0_0.jpg",
+            "assets/images/skinCare/smart_and_handsome_long_lasting_radiance_cream_30_g_484159_1_1(small1).jpg",
+            "assets/images/skinCare/smart_and_handsome_long_lasting_radiance_cream_30_g_839606_2_0(small2).jpg"
+        ],
+        "product-content":[
+          "*This product cannot be returned for a refund or exchange.",
+            "* Mkt: Emami Ltd",
+            "* Country of Origin: India",
+            "* Delivery charges if applicable will be applied at checkout"
+
+        ],
+        "disc_price": 85.5,
+        "price": 90,
+        "disc": 5,
+        "image": "assets/images/skinCare/fair_and_handsome_long_lasting_radiance_cream_30_gm_484158_0_0.jpg"
+      },
+      {
+        "id": 7,
+        "name": "VLCC New Gold Single Facial Kit 60 gm",
+        "brand": "VLCC Personal Care Ltd",
+        "mainImage":"assets/images/skinCare/gold_single_facial_kit_1s_0_2.jpg",
+        "category": [
+          "FaceCare",
+          "BodyCare"
+        ],
+        "product-content":[
+          "*This product cannot be returned for a refund or exchange.",
+        "* Mkt: VLCC Personal Care Ltd",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+
+        ],
+        "disc_price": 272,
+        "price": 320,
+        "disc": 15,
+        "image": "assets/images/skinCare/gold_single_facial_kit_1s_0_2.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Olay Natural Aura Instant with UV Protection Fairness Cream 20 gm",
+        "brand": "Procter & Gamble Home Products Private Limited",
+        "mainImage":"assets/images/skinCare/olay_natural_aura_instant_with_uv_protection_fairness_cream_20_gm_0_1.jpg ",
+        "category": [
+          "FaceCare",
+          "BodyCare"
+        ],
+        "images":[
+          "assets/images/skinCare/olay_natural_aura_instant_with_uv_protection_fairness_cream_20_gm_0_1.jpg "
+        ],
+        "product-content":[
+          "This product cannot be returned for a refund or exchange.",
+          "* Mkt: Procter & Gamble Home Products Private Limited",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 92.07,
+        "price": 99,
+        "disc": 7,
+        "image": "assets/images/skinCare/olay_natural_aura_instant_with_uv_protection_fairness_cream_20_gm_0_1.jpg "
+      }
+    ]
+  },
+  "cart": [
+    {
+      "id": "1",
+      "name": "Aroma Treasures Pure Essential Oil - Lemon Grass 10 ml",
+      "brand": "Roohwellness",
+      "mainImage": "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg",
+      "category": [
+        "Aromatherapy",
+        "skincare"
+      ],
+      "images": [
+        "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg"
+      ],
+      "product-content": [
+        "This product cannot be returned for a refund or exchange.",
+        " Country of Origin: Germany",
+        "Country of Origin: India",
+        "Delivery charges if applicable will be applied at checkout"
+      ],
+      "disc_price": 182.7,
+      "price": 210,
+      "disc": 13,
+      "image": "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg",
+      "productId": 1,
+      "quantity": 1
+    }
+  ]
 }
