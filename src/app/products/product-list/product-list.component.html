@@ -1,33 +1,40 @@
+
 <div class="row me-2">
-  <div class="col-3">
-
-  </div>
-
-  <div class="col-9">
-    <div>
-      <img [src]="bannerImg" class="shadow-sm w-100 rounded"  />
-      <div class="row my-4 bg-white p-1 rounded-2">
-        <div class="col-md-3  " *ngFor="let product of products" (click)="goToDetail(product.id)">
-          <div class="card my-3 p-2" style="cursor: pointer;">
-            <div class="d-flex justify-content-center">
-              <img class="pro_img" [src]="product.image" />
-            </div>
-            <p class="product_content mt-3">{{ product.name }}</p>
-
-            <div class="d-flex gap-2 flex-wrap">
-              <p class="product_category mt-2" *ngFor="let dt of product.category">{{ dt }}</p>
-            </div>
-
-            <span class="drug_varient mt-2">Mkt: {{ product.brand | custom:28 }}</span>
-            <p class="product_disc_price mt-1">₹{{ product.disc_price }}</p>
-            <span class="text-decoration-line-through product_old_price mt-1">
-              MRP Rs.{{ product.price }}
-            </span>
-            <button class="btn mt-4">Add To Cart</button>
-          </div>
-        </div>
-      </div>
+    <div class="col-3">
+        <!-- Optional content -->
     </div>
 
-  </div>
+    <div class="col-9">
+        <!-- Banner Image or Fallback Div -->
+        <img *ngIf="bannerImg" [src]="bannerImg" class="shadow-sm w-100 rounded" />
+
+        <div *ngIf="!bannerImg" class="banner-div  rounded d-flex align-items-start justify-content-start me-2"
+            style="height: 180px;">
+            <p class="banner-text ms-4 mt-3">{{bannerText}}</p>
+        </div>
+
+        <!-- Product List -->
+        <div class="row my-4 bg-white p-1 rounded-2">
+            <div class="col-md-3" *ngFor="let product of products" (click)="goToDetail(product.id)">
+                <div class="card my-3 p-2" style="cursor: pointer;">
+                    <div class="d-flex justify-content-center">
+                        <img class="pro_img" [src]="product.image" />
+                    </div>
+                    <p class="product_content mt-3">{{ product.name }}</p>
+
+                    <div class="d-flex gap-2 flex-wrap">
+                        <p class="product_category mt-2" *ngFor="let dt of product.category">{{ dt }}</p>
+                    </div>
+
+                    <span class="drug_varient mt-2">Mkt: {{ product.brand | custom:28 }}</span>
+                    <p class="product_disc_price mt-1">₹{{ product.disc_price }}</p>
+                    <span class="text-decoration-line-through product_old_price mt-1">
+                        MRP Rs.{{ product.price }}
+                    </span>
+                    <button class="btn mt-4">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+

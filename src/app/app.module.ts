@@ -7,13 +7,10 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { FormsModule } from '@angular/forms';
 import { ProductsModule } from './products/products.module';
-import { CustomPipe } from './shared/pipes/custom.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    // CustomPipe
-
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +18,8 @@ import { CustomPipe } from './shared/pipes/custom.pipe';
     CoreModule,
     SharedModule,
     FormsModule,
-    ProductsModule
+    ProductsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
