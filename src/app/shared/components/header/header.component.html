@@ -46,11 +46,12 @@
                 <a class="nav-link text-white ms-1" role="button" routerLink="">Offers</a>
             </div>
             <!-- Cart -->
-            <div class="position-relative mx-3 d-flex">
-                <img src="assets/images/header/cart_icon.svg" [height]="imgsize1" [width]="imgsize1" alt="">
-                <span class="badge rounded-pill text-bg-danger bottom-50 end-50 position-absolute">0</span>
-                <a class="nav-link text-white ms-1" role="button" routerLink="">Cart</a>
-            </div>
+        <div class="position-relative mx-3 d-flex align-items-center">
+                <img src="assets/images/header/cart_icon.svg" [height]="imgsize1" [width]="imgsize1" alt="Cart">
+             <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" *ngIf="cartCount > 0">{{ cartCount }}</span>
+                <a [routerLink]="['/carts', 'cart']" class="nav-link text-white ms-1" role="button">Cart</a>
+        </div>
+
 
             <!-- Sign-in-up / Welcome -->
             <div class="mx-3 d-flex align-items-center">
