@@ -2297,5 +2297,75 @@
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda20.jpg"
       }
     ]
-  }
+  },
+
+
+"HealthLibrary": {
+        "Ailments": [
+            {
+                "heading": "Monsoon Infections: 5 OTC Products ..",
+                "img": "assets/images/healthCorner/healthLibrary/ailments/1.jpg",
+                "description": "The monsoons have arrived, bringing in much respite from the scorching summer an..."
+            },
+            {
+                "heading": "Fever: Types, Causes, Symptoms And ..",
+                "img": "assets/images/healthCorner/healthLibrary/ailments/2.jpg",
+                "description": "Fever, also known as pyrexia, high temperature or high fever is the body’s..."
+            },
+            {
+                "heading": "Ear Pain: Know The Various Causes O..",
+                "img": "assets/images/healthCorner/healthLibrary/ailments/3.jpg",
+                "description": "The pair of ears in the human system are pivotal sensory organs responsible for ..."
+            },
+            {
+                "heading": "Kidney Health: Know About 11 Early ..",
+                "img": "assets/images/healthCorner/healthLibrary/ailments/4.jpg",
+                "description": "More than millions of people are living with kidney disease, and most don’..."
+            }
+        ],
+        "beautyFitness": [
+            {
+                "heading": "Sallow Skin: 3 Step Skincare To Get..",
+                "img": "assets/images/healthCorner/healthLibrary/beautyFitness/1.jpg",
+                "description": "Amidst the growing number of positive coronavirus cases, every day and people st..."
+            },
+            {
+                "heading": "Skincare Therapies: 5 Best At-Home ..",
+                "img": "assets/images/healthCorner/healthLibrary/beautyFitness/2.jpg",
+                "description": "Ever wish you could get that post-facial glow without stepping into a spa? Well,..."
+            },
+            {
+                "heading": "Warts: 3 DIY Home Remedies To Ward ..",
+                "img": "assets/images/healthCorner/healthLibrary/beautyFitness/3.jpg",
+                "description": "Warts are small, rough, irregular growths on the skin that are usually caused by..."
+            },
+            {
+                "heading": "Skin Turgor and Hydration: What It ..",
+                "img": "assets/images/healthCorner/healthLibrary/beautyFitness/4.jpg",
+                "description": "Ever pinched your skin to check if you are dehydrated? That little test is actua..."
+            }
+        ],
+        "food": [
+            {
+                "heading": "Rice Milk: Nutrition, Health Benefi..",
+                "img": "assets/images/healthCorner/healthLibrary/food/1.jpg",
+                "description": "Rice milk is a plant-based dairy alternative, which is valued for its natural sw..."
+            },
+            {
+                "heading": "Monsoon Viral Fever: Causes, Foods ..",
+                "img": "assets/images/healthCorner/healthLibrary/food/2.jpg",
+                "description": "The monsoon brings the much-needed relief from the hot summer season with a refr..."
+            },
+            {
+                "heading": "Maida vs. Wheat Flour: Differences,..",
+                "img": "assets/images/healthCorner/healthLibrary/food/3.jpg",
+                "description": "Maida (all-purpose flour) and wheat flour are two staple elements used widely in..."
+            },
+            {
+                "heading": "What Is Indian Vegetarian Diet Plan..",
+                "img": "assets/images/healthCorner/healthLibrary/food/4.jpg",
+                "description": "A wholesome and balanced diet is essential to living a healthy life and staying ..."
+            }
+        ]
+    }
 }
