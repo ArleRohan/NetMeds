@@ -18,6 +18,7 @@ const routes: Routes = [
   declarations: [
     ProductListComponent,
     ProductDetailsComponent,
+    // CustomPipe
   ],
   imports: [
     RouterModule.forChild(routes),

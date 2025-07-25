@@ -5,8 +5,8 @@
 
     <div class="col-9">
         <div>
-            <img *ngIf="!sectionBannerImg" [src]="sectionBannerImg" class="shadow-sm w-100 rounded" />
-            <div *ngIf="sectionBannerImg"
+            <img *ngIf="sectionBannerImg" [src]="sectionBannerImg" class="shadow-sm w-100 rounded" />
+            <div *ngIf="!sectionBannerImg"
                         class="banner-div  rounded d-flex align-items-start justify-content-start me-2"
                         style="height: 180px;">
                         <p class="banner-text ms-4 mt-3">Diabetes Support</p>
@@ -35,10 +35,15 @@
                             <p class="product_category mt-2" *ngFor="let dt of product.category">{{ dt }}</p>
                         </div>
 
-                        <span class="drug_varient mt-2">Mkt: {{ product.brand | custom:28 }}</span>
+                        <!-- <span class="drug_varient mt-2">Mkt: {{ product.brand | custom:28 }}</span>
                         <p class="product_disc_price mt-1">{{ product.disc_price | currency : "INR"}}</p>
                         <span class="text-decoration-line-through product_old_price mt-1">
                             MRP {{ product.price | currency:'INR'}}
+                        </span> -->
+                        <span class="drug_varient mt-2">Mkt: {{ product.brand  }}</span>
+                        <p class="product_disc_price mt-1">₹{{ product.disc_price }}</p>
+                        <span class="text-decoration-line-through product_old_price mt-1">
+                            MRP ₹{{ product.price }}
                         </span>
                         <button class="btn mt-4">Add To Cart</button>
                     </div>

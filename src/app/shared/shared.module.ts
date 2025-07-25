@@ -57,13 +57,15 @@ const routes: Routes = [
     CoronaAwarenessComponent,
     SideBarComponent,
     EyesComponent,
-    CustomPipe
+    BlogsComponent,
+    CustomPipe,
+    CategoryComponent
   ],
   imports: [
     RouterModule.forChild(routes),
     CommonModule,
     FormsModule,
-    
+    // CustomPipe
   ],
   exports: [
     FooterComponent,

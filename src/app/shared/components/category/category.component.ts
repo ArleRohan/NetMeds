@@ -27,6 +27,7 @@ export class CategoryComponent implements OnInit {
 
   ngOnInit() {
     this.actRoute.params.subscribe(params => {
+      debugger
       this.key = params['keyName'];
       console.log("keyName :", this.key);
       this.getAllProducts(this.key)
