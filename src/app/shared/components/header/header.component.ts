@@ -95,14 +95,15 @@ export class HeaderComponent {
         {routepath: "", category : "Maternity Accessories"}
     ];
 
+   
     public personalcareroutes : any = [
-        {routepath: "", category : "Home & Health"},
-        {routepath: "", category : "Senior Care"},
-        {routepath: "", category : "Face Personal Care"},
+        {routepath: "Home&HealthProducts", category : "Home & Health"},
+        {routepath: "SeniorCareProducts", category : "Senior Care"},
+        {routepath: "FacePersonalCareProducts", category : "Face Personal Care"},
         {routepath: "", category : "Hands & Feet"},
         {routepath: "", category : "Oral Care"},
         {routepath: "", category : "Bath & Shower"},
-        {routepath: "", category : "Body Care"},
+        {routepath: "BodyCareProducts", category : "Body Care"},
         {routepath: "", category : "Personal Care Tools & Accessories"},
         {routepath: "", category : "Lip Care"},
         {routepath: "", category : "Bathing Accessories"}

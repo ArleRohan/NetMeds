@@ -2956,5 +2956,1626 @@
                 "description": "A wholesome and balanced diet is essential to living a healthy life and staying ..."
             }
         ]
-    }
+    },
+    "Home&HealthProducts": {
+    "banner": "assets/images/Wellness/Personal Care/Home & Health/home_health_banner.jpg",
+    "items": [
+      {
+        "id": 1,
+        "name": "Romsons Kare N95 Face Mask 1's",
+        "brand": "Romsons Scientific & Surgical Pvt Ltd",
+        "mainImage": "assets/images/Wellness/Personal Care/Home & Health/Mask1Small_H&H.jpg",
+        "category": [
+          "Covid Essentials",
+          "Equipment"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Home & Health/Mask1Small_H&H.jpg",
+          "assets/images/Wellness/Personal Care/Home & Health/Mask2Small_H&H.jpg",
+          "assets/images/Wellness/Personal Care/Home & Health/Mask3Small_H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Romsons Scientific & Surgical Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 73.50,
+        "price": "210",
+        "disc": 65,
+        "image": "assets/images/Wellness/Personal Care/Home & Health/home-health1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Romsons Maxx Face Protector Shield (GS-6111)",
+        "brand": "Romsons Scientific & Surgical Pvt Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Home & Health/small_Img1Mask2H&H.jpg",
+        "category": [
+          "Covid Essentials",
+          "Equipment"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Home & Health/small_Img1Mask2H&H.jpg",
+          "assets/images/Wellness/Personal Care/Home & Health/small_Img1Mask2H&H.jpg",
+          "assets/images/Wellness/Personal Care/Home & Health/small_Img2Mask2H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Romsons Scientific & Surgical Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 135.50,
+        "price": "210",
+        "disc": 35,
+        "image": "assets/images/Wellness/Personal Care/Home & Health/home-health2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Renu Fresh Multi Purpose Solution 500 ml",
+        "brand": "Bausch & Lomb India Private Limited",
+        "mainImage":"assets/images/Wellness/Personal Care/Home & Health/renu_small1H&H.jpg",
+        "category": [
+          "Eyewear ",
+          "Contact Lenses(EW)"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Home & Health/renu_small1H&H.jpg",
+          "assets/images/Wellness/Personal Care/Home & Health/renu_small2H&H.jpg",
+          "assets/images/Wellness/Personal Care/Home & Health/renu_small3H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Bausch & Lomb India Private Limited",
+          "* Country of Origin: United States",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 640,
+        "price": "640",
+        "disc": 0,
+        "image": "assets/images/Wellness/Personal Care/Home & Health/home-health3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Face Shield with Elastic Band",
+        "brand": "R K Traders",
+        "mainImage": "assets/images/Wellness/Personal Care/Home & Health/face_shield_small1H&H.jpg",
+        "category": [
+          "Covid Essentials",
+          "Travel"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Home & Health/face_shield_small1H&H.jpg",
+          "assets/images/Wellness/Personal Care/Home & Health/face_shield_small2H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: R K Traders",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 88.00,
+        "price": "100",
+        "disc": 12,
+        "image": "assets/images/Wellness/Personal Care/Home & Health/home-health4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "3 Ply Disposable Face Mask 10's",
+        "brand": "Pentagon Labs Limited ",
+        "mainImage":"assets/images/Wellness/Personal Care/Home & Health/3_ply_small1H&H.jpg",
+        "category": [
+          "Devices",
+          "Breath Easy"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Home & Health/3_ply_small1H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:Pentagon Labs Limited",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 20,
+        "price": "20",
+        "disc": 0,
+        "image": "assets/images/Wellness/Personal Care/Home & Health/home-health5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Biotrue Multi Purpose Solution 300 ml",
+        "brand": "Bausch & Lomb India Private Limited",
+        "mainImage":"assets/images/Wellness/Personal Care/Home & Health/biotrue_small1H&H.jpg",
+        "category": [
+          "Offers",
+          " MegaSaving"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Home & Health/biotrue_small1H&H.jpg",
+          "assets/images/Wellness/Personal Care/Home & Health/biotrue_small2H&H.jpg",
+          "assets/images/Wellness/Personal Care/Home & Health/biotrue_small3H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Bausch & Lomb India Private Limited",
+          "* Country of Origin: United States",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 600,
+        "price": "600",
+        "disc": 0,
+        "image": "assets/images/Wellness/Personal Care/Home & Health/home-health6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Neuherbs True Vitamin Tablet 60's",
+        "brand": " Global Healthfit Retail (India) LLP",
+        "mainImage": "assets/images/Wellness/Personal Care/Home & Health/neuherbs_small1H&H.jpg",
+        "category": [
+          "PersonalCare",
+          "Home&Health"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Home & Health/neuherbs_small1H&H.jpg",
+          "assets/images/Wellness/Personal Care/Home & Health/neuherbs_small2H&H.jpg",
+          "assets/images/Wellness/Personal Care/Home & Health/neuherbs_small3H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:  Global Healthfit Retail (India) LLP",
+          "* Country of Origin:  India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 602.33,
+        "price": "899",
+        "disc": 33,
+        "image": "assets/images/Wellness/Personal Care/Home & Health/home-health7.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Dettol Antiseptic Liquid 125 ml",
+        "brand": " Reckitt Benckiser Healthcare India Pvt Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Home & Health/dettol_small1H&H.jpg",
+        "category": [
+          "Covid",
+          "Personal&Home"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Home & Health/dettol_small1H&H.jpg",
+          "assets/images/Wellness/Personal Care/Home & Health/dettol_small2H&H.jpg",
+          "assets/images/Wellness/Personal Care/Home & Health/dettol_small3H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:  Reckitt Benckiser Healthcare India Pvt Ltd",
+          "* Country of Origin:  India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 77.30,
+        "price": "80.52",
+        "disc": 4,
+        "image": "assets/images/Wellness/Personal Care/Home & Health/home-health8.jpg"
+      }
+    ]
+  },
+  "SeniorCareProducts": {
+    "banner": "assets/images/Wellness/Personal Care/Senior Care/senior-care_banner.jpeg",
+    "items": [
+      {
+        "id": 1,
+        "name": "Pro360 Ortho Nutritional Veg Powder - Vanilla Flavour 250 gm",
+        "brand": "GMN HEALTHCARE PRIVATE LTD",
+        "mainImage":"assets/images/Wellness/Personal Care/Senior Care/pro360_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Senior Care/pro360_small1SC.jpg",
+          "assets/images/Wellness/Personal Care/Senior Care/pro360_small2SC.jpg",
+          "assets/images/Wellness/Personal Care/Senior Care/pro360_small3SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:GMN HEALTHCARE PRIVATE LTD",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 446.25,
+        "price": "525.00",
+        "disc": 15,
+        "image": "assets/images/Wellness/Personal Care/Senior Care/senior care1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Hope Adult Diapers 10's (L)",
+        "brand": "Nasibdar International",
+        "mainImage":  "assets/images/Wellness/Personal Care/Senior Care/hope_adult_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Senior Care/hope_adult_small1SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Nasibdar International",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 441.00,
+        "price": "525.00",
+        "disc": 16,
+        "image": "assets/images/Wellness/Personal Care/Senior Care/senior care2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Romsons Aero Neb Jet Nebulizer (SH-2086) - Adult",
+        "brand": "Romsons Group Private Limited",
+        "mainImage": "assets/images/Wellness/Personal Care/Senior Care/romsons_aero_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Senior Care/romsons_aero_small1SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Romsons Group Private Limited",
+          "* Country of Origin:  India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 243.20,
+        "price": "608.00",
+        "disc": 60,
+        "image": "assets/images/Wellness/Personal Care/Senior Care/senior care3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Lifree Extra Absorb Adult Diaper Pants (XL) 10's",
+        "brand": " Unicharm India Pvt Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Senior Care/lifree_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Senior Care/lifree_small1SC.jpg",
+          "assets/images/Wellness/Personal Care/Senior Care/lifree_small2SC.jpg",
+          "assets/images/Wellness/Personal Care/Senior Care/lifree_small3SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Unicharm India Pvt Ltd",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 450.00,
+        "price": "600.00",
+        "disc": 25,
+        "image": "assets/images/Wellness/Personal Care/Senior Care/senior care4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Tynor Ortho Cushion Seat (UN) (H 23)",
+        "brand": " Tynor Orthotics Private Limited",
+        "mainImage": "assets/images/Wellness/Personal Care/Senior Care/tynor_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Senior Care/tynor_small1SC.jpg",
+          "assets/images/Wellness/Personal Care/Senior Care/tynor_small2SC.jpg",
+          "assets/images/Wellness/Personal Care/Senior Care/tynor_small3SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:Tynor Orthotics Private Limited",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1189.96,
+        "price": "1676.00",
+        "disc": 29,
+        "image": "assets/images/Wellness/Personal Care/Senior Care/senior care5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Friends Adult Dry Pants - Classic (M) 10's",
+        "brand": "  NOBEL HYGIENE PVT LTD",
+        "mainImage":  "assets/images/Wellness/Personal Care/Senior Care/friends_M_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Senior Care/friends_M_small1SC.jpg",
+          "assets/images/Wellness/Personal Care/Senior Care/friends_M_small2SC.jpg",
+          "assets/images/Wellness/Personal Care/Senior Care/friends_M_small3SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: NOBEL HYGIENE PVT LTD",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 544.50,
+        "price": "605.00",
+        "disc": 10,
+        "image": "assets/images/Wellness/Personal Care/Senior Care/senior care6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Friends Adult Dry Pants - Classic (L) 10's",
+        "brand": "  NOBEL HYGIENE PVT LTD",
+        "mainImage": "assets/images/Wellness/Personal Care/Senior Care/friends_L_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Senior Care/friends_L_small1SC.jpg",
+          "assets/images/Wellness/Personal Care/Senior Care/friends_L_small2SC.jpg",
+          "assets/images/Wellness/Personal Care/Senior Care/friends_L_small3SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:  NOBEL HYGIENE PVT LTD",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 514.25,
+        "price": "605.00",
+        "disc": 15,
+        "image": "assets/images/Wellness/Personal Care/Senior Care/senior care7.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Himalaya Adult Diaper (L) 10's",
+        "brand": "  Himalaya Wellness Company",
+        "mainImage":"assets/images/Wellness/Personal Care/Senior Care/himalaya_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Senior Care/himalaya_small1SC.jpg",
+          "assets/images/Wellness/Personal Care/Senior Care/himalaya_small2SC.jpg",
+          "assets/images/Wellness/Personal Care/Senior Care/himalaya_small3SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Himalaya Wellness Company",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 528.00,
+        "price": "600.00",
+        "disc": 12,
+        "image": "assets/images/Wellness/Personal Care/Senior Care/senior care8.jpg"
+      }
+    ]
+  },
+  "FacePersonalCareProducts": {
+    "banner": "assets/images/Wellness/Personal Care/Face Personal Care/face_personalCare_banner.jpg",
+    "items": [
+      {
+        "id": 1,
+        "name": "AHAGLOW S FOAMING Face Wash 100ml",
+        "brand": " Torrent Pharmaceuticals Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Face Personal Care/ahaglow_smallFPC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Face Personal Care/ahaglow_smallFPC1.jpg",
+          "assets/images/Wellness/Personal Care/Face Personal Care/ahaglow_smallFPC2.jpg",
+          "assets/images/Wellness/Personal Care/Face Personal Care/ahaglow_smallFPC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:Torrent Pharmaceuticals Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 710.22,
+        "price": "798.00",
+        "disc": 11,
+        "image": "assets/images/Wellness/Personal Care/Face Personal Care/face personalCare1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "LITE GLO Face Wash 100ml",
+        "brand": "  Glenmark Pharmaceuticals Ltd",
+        "mainImage": "assets/images/Wellness/Personal Care/Face Personal Care/lite_glo_smallFPC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Face Personal Care/lite_glo_smallFPC1.jpg",
+          "assets/images/Wellness/Personal Care/Face Personal Care/lite_glo_smallFPC2.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Glenmark Pharmaceuticals Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 369.26,
+        "price": "499.00",
+        "disc": 26,
+        "image": "assets/images/Wellness/Personal Care/Face Personal Care/face personalCare2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "CeraVe AM Facial Moisturising Lotion - Normal to Dry Skin 52 ml",
+        "brand": " Loreal India Pvt Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Face Personal Care/cerave_smallPFC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Face Personal Care/cerave_smallPFC1.jpg",
+          "assets/images/Wellness/Personal Care/Face Personal Care/cerave_smallPFC2.jpg",
+          "assets/images/Wellness/Personal Care/Face Personal Care/cerave_smallPFC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Loreal India Pvt Ltd",
+          "* Country of Origin: France ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1196.00,
+        "price": "1300.00",
+        "disc": 8,
+        "image": "assets/images/Wellness/Personal Care/Face Personal Care/face personalCare3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "AHAGLOW ADVANCED Face Wash Gel 50gm",
+        "brand": " Torrent Pharmaceuticals Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Face Personal Care/ahaglow_advanced_smallPFC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Face Personal Care/ahaglow_advanced_smallPFC1.jpg",
+          "assets/images/Wellness/Personal Care/Face Personal Care/ahaglow_advanced_smallPFC2.jpg",
+          "assets/images/Wellness/Personal Care/Face Personal Care/ahaglow_advanced_smallPFC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Torrent Pharmaceuticals Ltd",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 317.73,
+        "price": "357.00",
+        "disc": 11,
+        "image": "assets/images/Wellness/Personal Care/Face Personal Care/face personalCare4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "AHAGLOW S FOAMING Face Wash 60ml",
+        "brand": " Torrent Pharmaceuticals Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Face Personal Care/ahaglow_s_foaming_smallPFC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Face Personal Care/ahaglow_s_foaming_smallPFC1.jpg",
+          "assets/images/Wellness/Personal Care/Face Personal Care/ahaglow_s_foaming_smallPFC2.jpg",
+          "assets/images/Wellness/Personal Care/Face Personal Care/ahaglow_s_foaming_smallPFC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:  Torrent Pharmaceuticals Ltd",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 600.75,
+        "price": "675.00",
+        "disc": 11,
+        "image": "assets/images/Wellness/Personal Care/Face Personal Care/face personalCare5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "CeraVe Foaming Cleanser For Normal To Oily Skin 236 ml",
+        "brand": "  Loreal India Pvt Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Face Personal Care/cerave_foaming_cleanser_smallPFC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Face Personal Care/cerave_foaming_cleanser_smallPFC1.jpg",
+          "assets/images/Wellness/Personal Care/Face Personal Care/cerave_foaming_cleanser_smallPFC2.jpg",
+          "assets/images/Wellness/Personal Care/Face Personal Care/cerave_foaming_cleanser_smallPFC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Loreal India Pvt Ltd",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1058.00,
+        "price": "1150.00",
+        "disc": 8,
+        "image": "assets/images/Wellness/Personal Care/Face Personal Care/face personalCare6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Cetaphil Oily Skin Cleanser 125ml",
+        "brand": "  Galderma India Pvt Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Face Personal Care/cetaphil_smallPFC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Face Personal Care/cetaphil_smallPFC1.jpg",
+          "assets/images/Wellness/Personal Care/Face Personal Care/cetaphil_smallPFC2.jpg",
+          "assets/images/Wellness/Personal Care/Face Personal Care/cetaphil_smallPFC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:Galderma India Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 643.08,
+        "price": "699.00",
+        "disc": 8,
+        "image": "assets/images/Wellness/Personal Care/Face Personal Care/face personalCare7.jpg"
+      },
+      {
+        "id": 8,
+        "name": "CeraVe Hydrating Cleanser For Normal To Dry Skin 473 ml",
+        "brand": "  Loreal India Pvt Ltd",
+        "mainImage": "assets/images/Wellness/Personal Care/Face Personal Care/cerave_hydrating_smallPFC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Face Personal Care/cerave_hydrating_smallPFC1.jpg",
+          "assets/images/Wellness/Personal Care/Face Personal Care/cerave_hydrating_smallPFC2.jpg",
+          "assets/images/Wellness/Personal Care/Face Personal Care/cerave_hydrating_smallPFC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Loreal India Pvt Ltd",
+          "* Country of Origin: France ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 919.08,
+        "price": "999.00",
+        "disc": 8,
+        "image": "assets/images/Wellness/Personal Care/Face Personal Care/face personalCare8.jpg"
+      }
+    ]
+  },
+  "BodyCareProducts": {
+    "banner": "assets/images/Wellness/Personal Care/Body Care/body_care_banner.jpg",
+    "items": [
+      {
+        "id": 1,
+        "name": "Cetaphil Moisturizing Lotion Normal to Combination - Sensitive Skin 250 ml",
+        "brand": " Galderma India Pvt Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Body Care/cetaphil_moisturizing_BC1.jpg",
+        "category": [
+          "Personal Care",
+          " Body Care"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Body Care/cetaphil_moisturizing_BC1.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/cetaphil_moisturizing_BC2.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/cetaphil_moisturizing_BC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:Galderma India Pvt Ltd ",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1133.10,
+        "price": "1259.00",
+        "disc": 10,
+        "image": "assets/images/Wellness/Personal Care/Body Care/body care1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Cetaphil Moisturizing Lotion Normal to Combination - Sensitive Skin 100 ml",
+        "brand": " Galderma India Pvt Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Body Care/cetaphil_moisturizing_lotion_smallBC1.jpg",
+        "category": [
+          "Personal Care",
+          " Body Care"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Body Care/cetaphil_moisturizing_lotion_smallBC1.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/cetaphil_moisturizing_lotion_smallBC2.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/cetaphil_moisturizing_lotion_smallBC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Galderma India Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 558.00,
+        "price": "620.00",
+        "disc": 10,
+        "image": "assets/images/Wellness/Personal Care/Body Care/body care2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "CeraVe Moisturising Cream For Dry To Very Dry Skin 340 gm",
+        "brand": "  Loreal India Pvt Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Body Care/cerave_moisturising_cream_smallBC1.jpg",
+        "category": [
+          "Personal Care",
+          " Body Care"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Body Care/cerave_moisturising_cream_smallBC1.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/cerave_moisturising_cream_smallBC2.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/cerave_moisturising_cream_smallBC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Loreal India Pvt Ltd",
+          "* Country of Origin: France ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1426.00,
+        "price": "1550.00",
+        "disc": 8,
+        "image": "assets/images/Wellness/Personal Care/Body Care/body care3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "CETAPHIL BRIGHT HEALTHY RADIANCE BRIGHTENING NIGHT COMFORT Cream 50gm",
+        "brand": " Galderma India Pvt Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Body Care/cetaphil_bright_smallBC1.jpg",
+        "category": [
+          "Personal Care",
+          " Body Care"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Body Care/cetaphil_bright_smallBC1.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/cetaphil_bright_smallBC2.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/cetaphil_bright_smallBC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Galderma India Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1169.10,
+        "price": "1299.00",
+        "disc": 10,
+        "image": "assets/images/Wellness/Personal Care/Body Care/body care4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "BILUMA ADVANCE SKIN BRIGHTENING Face Wash 100ml",
+        "brand": " Galderma India Pvt Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Body Care/biluma_advance_skin_smallBC1.jpg",
+        "category": [
+          "General"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Body Care/biluma_advance_skin_smallBC1.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/biluma_advance_skin_smallBC2.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/biluma_advance_skin_smallBC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Galderma India Pvt Ltd",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 654.72,
+        "price": "744.00",
+        "disc": 12,
+        "image": "assets/images/Wellness/Personal Care/Body Care/body care5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "CeraVe Moisturising Lotion For Dry To Very Dry Skin 236 ml",
+        "brand": " Loreal India Pvt Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Body Care/cerave_moisturising_lotion_smallBC1.jpg",
+        "category": [
+          "Personal Care",
+          " Body Care"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Body Care/cerave_moisturising_lotion_smallBC1.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/cerave_moisturising_lotion_smallBC2.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/cerave_moisturising_lotion_smallBC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Loreal India Pvt Ltd",
+          "* Country of Origin: France ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1094.80,
+        "price": "1190.00",
+        "disc": 8,
+        "image": "assets/images/Wellness/Personal Care/Body Care/body care6.jpg"
+      },
+      {
+        "id": 7,
+        "name": " SEBAMED CLEAR FACE CARE Gel 50ml",
+        "brand": " Usv Private Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Body Care/sebamed_smallBC1.jpg",
+        "category": [
+          "Personal Care",
+          " Body Care"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Body Care/sebamed_smallBC1.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/sebamed_smallBC2.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/sebamed_smallBC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:  Usv Private Ltd",
+          "* Country of Origin: Germany",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 473.00,
+        "price": "550.00",
+        "disc": 14,
+        "image": "assets/images/Wellness/Personal Care/Body Care/body care7.jpg"
+      },
+      {
+        "id": 8,
+        "name": "CeraVe Moisturising Cream For Dry To Very Dry Skin 50 ml",
+        "brand": " Loreal India Pvt Ltd",
+        "mainImage":"assets/images/Wellness/Personal Care/Body Care/ceravelast_BC1.jpg",
+        "category": [
+          "Personal Care",
+          " Body Care"
+        ],
+        "images": [
+          "assets/images/Wellness/Personal Care/Body Care/ceravelast_BC1.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/ceravelast_BC2.jpg",
+          "assets/images/Wellness/Personal Care/Body Care/ceravelast_BC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Loreal India Pvt Ltd",
+          "* Country of Origin: france ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 395.17,
+        "price": "430.00",
+        "disc": 8.1,
+        "image": "assets/images/Wellness/Personal Care/Body Care/body care8.jpg"
+      }
+    ]
+  },
+  "Home&HealthBeautyProducts": {
+    "banner": "assets/images/Beauty/Personal Care/Home & Health/home_health_banner.jpg",
+    "items": [
+      {
+        "id": 1,
+        "name": "Romsons Kare N95 Face Mask 1's",
+        "brand": "Romsons Scientific & Surgical Pvt Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Home & Health/Mask1Small_H&H.jpg",
+        "category": [
+          "Covid Essentials",
+          "Equipment"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Home & Health/Mask1Small_H&H.jpg",
+          "assets/images/Beauty/Personal Care/Home & Health/Mask2Small_H&H.jpg",
+          "assets/images/Beauty/Personal Care/Home & Health/Mask3Small_H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Romsons Scientific & Surgical Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 73.50,
+        "price": "210",
+        "disc": 65,
+        "image": "assets/images/Beauty/Personal Care/Home & Health/home-health1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Romsons Maxx Face Protector Shield (GS-6111)",
+        "brand": "Romsons Scientific & Surgical Pvt Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Home & Health/small_Img1Mask2H&H.jpg",
+        "category": [
+          "Covid Essentials",
+          "Equipment"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Home & Health/small_Img1Mask2H&H.jpg",
+          "assets/images/Beauty/Personal Care/Home & Health/small_Img2Mask2H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Romsons Scientific & Surgical Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 135.50,
+        "price": "210",
+        "disc": 35,
+        "image": "assets/images/Beauty/Personal Care/Home & Health/home-health2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Renu Fresh Multi Purpose Solution 500 ml",
+        "brand": "Bausch & Lomb India Private Limited",
+        "mainImage":"assets/images/Beauty/Personal Care/Home & Health/renu_small1H&H.jpg",
+        "category": [
+          "Eyewear ",
+          "Contact Lenses(EW)"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Home & Health/renu_small1H&H.jpg",
+          "assets/images/Beauty/Personal Care/Home & Health/renu_small2H&H.jpg",
+          "assets/images/Beauty/Personal Care/Home & Health/renu_small3H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Bausch & Lomb India Private Limited",
+          "* Country of Origin: United States",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 640,
+        "price": "640",
+        "disc": 0,
+        "image": "assets/images/Beauty/Personal Care/Home & Health/home-health3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Face Shield with Elastic Band",
+        "brand": "R K Traders",
+        "mainImage":"assets/images/Beauty/Personal Care/Home & Health/face_shield_small1H&H.jpg",
+        "category": [
+          "Covid Essentials",
+          "Travel"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Home & Health/face_shield_small1H&H.jpg",
+          "assets/images/Beauty/Personal Care/Home & Health/face_shield_small2H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: R K Traders",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 88.00,
+        "price": "100",
+        "disc": 12,
+        "image": "assets/images/Beauty/Personal Care/Home & Health/home-health4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "3 Ply Disposable Face Mask 10's",
+        "brand": "Pentagon Labs Limited ",
+        "mainImage": "assets/images/Beauty/Personal Care/Home & Health/3_ply_small1H&H.jpg",
+        "category": [
+          "Devices",
+          "Breath Easy"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Home & Health/3_ply_small1H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:Pentagon Labs Limited",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 20,
+        "price": "20",
+        "disc": 0,
+        "image": "assets/images/Beauty/Personal Care/Home & Health/home-health5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Biotrue Multi Purpose Solution 300 ml",
+        "brand": "Bausch & Lomb India Private Limited",
+        "mainImage":"assets/images/Beauty/Personal Care/Home & Health/biotrue_small1H&H.jpg",
+        "category": [
+          "Offers",
+          " MegaSaving"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Home & Health/biotrue_small1H&H.jpg",
+          "assets/images/Beauty/Personal Care/Home & Health/biotrue_small2H&H.jpg",
+          "assets/images/Beauty/Personal Care/Home & Health/biotrue_small3H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Bausch & Lomb India Private Limited",
+          "* Country of Origin: United States",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 600,
+        "price": "600",
+        "disc": 0,
+        "image": "assets/images/Beauty/Personal Care/Home & Health/home-health6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Neuherbs True Vitamin Tablet 60's",
+        "brand": " Global Healthfit Retail (India) LLP",
+        "mainImage":"assets/images/Beauty/Personal Care/Home & Health/neuherbs_small1H&H.jpg",
+        "category": [
+          "PersonalCare",
+          "Home&Health"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Home & Health/neuherbs_small1H&H.jpg",
+          "assets/images/Beauty/Personal Care/Home & Health/neuherbs_small2H&H.jpg",
+          "assets/images/Beauty/Personal Care/Home & Health/neuherbs_small3H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:  Global Healthfit Retail (India) LLP",
+          "* Country of Origin:  India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 602.33,
+        "price": "899",
+        "disc": 33,
+        "image": "assets/images/Beauty/Personal Care/Home & Health/home-health7.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Dettol Antiseptic Liquid 125 ml",
+        "brand": " Reckitt Benckiser Healthcare India Pvt Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Home & Health/dettol_small1H&H.jpg",
+        "category": [
+          "Covid",
+          "Personal&Home"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Home & Health/dettol_small1H&H.jpg",
+          "assets/images/Beauty/Personal Care/Home & Health/dettol_small2H&H.jpg",
+          "assets/images/Beauty/Personal Care/Home & Health/dettol_small3H&H.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:  Reckitt Benckiser Healthcare India Pvt Ltd",
+          "* Country of Origin:  India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 77.30,
+        "price": "80.52",
+        "disc": 4,
+        "image": "assets/images/Beauty/Personal Care/Home & Health/home-health8.jpg"
+      }
+    ]
+  },
+  "SeniorCareBeautyProducts": {
+    "banner": "assets/images/Beauty/Personal Care/Senior Care/senior-care_banner.jpeg",
+    "items": [
+      {
+        "id": 1,
+        "name": "Pro360 Ortho Nutritional Veg Powder - Vanilla Flavour 250 gm",
+        "brand": "GMN HEALTHCARE PRIVATE LTD",
+        "mainImage":"assets/images/Beauty/Personal Care/Senior Care/pro360_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Senior Care/pro360_small1SC.jpg",
+          "assets/images/Beauty/Personal Care/Senior Care/pro360_small2SC.jpg",
+          "assets/images/Beauty/Personal Care/Senior Care/pro360_small3SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:GMN HEALTHCARE PRIVATE LTD",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 446.25,
+        "price": "525.00",
+        "disc": 15,
+        "image": "assets/images/Beauty/Personal Care/Senior Care/senior care1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Hope Adult Diapers 10's (L)",
+        "brand": "Nasibdar International",
+        "mainImage":"assets/images/Beauty/Personal Care/Senior Care/hope_adult_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Senior Care/hope_adult_small1SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Nasibdar International",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 441.00,
+        "price": "525.00",
+        "disc": 16,
+        "image": "assets/images/Beauty/Personal Care/Senior Care/senior care2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Romsons Aero Neb Jet Nebulizer (SH-2086) - Adult",
+        "brand": "Romsons Group Private Limited",
+        "mainImage":"assets/images/Beauty/Personal Care/Senior Care/romsons_aero_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Senior Care/romsons_aero_small1SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Romsons Group Private Limited",
+          "* Country of Origin:  India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 243.20,
+        "price": "608.00",
+        "disc": 60,
+        "image": "assets/images/Beauty/Personal Care/Senior Care/senior care3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Lifree Extra Absorb Adult Diaper Pants (XL) 10's",
+        "brand": " Unicharm India Pvt Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Senior Care/lifree_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Senior Care/lifree_small1SC.jpg",
+          "assets/images/Beauty/Personal Care/Senior Care/lifree_small2SC.jpg",
+          "assets/images/Beauty/Personal Care/Senior Care/lifree_small3SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Unicharm India Pvt Ltd",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 450.00,
+        "price": "600.00",
+        "disc": 25,
+        "image": "assets/images/Beauty/Personal Care/Senior Care/senior care4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Tynor Ortho Cushion Seat (UN) (H 23)",
+        "brand": " Tynor Orthotics Private Limited",
+        "mainImage": "assets/images/Beauty/Personal Care/Senior Care/tynor_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Senior Care/tynor_small1SC.jpg",
+          "assets/images/Beauty/Personal Care/Senior Care/tynor_small2SC.jpg",
+          "assets/images/Beauty/Personal Care/Senior Care/tynor_small3SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:Tynor Orthotics Private Limited",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1189.96,
+        "price": "1676.00",
+        "disc": 29,
+        "image": "assets/images/Beauty/Personal Care/Senior Care/senior care5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Friends Adult Dry Pants - Classic (M) 10's",
+        "brand": "  NOBEL HYGIENE PVT LTD",
+        "mainImage":"assets/images/Beauty/Personal Care/Senior Care/friends_M_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Senior Care/friends_M_small1SC.jpg",
+          "assets/images/Beauty/Personal Care/Senior Care/friends_M_small2SC.jpg",
+          "assets/images/Beauty/Personal Care/Senior Care/friends_M_small3SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: NOBEL HYGIENE PVT LTD",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 544.50,
+        "price": "605.00",
+        "disc": 10,
+        "image": "assets/images/Beauty/Personal Care/Senior Care/senior care6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Friends Adult Dry Pants - Classic (L) 10's",
+        "brand": "  NOBEL HYGIENE PVT LTD",
+        "mainImage": "assets/images/Beauty/Personal Care/Senior Care/friends_L_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Senior Care/friends_L_small1SC.jpg",
+          "assets/images/Beauty/Personal Care/Senior Care/friends_L_small2SC.jpg",
+          "assets/images/Beauty/Personal Care/Senior Care/friends_L_small3SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:  NOBEL HYGIENE PVT LTD",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 514.25,
+        "price": "605.00",
+        "disc": 15,
+        "image": "assets/images/Beauty/Personal Care/Senior Care/senior care7.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Himalaya Adult Diaper (L) 10's",
+        "brand": "  Himalaya Wellness Company",
+        "mainImage":"assets/images/Beauty/Personal Care/Senior Care/himalaya_small1SC.jpg",
+        "category": [
+          "Personal Care",
+          "Senior Care"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Senior Care/himalaya_small1SC.jpg",
+          "assets/images/Beauty/Personal Care/Senior Care/himalaya_small2SC.jpg",
+          "assets/images/Beauty/Personal Care/Senior Care/himalaya_small3SC.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Himalaya Wellness Company",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 528.00,
+        "price": "600.00",
+        "disc": 12,
+        "image": "assets/images/Beauty/Personal Care/Senior Care/senior care8.jpg"
+      }
+    ]
+  },
+  "FacePersonalCareBeautyProducts": {
+    "banner": "assets/images/Beauty/Personal Care/Face Personal Care/face_personalCare_banner.jpg",
+    "items": [
+      {
+        "id": 1,
+        "name": "AHAGLOW S FOAMING Face Wash 100ml",
+        "brand": " Torrent Pharmaceuticals Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Face Personal Care/ahaglow_smallFPC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Face Personal Care/ahaglow_smallFPC1.jpg",
+          "assets/images/Beauty/Personal Care/Face Personal Care/ahaglow_smallFPC2.jpg",
+          "assets/images/Beauty/Personal Care/Face Personal Care/ahaglow_smallFPC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:Torrent Pharmaceuticals Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 710.22,
+        "price": "798.00",
+        "disc": 11,
+        "image": "assets/images/Beauty/Personal Care/Face Personal Care/face personalCare1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "LITE GLO Face Wash 100ml",
+        "brand": "  Glenmark Pharmaceuticals Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Face Personal Care/lite_glo_smallFPC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Face Personal Care/lite_glo_smallFPC1.jpg",
+          "assets/images/Beauty/Personal Care/Face Personal Care/lite_glo_smallFPC2.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Glenmark Pharmaceuticals Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 369.26,
+        "price": "499.00",
+        "disc": 26,
+        "image": "assets/images/Beauty/Personal Care/Face Personal Care/face personalCare2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "CeraVe AM Facial Moisturising Lotion - Normal to Dry Skin 52 ml",
+        "brand": " Loreal India Pvt Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Face Personal Care/cerave_smallPFC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Face Personal Care/cerave_smallPFC1.jpg",
+          "assets/images/Beauty/Personal Care/Face Personal Care/cerave_smallPFC2.jpg",
+          "assets/images/Beauty/Personal Care/Face Personal Care/cerave_smallPFC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Loreal India Pvt Ltd",
+          "* Country of Origin: France ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1196.00,
+        "price": "1300.00",
+        "disc": 8,
+        "image": "assets/images/Beauty/Personal Care/Face Personal Care/face personalCare3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "AHAGLOW ADVANCED Face Wash Gel 50gm",
+        "brand": " Torrent Pharmaceuticals Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Face Personal Care/ahaglow_advanced_smallPFC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Face Personal Care/ahaglow_advanced_smallPFC1.jpg",
+          "assets/images/Beauty/Personal Care/Face Personal Care/ahaglow_advanced_smallPFC2.jpg",
+          "assets/images/Beauty/Personal Care/Face Personal Care/ahaglow_advanced_smallPFC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Torrent Pharmaceuticals Ltd",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 317.73,
+        "price": "357.00",
+        "disc": 11,
+        "image": "assets/images/Beauty/Personal Care/Face Personal Care/face personalCare4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "AHAGLOW S FOAMING Face Wash 60ml",
+        "brand": " Torrent Pharmaceuticals Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Face Personal Care/ahaglow_s_foaming_smallPFC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Face Personal Care/ahaglow_s_foaming_smallPFC1.jpg",
+          "assets/images/Beauty/Personal Care/Face Personal Care/ahaglow_s_foaming_smallPFC2.jpg",
+          "assets/images/Beauty/Personal Care/Face Personal Care/ahaglow_s_foaming_smallPFC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:  Torrent Pharmaceuticals Ltd",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 600.75,
+        "price": "675.00",
+        "disc": 11,
+        "image": "assets/images/Beauty/Personal Care/Face Personal Care/face personalCare5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "CeraVe Foaming Cleanser For Normal To Oily Skin 236 ml",
+        "brand": "  Loreal India Pvt Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Face Personal Care/cerave_foaming_cleanser_smallPFC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Face Personal Care/cerave_foaming_cleanser_smallPFC1.jpg",
+          "assets/images/Beauty/Personal Care/Face Personal Care/cerave_foaming_cleanser_smallPFC2.jpg",
+          "assets/images/Beauty/Personal Care/Face Personal Care/cerave_foaming_cleanser_smallPFC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Loreal India Pvt Ltd",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1058.00,
+        "price": "1150.00",
+        "disc": 8,
+        "image": "assets/images/Beauty/Personal Care/Face Personal Care/face personalCare6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Cetaphil Oily Skin Cleanser 125ml",
+        "brand": "  Galderma India Pvt Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Face Personal Care/cetaphil_smallPFC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Face Personal Care/cetaphil_smallPFC1.jpg",
+          "assets/images/Beauty/Personal Care/Face Personal Care/cetaphil_smallPFC2.jpg",
+          "assets/images/Beauty/Personal Care/Face Personal Care/cetaphil_smallPFC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:Galderma India Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 643.08,
+        "price": "699.00",
+        "disc": 8,
+        "image": "assets/images/Beauty/Personal Care/Face Personal Care/face personalCare7.jpg"
+      },
+      {
+        "id": 8,
+        "name": "CeraVe Hydrating Cleanser For Normal To Dry Skin 473 ml",
+        "brand": "  Loreal India Pvt Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Face Personal Care/cerave_hydrating_smallPFC1.jpg",
+        "category": [
+          "PersonalCare",
+          "FaceCare"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Face Personal Care/cerave_hydrating_smallPFC1.jpg",
+          "assets/images/Beauty/Personal Care/Face Personal Care/cerave_hydrating_smallPFC2.jpg",
+          "assets/images/Beauty/Personal Care/Face Personal Care/cerave_hydrating_smallPFC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Loreal India Pvt Ltd",
+          "* Country of Origin: France ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 919.08,
+        "price": "999.00",
+        "disc": 8,
+        "image": "assets/images/Beauty/Personal Care/Face Personal Care/face personalCare8.jpg"
+      }
+    ]
+  },
+  "BodyCareBeautyProducts": {
+    "banner": "assets/images/Beauty/Personal Care/Body Care/body_care_banner.jpg",
+    "items": [
+      {
+        "id": 1,
+        "name": "Cetaphil Moisturizing Lotion Normal to Combination - Sensitive Skin 250 ml",
+        "brand": " Galderma India Pvt Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Body Care/cetaphil_moisturizing_BC1.jpg",
+        "category": [
+          "Personal Care",
+          " Body Care"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Body Care/cetaphil_moisturizing_BC1.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/cetaphil_moisturizing_BC2.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/cetaphil_moisturizing_BC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:Galderma India Pvt Ltd ",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1133.10,
+        "price": "1259.00",
+        "disc": 10,
+        "image": "assets/images/Beauty/Personal Care/Body Care/body care1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Cetaphil Moisturizing Lotion Normal to Combination - Sensitive Skin 100 ml",
+        "brand": " Galderma India Pvt Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Body Care/cetaphil_moisturizing_lotion_smallBC1.jpg",
+        "category": [
+          "Personal Care",
+          " Body Care"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Body Care/cetaphil_moisturizing_lotion_smallBC1.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/cetaphil_moisturizing_lotion_smallBC2.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/cetaphil_moisturizing_lotion_smallBC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Galderma India Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 558.00,
+        "price": "620.00",
+        "disc": 10,
+        "image": "assets/images/Beauty/Personal Care/Body Care/body care2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "CeraVe Moisturising Cream For Dry To Very Dry Skin 340 gm",
+        "brand": "  Loreal India Pvt Ltd",
+        "mainImage":  "assets/images/Beauty/Personal Care/Body Care/cerave_moisturising_cream_smallBC1.jpg",
+        "category": [
+          "Personal Care",
+          " Body Care"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Body Care/cerave_moisturising_cream_smallBC1.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/cerave_moisturising_cream_smallBC2.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/cerave_moisturising_cream_smallBC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Loreal India Pvt Ltd",
+          "* Country of Origin: France ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1426.00,
+        "price": "1550.00",
+        "disc": 8,
+        "image": "assets/images/Beauty/Personal Care/Body Care/body care3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "CETAPHIL BRIGHT HEALTHY RADIANCE BRIGHTENING NIGHT COMFORT Cream 50gm",
+        "brand": " Galderma India Pvt Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Body Care/cetaphil_bright_smallBC1.jpg",
+        "category": [
+          "Personal Care",
+          " Body Care"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Body Care/cetaphil_bright_smallBC1.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/cetaphil_bright_smallBC2.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/cetaphil_bright_smallBC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Galderma India Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1169.10,
+        "price": "1299.00",
+        "disc": 10,
+        "image": "assets/images/Beauty/Personal Care/Body Care/body care4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "BILUMA ADVANCE SKIN BRIGHTENING Face Wash 100ml",
+        "brand": " Galderma India Pvt Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Body Care/biluma_advance_skin_smallBC1.jpg",
+        "category": [
+          "General"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Body Care/biluma_advance_skin_smallBC1.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/biluma_advance_skin_smallBC2.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/biluma_advance_skin_smallBC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Galderma India Pvt Ltd",
+          "* Country of Origin: India ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 654.72,
+        "price": "744.00",
+        "disc": 12,
+        "image": "assets/images/Beauty/Personal Care/Body Care/body care5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "CeraVe Moisturising Lotion For Dry To Very Dry Skin 236 ml",
+        "brand": " Loreal India Pvt Ltd",
+        "mainImage":"assets/images/Beauty/Personal Care/Body Care/cerave_moisturising_lotion_smallBC1.jpg",
+        "category": [
+          "Personal Care",
+          " Body Care"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Body Care/cerave_moisturising_lotion_smallBC1.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/cerave_moisturising_lotion_smallBC2.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/cerave_moisturising_lotion_smallBC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Loreal India Pvt Ltd",
+          "* Country of Origin: France ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1094.80,
+        "price": "1190.00",
+        "disc": 8,
+        "image": "assets/images/Beauty/Personal Care/Body Care/body care6.jpg"
+      },
+      {
+        "id": 7,
+        "name": " SEBAMED CLEAR FACE CARE Gel 50ml",
+        "brand": " Usv Private Ltd",
+        "mainImage": "assets/images/Beauty/Personal Care/Body Care/sebamed_smallBC1.jpg",
+        "category": [
+          "Personal Care",
+          " Body Care"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Body Care/sebamed_smallBC1.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/sebamed_smallBC2.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/sebamed_smallBC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt:  Usv Private Ltd",
+          "* Country of Origin: Germany",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 473.00,
+        "price": "550.00",
+        "disc": 14,
+        "image": "assets/images/Beauty/Personal Care/Body Care/body care7.jpg"
+      },
+      {
+        "id": 8,
+        "name": "CeraVe Moisturising Cream For Dry To Very Dry Skin 50 ml",
+        "brand": " Loreal India Pvt Ltd",
+        "mainImage": "assets/images/Beauty/Personal Care/Body Care/ceravelast_BC1.jpg",
+        "category": [
+          "Personal Care",
+          " Body Care"
+        ],
+        "images": [
+          "assets/images/Beauty/Personal Care/Body Care/ceravelast_BC1.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/ceravelast_BC2.jpg",
+          "assets/images/Beauty/Personal Care/Body Care/ceravelast_BC3.jpg"
+        ],
+        "product-content": [
+          "*This product cannot be returned for a refund or exchange.",
+          "* Mkt: Loreal India Pvt Ltd",
+          "* Country of Origin: france ",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 395.17,
+        "price": "430.00",
+        "disc": 8.1,
+        "image": "assets/images/Beauty/Personal Care/Body Care/body care8.jpg"
+      }
+    ]
+  }
 }
