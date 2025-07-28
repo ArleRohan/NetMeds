@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { AuthService } from 'src/app/core/services/auth.service';
 
 @Component({
     selector: 'app-header',
@@ -13,23 +14,29 @@ export class HeaderComponent {
 
     public dropdownstyle = "color: #32aeb1;";
 
-    userName: string | null = null;
-    constructor(private router: Router) {}
 
-    ngOnInit(): void {
-        const user = sessionStorage.getItem('loggedInUser');
-        if (user) {
-        const parsedUser = JSON.parse(user);
-        this.userName = parsedUser.fullname;
-        }
+    // currentUser: any;
+    constructor(private route: Router , private authService: AuthService) {}
+
+    userName: string = '';
+
+  ngOnInit(): void {
+    const user = sessionStorage.getItem('user');
+    if (user) {
+      const parsedUser = JSON.parse(user);
+      this.userName = parsedUser.fullName;
     }
-    logout() {
-        sessionStorage.removeItem('loggedInUser');
-        this.userName = null;
-        this.router.navigate(['']);  // 
-    }
+  }
 
+  logout() {
+  sessionStorage.clear();
+  this.route.navigate(['/login']);
+  location.reload(); // OR this.router.navigate(['/login']);
+}
 
+  
+  
+  
     // Wellness component routes
     public ayushroutes : any = [
         {routepath: "ayurvedicProducts", category : "Ayurvedic"},
