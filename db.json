@@ -4964,46 +4964,12 @@
   },
   "users": [
     {
-      "id": "1",
-      "fullName": "Geeta Patil",
-      "email": "geetapatil@example.com",
-      "password": "123456",
-      "address": "Maharashtra, India",
-      "phone": "7249277420"
-    },
-    {
-      "id": "25f0",
-      "fullName": "Geeta Bagal",
-      "email": "patil@gmail.com",
-      "password": "1234",
-      "address": "pune, Maharashtra",
-      "phone": "7249277420"
-    },
-    {
-      "id": "70a9",
-      "fullName": "Mayuri Patil",
-      "email": "mayuri@gmail.com",
-      "password": "1234",
-      "address": "pune",
-      "phone": "7249277420",
-      "gender": "Female"
-    },
-    {
       "id": "b63c",
       "fullName": "Geeta Bagal",
       "email": "geetab@gmail.com",
       "password": "1234",
       "address": "pandharpur",
       "phone": "7249277420"
-    },
-    {
-      "id": "013f",
-      "fullName": "Geeta",
-      "email": "geeta1252@gmail.com",
-      "password": "1234",
-      "address": "pune",
-      "phone": "7249277420",
-      "gender": "Female"
     },
     {
       "id": "e254",
@@ -5013,24 +4979,8 @@
       "address": "pune",
       "phone": "7249277420",
       "gender": "Female"
-    },
-    {
-      "id": "6e76",
-      "fullName": "Geeta Bagal",
-      "email": "geetab123@gmail.com",
-      "password": "1234",
-      "address": "pandharpur",
-      "gender": "Male",
-      "phone": "7249277420"
-    },
-    {
-      "id": "2422",
-      "fullName": "mayuri Patil",
-      "email": "mayuri@gmail.com",
-      "password": "1234",
-      "address": "pune",
-      "gender": "Female",
-      "phone": "7249277420"
     }
+    
+    
   ]
 }
