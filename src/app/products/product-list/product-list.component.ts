@@ -77,26 +77,26 @@ export class ProductListComponent {
   public key: any;
   public products: any[] = [];
   public bannerImg: any = '';
-  public bannerText:any = '';
+  public bannerText: any = '';
 
   constructor(
     private prodServ: ProductService,
     private actRoute: ActivatedRoute,
-    private router:Router,
-    private cartService:CartserviceService
+    private router: Router,
+    private cartService: CartserviceService
   ) {
-    
+
   }
 
   ngOnInit() {
-    
+
     this.actRoute.params.subscribe(params => {
       this.key = params['keyName'];
       console.log("keyName :", this.key);
       this.getAllProducts(this.key);
     });
   }
-  
+
 
 
   getAllProducts(key: any) {
@@ -106,11 +106,12 @@ export class ProductListComponent {
       this.bannerImg = res.banner;
       this.bannerText = res.bannerTxt
       console.log(res.items);
-      
+
     })
 
   }
- addToCart(product: any) {
+  
+  addToCart(product: any) {
     this.cartService.addToCart(product).subscribe({
       next: () => {
         alert(`${product.name} added to cart!`);
@@ -121,7 +122,7 @@ export class ProductListComponent {
       }
     });
   }
- 
+
   goToDetail(productId: string) {
     this.router.navigate(['/products/product-details', this.key, productId]);
   }

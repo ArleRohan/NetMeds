@@ -1,15 +1,15 @@
 <!-- header -->
-<header class="navbar navbar-expand-lg sticky-top m-0" style="background-color: #32aeb1; max-height: 80px;">
+<header class="navbar navbar-expand-lg sticky-top m-0" style="background-color: #32aeb1; min-height: 80px;">
     <div class="container d-flex">
-        <div class="d-flex align-items-center flex-wrap flex-lg-nowrap w-50">
+        <div class="d-flex align-items-center flex-nowrap flex-column flex-sm-row w-50">
             <!-- Logo -->
             <div class="me-2 mt-2">
                 <a routerLink="">
                     <img src="assets/images/header/netmeds-new-logo.svg" width="160px" alt="Netmeds Logo">
                 </a>
             </div>
-            <div class="d-flex flex-column flex-sm-row align-items-stretch bg-white rounded-2 px-2 py-2 my-2 w-100 w-lg-50"
-                style="min-width:0; max-width:640px;">
+            <div class="d-flex flex-row bg-white rounded-2 px-2 py-2 my-2 w-100 w-lg-50"
+                style="min-width:200; max-width:640px;">
                 <!-- Delivery -->
                 <div class="d-flex align-items-center border-end pe-sm-2 dropdown mb-2 mb-sm-0"
                     style="min-width:130px;">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <!-- Search input -->
-                <div class="flex-grow-1 ms-sm-2 mt-2 mt-sm-0" style="min-width:150px;">
+                <div class="d-flex ms-2 mt-0" style="min-width:60px;">
                     <input type="text" class="form-control border-0 p-1 opacity-75 w-100"
                         placeholder="Search for medicine & wellness products...">
                 </div>
@@ -40,8 +40,13 @@
         </div>
 
         <div class="d-flex justify-content-evenly">
+            <!-- upload -->
+            <div class="mx-3 d-flex align-items-center">
+                <img src="assets/images/header/upload_rx_icon.svg" [height]="imgsize1" [width]="imgsize1" alt="">
+                <a class="nav-link text-white ms-1" role="button" routerLink="">Upload</a>
+            </div>
             <!-- offers -->
-            <div class="mx-3 d-flex">
+            <div class="mx-3 d-flex align-items-center">
                 <img src="assets/images/header/offers_icon.svg" [height]="imgsize1" [width]="imgsize1" alt="">
                 <a class="nav-link text-white ms-1" role="button" routerLink="">Offers</a>
             </div>
@@ -53,14 +58,13 @@
                 <a [routerLink]="['/carts', 'cart']" class="nav-link text-white ms-1" role="button">Cart</a>
             </div>
 
-
             <!-- Sign-in-up / Welcome -->
             <div class="mx-3 d-flex align-items-center">
                 <img src="assets/images/header/profile_icon.svg" [height]="imgsize1" [width]="imgsize1" alt="">
 
                 <ng-container *ngIf="userName; else signInBlock">
-                    <span routerLink="/auth/profile" class="nav-link text-white ms-1 " role="button">{{ userName
-                        }}</span>
+                    <span routerLink="/auth/profile" class="nav-link text-white ms-1 " role="button">
+                        {{userName}}</span>
                     <button (click)="logout()" class="btn btn-sm btn-outline-danger ms-5">Logout</button>
                 </ng-container>
 
@@ -75,11 +79,11 @@
 <!-- first navbar -->
 <div style="background-color: #32aeb1;" class="pt-2 mt-0">
     <nav class="container navbar navbar-expand-lg d-flex justify-content-center">
-        <ul class="navbar-nav ">
+        <ul class="navbar-nav">
             <!-- Medicine option -->
             <li class="nav-item d-flex mx-4 dropdown">
                 <img src="assets/images/header/medicine.svg" [height]="imgsize2" [width]="imgsize2" alt="medicine logo">
-                <a class="nav-link text-white ms-2 dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                <a class="nav-link text-white ms-2 dropdown-toggle" routerLink="" data-bs-toggle="dropdown"
                     aria-expanded="false">Medicine</a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" routerLink="">All Medicine</a></li>
@@ -90,8 +94,8 @@
             <!-- wellness option -->
             <li class="nav-item d-flex mx-4 dropdown-start position-static">
                 <img src="assets/images/header/wellness.svg" [height]="imgsize2" [width]="imgsize2" alt="wellness logo">
-                <a class="nav-link text-white ms-2 dropdown-toggle" href="#" data-bs-toggle="dropdown" id="megaMenu"
-                    aria-expanded="false">Wellness</a>
+                <a class="nav-link text-white ms-2 dropdown-toggle" routerLink="/shared/wellness"
+                    data-bs-toggle="dropdown" id="megaMenu" aria-expanded="false">Wellness</a>
                 <div class="dropdown-menu mt-0 p-3" aria-labelledby="megaMenu" style="max-width: 850px;">
                     <div class="d-flex flex-nowrap justify-content-center">
                         <!-- Column 1 -->
@@ -184,8 +188,8 @@
             <!-- Beauty option -->
             <li class="nav-item d-flex mx-4 dropdown-center">
                 <img src="assets/images/header/wellness.svg" [height]="imgsize2" [width]="imgsize2" alt="wellness logo">
-                <a class="nav-link text-white ms-2 dropdown-toggle" href="#" data-bs-toggle="dropdown" id="megaMenu1"
-                    aria-expanded="false">Beauty</a>
+                <a class="nav-link text-white ms-2 dropdown-toggle" routerLink="" data-bs-toggle="dropdown"
+                    id="megaMenu1" aria-expanded="false">Beauty</a>
                 <div class="dropdown-menu mt-0 p-3" aria-labelledby="megaMenu1" style="max-width: 600px;">
                     <div class="d-flex flex-nowrap justify-content-center">
                         <!-- Column 1 -->
@@ -245,8 +249,8 @@
             <li class="nav-item d-flex mx-4 dropdown">
                 <img src="assets/images/header/health-library.svg" [height]="imgsize2" [width]="imgsize2"
                     alt="health logo">
-                <a class="nav-link text-white ms-2 dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                    aria-expanded="false">Health Corner</a>
+                <a class="nav-link text-white ms-2 dropdown-toggle" routerLink="/shared/HealthLibrary"
+                    data-bs-toggle="dropdown" aria-expanded="false">Health Corner</a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" routerLink="/shared/HealthLibrary">Health Library</a></li>
                     <li><a class="dropdown-item" routerLink="/shared/cancer">All About Cancers</a></li>

@@ -23,6 +23,8 @@ import { SupplementsComponent } from './components/Health-Center/cancer/suppleme
 import { AcidsComponent } from './components/Health-Center/cancer/supplements/acids/acids/acids.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BlogsComponent } from './components/Health-Center/health-library/blogs/blogs.component';
+import { WellnessComponent } from './components/Wellness/wellness/wellness.component';
+import { SwiperModule } from 'swiper/angular';
 
 const routes: Routes = [
   { path: 'BuyAgain', component: BuyAgainComponent },
@@ -32,6 +34,7 @@ const routes: Routes = [
   { path: 'amoni-acids', component: AcidsComponent },
   { path: 'signin', component: LoginComponent },
   { path: 'HealthLibrary', component: HealthLibraryComponent },
+  { path: 'wellness', component: WellnessComponent}
 ];
 
 @NgModule({
@@ -55,12 +58,14 @@ const routes: Routes = [
     SupplementsComponent,
     AcidsComponent,
     BlogsComponent,
+    WellnessComponent,
   ],
   imports: [
     RouterModule.forChild(routes),
     CommonModule,
     FormsModule,
     HttpClientModule,
+    SwiperModule
   ],
   exports: [FooterComponent, HeaderComponent],
 })
