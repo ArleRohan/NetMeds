@@ -1,61 +1,48 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Route, Router } from '@angular/router';
+import { AuthService } from 'src/app/core/services/auth.service';
 
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
-  styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-  public showUpdateBtn: boolean = false;
-  public registerData = {
-    fullname: '',
-    email: '',
-    gender: '',
-    address: ''
-  };
+  public registerForm:any;
 
-  constructor(private router: Router) {}
+  constructor(private fb: FormBuilder , private authSer:AuthService, private router:Router) {}
 
   ngOnInit(): void {
-    const editedUser = sessionStorage.getItem('editUser');
-
-    if (editedUser) {
-      // If editUser exists, show Update button and fill form
-      this.registerData = JSON.parse(editedUser);
-      this.showUpdateBtn = true;
-    } else {
-      // Else clear form and show Register button
-      this.clearForm();
-      this.showUpdateBtn = false;
-    }
+    this.registerForm = this.fb.group({
+      fullName: ['', [Validators.required, Validators.minLength(3)]],
+      email: ['', [Validators.required, Validators.email]],
+      password: ['', [Validators.required, Validators.minLength(4)]],
+      address: ['', [Validators.required]],
+      gender: ['', [Validators.required]],
+      phone: ['', [Validators.required, Validators.pattern(/^[0-9]{10}$/)]],
+    });
   }
 
-  onRegister(): void {
-    // Save user data to sessionStorage
-    sessionStorage.setItem('loggedInUser', JSON.stringify(this.registerData));
-    alert("Registration successful!");
 
-    // Remove editUser after register (so next time form is clean)
-     sessionStorage.removeItem('editUser');
+  onSubmit(): void {
+  if (this.registerForm.valid) {
+    const formData = this.registerForm.value;
+    console.log("Registering User:", formData); // DEBUG
 
-    this.router.navigate(['/']);
+    this.authSer.addUser(formData).subscribe({
+      next: () => {
+        alert('User registered successfully!');
+        this.registerForm.reset();
+         this.router.navigate(['auth/login']); //  Navigate to login
+      },
+      error: (err) => {
+        alert('Error while registering user!');
+        console.error(err); // DEBUG
+      }
+    });
+  } else {
+    this.registerForm.markAllAsTouched();
   }
+}
 
-  onUpdate(): void {
-    // Update user info in sessionStorage
-    sessionStorage.setItem('loggedInUser', JSON.stringify(this.registerData));
-    sessionStorage.removeItem('editUser');
-    alert("Profile updated!");
-    this.router.navigate(['/']);
-  }
-
-  clearForm(): void {
-    this.registerData = {
-      fullname: '',
-      email: '',
-      gender: '',
-      address: ''
-    };
-  }
 }

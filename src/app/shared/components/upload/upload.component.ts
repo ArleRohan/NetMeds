@@ -69,7 +69,7 @@ export class UploadComponent implements OnInit {
     }
 
     //  Navigate to review page
-    this.router.navigate(['/review']);
+    this.router.navigate(['/shared/order-review']);
   }
 
   loadTestimonials(): void {

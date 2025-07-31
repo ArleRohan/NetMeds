@@ -7,21 +7,38 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProductsModule } from './products/products.module';
+import { SwiperModule } from 'swiper/angular';
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { AuthInterceptor } from './core/interceptor/auth.interceptor';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CoreModule,
-    SharedModule,
     FormsModule,
     ProductsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    SwiperModule,
+    BrowserAnimationsModule,
+    SharedModule,
+   
   ],
-  providers: [],
+  providers: [
+    {
+      provide:HTTP_INTERCEPTORS,
+      useClass: AuthInterceptor,
+      multi: true
+
+    },
+    // BrowserAnimationsModule,
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
