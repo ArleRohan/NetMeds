@@ -14,9 +14,9 @@ export class ProductService {
     return this.http.get<any[]>(`${this.apiUrl}/${key}`);
   }
 
-  getProductById(type: string, id: any): Observable<any> {
+  getProductById(type: string, id: any) {
     return this.http.get<any>(`${this.apiUrl}/${type}`).pipe(
       map(res => res.items.find((item: any) => item.id == id))
-    );
+    ).toPromise()
   }
 }

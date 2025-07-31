@@ -20,6 +20,8 @@ import { EyesComponent } from './components/Beauty/make-up/eyes/eyes.component';
 import { LoginComponent } from '../auth/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { BlogsComponent } from './components/Health-Center/health-library/blogs/blogs.component';
+import { HighlightDirective } from './custom-directives/highlight.directive';
+import { CustomPipe } from './pipes/custom.pipe';
 
 
 const routes: Routes = [
@@ -48,7 +50,10 @@ const routes: Routes = [
     CancerComponent,
     CoronaAwarenessComponent,
     EyesComponent,
-    BlogsComponent
+    BlogsComponent,
+    HighlightDirective,
+    CustomPipe,
+    
   ],
   imports: [
     RouterModule.forChild(routes),
@@ -58,7 +63,9 @@ const routes: Routes = [
   ],
   exports: [
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    HighlightDirective,
+    CustomPipe
   ]
 })
 export class SharedModule { }
