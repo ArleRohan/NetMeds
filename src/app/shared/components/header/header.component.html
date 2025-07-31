@@ -54,7 +54,7 @@
             </div>
 
             <!-- Sign-in-up / Welcome -->
-            <div class="mx-3 d-flex align-items-center">
+            <!-- <div class="mx-3 d-flex align-items-center">
                 <img src="assets/images/header/profile_icon.svg" [height]="imgsize1" [width]="imgsize1" alt="">
 
                 <ng-container *ngIf="userName; else signInBlock">
@@ -63,6 +63,24 @@
                     <button (click)="logout()" class="btn btn-sm btn-outline-danger ms-5">Logout</button>
                 </ng-container>
 
+                <ng-template #signInBlock>
+                    <a routerLink="/auth/login" class="nav-link text-white ms-1" role="button">Sign in / Sign up</a>
+                </ng-template>
+            </div> -->
+
+            <!-- Sign-in-up / Welcome -->
+
+            <div class="mx-3 d-flex align-items-center">
+                <img src="assets/images/header/profile_icon.svg" [height]="imgsize1" [width]="imgsize1" alt="">
+
+                <ng-container *ngIf="userName; else signInBlock">
+                    <span routerLink="/auth/profile" class="nav-link text-white ms-1">{{ userName }}</span>
+                    <!-- <a class="nav-link text-yellow" routerLink="/profile">Profile</a> -->
+
+                    <button (click)="logout()" class="btn btn-sm btn-outline-danger ms-5">Logout</button>
+                </ng-container>
+
+                
                 <ng-template #signInBlock>
                     <a routerLink="/auth/login" class="nav-link text-white ms-1" role="button">Sign in / Sign up</a>
                 </ng-template>
