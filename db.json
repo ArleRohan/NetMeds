@@ -6568,6 +6568,15 @@
       "address": "pandharpur",
       "gender": "Female",
       "phone": "7249277420"
+    },
+    {
+      "id": "24eb",
+      "fullName": "Shantanu Pravin Patil",
+      "email": "shantanup6172@gmail.com",
+      "password": "shantanu",
+      "address": "Kolhapur",
+      "gender": "Male",
+      "phone": "8446246172"
     }
   ],
   "ayush": {
@@ -6591,8 +6600,7 @@
       }
     ]
   },
- 
-    "cart": [
+  "cart": [
     {
       "id": "1",
       "name": "Romsons Kare N95 Face Mask 1's",
@@ -6620,7 +6628,6 @@
       "productId": 1,
       "quantity": 1
     }
-    
   ],
   "diabetes": {
     "bannerImage": "assets/images/moduleBannerImage/ayush_0.jpg",
@@ -6641,7 +6648,6 @@
         "categoryImage": "assets/images/moduleBannerImage/Diabetes/sugar_substitutes.png",
         "categoryName": "sugar-substitutes"
       }
-      
     ]
   },
   "healthCondition": {
@@ -6785,7 +6791,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 225.60,
+        "disc_price": 225.6,
         "price": " 240.00 ",
         "disc": 5,
         "image": "assets/images/Wellness/Ayush/Ayurvedic/himalaya_wellness_ashvagandha_tablet_60s_58979_0_3.jpg"
@@ -6810,7 +6816,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 320.00,
+        "disc_price": 320,
         "price": "400.00",
         "disc": 20,
         "image": "assets/images/Wellness/Ayush/Ayurvedic/pankajakasthuri_breathe_easy_granules_400_gm_43929_0_2.jpg"
@@ -6857,7 +6863,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 202.40,
+        "disc_price": 202.4,
         "price": " 220.00",
         "disc": 8,
         "image": "assets/images/Wellness/Ayush/Ayurvedic/pankajakasthuri_breathe_easy_syrup_200_ml_0.jpg"
@@ -6879,7 +6885,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 305.00,
+        "disc_price": 305,
         "price": "280.60",
         "disc": 8,
         "image": "assets/images/Wellness/Ayush/Ayurvedic/lama_isobael_granules_200_gm_0_0.jpg"
@@ -6923,7 +6929,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1458.00,
+        "disc_price": 1458,
         "price": "1620.00",
         "disc": 10,
         "image": "assets/images/Wellness/Ayush/Ayurvedic/planet_ayurveda_total_heart_support_capsules_60_s_0.jpg"
@@ -6975,7 +6981,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1520.00,
+        "disc_price": 1520,
         "price": " 1900.00 ",
         "disc": 20,
         "image": "assets/images/Wellness/Ayush/Unani/hashmi_sikander_e_azam_plus_capsule_10s_207903_0_1 (1).jpg"
@@ -7000,7 +7006,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 823.50,
+        "disc_price": 823.5,
         "price": "915.00",
         "disc": 20,
         "image": "assets/images/Wellness/Ayush/Unani/hashmi_mughal_e_azam_plus_capsule_10s_0_0.jpg"
@@ -7024,7 +7030,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 75.00,
+        "disc_price": 75,
         "price": " 75.00",
         "disc": 0,
         "image": "assets/images/Wellness/Ayush/Unani/hamdard_joshina_syrup_100_ml_0.jpg"
@@ -7068,7 +7074,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 107.80,
+        "disc_price": 107.8,
         "price": "110.00",
         "disc": 2,
         "image": "assets/images/Wellness/Ayush/Unani/rex_majun_arad_khurma_200_gm_0.jpg"
@@ -7090,7 +7096,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 110.40,
+        "disc_price": 110.4,
         "price": "120.00",
         "disc": 8,
         "image": "assets/images/Wellness/Ayush/Unani/rex_sharbat_e_faulad_tonic_200_ml_421485_0_0.jpg"
@@ -7111,7 +7117,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 200.00,
+        "disc_price": 200,
         "price": "200.00 ",
         "disc": 0,
         "image": "assets/images/Wellness/Ayush/Unani/hamdard_jigreena_capsules_60s_69664_0_1.jpg"
@@ -7132,7 +7138,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 171.50,
+        "disc_price": 171.5,
         "price": "245.00  ",
         "disc": 30,
         "image": "assets/images/Wellness/Ayush/Unani/similia_trituration_aurum_mur_6x_tablet_25_gm_0_0.jpg"
@@ -7161,7 +7167,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 124.20,
+        "disc_price": 124.2,
         "price": " 150.00  ",
         "disc": 17.2,
         "image": "assets/images/Wellness/Ayush/Homeopathy/bio_indias_immunity_drops_31_30_ml_0_0.jpg"
@@ -7185,7 +7191,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 126.00,
+        "disc_price": 126,
         "price": "150.00",
         "disc": 16,
         "image": "assets/images/Wellness/Ayush/Homeopathy/bio_indias_bach_flower_crab_apple_30_ml_609247_0_1.jpg"
@@ -7229,7 +7235,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 4095.00,
+        "disc_price": 4095,
         "price": "6300.00",
         "disc": 35,
         "image": "assets/images/Wellness/Ayush/Homeopathy/dr_willmar_schwabe_oleum_santali_q_liquid_30_ml_0.jpg"
@@ -7250,7 +7256,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1463.00,
+        "disc_price": 1463,
         "price": "2090.00",
         "disc": 30,
         "image": "assets/images/Wellness/Ayush/Homeopathy/similia_trituration_testis_3x_tablet_450_gm_0_0.jpg"
@@ -7342,7 +7348,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 88.20,
+        "disc_price": 88.2,
         "price": "90.00",
         "disc": 2,
         "image": "assets/images/Wellness/Ayush/Siddha/dr_jrks_kabasura_kudineer_chooranam_50_gm_0_1.jpg"
@@ -7365,7 +7371,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 123.20,
+        "disc_price": 123.2,
         "price": "140.00 ",
         "disc": 12,
         "image": "assets/images/Wellness/Ayush/Siddha/dr_jrks_af_anti_fungal_cream_25_gm_0_0.jpg"
@@ -7386,7 +7392,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 105.60,
+        "disc_price": 105.6,
         "price": " 120.00",
         "disc": 12,
         "image": "assets/images/Wellness/Ayush/Siddha/dr_jrk_psorolin_derma_skincare_soap_75_gm_675618_0_0.jpg"
@@ -7407,7 +7413,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 211.20,
+        "disc_price": 211.2,
         "price": "240.00 ",
         "disc": 12,
         "image": "assets/images/Wellness/Ayush/Siddha/dr_jrks_anagen_grow_unique_hair_serum_100_ml_0_0.jpg"
@@ -7470,7 +7476,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 693.00,
+        "disc_price": 693,
         "price": "693.00",
         "disc": 0,
         "image": "assets/images/Wellness/Ayush/Siddha/skm_viigorwin_legiyam_200_gm_0.jpg"
@@ -7491,7 +7497,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 204.70,
+        "disc_price": 204.7,
         "price": "230.00  ",
         "disc": 11,
         "image": "assets/images/Wellness/Ayush/Siddha/dr_jrk_tolenorm_oil_50_ml_0.jpg"
@@ -7901,7 +7907,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 335.70,
+        "disc_price": 335.7,
         "price": "381.48",
         "disc": 12,
         "image": "assets/images/medicines/allMedicines/2/Main atrest 25mg_0.jpg"
@@ -7923,7 +7929,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 225.50,
+        "disc_price": 225.5,
         "price": "275.00",
         "disc": 18,
         "image": "assets/images/medicines/allMedicines/3/injections.jpg"
@@ -8014,7 +8020,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1314.90,
+        "disc_price": 1314.9,
         "price": "1494.20",
         "disc": 12,
         "image": "assets/images/medicines/allMedicines/7/cognistar_60mg_injection_0.jpg"
@@ -8045,5 +8051,27 @@
         "image": "assets/images/medicines/allMedicines/8/cogniza_tablet_10s_0_1.jpg"
       }
     ]
-  }
+  },
+  "wellness": [
+    {
+      "src": "assets/images/Wellness/carousel_1.jpg",
+      "alt": "",
+      "id": "ee84"
+    },
+    {
+      "src": "assets/images/Wellness/carousel_2.jpg",
+      "alt": "",
+      "id": "9650"
+    },
+    {
+      "src": "assets/images/Wellness/carousel_3.jpg",
+      "alt": "",
+      "id": "c313"
+    },
+    {
+      "src": "assets/images/Wellness/carousel_4.jpg",
+      "alt": "",
+      "id": "c96a"
+    }
+  ]
 }

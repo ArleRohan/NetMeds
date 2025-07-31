@@ -47,7 +47,6 @@ export class ProductListComponent {
       }
     })
   }
-
   addToCart(product: any) {
     this.cartService.addToCart(product).subscribe({
       next: () => {

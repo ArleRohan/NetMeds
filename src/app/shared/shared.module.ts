@@ -24,8 +24,9 @@ import { CategoryComponent } from './components/category/category.component';
 import { CustomPipe } from './pipes/custom.pipe';
 import { SupplementsComponent } from './components/Health-Center/cancer/supplements/supplements/supplements.component';
 import { AcidsComponent } from './components/Health-Center/cancer/supplements/acids/acids/acids.component';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BlogsComponent } from './components/Health-Center/health-library/blogs/blogs.component';
+import { WellnessComponent } from './components/Wellness/wellness/wellness.component';
+import { SwiperModule } from 'swiper/angular';
 import { PrescriptionMedicinesComponent } from './components/Medicine/all-medicine/prescription-medicines/prescription-medicines.component';
 import { LabTestComponent } from './components/lab-test/lab-test.component';
 import { OffersComponent } from './components/offers/offers.component';
@@ -42,6 +43,7 @@ const routes: Routes = [
   { path: 'signin', component:  LoginComponent },
   { path: "category/:keyName", component: CategoryComponent  },
   { path: 'HealthLibrary', component: HealthLibraryComponent },
+  { path: 'wellness', component: WellnessComponent},
   {path:'offers',component:OffersComponent},
   {path:"allmedicine",component:AllMedicineComponent},
   {path:"labTest",component:LabTestComponent},
@@ -68,6 +70,7 @@ const routes: Routes = [
     SideBarComponent,
     EyesComponent,
     BlogsComponent,
+    WellnessComponent,
     CustomPipe,
     CategoryComponent,
     PrescriptionMedicinesComponent,
@@ -81,6 +84,7 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     CommonModule,
     FormsModule,
+    SwiperModule,
     NgxPaginationModule,
     MatListModule,
     MatExpansionModule,
