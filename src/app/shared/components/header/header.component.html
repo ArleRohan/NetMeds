@@ -133,7 +133,9 @@
                         </div>
                         <!-- Column 3 -->
                         <div class="flex-wrap me-2 border-end" style="width: 175px;">
-                            <h6 [style]="dropdownstyle">Health Conditions</h6>
+                            <!-- <h6 [style]="dropdownstyle">Health Conditions</h6> -->
+                             <a class="dropdown-item opacity-75 text-wrap" [style]="dropdownstyle"
+                                [routerLink]="['/shared/category','healthCondition']">Health Conditions</a>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of healthroutes"
                                 [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                             <br>
@@ -143,7 +145,9 @@
                         </div>
                         <!-- Column 4 -->
                         <div class="flex-wrap me-2 border-end" style="width: 175px;">
-                            <h6 [style]="dropdownstyle">Personal Care</h6>
+                            <!-- <h6 [style]="dropdownstyle">Personal Care</h6> -->
+                              <a class="dropdown-item opacity-75 text-wrap" [style]="dropdownstyle"
+                                [routerLink]="['/shared/category','personalCare']">Personal Care</a>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of personalcareroutes"
                                 [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                             <br>
@@ -195,7 +199,9 @@
                     <div class="d-flex flex-nowrap justify-content-center">
                         <!-- Column 1 -->
                         <div class="flex-wrap me-2 border-end" style="width: 150px;">
-                            <h6 [style]="dropdownstyle">Fragrances</h6>
+                            <!-- <h6 [style]="dropdownstyle">Fragrances</h6> -->
+                               <a class="dropdown-item opacity-75 text-wrap" [style]="dropdownstyle"
+                                [routerLink]="['/shared/category','fragrance']">Fragrances</a>
                             <a class="dropdown-item opacity-75 text-wrap"
                                 [routerLink]="['/products/productList/','MenProducts']">Men</a>
                             <a class="dropdown-item opacity-75 text-wrap"
@@ -227,13 +233,17 @@
                         </div>
                         <!-- Column 3 -->
                         <div class="flex-wrap me-2 border-end" style="width: 150px;">
-                            <h6 [style]="dropdownstyle">Personal Care</h6>
+                            <!-- <h6 [style]="dropdownstyle">Personal Care</h6> -->
+                             <a class="dropdown-item opacity-75 text-wrap" [style]="dropdownstyle"
+                                [routerLink]="['/shared/category','personalCare']">Personal Care</a>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of personalcareroutes"
                                 [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                         </div>
                         <!-- Column 4 -->
                         <div class="flex-wrap me-2" style="width: 150px;">
-                            <h6 [style]="dropdownstyle">Skin Care</h6>
+                            <!-- <h6 [style]="dropdownstyle">Skin Care</h6> -->
+                            <a class="dropdown-item opacity-75 text-wrap" [style]="dropdownstyle"
+                                [routerLink]="['/shared/category','skinCare']">Skin Care</a>
                             <a class="dropdown-item opacity-75 text-wrap" *ngFor="let data of skincareroutes"
                                 [routerLink]="['/products/productList/',data.routepath]">{{data.category}}</a>
                             <br>

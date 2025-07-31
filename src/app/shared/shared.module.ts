@@ -29,6 +29,16 @@ import { BlogsComponent } from './components/Health-Center/health-library/blogs/
 import { LabTestComponent } from './components/lab-test/lab-test.component';
 import { OffersComponent } from './components/offers/offers.component';
 import { PrescriptionMedicinesComponent } from './components/Medicine/all-medicine/prescription-medicines/prescription-medicines.component';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { MatListModule } from '@angular/material/list';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatSliderModule } from '@angular/material/slider';
+import { SliderModule } from 'primeng/slider';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+
 
 const routes: Routes = [
   {  path:  'BuyAgain', component:  BuyAgainComponent  },
@@ -75,12 +85,25 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     CommonModule,
     FormsModule,
+    NgxPaginationModule,
+    MatListModule,
+    MatExpansionModule,
+    MatIconModule,
+    MatButtonModule,
+    MatRadioModule,
+    MatSliderModule,
+    SliderModule,
+    CarouselModule
     // CustomPipe
   ],
   exports: [
     FooterComponent,
     HeaderComponent,
-    CustomPipe
+    MatListModule,
+    CustomPipe,
+    MatSliderModule,
+    SliderModule,
+    CarouselModule
   ]
 })
 export class SharedModule {}

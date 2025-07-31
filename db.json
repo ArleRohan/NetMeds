@@ -6602,19 +6602,19 @@
     "categories": [
       {
         "categoryImage": "assets/images/moduleBannerImage/HealthCondition/bone_and_joint_pain.jpg",
-        "categoryName": "ayurvedic"
+        "categoryName": "bone_and_joint_care"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/HealthCondition/liver_care.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "liver_care"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/HealthCondition/piles_care.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "piles_care"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/HealthCondition/piles_care.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "women's_care"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/HealthCondition/weight_care.png",
@@ -6626,6 +6626,14 @@
     "bannerImage": "assets/images/moduleBannerImage/PersonalCare/1695202303_Personal-care.jpg",
     "categories": [
       {
+        "categoryImage": "assets/images/moduleBannerImage/PersonalCare/body_care.jpg",
+        "categoryName": "BodyCareProducts"
+      },
+      {
+        "categoryImage": "assets/images/moduleBannerImage/PersonalCare/face_personal_care.png",
+        "categoryName": "FacePersonalCareProducts"
+      },
+      {
         "categoryImage": "assets/images/moduleBannerImage/PersonalCare/bath_shower.png",
         "categoryName": "ayurvedic"
       },
@@ -6634,15 +6642,7 @@
         "categoryName": "ayurvedic"
       },
       {
-        "categoryImage": "assets/images/moduleBannerImage/PersonalCare/body_care.jpg",
-        "categoryName": "ayurvedic"
-      },
-      {
         "categoryImage": "assets/images/moduleBannerImage/PersonalCare/eye_care_lens.png",
-        "categoryName": "ayurvedic"
-      },
-      {
-        "categoryImage": "assets/images/moduleBannerImage/PersonalCare/face_personal_care.png",
         "categoryName": "ayurvedic"
       }
     ]
@@ -6676,19 +6676,19 @@
     "bannerImage": "assets/images/moduleBannerImage/skincare/skin_care1_1920.jpg",
     "categories": [
       {
-        "categoryImage": "assets/images/moduleBannerImage/skincare/aromatherapy.png",
-        "categoryName": "ayurvedic"
-      },
-      {
         "categoryImage": "assets/images/moduleBannerImage/skincare/cleansers.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "CleansersProduct"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/skincare/eye_care.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "EyeCare"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/skincare/face_skin_care.png",
+        "categoryName": "FaceCare"
+      },
+      {
+        "categoryImage": "assets/images/moduleBannerImage/skincare/aromatherapy.png",
         "categoryName": "ayurvedic"
       },
       {
@@ -6702,15 +6702,15 @@
     "categories": [
       {
         "categoryImage": "assets/images/moduleBannerImage/Fragrance/men.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "MenProducts"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/Fragrance/women.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "WomenProducts"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/Fragrance/unisex.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "UnisexProducts"
       }
     ]
   },
@@ -6720,12 +6720,13 @@
       {
         "id": 1,
         "name": "Himalaya Wellness Ashvagandha Tablet 60's",
-        "brand": "Himalaya Wellness Company",
+        "brand": "Himalaya",
         "mainImage": "assets/images/Wellness/Ayush/Ayurvedic/1_details/himalaya_wellness_ashvagandha_tablet_60s_58979_0_3 (1).jpg",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [
           "assets/images/Wellness/Ayush/Ayurvedic/1_details/himalaya_wellness_ashvagandha_tablet_60s_827870_1_1.jpg",
           "assets/images/Wellness/Ayush/Ayurvedic/1_details/himalaya_wellness_ashvagandha_tablet_60s_827871_2_1.jpg",
@@ -6745,12 +6746,13 @@
       {
         "id": 2,
         "name": "Pankajakasthuri Breathe Easy Granules 400 gm",
-        "brand": "Pankajakasthuri Herbals India Pvt Ltd",
+        "brand": "Pankajakasthuri",
         "mainImage": "assets/images/Wellness/Ayush/Ayurvedic/2_details/pankajakasthuri_breathe_easy_granules_400_gm_43929_0_2.jpg",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [
           "assets/images/Wellness/Ayush/Ayurvedic/2_details/pankajakasthuri_breathe_easy_granules_400_gm_43929_0_2 (1).jpg",
           "assets/images/Wellness/Ayush/Ayurvedic/2_details/pankajakasthuri_breathe_easy_granules_400_gm_555141_2_1.jpg"
@@ -6769,12 +6771,13 @@
       {
         "id": 3,
         "name": "Lama Phalatrikadi Kwath Syrup 450 ml",
-        "brand": "Lama Pharmaceuticals",
+        "brand": "Lama",
         "mainImage": "assets/images/Wellness/Ayush/Ayurvedic/3_details/lama_phalatrikadi_kwath_syrup_450_ml_132934_0_2.jpg",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [
           "assets/images/Wellness/Ayush/Ayurvedic/3_details/lama_phalatrikadi_kwath_syrup_450_ml_132935_1_2.jpg",
           "assets/images/Wellness/Ayush/Ayurvedic/3_details/lama_phalatrikadi_kwath_syrup_450_ml_755285_3_0.jpg"
@@ -6793,12 +6796,13 @@
       {
         "id": 4,
         "name": "Pankajakasthuri Breathe Easy Syrup 200 ml",
-        "brand": "Pankajakasthuri Herbals India Pvt Ltd",
+        "brand": "Pankajakasthuri",
         "mainImage": "",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -6814,12 +6818,13 @@
       {
         "id": 5,
         "name": "Lama Isobael Granules 200 gm",
-        "brand": "Lama Pharmaceuticals",
+        "brand": "Lama",
         "mainImage": "",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -6835,12 +6840,13 @@
       {
         "id": 6,
         "name": "Baidyanath Basant Kusumakar Ras Tablet 50's",
-        "brand": "Shree Baidyanath Ayurved Bhawan Pvt Ltd",
+        "brand": "Baidyanath ",
         "mainImage": "",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -6856,12 +6862,13 @@
       {
         "id": 7,
         "name": "Planet Ayurveda Total Heart Support Capsules 60's",
-        "brand": "Planet Ayurveda",
+        "brand": "Planet",
         "mainImage": "",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -6877,12 +6884,13 @@
       {
         "id": 8,
         "name": "Aimil NEERI KFT Sugar Free Syrup (Pack of 3 x 200 ml)",
-        "brand": "Aimil Pharmaceuticals (India) Limited",
+        "brand": "Aimil",
         "mainImage": "",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -6909,6 +6917,7 @@
           "Ayush",
           "Unani"
         ],
+        "categoryName": "unani",
         "images": [
           "assets/images/Wellness/Ayush/Unani/1_details/hashmi_sikander_e_azam_plus_capsule_10s_207904_1_1.jpg",
           "assets/images/Wellness/Ayush/Unani/1_details/hashmi_sikander_e_azam_plus_capsule_10s_207905_2_1.jpg"
@@ -6933,6 +6942,7 @@
           "Ayush",
           "Unani"
         ],
+        "categoryName": "unani",
         "images": [
           "assets/images/Wellness/Ayush/Unani/2_details/hashmi_mughal_e_azam_plus_capsule_10s_1_0.jpg",
           "assets/images/Wellness/Ayush/Unani/2_details/hashmi_mughal_e_azam_plus_capsule_10s_2_0.jpg"
@@ -6957,6 +6967,7 @@
           "Ayush",
           "Unani"
         ],
+        "categoryName": "unani",
         "images": [
           "assets/images/Wellness/Ayush/Unani/hamdard_joshina_syrup_100_ml_0.jpg"
         ],
@@ -6980,6 +6991,7 @@
           "Ayush",
           "Unani"
         ],
+        "categoryName": "unani",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -7001,6 +7013,7 @@
           "Ayush",
           "Unani"
         ],
+        "categoryName": "unani",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -7022,6 +7035,7 @@
           "Ayush",
           "Unani"
         ],
+        "categoryName": "unani",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -7090,6 +7104,7 @@
           "Ayush",
           "Homeopathy"
         ],
+        "categoryName": "homeopathy",
         "images": [
           "assets/images/Wellness/Ayush/Homeopathy/bio_indias_immunity_drops_31_30_ml_0_0.jpg"
         ],
@@ -7113,6 +7128,7 @@
           "Ayush",
           "Homeopathy"
         ],
+        "categoryName": "homeopathy",
         "images": [
           "assets/images/Wellness/Ayush/Homeopathy/bio_indias_bach_flower_crab_apple_30_ml_609247_0_1.jpg"
         ],
@@ -7136,6 +7152,7 @@
           "Ayush",
           "Homeopathy"
         ],
+        "categoryName": "homeopathy",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -7157,6 +7174,7 @@
           "Ayush",
           "Homeopathy"
         ],
+        "categoryName": "homeopathy",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -7433,8 +7451,6 @@
       }
     ]
   },
-
-  
   "medicine": [
     {
       "medicines": [
