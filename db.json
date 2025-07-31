@@ -4577,5 +4577,49 @@
         "image": "assets/images/Beauty/Personal Care/Body Care/body care8.jpg"
       }
     ]
-  }
+  },
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Nisha Menon",
+      "location": "Mumbai",
+      "description": "Netmeds’ newest feature, which allows customers to choose delivery dates, is impressive and super convenient."
+    },
+    {
+      "id": 2,
+      "name": "Harsh Kumar",
+      "location": "Mumbai",
+      "description": "Permit me to record my deepest appreciation for Siya from your call centre team."
+    },
+    {
+      "id": 3,
+      "name": "Ayesha Singh",
+      "location": "Delhi",
+      "description": "The UI is user-friendly, and I enjoy the discounts and fast delivery."
+    },
+    {
+      "id": 4,
+      "name": "Karan Mehta",
+      "location": "Bangalore",
+      "description": "Support team is prompt and professional. Kudos!"
+    },
+    {
+      "id":5,
+      "name":"Neha Sharma",
+      "location":"Kolkata",
+      "description":"I have very good experience with netmeds.netmeds has large network of medicine with great offers and good customer support.I recommend netmeds for online medicine to save money. Excellent cashback percentage and discount coupons are offered  from time to time."
+    },
+    {
+      "id": 6,
+      "name": "Shubham Deb",
+      "location": "Siliguri",
+      "description": "Very good customer service. It is user-friendly and satifying. Good Experience."
+    },
+     {
+      "id": 7,
+      "name": "Vidhi Bhatt",
+      "location": "Junagadh",
+      "description": "Super experience from this site.Its my first order.I am very satisfied.Thank you NETMEDS."
+    }
+  ]
 }

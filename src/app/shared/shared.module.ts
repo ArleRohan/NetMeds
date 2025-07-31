@@ -18,8 +18,11 @@ import { CoronaAwarenessComponent } from './components/Health-Center/corona-awar
 import { RouterModule, Routes } from '@angular/router';
 import { EyesComponent } from './components/Beauty/make-up/eyes/eyes.component';
 import { LoginComponent } from '../auth/login/login.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BlogsComponent } from './components/Health-Center/health-library/blogs/blogs.component';
+import { UploadComponent } from './components/upload/upload.component';
+import { OrderReviewComponent } from './components/order-review/order-review.component';
+
 
 
 
@@ -49,17 +52,24 @@ const routes: Routes = [
     CancerComponent,
     CoronaAwarenessComponent,
     EyesComponent,
-    BlogsComponent
+    BlogsComponent,
+    UploadComponent,
+    OrderReviewComponent,
+  
   ],
   imports: [
     RouterModule.forChild(routes),
     CommonModule,
     FormsModule,
+    ReactiveFormsModule
     
   ],
   exports: [
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    OrderReviewComponent,
+    ReactiveFormsModule,
+    FormsModule
   ]
 })
 export class SharedModule { }
