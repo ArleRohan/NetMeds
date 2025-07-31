@@ -6524,6 +6524,109 @@
       }
     ]
   },
+  "users": [
+    {
+      "id": "b1c2",
+      "fullName": "Shivam Nanavare",
+      "email": "shivamnanavare@gmail.com",
+      "password": "1234",
+      "address": "pune",
+      "gender": "Male",
+      "phone": "7666845902"
+    },
+    {
+      "id": "b63c",
+      "fullName": "Geeta Bagal",
+      "email": "geetab@gmail.com",
+      "password": "1234",
+      "address": "pandharpur",
+      "phone": "7249277420"
+    },
+    {
+      "id": "e254",
+      "fullName": "Admin",
+      "email": "admin@gmail.com",
+      "password": "1234",
+      "address": "pune",
+      "phone": "7249277420",
+      "gender": "Female"
+    },
+    {
+      "id": "3fe2",
+      "fullName": "Geeta Patil",
+      "email": "geetapatil@gmail.com",
+      "password": "123456",
+      "address": "pandharpur",
+      "gender": "Female",
+      "phone": "7249927420"
+    },
+    {
+      "id": "3971",
+      "fullName": "Geeta",
+      "email": "geetapatil1234@gmail.com",
+      "password": "1234",
+      "address": "pandharpur",
+      "gender": "Female",
+      "phone": "7249277420"
+    },
+    {
+      "id": "24eb",
+      "fullName": "Shantanu Pravin Patil",
+      "email": "shantanup6172@gmail.com",
+      "password": "shantanu",
+      "address": "Kolhapur",
+      "gender": "Male",
+      "phone": "8446246172"
+    },
+    {
+      "id": "a3a6",
+      "fullName": "komal",
+      "email": "komal@gmail.com",
+      "password": "12345",
+      "address": "pandharpur",
+      "gender": "Female",
+      "phone": "9309449960"
+    },
+    {
+      "id": "4777",
+      "fullName": "Darshana ",
+      "email": "darshj2210@gmail.com",
+      "password": "12345",
+      "address": "Station Area murtizapur",
+      "gender": "Female",
+      "phone": "7218212412"
+    },
+    {
+      "id": "b2bd",
+      "fullName": "Sarthak",
+      "email": "patil01sarthak21@gmail.com",
+      "password": "12345",
+      "address": "A.P. Bolwad TAL. Miraj DIST. sangli",
+      "gender": "Male",
+      "phone": "9404405850"
+    }
+  ],
+  "ayush": {
+    "bannerImage": "assets/images/moduleBannerImage/AyushSection/ayush_0.jpg",
+    "categories": [
+      {
+        "categoryImage": "assets/images/moduleBannerImage/AyushSection/ayurvedic.png",
+        "categoryName": "ayurvedic"
+      },
+      {
+        "categoryImage": "assets/images/moduleBannerImage/AyushSection/homeopathy.jpg",
+        "categoryName": "homeopathy"
+      },
+      {
+        "categoryImage": "assets/images/moduleBannerImage/AyushSection/siddha.png",
+        "categoryName": "siddha"
+      },
+      {
+        "categoryImage": "assets/images/moduleBannerImage/AyushSection/unani.png",
+        "categoryName": "unani"
+      }
+    ]
+  },
   "cart": [
     {
       "id": "1",
@@ -6553,27 +6656,6 @@
       "quantity": 1
     }
   ],
-  "ayush": {
-    "bannerImage": "assets/images/moduleBannerImage/AyushSection/ayush_0.jpg",
-    "categories": [
-      {
-        "categoryImage": "assets/images/moduleBannerImage/AyushSection/ayurvedic.png",
-        "categoryName": "ayurvedic"
-      },
-      {
-        "categoryImage": "assets/images/moduleBannerImage/AyushSection/homeopathy.jpg",
-        "categoryName": "homeopathy"
-      },
-      {
-        "categoryImage": "assets/images/moduleBannerImage/AyushSection/siddha.png",
-        "categoryName": "siddha"
-      },
-      {
-        "categoryImage": "assets/images/moduleBannerImage/AyushSection/unani.png",
-        "categoryName": "unani"
-      }
-    ]
-  },
   "diabetes": {
     "bannerImage": "assets/images/moduleBannerImage/ayush_0.jpg",
     "categories": [
@@ -6592,10 +6674,6 @@
       {
         "categoryImage": "assets/images/moduleBannerImage/Diabetes/sugar_substitutes.png",
         "categoryName": "sugar-substitutes"
-      },
-      {
-        "categoryImage": "assets/images/moduleBannerImage/Diabetes/lancets_test_strips.png",
-        "categoryName": "lancets_test_strips"
       }
     ]
   },
@@ -6604,19 +6682,19 @@
     "categories": [
       {
         "categoryImage": "assets/images/moduleBannerImage/HealthCondition/bone_and_joint_pain.jpg",
-        "categoryName": "ayurvedic"
+        "categoryName": "bone_and_joint_care"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/HealthCondition/liver_care.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "liver_care"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/HealthCondition/piles_care.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "piles_care"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/HealthCondition/piles_care.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "women's_care"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/HealthCondition/weight_care.png",
@@ -6628,6 +6706,14 @@
     "bannerImage": "assets/images/moduleBannerImage/PersonalCare/1695202303_Personal-care.jpg",
     "categories": [
       {
+        "categoryImage": "assets/images/moduleBannerImage/PersonalCare/body_care.jpg",
+        "categoryName": "BodyCareProducts"
+      },
+      {
+        "categoryImage": "assets/images/moduleBannerImage/PersonalCare/face_personal_care.png",
+        "categoryName": "FacePersonalCareProducts"
+      },
+      {
         "categoryImage": "assets/images/moduleBannerImage/PersonalCare/bath_shower.png",
         "categoryName": "ayurvedic"
       },
@@ -6636,15 +6722,7 @@
         "categoryName": "ayurvedic"
       },
       {
-        "categoryImage": "assets/images/moduleBannerImage/PersonalCare/body_care.jpg",
-        "categoryName": "ayurvedic"
-      },
-      {
         "categoryImage": "assets/images/moduleBannerImage/PersonalCare/eye_care_lens.png",
-        "categoryName": "ayurvedic"
-      },
-      {
-        "categoryImage": "assets/images/moduleBannerImage/PersonalCare/face_personal_care.png",
         "categoryName": "ayurvedic"
       }
     ]
@@ -6678,19 +6756,19 @@
     "bannerImage": "assets/images/moduleBannerImage/skincare/skin_care1_1920.jpg",
     "categories": [
       {
-        "categoryImage": "assets/images/moduleBannerImage/skincare/aromatherapy.png",
-        "categoryName": "ayurvedic"
-      },
-      {
         "categoryImage": "assets/images/moduleBannerImage/skincare/cleansers.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "CleansersProduct"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/skincare/eye_care.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "EyeCare"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/skincare/face_skin_care.png",
+        "categoryName": "FaceCare"
+      },
+      {
+        "categoryImage": "assets/images/moduleBannerImage/skincare/aromatherapy.png",
         "categoryName": "ayurvedic"
       },
       {
@@ -6704,15 +6782,15 @@
     "categories": [
       {
         "categoryImage": "assets/images/moduleBannerImage/Fragrance/men.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "MenProducts"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/Fragrance/women.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "WomenProducts"
       },
       {
         "categoryImage": "assets/images/moduleBannerImage/Fragrance/unisex.png",
-        "categoryName": "ayurvedic"
+        "categoryName": "UnisexProducts"
       }
     ]
   },
@@ -6722,12 +6800,13 @@
       {
         "id": 1,
         "name": "Himalaya Wellness Ashvagandha Tablet 60's",
-        "brand": "Himalaya Wellness Company",
+        "brand": "Himalaya",
         "mainImage": "assets/images/Wellness/Ayush/Ayurvedic/1_details/himalaya_wellness_ashvagandha_tablet_60s_58979_0_3 (1).jpg",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [
           "assets/images/Wellness/Ayush/Ayurvedic/1_details/himalaya_wellness_ashvagandha_tablet_60s_827870_1_1.jpg",
           "assets/images/Wellness/Ayush/Ayurvedic/1_details/himalaya_wellness_ashvagandha_tablet_60s_827871_2_1.jpg",
@@ -6747,12 +6826,13 @@
       {
         "id": 2,
         "name": "Pankajakasthuri Breathe Easy Granules 400 gm",
-        "brand": "Pankajakasthuri Herbals India Pvt Ltd",
+        "brand": "Pankajakasthuri",
         "mainImage": "assets/images/Wellness/Ayush/Ayurvedic/2_details/pankajakasthuri_breathe_easy_granules_400_gm_43929_0_2.jpg",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [
           "assets/images/Wellness/Ayush/Ayurvedic/2_details/pankajakasthuri_breathe_easy_granules_400_gm_43929_0_2 (1).jpg",
           "assets/images/Wellness/Ayush/Ayurvedic/2_details/pankajakasthuri_breathe_easy_granules_400_gm_555141_2_1.jpg"
@@ -6771,12 +6851,13 @@
       {
         "id": 3,
         "name": "Lama Phalatrikadi Kwath Syrup 450 ml",
-        "brand": "Lama Pharmaceuticals",
+        "brand": "Lama",
         "mainImage": "assets/images/Wellness/Ayush/Ayurvedic/3_details/lama_phalatrikadi_kwath_syrup_450_ml_132934_0_2.jpg",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [
           "assets/images/Wellness/Ayush/Ayurvedic/3_details/lama_phalatrikadi_kwath_syrup_450_ml_132935_1_2.jpg",
           "assets/images/Wellness/Ayush/Ayurvedic/3_details/lama_phalatrikadi_kwath_syrup_450_ml_755285_3_0.jpg"
@@ -6795,12 +6876,13 @@
       {
         "id": 4,
         "name": "Pankajakasthuri Breathe Easy Syrup 200 ml",
-        "brand": "Pankajakasthuri Herbals India Pvt Ltd",
+        "brand": "Pankajakasthuri",
         "mainImage": "",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -6816,12 +6898,13 @@
       {
         "id": 5,
         "name": "Lama Isobael Granules 200 gm",
-        "brand": "Lama Pharmaceuticals",
+        "brand": "Lama",
         "mainImage": "",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -6837,12 +6920,13 @@
       {
         "id": 6,
         "name": "Baidyanath Basant Kusumakar Ras Tablet 50's",
-        "brand": "Shree Baidyanath Ayurved Bhawan Pvt Ltd",
+        "brand": "Baidyanath ",
         "mainImage": "",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -6858,12 +6942,13 @@
       {
         "id": 7,
         "name": "Planet Ayurveda Total Heart Support Capsules 60's",
-        "brand": "Planet Ayurveda",
+        "brand": "Planet",
         "mainImage": "",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -6879,12 +6964,13 @@
       {
         "id": 8,
         "name": "Aimil NEERI KFT Sugar Free Syrup (Pack of 3 x 200 ml)",
-        "brand": "Aimil Pharmaceuticals (India) Limited",
+        "brand": "Aimil",
         "mainImage": "",
         "category": [
           "Ayush",
           "Ayurvedic"
         ],
+        "categoryName": "ayurvedic",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -6911,6 +6997,7 @@
           "Ayush",
           "Unani"
         ],
+        "categoryName": "unani",
         "images": [
           "assets/images/Wellness/Ayush/Unani/1_details/hashmi_sikander_e_azam_plus_capsule_10s_207904_1_1.jpg",
           "assets/images/Wellness/Ayush/Unani/1_details/hashmi_sikander_e_azam_plus_capsule_10s_207905_2_1.jpg"
@@ -6935,6 +7022,7 @@
           "Ayush",
           "Unani"
         ],
+        "categoryName": "unani",
         "images": [
           "assets/images/Wellness/Ayush/Unani/2_details/hashmi_mughal_e_azam_plus_capsule_10s_1_0.jpg",
           "assets/images/Wellness/Ayush/Unani/2_details/hashmi_mughal_e_azam_plus_capsule_10s_2_0.jpg"
@@ -6959,6 +7047,7 @@
           "Ayush",
           "Unani"
         ],
+        "categoryName": "unani",
         "images": [
           "assets/images/Wellness/Ayush/Unani/hamdard_joshina_syrup_100_ml_0.jpg"
         ],
@@ -6982,6 +7071,7 @@
           "Ayush",
           "Unani"
         ],
+        "categoryName": "unani",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -7003,6 +7093,7 @@
           "Ayush",
           "Unani"
         ],
+        "categoryName": "unani",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -7024,6 +7115,7 @@
           "Ayush",
           "Unani"
         ],
+        "categoryName": "unani",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -7092,6 +7184,7 @@
           "Ayush",
           "Homeopathy"
         ],
+        "categoryName": "homeopathy",
         "images": [
           "assets/images/Wellness/Ayush/Homeopathy/bio_indias_immunity_drops_31_30_ml_0_0.jpg"
         ],
@@ -7115,6 +7208,7 @@
           "Ayush",
           "Homeopathy"
         ],
+        "categoryName": "homeopathy",
         "images": [
           "assets/images/Wellness/Ayush/Homeopathy/bio_indias_bach_flower_crab_apple_30_ml_609247_0_1.jpg"
         ],
@@ -7138,6 +7232,7 @@
           "Ayush",
           "Homeopathy"
         ],
+        "categoryName": "homeopathy",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -7159,6 +7254,7 @@
           "Ayush",
           "Homeopathy"
         ],
+        "categoryName": "homeopathy",
         "images": [],
         "product-content": [
           "*This product cannot be returned for a refund or exchange.",
@@ -7474,7 +7570,7 @@
       ],
       "category": "ADHD",
       "description": "ADHD - Overview: Attention deficit hyperactivity disorder (ADHD) is a neurodevelopmental disorder that affects adults and children. It is characterised by lack of attention, hyperactivity, and impulsivity, which can impact daily activities and social interactions. Symptoms may include difficulty in paying attention, forgetfulness, fidgeting, interrupting others, and impulsive behaviour. ADHD is often treated with medication, behavioural therapy, or a combination of both. While there is no cure for ADHD, management and support can lead to improved functioning and quality of life.",
-      "id": "442d"
+      "id": "6622"
     },
     {
       "medicines": [
@@ -7513,7 +7609,7 @@
       ],
       "category": "Acne",
       "description": "Acne Acne is a common skin condition caused due to clogged hair follicles. These tiny hair follicles are clogged due to excess sebum production and dead skin cells on the skin, which leads to the formation of pimples, pustules, blackheads and whiteheads. Additionally, hormonal changes, presence of bacteria like Acne vulgaris, certain medications, stress and diet can also trigger acne breakouts on the skin.",
-      "id": "edee"
+      "id": "572c"
     },
     {
       "medicines": [
@@ -7550,7 +7646,7 @@
       ],
       "category": "Alcohol Addiction",
       "description": "Alcohol Addiction - Overview Alcohol addiction is a chronic disease characterised by a strong craving for alcohol, loss of control over drinking, and physical dependence. It affects both physical and mental health, leading to various health problems such as liver disease, heart disease, depression, and anxiety. Treatment for addiction involves a combination alcohol addiction tablet and support groups. Alcohol addiction can cause financial problems, social isolation, and damage to relationships. Long-term recovery is possible with a commitment to abstinence and ongoing support.",
-      "id": "0ffe"
+      "id": "7282"
     },
     {
       "medicines": [
@@ -7589,7 +7685,7 @@
       ],
       "category": "Allergies",
       "description": "Allergies - Overview Allergies are the types of immune system responses to substances that are usually harmless. These substances, known as allergens, occur in various forms such as pollen, animal fur, certain foods, medications, and insect venom. When an allergic person is exposed to an allergen, their immune system releases histamines and other chemicals, leading to symptoms such as sneezing, runny nose, itching, rashes, and difficulty breathing. One can try capsule for allergy, which can be taken orally to alleviate symptoms caused by such allergens. Allergies can range from mild to severe. Some of them can be life-threatening, requiring immediate medical attention. Treatment options include avoiding allergens, taking allergies tablets to alleviate symptoms, as well as immunotherapy.",
-      "id": "d791"
+      "id": "4099"
     },
     {
       "medicines": [
@@ -7630,7 +7726,7 @@
       ],
       "category": "Alzheimer",
       "description": "Alzheimer - Overview Alzheimer's disease is a progressive brain disease that affects thinking, memory, and behaviour. It is the most eminent reason behind dementia in older adults and is characterised by the accumulation of toxin proteins within the brain. The exact cause of Alzheimer's disease is not fully understood yet, but the factors that are believed to play a major role are genetics, lifestyle factors, and age. Currently, only symptomatic therapy is available for Alzheimer's disease, in the form of Alzheimer tablets and other treatments that can help to manage the symptoms and improve quality of life of affected individuals.",
-      "id": "a06b"
+      "id": "52d2"
     },
     {
       "medicines": [
@@ -7667,7 +7763,7 @@
       ],
       "category": "Amoebiasis",
       "description": "Amoebiasis - Overview Amoebiasis is an infectious disease caused by an amoeba parasite, named Entamoeba histolytica. The parasite is found in contaminated food or water and can infect the intestines or other organs such as the liver, lungs, or brain. Symptoms can range from mild diarrhoea to severe dysentery, and may also include stomach pain, fever, and nausea. In some cases, the infection can become chronic and lead to tissue damage or abscesses (collection of pus locally). Treatment typically involves medications to kill the parasite, as well as prevention methods including good hygiene practices and avoiding contaminated food and water. It is essential to consult a doctor to buy amoebiasis medicines and determine the most appropriate treatment plan for managing the symptoms of the disease.",
-      "id": "cb90"
+      "id": "c3df"
     },
     {
       "medicines": [
@@ -7704,7 +7800,7 @@
       ],
       "category": "Anaemia",
       "description": "Anaemia - Anaemia is a condition in which the body doesn't have enough red blood cells or haemoglobin, which carries oxygen to the body's tissues. It can be triggered by factors including vitamin B12 deficiency, iron deficiency, chronic kidney disease, and blood loss. Treatment depends on the underlying cause and may include iron or vitamin supplements, anaemia tablets, anaemia syrup, or blood transfusions. If left untreated, anaemia can lead to complications such as heart problems and developmental delays in children.",
-      "id": "47ea"
+      "id": "cc3c"
     },
     {
       "medicines": [
@@ -7742,7 +7838,7 @@
       ],
       "category": "Anaesthesia - Local",
       "description": "Anaesthesia Local - Overview - Local anaesthesia is a type of anaesthesia that numbs a specific part of the body without putting the patient to sleep. It can be administered either as an injection or as topical creams and gels. Local anaesthesia is commonly used for minor surgical procedures such as dental work, skin biopsies, and suturing wounds. It is also used for diagnostic procedures such as lumbar punctures and joint aspirations. Local anaesthesia works by blocking the nerves that transmit pain signals from the affected area to the brain. It is important to follow the instructions of the doctor before, during, and after the procedure.",
-      "id": "e7ef"
+      "id": "7a2a"
     },
     {
       "medicines": [
@@ -7767,7 +7863,7 @@
       ],
       "category": "Anaesthesia - General",
       "description": "Anaesthesia General - General anaesthesia is a type of anaesthesia that induces a reversible state of unconsciousness, immobility, and analgesia. It is typically used for surgical procedures and involves administering intravenous or inhaled drugs to the patient. These drugs work by depressing the central nervous system, which leads to loss of consciousness and pain perception. During the procedure, the anaesthesiologist monitors the patient's vital signs and adjusts the dosage of drugs as necessary to maintain the desired level of anaesthesia. After the procedure is completed, the anaesthesiologist gradually reverses the effects of the drugs and monitors the patient until they are fully awake and stable.",
-      "id": "4178"
+      "id": "c03b"
     },
     {
       "medicines": [
@@ -7798,7 +7894,7 @@
       ],
       "category": "Anal Fissure",
       "description": "Anal Fissure - Overview - An anal fissure is a crack or a tear in the anus, that can cause bleeding, pain, and discomfort during bowel movements. The condition can be triggered by constipation, diarrhoea, or trauma to the anal area. Treatment usually involves increasing fibre intake and applying topical anal fissure cream or ointments. Prevention methods include maintaining regular bowel movements, staying hydrated, and avoiding excessive straining while passing the stool.",
-      "id": "b8c2"
+      "id": "576a"
     }
   ],
   "ADHD": {
@@ -7992,5 +8088,71 @@
         "image": "assets/images/medicines/allMedicines/8/cogniza_tablet_10s_0_1.jpg"
       }
     ]
-  }
+  },
+  "wellness": [
+    {
+      "src": "assets/images/Wellness/carousel_1.jpg",
+      "alt": "",
+      "id": "ee84"
+    },
+    {
+      "src": "assets/images/Wellness/carousel_2.jpg",
+      "alt": "",
+      "id": "9650"
+    },
+    {
+      "src": "assets/images/Wellness/carousel_3.jpg",
+      "alt": "",
+      "id": "c313"
+    },
+    {
+      "src": "assets/images/Wellness/carousel_4.jpg",
+      "alt": "",
+      "id": "c96a"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Nisha Menon",
+      "location": "Mumbai",
+      "description": "Netmeds’ newest feature, which allows customers to choose delivery dates, is impressive and super convenient."
+    },
+    {
+      "id": "2",
+      "name": "Harsh Kumar",
+      "location": "Mumbai",
+      "description": "Permit me to record my deepest appreciation for Siya from your call centre team."
+    },
+    {
+      "id": "3",
+      "name": "Ayesha Singh",
+      "location": "Delhi",
+      "description": "The UI is user-friendly, and I enjoy the discounts and fast delivery."
+    },
+    {
+      "id": "4",
+      "name": "Karan Mehta",
+      "location": "Bangalore",
+      "description": "Support team is prompt and professional. Kudos!"
+    },
+    {
+      "id": "5",
+      "name": "Neha Sharma",
+      "location": "Kolkata",
+      "description": "I have very good experience with netmeds.netmeds has large network of medicine with great offers and good customer support.I recommend netmeds for online medicine to save money. Excellent cashback percentage and discount coupons are offered  from time to time."
+    },
+    {
+      "id": "6",
+      "name": "Shubham Deb",
+      "location": "Siliguri",
+      "description": "Very good customer service. It is user-friendly and satifying. Good Experience."
+    },
+    {
+      "id": "7",
+      "name": "Vidhi Bhatt",
+      "location": "Junagadh",
+      "description": "Super experience from this site.Its my first order.I am very satisfied.Thank you NETMEDS."
+    }
+  ]
 }

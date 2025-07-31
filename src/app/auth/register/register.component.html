@@ -1,60 +1,73 @@
-<div class="d-flex mt-3 justify-content-center align-items-center vh-100 bg-light">
-  <div class="card mb-5 mt-5 shadow p-4 rounded-4" style="min-width: 400px; max-width: 700px; width: 100%;">
-    <h4 class="text-center mb-4 fw-bold">{{ showUpdateBtn ? 'Update Profile' : 'Register' }}</h4>
+<div class="d-flex justify-content-center align-items-center min-vh-100 bg-light py-5">
+  <div class="card p-4 shadow rounded-4" style="min-width: 500px; max-width: 800px; width: 100%;">
+    <h4 class="text-center mb-4">Register</h4>
 
-    <form #form="ngForm" (ngSubmit)="form.valid && (showUpdateBtn ? onUpdate() : onRegister())">
-      
-      <!-- Full Name -->
-      <div class="mb-3">
-        <label class="form-label fw-semibold">Full Name</label>
-        <input type="text" class="form-control form-control-lg rounded-3" name="fullname" [(ngModel)]="registerData.fullname"
-         #fullname="ngModel" required placeholder="Enter your full name">
-        <div *ngIf="fullname.invalid && fullname.touched" class="text-danger small">
-          Full Name is required.
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+      <div class="row">
+        <!-- Full Name -->
+        <div class="mb-3 col-md-6">
+          <label class="form-label">Full Name</label>
+          <input type="text" class="form-control" formControlName="fullName" placeholder="Enter full name" />
+          <div class="text-danger" *ngIf="registerForm.get('fullName')?.touched && registerForm.get('fullName')?.invalid">
+            Full name is required (min 3 characters).
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="mb-3 col-md-6">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" formControlName="email" placeholder="Enter email" />
+          <div class="text-danger" *ngIf="registerForm.get('email')?.touched && registerForm.get('email')?.invalid">
+            Enter a valid email address.
+          </div>
+        </div>
+
+        <!-- Password -->
+        <div class="mb-3 col-md-6">
+          <label class="form-label">Password</label>
+          <input type="password" class="form-control" formControlName="password" placeholder="Enter password" />
+          <div class="text-danger" *ngIf="registerForm.get('password')?.touched && registerForm.get('password')?.invalid">
+            Password must be at least 6 characters.
+          </div>
+        </div>
+
+        <!-- Gender -->
+        <div class="mb-3 col-md-6">
+          <label class="form-label">Gender</label>
+          <select class="form-select" formControlName="gender">
+            <option value="" disabled>Select gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+          <div class="text-danger" *ngIf="registerForm.get('gender')?.touched && registerForm.get('gender')?.invalid">
+            Please select a gender.
+          </div>
+        </div>
+
+        <!-- Address -->
+        <div class="mb-3 col-md-6">
+          <label class="form-label">Address</label>
+          <textarea class="form-control" formControlName="address" placeholder="Enter address"></textarea>
+          <div class="text-danger" *ngIf="registerForm.get('address')?.touched && registerForm.get('address')?.invalid">
+            Address is required.
+          </div>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="mb-3 col-md-6">
+          <label class="form-label">Phone Number</label>
+          <input type="text" class="form-control" formControlName="phone" placeholder="Enter 10-digit phone number" />
+          <div class="text-danger" *ngIf="registerForm.get('phone')?.touched && registerForm.get('phone')?.invalid">
+            Enter a valid 10-digit phone number.
+          </div>
         </div>
       </div>
 
-      <!-- Email -->
-      <div class="mb-3">
-        <label class="form-label fw-semibold">Email</label>
-        <input type="email" class="form-control form-control-lg rounded-3" name="email" [(ngModel)]="registerData.email"
-        #email="ngModel" required email placeholder="Enter your email">
-        <div *ngIf="email.invalid && email.touched" class="text-danger small">
-          <div *ngIf="email.errors?.['required']">Email is required.</div>
-          <div *ngIf="email.errors?.['email']">Enter a valid email address.</div>
-        </div>
+      <!-- Submit Button -->
+      <div class="text-center">
+        <button class="btn btn-primary w-100" type="submit">Register</button>
       </div>
-
-      <!-- Gender -->
-      <div class="mb-3">
-        <label class="form-label fw-semibold">Gender</label>
-        <select class="form-select form-select-lg rounded-3" name="gender" [(ngModel)]="registerData.gender"
-        #gender="ngModel" required>
-          <option value="" disabled>Select gender</option>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-        </select>
-        <div *ngIf="gender.invalid && gender.touched" class="text-danger small">
-          Gender is required.
-        </div>
-      </div>
-
-      <!-- Address -->
-      <div class="mb-3">
-        <label class="form-label fw-semibold">Address</label>
-        <textarea class="form-control form-control-lg rounded-3"  name="address" [(ngModel)]="registerData.address"
-        #address="ngModel" required placeholder="Enter your address" rows="3"></textarea>
-        <div *ngIf="address.invalid && address.touched" class="text-danger small">
-          Address is required.
-        </div>
-      </div>
-
-      <!-- Submit Buttons -->
-      <div class="d-grid mt-4">
-        <button *ngIf="!showUpdateBtn" type="submit" class="btn btn-primary btn-lg rounded-3" [disabled]="form.invalid">Register</button>
-        <button *ngIf="showUpdateBtn" type="submit" class="btn btn-warning btn-lg rounded-3" [disabled]="form.invalid">Update Profile </button>
-      </div>
-
     </form>
   </div>
 </div>

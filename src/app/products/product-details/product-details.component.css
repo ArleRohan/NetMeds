@@ -98,3 +98,7 @@
     flex-direction: column;
     align-content: center;
 }
+.product_disc_details p {
+    font-size: 16px;
+    font-weight: 500;
+}
