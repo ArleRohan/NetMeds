@@ -31,7 +31,7 @@ export class LoginComponent {
     console.log('Form values:', this.userLoginForm.value);
 
     this.authSer.getAllUsers().subscribe(users => {
-      console.log('All users:', users);  //  move this inside the subscribe
+      console.log('All users:', users);  
 
       const matchedUser = users.find(
         (user: any) => user.email === email && user.password === password
@@ -39,6 +39,8 @@ export class LoginComponent {
 
       if (matchedUser) {
         alert('Login successful!');
+        // for interceptor
+        localStorage.setItem('token','eyJhbGciOiJIUzI1NiIsInR5')
         sessionStorage.setItem('user', JSON.stringify(matchedUser));
         this.router.navigate(['/home']);
       } else {

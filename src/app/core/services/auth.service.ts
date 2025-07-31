@@ -13,7 +13,7 @@ export class AuthService {
   constructor(private http: HttpClient) {}
 
   addUser(data: any): Observable<any> {
-  return this.http.post('http://localhost:3000/users', data);  
+  return this.http.post('http://localhost:3000/users', data);  // Make sure it's 'users'
 }
 
   getAllUsers(): Observable<any> {

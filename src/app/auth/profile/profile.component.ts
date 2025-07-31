@@ -1,34 +1,22 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { CanComponentDeactivate } from 'src/app/core/guards/auth.guard';
 import { AuthService } from 'src/app/core/services/auth.service';
 
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html'
 })
-export class ProfileComponent implements OnInit {
+export class ProfileComponent implements OnInit, CanComponentDeactivate {
   user: any;
 
   editMode = false;
 
   profileForm!: FormGroup;
+  isFormDirty:boolean = false;
 
 constructor(private fb: FormBuilder, private autSer: AuthService, private router: Router) {}
-
-
-  // ngOnInit(): void {
-  //   const storedUser = sessionStorage.getItem('user');
-
-  //   if (storedUser) {
-  //     this.user = JSON.parse(storedUser);
-  //   } else {
-  //     // ❌ User not logged in – redirect to login
-  //     this.router.navigate(['/login']);
-  //   }
-  // }
-
-
 
   ngOnInit(): void {
     const storedUser = sessionStorage.getItem('user');
@@ -39,7 +27,14 @@ constructor(private fb: FormBuilder, private autSer: AuthService, private router
       this.router.navigate(['/login']);
     }
   }
-
+  onInputChange() {
+    this.isFormDirty = true;
+  }
+  canDeactivate() {
+    return this.isFormDirty
+      ? confirm("You haven't saved your data. Do you really want to leave the page?")
+      : true;
+  }
 
 initForm(): void {
   this.profileForm = this.fb.group({

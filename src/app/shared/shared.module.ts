@@ -26,19 +26,12 @@ import { SupplementsComponent } from './components/Health-Center/cancer/suppleme
 import { AcidsComponent } from './components/Health-Center/cancer/supplements/acids/acids/acids.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BlogsComponent } from './components/Health-Center/health-library/blogs/blogs.component';
+import { PrescriptionMedicinesComponent } from './components/Medicine/all-medicine/prescription-medicines/prescription-medicines.component';
 import { LabTestComponent } from './components/lab-test/lab-test.component';
 import { OffersComponent } from './components/offers/offers.component';
-import { PrescriptionMedicinesComponent } from './components/Medicine/all-medicine/prescription-medicines/prescription-medicines.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { MatListModule } from '@angular/material/list';
 import { MatExpansionModule } from '@angular/material/expansion';
-import { MatIconModule } from '@angular/material/icon';
-import { MatButtonModule } from '@angular/material/button';
-import { MatRadioModule } from '@angular/material/radio';
-import { MatSliderModule } from '@angular/material/slider';
-import { SliderModule } from 'primeng/slider';
-import { CarouselModule } from 'ngx-owl-carousel-o';
-
 
 const routes: Routes = [
   {  path:  'BuyAgain', component:  BuyAgainComponent  },
@@ -77,9 +70,12 @@ const routes: Routes = [
     BlogsComponent,
     CustomPipe,
     CategoryComponent,
-    LabTestComponent,
+    PrescriptionMedicinesComponent,
     OffersComponent,
-    PrescriptionMedicinesComponent
+    LabTestComponent,
+    SupplementsComponent,
+    AcidsComponent
+
   ],
   imports: [
     RouterModule.forChild(routes),
@@ -88,22 +84,21 @@ const routes: Routes = [
     NgxPaginationModule,
     MatListModule,
     MatExpansionModule,
-    MatIconModule,
-    MatButtonModule,
-    MatRadioModule,
-    MatSliderModule,
-    SliderModule,
-    CarouselModule
+    // MatIconModule,
+    // MatButtonModule,
+    // MatRadioModule,
+    // MatSliderModule,
+    // SliderModule,
+    // CarouselModule
     // CustomPipe
   ],
+  
   exports: [
     FooterComponent,
     HeaderComponent,
-    MatListModule,
     CustomPipe,
-    MatSliderModule,
-    SliderModule,
-    CarouselModule
+    MatListModule,
+    SideBarComponent
   ]
 })
 export class SharedModule {}

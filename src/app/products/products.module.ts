@@ -3,8 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { RouterModule, Routes } from '@angular/router';
-import { EyesComponent } from '../shared/components/Beauty/make-up/eyes/eyes.component';
-import { CustomPipe } from '../shared/pipes/custom.pipe';
+// import { EyesComponent } from '../shared/components/Beauty/make-up/eyes/eyes.component';
 import { SharedModule } from '../shared/shared.module';
 
 const routes: Routes = [
@@ -16,7 +15,6 @@ const routes: Routes = [
   declarations: [
     ProductListComponent,
     ProductDetailsComponent,
-    // CustomPipe
   ],
   imports: [
     RouterModule.forChild(routes),
