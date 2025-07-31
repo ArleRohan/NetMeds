@@ -26,6 +26,9 @@ import { SupplementsComponent } from './components/Health-Center/cancer/suppleme
 import { AcidsComponent } from './components/Health-Center/cancer/supplements/acids/acids/acids.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BlogsComponent } from './components/Health-Center/health-library/blogs/blogs.component';
+import { LabTestComponent } from './components/lab-test/lab-test.component';
+import { OffersComponent } from './components/offers/offers.component';
+import { PrescriptionMedicinesComponent } from './components/Medicine/all-medicine/prescription-medicines/prescription-medicines.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { MatListModule } from '@angular/material/list';
 import { MatExpansionModule } from '@angular/material/expansion';
@@ -46,6 +49,10 @@ const routes: Routes = [
   { path: 'signin', component:  LoginComponent },
   { path: "category/:keyName", component: CategoryComponent  },
   { path: 'HealthLibrary', component: HealthLibraryComponent },
+  {path:'offers',component:OffersComponent},
+  {path:"allmedicine",component:AllMedicineComponent},
+  {path:"labTest",component:LabTestComponent},
+  {path:'prescriptionMedicines/:category',component:PrescriptionMedicinesComponent}
 ];
 
 @NgModule({
@@ -70,7 +77,9 @@ const routes: Routes = [
     BlogsComponent,
     CustomPipe,
     CategoryComponent,
-    
+    LabTestComponent,
+    OffersComponent,
+    PrescriptionMedicinesComponent
   ],
   imports: [
     RouterModule.forChild(routes),

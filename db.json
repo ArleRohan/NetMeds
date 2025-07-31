@@ -1,5 +1,4 @@
 {
-
   "eyesProducts": {
     "banner": "assets/images/Make-Up/Eyes/eyes.jpg",
     "items": [
@@ -6495,36 +6494,36 @@
       }
     ]
   },
- "aminoAcidProducts": {
-        "items": [
-            {
-                "id": "1",
-                "name": "INLIFE L-Arginine 1000 mg - 60 Tablets",
-                "brand": "INLIFE Healthcare",
-                "category": [
-                    "Fitness",
-                    "Amino Acids"
-                ],
-                "disc_price": 480,
-                "price": "600.00",
-                "disc": 20,
-                "image": "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2.jpg"
-            },
-            {
-                "id": "2",
-                "name": "GNC Pro Performance Creatine Monohydrate - 250 gm",
-                "brand": "GNC India",
-                "category": [
-                    "Fitness",
-                    "Amino Acids"
-                ],
-                "disc_price": 950,
-                "price": "1190.00",
-                "disc": 20,
-                "image": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg"
-            }
-        ]
-    },
+  "aminoAcidProducts": {
+    "items": [
+      {
+        "id": "1",
+        "name": "INLIFE L-Arginine 1000 mg - 60 Tablets",
+        "brand": "INLIFE Healthcare",
+        "category": [
+          "Fitness",
+          "Amino Acids"
+        ],
+        "disc_price": 480,
+        "price": "600.00",
+        "disc": 20,
+        "image": "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2.jpg"
+      },
+      {
+        "id": "2",
+        "name": "GNC Pro Performance Creatine Monohydrate - 250 gm",
+        "brand": "GNC India",
+        "category": [
+          "Fitness",
+          "Amino Acids"
+        ],
+        "disc_price": 950,
+        "price": "1190.00",
+        "disc": 20,
+        "image": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg"
+      }
+    ]
+  },
   "cart": [
     {
       "id": "1",
@@ -7451,6 +7450,553 @@
         "image": "assets/images/Wellness/Ayush/Siddha/dr_jrk_tolenorm_oil_50_ml_0.jpg"
       }
     ]
+  },
+  "medicine": [
+    {
+      "medicines": [
+        {
+          "name": "ATREST",
+          "variants": [
+            "Atrest 12.5mg Tablet 10'S",
+            "Atrest 25mg Tablet 10'S"
+          ]
+        },
+        {
+          "name": "CAFNEON OS",
+          "variants": [
+            "CAFNEON OS Injection 1ml"
+          ]
+        },
+        {
+          "name": "CAPNEA",
+          "variants": [
+            "Capnea Injection 1ml",
+            "Capnea Oral Solution 1ml"
+          ]
+        },
+        {
+          "name": "COGNISTAR",
+          "variants": [
+            "Cognistar 30mg Injection 1'S",
+            "Cognistar 60mg Injection 1's"
+          ]
+        },
+        {
+          "name": "COGNIZA",
+          "variants": [
+            "Cogniza Tablet 10'S"
+          ]
+        }
+      ],
+      "category": "ADHD",
+      "description": "ADHD - Overview: Attention deficit hyperactivity disorder (ADHD) is a neurodevelopmental disorder that affects adults and children. It is characterised by lack of attention, hyperactivity, and impulsivity, which can impact daily activities and social interactions. Symptoms may include difficulty in paying attention, forgetfulness, fidgeting, interrupting others, and impulsive behaviour. ADHD is often treated with medication, behavioural therapy, or a combination of both. While there is no cure for ADHD, management and support can lead to improved functioning and quality of life."
+    },
+    {
+      "medicines": [
+        {
+          "name": "A CN",
+          "variants": [
+            "A CN Gel(Topical) 20gm"
+          ]
+        },
+        {
+          "name": "A RET",
+          "variants": [
+            "A Ret 0.025% Gel 20gm",
+            "A Ret 0.05% Gel 20gm",
+            "A Ret 0.1% Gel 20gm"
+          ]
+        },
+        {
+          "name": "AB NEXT",
+          "variants": [
+            "AB NEXT Gel 20gm"
+          ]
+        },
+        {
+          "name": "ABAKA",
+          "variants": [
+            "ABAKA Gel 20gm"
+          ]
+        },
+        {
+          "name": "ACNECROSS ACNE",
+          "variants": [
+            ""
+          ]
+        }
+      ],
+      "category": "Acne",
+      "description": "Acne Acne is a common skin condition caused due to clogged hair follicles. These tiny hair follicles are clogged due to excess sebum production and dead skin cells on the skin, which leads to the formation of pimples, pustules, blackheads and whiteheads. Additionally, hormonal changes, presence of bacteria like Acne vulgaris, certain medications, stress and diet can also trigger acne breakouts on the skin."
+    },
+    {
+      "medicines": [
+        {
+          "name": "ACAMPROL",
+          "variants": [
+            "Acamprol 333mg Tablet 6'S"
+          ]
+        },
+        {
+          "name": "ACAMPTAS",
+          "variants": [
+            "Acamptas 333mg Tablet 6'S"
+          ]
+        },
+        {
+          "name": "ADDLINE",
+          "variants": [
+            "ADDLINE 50mg Tablet 15's"
+          ]
+        },
+        {
+          "name": "ADDTREX",
+          "variants": [
+            "ADDTREX 50 Tablet 10's"
+          ]
+        },
+        {
+          "name": "DISULFIRAM",
+          "variants": [
+            "Disulfiram 250mg Tablet 10'S"
+          ]
+        }
+      ],
+      "category": "Alcohol Addiction",
+      "description": "Alcohol Addiction - Overview Alcohol addiction is a chronic disease characterised by a strong craving for alcohol, loss of control over drinking, and physical dependence. It affects both physical and mental health, leading to various health problems such as liver disease, heart disease, depression, and anxiety. Treatment for addiction involves a combination alcohol addiction tablet and support groups. Alcohol addiction can cause financial problems, social isolation, and damage to relationships. Long-term recovery is possible with a commitment to abstinence and ongoing support."
+    },
+    {
+      "medicines": [
+        {
+          "name": "1 AL",
+          "variants": [
+            "1 AL 10mg Tablet 15'S",
+            "AL 5mg Tablet 10'S",
+            "1 AL Syrup 30ml"
+          ]
+        },
+        {
+          "name": "A FYL sr",
+          "variants": [
+            "A FYL 200 SR Tablet 10's"
+          ]
+        },
+        {
+          "name": "ABITOL",
+          "variants": [
+            "Abitol 4mg Tablet 10'S"
+          ]
+        },
+        {
+          "name": "ADDCET",
+          "variants": [
+            "ADDCET Tablet 15's"
+          ]
+        },
+        {
+          "name": "ADDCET L",
+          "variants": [
+            "ADDCET L Tablet 10's"
+          ]
+        }
+      ],
+      "category": "Allergies",
+      "description": "Allergies - Overview Allergies are the types of immune system responses to substances that are usually harmless. These substances, known as allergens, occur in various forms such as pollen, animal fur, certain foods, medications, and insect venom. When an allergic person is exposed to an allergen, their immune system releases histamines and other chemicals, leading to symptoms such as sneezing, runny nose, itching, rashes, and difficulty breathing. One can try capsule for allergy, which can be taken orally to alleviate symptoms caused by such allergens. Allergies can range from mild to severe. Some of them can be life-threatening, requiring immediate medical attention. Treatment options include avoiding allergens, taking allergies tablets to alleviate symptoms, as well as immunotherapy."
+    },
+    {
+      "medicines": [
+        {
+          "name": "ADMENTA",
+          "variants": [
+            "Admenta 10mg Tablet 10'S",
+            "Admenta 5mg Tablet 10'S"
+          ]
+        },
+        {
+          "name": "ALMERZIL",
+          "variants": [
+            "Almerzil 10mg Tablet 10'S",
+            "Almerzil 5mg Tablet 10'S"
+          ]
+        },
+        {
+          "name": "ALZIL",
+          "variants": [
+            "Alzil 10mg Tablet 10'S",
+            "Alzil 5mg Tablet 10'S"
+          ]
+        },
+        {
+          "name": "ALZIL M",
+          "variants": [
+            "Alzil M 10mg Tablet 10'S",
+            "Alzil M 5mg Tablet 10'S"
+          ]
+        },
+        {
+          "name": "ALZIL M FORTE",
+          "variants": [
+            "ALZIL M FORTE Tablet 10's"
+          ]
+        }
+      ],
+      "category": "Alzheimer",
+      "description": "Alzheimer - Overview Alzheimer's disease is a progressive brain disease that affects thinking, memory, and behaviour. It is the most eminent reason behind dementia in older adults and is characterised by the accumulation of toxin proteins within the brain. The exact cause of Alzheimer's disease is not fully understood yet, but the factors that are believed to play a major role are genetics, lifestyle factors, and age. Currently, only symptomatic therapy is available for Alzheimer's disease, in the form of Alzheimer tablets and other treatments that can help to manage the symptoms and improve quality of life of affected individuals."
+    },
+    {
+      "medicines": [
+        {
+          "name": "AMICLINE",
+          "variants": [
+            "Amicline Tablet 10'S"
+          ]
+        },
+        {
+          "name": "DAZOLIC",
+          "variants": [
+            "Dazolic 500mg Tablet 10'S"
+          ]
+        },
+        {
+          "name": "ENTEROQUINOL",
+          "variants": [
+            "Enteroquinol Tablet 20'S"
+          ]
+        },
+        {
+          "name": "NIZONIDE",
+          "variants": [
+            "Nizonide 500mg Tablet 6'S"
+          ]
+        },
+        {
+          "name": "ORNI",
+          "variants": [
+            "Orni 500mg Tablet 10'S"
+          ]
+        }
+      ],
+      "category": "Amoebiasis",
+      "description": "Amoebiasis - Overview Amoebiasis is an infectious disease caused by an amoeba parasite, named Entamoeba histolytica. The parasite is found in contaminated food or water and can infect the intestines or other organs such as the liver, lungs, or brain. Symptoms can range from mild diarrhoea to severe dysentery, and may also include stomach pain, fever, and nausea. In some cases, the infection can become chronic and lead to tissue damage or abscesses (collection of pus locally). Treatment typically involves medications to kill the parasite, as well as prevention methods including good hygiene practices and avoiding contaminated food and water. It is essential to consult a doctor to buy amoebiasis medicines and determine the most appropriate treatment plan for managing the symptoms of the disease."
+    },
+    {
+      "medicines": [
+        {
+          "name": "BALVIBE",
+          "variants": [
+            "BALVIBE Softgel 10's"
+          ]
+        },
+        {
+          "name": "BIZFER XT",
+          "variants": [
+            "Bizfer XT Tablet 10'S"
+          ]
+        },
+        {
+          "name": "COBAFAST sl",
+          "variants": [
+            "COBAFAST SL Sublingual Tablet 10's"
+          ]
+        },
+        {
+          "name": "Cobaswift NS",
+          "variants": [
+            "COBASWIFT NS Nasal Spray 5ml"
+          ]
+        },
+        {
+          "name": "Diron",
+          "variants": [
+            "DIRON 500 Injection 10ml"
+          ]
+        }
+      ],
+      "category": "Anaemia",
+      "description": "Anaemia - Anaemia is a condition in which the body doesn't have enough red blood cells or haemoglobin, which carries oxygen to the body's tissues. It can be triggered by factors including vitamin B12 deficiency, iron deficiency, chronic kidney disease, and blood loss. Treatment depends on the underlying cause and may include iron or vitamin supplements, anaemia tablets, anaemia syrup, or blood transfusions. If left untreated, anaemia can lead to complications such as heart problems and developmental delays in children."
+    },
+    {
+      "medicines": [
+        {
+          "name": "ANAWIN",
+          "variants": [
+            "ANAWIN 0.5% Injection 20ml",
+            "Anawin 0.25mg Injection 20ml"
+          ]
+        },
+        {
+          "name": "BUPIBLOC heavy",
+          "variants": [
+            "BUPIBLOC HEAVY 20mg Injection 4ml"
+          ]
+        },
+        {
+          "name": "BURNOSEPT",
+          "variants": [
+            "BURNOSEPT Spray 55gm"
+          ]
+        },
+        {
+          "name": "CERUKLIN",
+          "variants": [
+            "Ceruklin Ear Drops 10ml"
+          ]
+        },
+        {
+          "name": "CHOLCER",
+          "variants": [
+            "CHOLCER Gel 15gm"
+          ]
+        }
+      ],
+      "category": "Anaesthesia - Local",
+      "description": "Anaesthesia Local - Overview - Local anaesthesia is a type of anaesthesia that numbs a specific part of the body without putting the patient to sleep. It can be administered either as an injection or as topical creams and gels. Local anaesthesia is commonly used for minor surgical procedures such as dental work, skin biopsies, and suturing wounds. It is also used for diagnostic procedures such as lumbar punctures and joint aspirations. Local anaesthesia works by blocking the nerves that transmit pain signals from the affected area to the brain. It is important to follow the instructions of the doctor before, during, and after the procedure."
+    },
+    {
+      "medicines": [
+        {
+          "name": "SEVFURANE",
+          "variants": [
+            "SEVFURANE 50 Liquid For Inhalation 50ml"
+          ]
+        },
+        {
+          "name": "SEVURA",
+          "variants": [
+            "SEVURA INHALER 250 ML"
+          ]
+        },
+        {
+          "name": "THEMICAINE",
+          "variants": [
+            "THEMICAINE 2% Injection 30ml"
+          ]
+        }
+      ],
+      "category": "Anaesthesia - General",
+      "description": "Anaesthesia General - General anaesthesia is a type of anaesthesia that induces a reversible state of unconsciousness, immobility, and analgesia. It is typically used for surgical procedures and involves administering intravenous or inhaled drugs to the patient. These drugs work by depressing the central nervous system, which leads to loss of consciousness and pain perception. During the procedure, the anaesthesiologist monitors the patient's vital signs and adjusts the dosage of drugs as necessary to maintain the desired level of anaesthesia. After the procedure is completed, the anaesthesiologist gradually reverses the effects of the drugs and monitors the patient until they are fully awake and stable."
+    },
+    {
+      "medicines": [
+        {
+          "name": "ANOMETROGYL",
+          "variants": [
+            "Anometrogyl Cream 20gm"
+          ]
+        },
+        {
+          "name": "Ano Metrogyl",
+          "variants": [
+            "ANO METROGYL Cream 25g"
+          ]
+        },
+        {
+          "name": "SUCRAFIL ANO",
+          "variants": [
+            "SUCRAFIL ANO Cream 20gm"
+          ]
+        },
+        {
+          "name": "XYLOCAINE NF",
+          "variants": [
+            "XYLOCAINE NF Cream 30gm"
+          ]
+        }
+      ],
+      "category": "Anal Fissure",
+      "description": "Anal Fissure - Overview - An anal fissure is a crack or a tear in the anus, that can cause bleeding, pain, and discomfort during bowel movements. The condition can be triggered by constipation, diarrhoea, or trauma to the anal area. Treatment usually involves increasing fibre intake and applying topical anal fissure cream or ointments. Prevention methods include maintaining regular bowel movements, staying hydrated, and avoiding excessive straining while passing the stool."
+    }
+  ],
+  "ADHD": {
+    "items": [
+      {
+        "id": 1,
+        "name": "Atrest 12.5mg Tablet 10'S",
+        "brand": "Mkt: Centaur Pharmaceuticals Pvt Ltd",
+        "mainImage": "assets/images/medicines/allMedicines/1/MainImg1Atrest.jpg",
+        "category": [
+          "ADHD",
+          "Rx required"
+        ],
+        "images": [
+          "assets/images/medicines/allMedicines/1/atrest_12_5mg_tablet_10s_1_0.jpg",
+          "assets/images/medicines/allMedicines/1/atrest_12_5mg_tablet_10s_2_0.jpg",
+          "assets/images/medicines/allMedicines/1/atrest_12_5mg_tablet_10s_3_0.jpg"
+        ],
+        "product-content": [
+          "*10 Tablet(s) in a Strip",
+          "* Mkt: Centaur Pharmaceuticals Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 152.05,
+        "price": "186.05",
+        "disc": 20,
+        "image": "assets/images/medicines/allMedicines/1/MainImg1Atrest.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Atrest 25mg Tablet 10'S",
+        "brand": "Mkt: Centaur Pharmaceuticals Pvt Ltd",
+        "mainImage": "assets/images/medicines/allMedicines/2/Main atrest 25mg_0.jpg",
+        "category": [
+          "ADHD",
+          "Rx required"
+        ],
+        "images": [
+          "assets/images/medicines/allMedicines/2/atrest_25mg_tablet_10_s_3.jpg",
+          "assets/images/medicines/allMedicines/2/atrest_25mg_tablet_10_s_2.jpg",
+          "assets/images/medicines/allMedicines/2/atrest_25mg_tablet_10_s_1.jpg"
+        ],
+        "product-content": [
+          "*10 Tablet(s) in a Strip",
+          "* Mkt: Centaur Pharmaceuticals Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 335.70,
+        "price": "381.48",
+        "disc": 12,
+        "image": "assets/images/medicines/allMedicines/2/Main atrest 25mg_0.jpg"
+      },
+      {
+        "id": 3,
+        "name": "CAFNEON OS Injection 1ml",
+        "brand": "Mkt: Neon Laboratories Ltd",
+        "mainImage": "assets/images/medicines/allMedicines/3/injections Main1.jpg",
+        "category": [
+          "ADHD",
+          "Rx required"
+        ],
+        "images": [
+          "assets/images/medicines/allMedicines/3/injections.jpg"
+        ],
+        "product-content": [
+          "* Mkt: Neon Laboratories Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 225.50,
+        "price": "275.00",
+        "disc": 18,
+        "image": "assets/images/medicines/allMedicines/3/injections.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Capnea Injection 1ml",
+        "brand": "Mkt: Cipla Ltd",
+        "mainImage": "assets/images/medicines/allMedicines/4/capnea_injection_Main.jpg",
+        "category": [
+          "ADHD",
+          "Rx required"
+        ],
+        "images": [
+          "assets/images/medicines/allMedicines/4/capnea_injection_1ml_0 (1).jpg"
+        ],
+        "product-content": [
+          "* Mkt: Cipla Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 246.88,
+        "price": "280.55",
+        "disc": 12,
+        "image": "src/assets/images/medicines/allMedicines/4/capnea_injection_1ml_0 (1).jpg"
+      },
+      {
+        "id": 5,
+        "name": "Capnea Oral Solution 1ml",
+        "brand": "Mkt: Cipla Ltd",
+        "mainImage": "assets/images/medicines/allMedicines/5/capnea_oral_solution_1ml_Main(1).jpg",
+        "category": [
+          "ADHD",
+          "Rx required"
+        ],
+        "images": [
+          "assets/images/medicines/allMedicines/5/capnea_oral_solution_1ml_0_0.jpg",
+          "assets/images/medicines/allMedicines/5/capnea_oral_solution_1ml_1_0.jpg"
+        ],
+        "product-content": [
+          "* Mkt: Cipla Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 225.62,
+        "price": "275.15",
+        "disc": 18,
+        "image": "assets/images/medicines/allMedicines/5/capnea_oral_solution_1ml_1_0.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Cognistar 30mg Injection 1'S",
+        "brand": "Mkt: Lupin Ltd",
+        "mainImage": "assets/images/medicines/allMedicines/6/cognistar_30mg_injection_1s_main_0.jpg",
+        "category": [
+          "ADHD",
+          "Rx required"
+        ],
+        "images": [
+          "assets/images/medicines/allMedicines/6/cognistar_30mg_injection_1s_3_0.jpg",
+          "assets/images/medicines/allMedicines/6/cognistar_30mg_injection_1s_2_0.jpg",
+          "assets/images/medicines/allMedicines/6/cognistar_30mg_injection_1s_1_0.jpg"
+        ],
+        "product-content": [
+          "* Mkt: Lupin Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 706.02,
+        "price": "802.30",
+        "disc": 12,
+        "image": "assets/images/medicines/allMedicines/6/cognistar_30mg_injection_1s_2_0.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Cognistar 60mg Injection 1's",
+        "brand": "Mkt: Lupin Ltd",
+        "mainImage": "assets/images/medicines/allMedicines/7/cognistar_60mg_injection_0main.jpg",
+        "category": [
+          "ADHD",
+          "Rx required"
+        ],
+        "images": [
+          "assets/images/medicines/allMedicines/7/cognistar_60mg_injection_0.jpg"
+        ],
+        "product-content": [
+          "* Mkt: Cipla Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 1314.90,
+        "price": "1494.20",
+        "disc": 12,
+        "image": "assets/images/medicines/allMedicines/7/cognistar_60mg_injection_0.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Cogniza Tablet 10'S",
+        "brand": "Mkt: Cipla Ltd",
+        "mainImage": "assets/images/medicines/allMedicines/8/cogniza_tablet_10s_0_1 main.jpg",
+        "category": [
+          "ADHD",
+          "Rx required"
+        ],
+        "images": [
+          "assets/images/medicines/allMedicines/8/cogniza_tablet_10s_0_1.jpg",
+          "assets/images/medicines/allMedicines/8/cogniza_tablet_10s_1_1.jpg",
+          "assets/images/medicines/allMedicines/8/cogniza_tablet_10s_3_0.jpg"
+        ],
+        "product-content": [
+          "* 10 Tablet(s) in a Strip",
+          "* Mkt: Linux Laboratories Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ],
+        "disc_price": 205.74,
+        "price": "250.90",
+        "disc": 18,
+        "image": "assets/images/medicines/allMedicines/8/cogniza_tablet_10s_0_1.jpg"
+      }
+    ]
   }
 }
-
