@@ -7,8 +7,7 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProductsModule } from './products/products.module';
-import { HomeModule } from './home/home.module';
-import { SwiperModule } from 'swiper/angular';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -19,12 +18,14 @@ import { SwiperModule } from 'swiper/angular';
     BrowserModule,
     AppRoutingModule,
     CoreModule,
-    SharedModule,
+    // SharedModule,
     FormsModule,
-    ReactiveFormsModule,
-    ProductsModule,
-    HomeModule,
-    SwiperModule
+    // ProductsModule,
+
+
+    
+    BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,7 +6,7 @@ const routes: Routes = [
   { path: 'shared', loadChildren: () => import('./shared/shared.module').then(m => m.SharedModule) },
   { path: 'order', loadChildren: () => import('./orders/orders.module').then(m => m.OrdersModule) },
   { path: 'products', loadChildren: () => import('./products/products.module').then(m => m.ProductsModule) },
-  { path: 'carts', loadChildren: () => import('./carts/carts.module').then(m => m.CartsModule) },
+  { path: 'carts',loadChildren: () => import('./carts/carts.module').then(m => m.CartsModule)},
   { path: 'auth', loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule) },
   
   
