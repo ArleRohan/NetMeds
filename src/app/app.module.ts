@@ -7,6 +7,8 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProductsModule } from './products/products.module';
+import { HomeModule } from './home/home.module';
+import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ProductsModule } from './products/products.module';
     SharedModule,
     FormsModule,
     ReactiveFormsModule,
-    ProductsModule
+    ProductsModule,
+    HomeModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

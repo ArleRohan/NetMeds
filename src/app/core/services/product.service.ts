@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { map, Observable } from 'rxjs';
+import { forkJoin, map, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -19,4 +19,18 @@ export class ProductService {
       map(res => res.items.find((item: any) => item.id == id))
     );
   }
+
+//  getMergedData(cat1: string, cat2: string): Observable<any[]> {
+//   const req1 = this.http.get<any[]>(`${this.apiUrl}/${cat1}`);
+//   const req2 = this.http.get<any[]>(`${this.apiUrl}/${cat2}`);
+
+//   return forkJoin([req1, req2]).pipe(
+//     map(([res1, res2]) => [...res1, ...res2])  // Merge the two arrays
+//   );
+// }
+
+getProducts(): Observable<any[]> {
+    return this.http.get<any[]>(this.apiUrl);
+  }
+
 }

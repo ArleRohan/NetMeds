@@ -41,22 +41,15 @@ export class ProductListComponent {
     });
   }
   
-
-
   getAllProducts(key: any) {
     // debugger
     this.prodServ.getAllProducts(key).subscribe((res: any) => {
       this.products = res.items;
       this.bannerImg = res.banner;
-      console.log(res.items);
-      
+      console.log(res.items); 
     })
-
   }
-
-  addToCart(prod: any) {
-
-  }
+  addToCart(prod: any) {}
   goToDetail(productId: string) {
     this.router.navigate(['/products/product-details', this.key, productId]);
   }
