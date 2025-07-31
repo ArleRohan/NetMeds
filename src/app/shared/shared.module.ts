@@ -21,6 +21,7 @@ import { EyesComponent } from './components/Beauty/make-up/eyes/eyes.component';
 import { LoginComponent } from '../auth/login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BlogsComponent } from './components/Health-Center/health-library/blogs/blogs.component';
+import { BeautyComponent } from './components/Beauty/beauty/beauty.component';
 import { UploadComponent } from './components/upload/upload.component';
 import { OrderReviewComponent } from './components/order-review/order-review.component';
 
@@ -54,7 +55,9 @@ const routes: Routes = [
   {path:"labTest",component:LabTestComponent},
   {path:'prescriptionMedicines/:category',component:PrescriptionMedicinesComponent},
   {path:"upload",component:UploadComponent},
-  {path:"order-review",component:OrderReviewComponent}
+  {path:"order-review",component:OrderReviewComponent},
+  {path:'beauty',component:BeautyComponent},
+
 ];
 
 @NgModule({
@@ -77,6 +80,7 @@ const routes: Routes = [
     SideBarComponent,
     EyesComponent,
     BlogsComponent,
+    BeautyComponent,
     UploadComponent,
     OrderReviewComponent,
   

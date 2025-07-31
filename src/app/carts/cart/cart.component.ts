@@ -137,14 +137,14 @@ removeFromCart(item: any) {
     this.currentIndex = (this.currentIndex - 1 + this.images.length) % this.images.length;
   }
 
-  //  Slider 2
+  //Slider 2
   startAutoSlide1(): void {
     this.autoSlideInterval1 = setInterval(() => {
       this.currentIndex1 = (this.currentIndex1 + 1) % this.slideContent.length;
     }, 3000);
   }
 
-  // Dropdown
+  //Dropdown
   toggleDropdown(): void {
     this.showDropdown = !this.showDropdown;
   }
