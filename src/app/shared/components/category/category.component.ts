@@ -24,7 +24,7 @@ export class CategoryComponent implements OnInit {
     private prodServ: ProductService,
     private actRoute: ActivatedRoute,
     private router: Router
-  ) {}
+  ) { }
 
   ngOnInit() {
     this.actRoute.params.subscribe(params => {
@@ -59,33 +59,43 @@ export class CategoryComponent implements OnInit {
   }
 
   getAllCategoryProducts(sectionKeys: any) {
-    const requests = sectionKeys.map((key: any) => this.prodServ.getAllProducts(key));
+    try {
+      const requests = sectionKeys.map((key: any) => this.prodServ.getAllProducts(key));
 
-    forkJoin(requests).pipe(
-      map((sections: any) => {
-        return sections.flatMap((section: any) => section.items);
-      })
-    ).subscribe({
-      next: (mergedProducts) => {
-        this.products = mergedProducts;
-        this.filteredProducts = this.products
-        console.log('Merged products (forkJoin):', this.products);
-      },
-      error: (err) => {
-        console.error('Error:', err);
-      }
-    });
+      forkJoin(requests).pipe(
+        map((sections: any) => {
+          return sections.flatMap((section: any) => section.items);
+        })
+      ).subscribe({
+        next: (mergedProducts) => {
+          this.products = mergedProducts;
+          this.filteredProducts = this.products
+          console.log('Merged products (forkJoin):', this.products);
+        },
+        error: (err) => {
+          console.error('Error:', err);
+        }
+      });
+    } catch (ex) {
+      console.log(ex)
+    }
+
   }
 
   getAllProducts(key: any) {
     // debugger
-    this.prodServ.getAllProducts(key).subscribe((res: any) => {
-      this.products = res.items;
-      this.categories = res.categories;
-      this.sectionBannerImg = res.bannerImage
-      console.log(res.items);
-    })
-
+    try {
+      this.prodServ.getAllProducts(key).subscribe((res: any) => {
+        this.products = res.items;
+        this.categories = res.categories;
+        this.sectionBannerImg = res.bannerImage
+        console.log(res.items);
+      }, (err: Error) => {
+          console.log(err.message);
+        })
+    } catch (ex) {
+      console.log(ex)
+    }
   }
 
   navigateToCategory(categoryName: any) {
@@ -104,8 +114,8 @@ export class CategoryComponent implements OnInit {
     }
     this.filteredProducts = this.products.filter(product => {
       const matchesBrand = !event.brands?.length || event.brands.includes(product.brand);
-      return matchesBrand ;
+      return matchesBrand;
     });
   }
-  
+
 }

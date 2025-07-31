@@ -79,7 +79,7 @@ export class SideBarComponent {
   discountRange: number[] = [10, 60];
 
   @Output() filtersChanged = new EventEmitter<any>();
-  @Output() discountChanged = new EventEmitter<{ min: number; max: number }>();
+  // @Output() discountChanged = new EventEmitter<{ min: number; max: number }>();
 
 
 
@@ -118,7 +118,6 @@ export class SideBarComponent {
   emitFilters() {
     this.filtersChanged.emit({
       brands: this.selectedBrands
-      // Add price, rating, etc., later
     });
   }
 
