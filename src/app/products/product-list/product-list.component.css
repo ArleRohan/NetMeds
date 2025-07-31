@@ -39,7 +39,7 @@
 .product_category {
     padding: 5px 10px 5px 10px;
     border-radius: 30px;
-    font-size: 13px;
+    font-size: 11px;
     color: #24aeb1;
     background-color: #f3f7fb;
 
@@ -51,4 +51,11 @@
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: 500;
+}
+
+.banner-text{
+    font-size: 25px;
+}
+.banner-div{
+    background-color: #dff8ff;
 }

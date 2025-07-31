@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BillingComponent } from './billing/billing.component';
 import { PaymentComponent } from './payment/payment.component';
+import { authGuard } from '../core/guards/auth.guard';
 
 
 const routes: Routes = [
