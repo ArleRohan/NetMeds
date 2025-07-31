@@ -6533,6 +6533,41 @@
       "address": "pune",
       "gender": "Male",
       "phone": "7666845902"
+    },
+    {
+      "id": "b63c",
+      "fullName": "Geeta Bagal",
+      "email": "geetab@gmail.com",
+      "password": "1234",
+      "address": "pandharpur",
+      "phone": "7249277420"
+    },
+    {
+      "id": "e254",
+      "fullName": "Admin",
+      "email": "admin@gmail.com",
+      "password": "1234",
+      "address": "pune",
+      "phone": "7249277420",
+      "gender": "Female"
+    },
+    {
+      "id": "3fe2",
+      "fullName": "Geeta Patil",
+      "email": "geetapatil@gmail.com",
+      "password": "123456",
+      "address": "pandharpur",
+      "gender": "Female",
+      "phone": "7249927420"
+    },
+    {
+      "id": "3971",
+      "fullName": "Geeta",
+      "email": "geetapatil1234@gmail.com",
+      "password": "1234",
+      "address": "pandharpur",
+      "gender": "Female",
+      "phone": "7249277420"
     }
   ],
   "ayush": {
@@ -6556,32 +6591,36 @@
       }
     ]
   },
-  "cart": [
+ 
+    "cart": [
     {
       "id": "1",
-      "name": "Aroma Treasures Pure Essential Oil - Lemon Grass 10 ml",
-      "brand": "Roohwellness",
-      "mainImage": "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg",
+      "name": "Romsons Kare N95 Face Mask 1's",
+      "brand": "Romsons Scientific & Surgical Pvt Ltd",
+      "mainImage": "assets/images/Wellness/Personal Care/Home & Health/Mask1Small_H&H.jpg",
       "category": [
-        "Aromatherapy",
-        "skincare"
+        "Covid Essentials",
+        "Equipment"
       ],
       "images": [
-        "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg"
+        "assets/images/Wellness/Personal Care/Home & Health/Mask1Small_H&H.jpg",
+        "assets/images/Wellness/Personal Care/Home & Health/Mask2Small_H&H.jpg",
+        "assets/images/Wellness/Personal Care/Home & Health/Mask3Small_H&H.jpg"
       ],
       "product-content": [
-        "This product cannot be returned for a refund or exchange.",
-        " Country of Origin: Germany",
-        "Country of Origin: India",
-        "Delivery charges if applicable will be applied at checkout"
+        "*This product cannot be returned for a refund or exchange.",
+        "* Mkt: Romsons Scientific & Surgical Pvt Ltd",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
       ],
-      "disc_price": 182.7,
-      "price": 210,
-      "disc": 13,
-      "image": "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg",
+      "disc_price": 73.5,
+      "price": "210",
+      "disc": 65,
+      "image": "assets/images/Wellness/Personal Care/Home & Health/home-health1.jpg",
       "productId": 1,
       "quantity": 1
     }
+    
   ],
   "diabetes": {
     "bannerImage": "assets/images/moduleBannerImage/ayush_0.jpg",

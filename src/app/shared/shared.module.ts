@@ -72,7 +72,10 @@ const routes: Routes = [
     CategoryComponent,
     PrescriptionMedicinesComponent,
     OffersComponent,
-    LabTestComponent
+    LabTestComponent,
+    SupplementsComponent,
+    AcidsComponent
+
   ],
   imports: [
     RouterModule.forChild(routes),
@@ -89,6 +92,7 @@ const routes: Routes = [
     // CarouselModule
     // CustomPipe
   ],
+  
   exports: [
     FooterComponent,
     HeaderComponent,

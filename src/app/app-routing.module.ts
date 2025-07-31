@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'carts',loadChildren: () => import('./carts/carts.module').then(m => m.CartsModule),canActivate:[authGuard]},
   { path: 'auth', loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule)},
   
+  
   { path: '**', redirectTo: '' }
 ];
 
