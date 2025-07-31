@@ -41,10 +41,10 @@ import { MatListModule } from '@angular/material/list';
 import { MatExpansionModule } from '@angular/material/expansion';
 
 const routes: Routes = [
-  {  path:  'BuyAgain', component:  BuyAgainComponent  },
-  {  path:  'OrderOnline',  component:  OrderOnlineComponent  },
-  {  path:  'cancer',  component:  CancerComponent  },
-  {  path:  'supplements', component: SupplementsComponent },
+  { path:  'BuyAgain', component:  BuyAgainComponent  },
+  { path:  'OrderOnline',  component:  OrderOnlineComponent  },
+  { path:  'cancer',  component:  CancerComponent  },
+  { path:  'supplements', component: SupplementsComponent },
   { path: 'amoni-acids', component: AcidsComponent },
   { path: 'signin', component:  LoginComponent },
   { path: "category/:keyName", component: CategoryComponent  },
