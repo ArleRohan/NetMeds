@@ -28,8 +28,6 @@ export class ProductDetailsComponent implements OnInit {
     }
   
   }
-
-  
   
   addToCart(product: any) {
     this.cartService.addToCart(product).subscribe({
