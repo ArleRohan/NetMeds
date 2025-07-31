@@ -31,18 +31,18 @@ import { OffersComponent } from './components/offers/offers.component';
 import { PrescriptionMedicinesComponent } from './components/Medicine/all-medicine/prescription-medicines/prescription-medicines.component';
 
 const routes: Routes = [
-  {  path:  'BuyAgain', component:  BuyAgainComponent  },
-  {  path:  'OrderOnline',  component:  OrderOnlineComponent  },
-  {  path:  'cancer',  component:  CancerComponent  },
-  {  path:  'supplements', component: SupplementsComponent },
+  { path:  'BuyAgain', component:  BuyAgainComponent  },
+  { path:  'OrderOnline',  component:  OrderOnlineComponent  },
+  { path:  'cancer',  component:  CancerComponent  },
+  { path:  'supplements', component: SupplementsComponent },
   { path: 'amoni-acids', component: AcidsComponent },
   { path: 'signin', component:  LoginComponent },
   { path: "category/:keyName", component: CategoryComponent  },
   { path: 'HealthLibrary', component: HealthLibraryComponent },
-  {path:'offers',component:OffersComponent},
-  {path:"allmedicine",component:AllMedicineComponent},
-  {path:"labTest",component:LabTestComponent},
-  {path:'prescriptionMedicines/:category',component:PrescriptionMedicinesComponent}
+  { path:'offers',component:OffersComponent},
+  { path:"allmedicine",component:AllMedicineComponent},
+  { path:"labTest",component:LabTestComponent},
+  { path:'prescriptionMedicines/:category',component:PrescriptionMedicinesComponent}
 ];
 
 @NgModule({
