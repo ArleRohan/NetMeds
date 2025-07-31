@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { AuthService } from 'src/app/core/services/auth.service';
 import { CartserviceService } from 'src/app/carts/servicecart/cartservice.service';
 
 @Component({
@@ -19,33 +20,31 @@ export class HeaderComponent implements OnInit {
         { routepath: "carts/cart", category: "Cart" }
     ];
 
-    userName: string | null = null;
-    constructor(private router: Router, private cartService: CartserviceService) { }
-
+    constructor(private router: Router, private cartService: CartserviceService, private authService: AuthService) { }
+    userName: string = '';
     ngOnInit(): void {
-        const user = sessionStorage.getItem('loggedInUser');
+        const user = sessionStorage.getItem('user');
         if (user) {
             const parsedUser = JSON.parse(user);
-            this.userName = parsedUser.fullname;
+            this.userName = parsedUser.fullName;
         }
-        // to show the count of cart items
         this.cartService.cartCount$.subscribe((count) => {
             this.cartCount = count;
         });
     }
-    logout() {
-        sessionStorage.removeItem('loggedInUser');
-        this.userName = null;
-        this.router.navigate(['']);
-    }
 
+    logout() {
+        sessionStorage.clear();
+        this.router.navigate(['/login']);
+        location.reload(); // OR this.router.navigate(['/login']);
+    }
 
     // Wellness component routes
     public ayushroutes: any = [
-        { routepath: "ayurvedicProducts", category: "Ayurvedic" },
-        { routepath: "", category: "Unani" },
-        { routepath: "", category: "Homeopathy" },
-        { routepath: "", category: "Siddha" }
+        { routepath: "ayurvedic", category: "Ayurvedic" },
+        { routepath: "unani", category: "Unani" },
+        { routepath: "homeopathy", category: "Homeopathy" },
+        { routepath: "siddha", category: "Siddha" }
     ];
 
     public covidroutes: any = [
@@ -183,8 +182,8 @@ export class HeaderComponent implements OnInit {
         { routepath: "", category: "Diabetes" },
         { routepath: "", category: "Cardiac Care" },
         { routepath: "", category: "Stomach Care" },
-        { routepath: "", category: "Ayurvedic" },
-        { routepath: "", category: "Homeopathy" },
+        { routepath: "ayurvedic", category: "Ayurvedic" },
+        { routepath: "homeopathy", category: "Homeopathy" },
         { routepath: "", category: "Fitness" },
         { routepath: "", category: "Mom & Baby" },
         { routepath: "", category: "Devices" },

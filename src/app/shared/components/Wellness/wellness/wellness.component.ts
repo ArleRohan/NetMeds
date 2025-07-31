@@ -12,7 +12,7 @@ SwiperCore.use([Pagination, Navigation]);
 })
 export class WellnessComponent implements OnInit {
   carouselImages: any[] = [];
-  ayurcategory: any [] = ["", "", "", ""];
+  ayurcategory: any[] = ["ayurvedic", "unani", "homeopathy", "siddha"];
   diabetescategory: any[] = ["glucometers", "sugar-substitutes", "diabetes-management-supplement", "diabetes_care_ayurveda"];
   healthcategory: any[] = ["women's_care", "piles_care", "liver_care", "bone_and_joint_care"];
   personalscategory: any[] = ["Home&HealthProducts", "SeniorCareProducts", "FacePersonalCareProducts", "BodyCareProducts"];

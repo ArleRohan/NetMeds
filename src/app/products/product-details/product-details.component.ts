@@ -16,14 +16,16 @@ export class ProductDetailsComponent implements OnInit {
     private cartService:CartserviceService
   ) {}
 
-  ngOnInit() {
+  async ngOnInit() {
     const type = this.route.snapshot.paramMap.get('type')!;
     const id = this.route.snapshot.paramMap.get('id')!;
-    this.productService.getProductById(type, id).subscribe(data => {
-      this.product = data;
+    try {
+      this.product = await this.productService.getProductById(type, id)
       console.log(this.product);
-      
-    });
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  
   }
 
    addToCart(product: any) {

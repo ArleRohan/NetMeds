@@ -14,10 +14,17 @@ export class ProductService {
     return this.http.get<any[]>(`${this.apiUrl}/${key}`);
   }
 
-  getProductById(type: string, id: any): Observable<any> {
+  getProductById(type: string, id: any) {
     return this.http.get<any>(`${this.apiUrl}/${type}`).pipe(
       map(res => res.items.find((item: any) => item.id == id))
-    );
+    ).toPromise()
+  }
+
+  
+  private apiUrl2="http://localhost:3000/medicine"
+
+  getMedicineProducts():Observable<any>{
+    return this.http.get<any>(this.apiUrl2);
   }
 
   getmergedata(category: any[]): Observable<any[]> {

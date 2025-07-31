@@ -1,6 +1,6 @@
 <div class="row me-2">
     <div class="col-3">
-        <!-- Optional content -->
+        <app-side-bar (filtersChanged)="applyFilters($event)"></app-side-bar>
     </div>
 
     <div class="col-9">
@@ -14,10 +14,23 @@
 
         <!-- Product List -->
         <div class="row my-4 bg-white p-1 rounded-2">
-            <div class="card my-3 p-2 ms-3" style="cursor: pointer;" *ngFor="let product of products"
-                (click)="goToDetail(product.id)">
-                <div class="d-flex justify-content-center">
-                    <img class="pro_img" [src]="product.image" />
+            <div class="col-md-3" *ngFor="let product of products" (click)="goToDetail(product.id)">
+                <div class="card my-3 p-2" style="cursor: pointer;">
+                    <div class="d-flex justify-content-center">
+                        <img class="pro_img" [src]="product.image" />
+                    </div>
+                    <p class="product_content mt-3">{{ product.name }}</p>
+
+                    <div class="d-flex gap-2 flex-wrap">
+                        <p class="product_category mt-2" *ngFor="let dt of product.category">{{ dt }}</p>
+                    </div>
+
+                    <span class="drug_varient mt-2">Mkt: {{ product.brand | custom:27 }}</span>
+                    <p  class="product_disc_price mt-1">₹{{ product.disc_price }}</p>
+                    <span class="text-decoration-line-through product_old_price mt-1">
+                        MRP Rs.{{ product.price }}
+                    </span>
+                    <button appHighlight class="btn mt-4" (click)="addToCart(product)">Add To Cart</button>
                 </div>
                 <p class="product_content mt-3">{{ product.name }}</p>
 
@@ -35,3 +48,6 @@
         </div>
     </div>
 </div>
+
+
+
