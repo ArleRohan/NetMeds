@@ -13,6 +13,8 @@ export class ProductListComponent {
   public products: any[] = [];
   public bannerImg: any = '';
   public bannerText: any = '';
+  public filteredProducts: any[] = [];
+
 
   constructor(
     private prodServ: ProductService,
@@ -56,6 +58,17 @@ export class ProductListComponent {
       error: err => {
         alert(err.message);
       }
+    });
+  }
+  applyFilters(event: any) {
+    console.log('Received Filters:', event);
+    if (!event.brands || event.brands.length === 0) {
+      this.filteredProducts = this.products
+      return
+    }
+    this.filteredProducts = this.products.filter(product => {
+      const matchesBrand = !event.brands?.length || event.brands.includes(product.brand);
+      return matchesBrand;
     });
   }
 

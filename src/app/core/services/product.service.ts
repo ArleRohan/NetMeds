@@ -19,4 +19,11 @@ export class ProductService {
       map(res => res.items.find((item: any) => item.id == id))
     ).toPromise()
   }
+
+  
+  private apiUrl2="http://localhost:3000/medicine"
+
+  getMedicineProducts():Observable<any>{
+    return this.http.get<any>(this.apiUrl2);
+  }
 }

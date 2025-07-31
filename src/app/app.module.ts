@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { FormsModule } from '@angular/forms';
-// import { ProductsModule } from './products/products.module';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AuthInterceptor } from './core/interceptor/auth.interceptor';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// import { ProductsModule } from './products/products.module';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { AuthInterceptor } from './core/interceptor/auth.interceptor';
     CoreModule,
     SharedModule,
     FormsModule,
+    BrowserAnimationsModule,
     // ProductsModule
   ],
   providers: [
@@ -28,7 +30,9 @@ import { AuthInterceptor } from './core/interceptor/auth.interceptor';
       useClass: AuthInterceptor,
       multi: true
 
-    }
+    },
+    // BrowserAnimationsModule,
+
   ],
   bootstrap: [AppComponent]
 })

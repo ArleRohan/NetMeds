@@ -39,31 +39,13 @@ export class HeaderComponent {
         location.reload(); // OR this.router.navigate(['/login']);
     }
 
-    // ngOnInit(): void {
-    //     const user = sessionStorage.getItem('loggedInUser');
-    //     if (user) {
-    //         const parsedUser = JSON.parse(user);
-    //         this.userName = parsedUser.fullname;
-    //     }
-    //     // to show the count of cart items
-    //     this.cartService.cartCount$.subscribe((count) => {
-    //         this.cartCount = count;
-    //     });
-    // }
-    // logout() {
-    //     sessionStorage.removeItem('loggedInUser');
-    //     sessionStorage.removeItem('userOTP');
-    //     this.userName = null;
-    //     this.router.navigate(['/']);  // 
-    // }
-
 
     // Wellness component routes
-    public ayushroutes: any = [
-        { routepath: "ayurvedicProducts", category: "Ayurvedic" },
-        { routepath: "", category: "Unani" },
-        { routepath: "", category: "Homeopathy" },
-        { routepath: "", category: "Siddha" }
+    public ayushroutes : any = [
+        {routepath: "ayurvedic", category : "Ayurvedic"},
+        {routepath: "unani", category : "Unani"},
+        {routepath: "homeopathy", category : "Homeopathy"},
+        {routepath: "siddha", category : "Siddha"}
     ];
 
     public covidroutes: any = [
@@ -196,20 +178,20 @@ export class HeaderComponent {
     ];
 
     // second navbar routes
-    public secondnav: any = [
-        { routepath: "", category: "Covid Essentials" },
-        { routepath: "", category: "Diabetes" },
-        { routepath: "", category: "Cardiac Care" },
-        { routepath: "", category: "Stomach Care" },
-        { routepath: "", category: "Ayurvedic" },
-        { routepath: "", category: "Homeopathy" },
-        { routepath: "", category: "Fitness" },
-        { routepath: "", category: "Mom & Baby" },
-        { routepath: "", category: "Devices" },
-        { routepath: "", category: "Surgicals" },
-        { routepath: "", category: "Sexual Wellness" },
-        { routepath: "", category: "Treatments" },
-        { routepath: "", category: "Skin Care" },
-        { routepath: "", category: "Personal Care" }
+    public secondnav : any = [
+        {routepath: "", category : "Covid Essentials"},
+        {routepath: "", category : "Diabetes"},
+        {routepath: "", category : "Cardiac Care"},
+        {routepath: "", category : "Stomach Care"},
+        {routepath: "ayurvedic", category : "Ayurvedic"},
+        {routepath: "homeopathy", category : "Homeopathy"},
+        {routepath: "", category : "Fitness"},
+        {routepath: "", category : "Mom & Baby"},
+        {routepath: "", category : "Devices"},
+        {routepath: "", category : "Surgicals"},
+        {routepath: "", category : "Sexual Wellness"},
+        {routepath: "", category : "Treatments"},
+        {routepath: "", category : "Skin Care"},
+        {routepath: "", category : "Personal Care"}
     ]
 }
