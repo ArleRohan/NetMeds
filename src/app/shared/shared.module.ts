@@ -19,12 +19,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { EyesComponent } from './components/Beauty/make-up/eyes/eyes.component';
 import { LoginComponent } from '../auth/login/login.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BlogsComponent } from './components/Health-Center/health-library/blogs/blogs.component';
+import { UploadComponent } from './components/upload/upload.component';
+import { OrderReviewComponent } from './components/order-review/order-review.component';
+
+
+
 import { CategoryComponent } from './components/category/category.component';
 import { CustomPipe } from './pipes/custom.pipe';
 import { SupplementsComponent } from './components/Health-Center/cancer/supplements/supplements/supplements.component';
 import { AcidsComponent } from './components/Health-Center/cancer/supplements/acids/acids/acids.component';
-import { BlogsComponent } from './components/Health-Center/health-library/blogs/blogs.component';
 import { WellnessComponent } from './components/Wellness/wellness/wellness.component';
 import { SwiperModule } from 'swiper/angular';
 import { PrescriptionMedicinesComponent } from './components/Medicine/all-medicine/prescription-medicines/prescription-medicines.component';
@@ -47,7 +52,9 @@ const routes: Routes = [
   {path:'offers',component:OffersComponent},
   {path:"allmedicine",component:AllMedicineComponent},
   {path:"labTest",component:LabTestComponent},
-  {path:'prescriptionMedicines/:category',component:PrescriptionMedicinesComponent}
+  {path:'prescriptionMedicines/:category',component:PrescriptionMedicinesComponent},
+  {path:"upload",component:UploadComponent},
+  {path:"order-review",component:OrderReviewComponent}
 ];
 
 @NgModule({
@@ -70,6 +77,9 @@ const routes: Routes = [
     SideBarComponent,
     EyesComponent,
     BlogsComponent,
+    UploadComponent,
+    OrderReviewComponent,
+  
     WellnessComponent,
     CustomPipe,
     CategoryComponent,
@@ -84,6 +94,8 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     CommonModule,
     FormsModule,
+    ReactiveFormsModule,
+    
     SwiperModule,
     NgxPaginationModule,
     MatListModule,
@@ -100,6 +112,9 @@ const routes: Routes = [
   exports: [
     FooterComponent,
     HeaderComponent,
+    OrderReviewComponent,
+    ReactiveFormsModule,
+    FormsModule,
     CustomPipe,
     MatListModule,
     SideBarComponent
