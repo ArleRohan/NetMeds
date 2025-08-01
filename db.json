@@ -6588,13 +6588,22 @@
       "phone": "9309449960"
     },
     {
-      "id": "9175",
-      "fullName": "Darshana",
+      "id": "4777",
+      "fullName": "Darshana ",
       "email": "darshj2210@gmail.com",
       "password": "12345",
       "address": "Station Area murtizapur",
       "gender": "Female",
       "phone": "7218212412"
+    },
+    {
+      "id": "b2bd",
+      "fullName": "Sarthak",
+      "email": "patil01sarthak21@gmail.com",
+      "password": "12345",
+      "address": "A.P. Bolwad TAL. Miraj DIST. sangli",
+      "gender": "Male",
+      "phone": "9404405850"
     }
   ],
   "ayush": {
@@ -6618,62 +6627,7 @@
       }
     ]
   },
-  "cart": [
-    {
-      "id": "1",
-      "name": "Romsons Kare N95 Face Mask 1's",
-      "brand": "Romsons Scientific & Surgical Pvt Ltd",
-      "mainImage": "assets/images/Wellness/Personal Care/Home & Health/Mask1Small_H&H.jpg",
-      "category": [
-        "Covid Essentials",
-        "Equipment"
-      ],
-      "images": [
-        "assets/images/Wellness/Personal Care/Home & Health/Mask1Small_H&H.jpg",
-        "assets/images/Wellness/Personal Care/Home & Health/Mask2Small_H&H.jpg",
-        "assets/images/Wellness/Personal Care/Home & Health/Mask3Small_H&H.jpg"
-      ],
-      "product-content": [
-        "*This product cannot be returned for a refund or exchange.",
-        "* Mkt: Romsons Scientific & Surgical Pvt Ltd",
-        "* Country of Origin: India",
-        "* Delivery charges if applicable will be applied at checkout"
-      ],
-      "disc_price": 73.5,
-      "price": "210",
-      "disc": 65,
-      "image": "assets/images/Wellness/Personal Care/Home & Health/home-health1.jpg",
-      "productId": 1,
-      "quantity": 1
-    },
-    {
-      "id": "2",
-      "name": "Evver Anti-Aging Anti-Oxidant Face Serum C 25 ml",
-      "brand": " Eliph Nutrition Pvt Ltd",
-      "mainImage": "assets/images/skinCare/evver_anti_aging_anti_oxidant_face_serum_c_25_ml_0.jpg",
-      "category": [
-        "skincare",
-        "eye-care"
-      ],
-      "images": [
-        "assets/images/skinCare/plum_bright_years_all_day_defence_cream_spf_45_50_ml_0_2.jpg",
-        "assets/images/skinCare/evver_anti_aging_anti_oxidant_face_serum_c_25_ml_1(small1).jpg",
-        "assets/images/skinCare/evver_anti_aging_anti_oxidant_face_serum_c_25_ml_3(small2).jpg"
-      ],
-      "product-content": [
-        "*This product cannot be returned for a refund or exchange.",
-        "* Mkt: Eliph Nutrition Pvt Ltd",
-        "* Country of Origin: India",
-        "* Delivery charges if applicable will be applied at checkout"
-      ],
-      "disc_price": 1199.2,
-      "price": 1499,
-      "disc": 20,
-      "image": "assets/images/skinCare/evver_anti_aging_anti_oxidant_face_serum_c_25_ml_0.jpg",
-      "productId": 5,
-      "quantity": 1
-    }
-  ],
+  "cart": [],
   "diabetes": {
     "bannerImage": "assets/images/moduleBannerImage/ayush_0.jpg",
     "categories": [
@@ -7588,7 +7542,7 @@
       ],
       "category": "ADHD",
       "description": "ADHD - Overview: Attention deficit hyperactivity disorder (ADHD) is a neurodevelopmental disorder that affects adults and children. It is characterised by lack of attention, hyperactivity, and impulsivity, which can impact daily activities and social interactions. Symptoms may include difficulty in paying attention, forgetfulness, fidgeting, interrupting others, and impulsive behaviour. ADHD is often treated with medication, behavioural therapy, or a combination of both. While there is no cure for ADHD, management and support can lead to improved functioning and quality of life.",
-      "id": "9a57"
+      "id": "6622"
     },
     {
       "medicines": [
@@ -7627,7 +7581,7 @@
       ],
       "category": "Acne",
       "description": "Acne Acne is a common skin condition caused due to clogged hair follicles. These tiny hair follicles are clogged due to excess sebum production and dead skin cells on the skin, which leads to the formation of pimples, pustules, blackheads and whiteheads. Additionally, hormonal changes, presence of bacteria like Acne vulgaris, certain medications, stress and diet can also trigger acne breakouts on the skin.",
-      "id": "ba13"
+      "id": "572c"
     },
     {
       "medicines": [
@@ -7664,7 +7618,7 @@
       ],
       "category": "Alcohol Addiction",
       "description": "Alcohol Addiction - Overview Alcohol addiction is a chronic disease characterised by a strong craving for alcohol, loss of control over drinking, and physical dependence. It affects both physical and mental health, leading to various health problems such as liver disease, heart disease, depression, and anxiety. Treatment for addiction involves a combination alcohol addiction tablet and support groups. Alcohol addiction can cause financial problems, social isolation, and damage to relationships. Long-term recovery is possible with a commitment to abstinence and ongoing support.",
-      "id": "10ba"
+      "id": "7282"
     },
     {
       "medicines": [
@@ -7703,7 +7657,7 @@
       ],
       "category": "Allergies",
       "description": "Allergies - Overview Allergies are the types of immune system responses to substances that are usually harmless. These substances, known as allergens, occur in various forms such as pollen, animal fur, certain foods, medications, and insect venom. When an allergic person is exposed to an allergen, their immune system releases histamines and other chemicals, leading to symptoms such as sneezing, runny nose, itching, rashes, and difficulty breathing. One can try capsule for allergy, which can be taken orally to alleviate symptoms caused by such allergens. Allergies can range from mild to severe. Some of them can be life-threatening, requiring immediate medical attention. Treatment options include avoiding allergens, taking allergies tablets to alleviate symptoms, as well as immunotherapy.",
-      "id": "8fc1"
+      "id": "4099"
     },
     {
       "medicines": [
@@ -7744,7 +7698,7 @@
       ],
       "category": "Alzheimer",
       "description": "Alzheimer - Overview Alzheimer's disease is a progressive brain disease that affects thinking, memory, and behaviour. It is the most eminent reason behind dementia in older adults and is characterised by the accumulation of toxin proteins within the brain. The exact cause of Alzheimer's disease is not fully understood yet, but the factors that are believed to play a major role are genetics, lifestyle factors, and age. Currently, only symptomatic therapy is available for Alzheimer's disease, in the form of Alzheimer tablets and other treatments that can help to manage the symptoms and improve quality of life of affected individuals.",
-      "id": "372a"
+      "id": "52d2"
     },
     {
       "medicines": [
@@ -7781,7 +7735,7 @@
       ],
       "category": "Amoebiasis",
       "description": "Amoebiasis - Overview Amoebiasis is an infectious disease caused by an amoeba parasite, named Entamoeba histolytica. The parasite is found in contaminated food or water and can infect the intestines or other organs such as the liver, lungs, or brain. Symptoms can range from mild diarrhoea to severe dysentery, and may also include stomach pain, fever, and nausea. In some cases, the infection can become chronic and lead to tissue damage or abscesses (collection of pus locally). Treatment typically involves medications to kill the parasite, as well as prevention methods including good hygiene practices and avoiding contaminated food and water. It is essential to consult a doctor to buy amoebiasis medicines and determine the most appropriate treatment plan for managing the symptoms of the disease.",
-      "id": "d10c"
+      "id": "c3df"
     },
     {
       "medicines": [
@@ -7818,7 +7772,7 @@
       ],
       "category": "Anaemia",
       "description": "Anaemia - Anaemia is a condition in which the body doesn't have enough red blood cells or haemoglobin, which carries oxygen to the body's tissues. It can be triggered by factors including vitamin B12 deficiency, iron deficiency, chronic kidney disease, and blood loss. Treatment depends on the underlying cause and may include iron or vitamin supplements, anaemia tablets, anaemia syrup, or blood transfusions. If left untreated, anaemia can lead to complications such as heart problems and developmental delays in children.",
-      "id": "a5fd"
+      "id": "cc3c"
     },
     {
       "medicines": [
@@ -7856,7 +7810,7 @@
       ],
       "category": "Anaesthesia - Local",
       "description": "Anaesthesia Local - Overview - Local anaesthesia is a type of anaesthesia that numbs a specific part of the body without putting the patient to sleep. It can be administered either as an injection or as topical creams and gels. Local anaesthesia is commonly used for minor surgical procedures such as dental work, skin biopsies, and suturing wounds. It is also used for diagnostic procedures such as lumbar punctures and joint aspirations. Local anaesthesia works by blocking the nerves that transmit pain signals from the affected area to the brain. It is important to follow the instructions of the doctor before, during, and after the procedure.",
-      "id": "8a2e"
+      "id": "7a2a"
     },
     {
       "medicines": [
@@ -7881,7 +7835,7 @@
       ],
       "category": "Anaesthesia - General",
       "description": "Anaesthesia General - General anaesthesia is a type of anaesthesia that induces a reversible state of unconsciousness, immobility, and analgesia. It is typically used for surgical procedures and involves administering intravenous or inhaled drugs to the patient. These drugs work by depressing the central nervous system, which leads to loss of consciousness and pain perception. During the procedure, the anaesthesiologist monitors the patient's vital signs and adjusts the dosage of drugs as necessary to maintain the desired level of anaesthesia. After the procedure is completed, the anaesthesiologist gradually reverses the effects of the drugs and monitors the patient until they are fully awake and stable.",
-      "id": "95fb"
+      "id": "c03b"
     },
     {
       "medicines": [
@@ -7912,7 +7866,7 @@
       ],
       "category": "Anal Fissure",
       "description": "Anal Fissure - Overview - An anal fissure is a crack or a tear in the anus, that can cause bleeding, pain, and discomfort during bowel movements. The condition can be triggered by constipation, diarrhoea, or trauma to the anal area. Treatment usually involves increasing fibre intake and applying topical anal fissure cream or ointments. Prevention methods include maintaining regular bowel movements, staying hydrated, and avoiding excessive straining while passing the stool.",
-      "id": "9010"
+      "id": "576a"
     }
   ],
   "ADHD": {
