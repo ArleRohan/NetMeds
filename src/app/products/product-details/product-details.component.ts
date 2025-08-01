@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { CartserviceService } from 'src/app/carts/servicecart/cartservice.service';
 import { ProductService } from 'src/app/core/services/product.service';
 
 @Component({
@@ -13,16 +14,30 @@ export class ProductDetailsComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private productService: ProductService
+    private productService: ProductService,
+    private cartService:CartserviceService
   ) {}
 
-  ngOnInit() {
+  async ngOnInit() {
     const type = this.route.snapshot.paramMap.get('type')!;
     const id = this.route.snapshot.paramMap.get('id')!;
-    this.productService.getProductById(type, id).subscribe(data => {
-      this.product = data;
-      if (this.product?.images?.length > 0) {
-        this.selectedImage = this.product.images[0];
+    try {
+      this.product = await this.productService.getProductById(type, id)
+      console.log(this.product);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  
+  }
+
+   addToCart(product: any) {
+    this.cartService.addToCart(product).subscribe({
+      next: () => {
+        alert(`${product.name} added to cart!`);
+        this.cartService.updateCartCount();
+      },
+      error: err => {
+        alert(err.message);
       }
     });
   }
