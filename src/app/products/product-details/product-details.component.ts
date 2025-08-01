@@ -9,6 +9,8 @@ import { ProductService } from 'src/app/core/services/product.service';
 })
 export class ProductDetailsComponent implements OnInit {
   product: any;
+  selectedImage: string = '';
+
   constructor(
     private route: ActivatedRoute,
     private productService: ProductService
@@ -19,8 +21,13 @@ export class ProductDetailsComponent implements OnInit {
     const id = this.route.snapshot.paramMap.get('id')!;
     this.productService.getProductById(type, id).subscribe(data => {
       this.product = data;
-      console.log(this.product);
-      
+      if (this.product?.images?.length > 0) {
+        this.selectedImage = this.product.images[0];
+      }
     });
+  }
+
+  onThumbnailClick(imgUrl: string) {
+    this.selectedImage = imgUrl;
   }
 }

@@ -1,0 +1,257 @@
+/* Banner Section */
+.prom-banner {
+  background-color: #e3f7fc;
+  padding: 40px 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.prom-banner h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #212121;
+  margin: 0;
+}
+
+/* Toolbar Section */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.number {
+  font-size: 14px;
+  color: #212121;
+}
+
+.sort-option {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #212121;
+}
+
+#sort-by {
+  margin-left: 10px;
+}
+
+#sort_container {
+  display: flex;
+  gap: 8px;
+}
+
+.sort-button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+.sort-button:hover {
+  border-color: #199cb7;
+  color: #199cb7;
+}
+
+.sort-button.active {
+  border-color: #199cb7;
+  color: #199cb7;
+  font-weight: 500;
+}
+
+/* Product Layout */
+.all-product-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cat-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+  padding: 10px !important;
+}
+
+.cat-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cat-img {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.product-image-photo {
+  height: 140px;
+  object-fit: contain;
+}
+
+.clsgetname {
+  font-size: 14px;
+  font-weight: 500;
+  min-height: 42px;
+}
+
+.save-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+  z-index: 2;
+}
+
+.price-box .final-price {
+  font-size: 15px;
+}
+
+.price-box .price {
+  font-size: 13px;
+}
+
+.gen_drug {
+  font-size: 12px;
+  background: #f8f8f8;
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Add to Cart Button */
+.netmeds-btn {
+  background-color: #24aeb1;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+/* product-details */
+
+.thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+.product-detail{
+    display: flex;
+    gap: 20px; 
+    height: 900px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 2px 10px 20px #f6f5f5;
+
+}  
+.product-left-info{
+    width: 45%;
+    display: flex;
+}
+.product-right-info{
+    width: 55%;
+}
+.thumb_imges{
+    cursor: pointer; 
+    border: 1px solid #ccc;
+    gap: 20px;
+    background-color: none;
+}
+.product-details-disc-price{
+    font-weight: 500;
+}
+.product-detail-price{
+    font-size: 13px;
+    margin-top: 2px;
+    color: #272d327a;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.product-discount{
+    color:#dd4679;
+    font-size: 14px;
+    font-weight: 500;
+}
+.product-details-gluco-devices{
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+    font-size: 14px;
+    color:#83878a;
+    background-color: #d9d9d9;
+}
+.product-detail-content{
+    font-size: 14px;
+    font-weight: 400;
+    color: #8a8181;
+    gap: 0;
+    font-style: italic;
+}
+
+.count{
+    border: 1px solid #c4c4c4;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+.product-details-add-to-cart{
+    background-color:#24aeb1 ;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 12px 17px;
+}
+.product-expiry{
+    display: flex;
+}
+.product-expiry p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #958e8e;
+}
+.product_disc_details{
+    background-color: #e3dcdc;
+    border-radius: 5px;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.product_disc_info{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}

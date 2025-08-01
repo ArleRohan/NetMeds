@@ -1,0 +1,77 @@
+<div class="container-fluid px-4">
+  <div class="row">
+    <!-- Sidebar Space -->
+    <div class="col-md-2"></div>
+
+    <!-- Main Content -->
+    <div class="col-md-9">
+      <!-- Banner Section -->
+      <div class="prom-banner">
+        <div class="col-sm-12 pull-left">
+          <h1>Amino Acids</h1>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+
+      <!-- Product Count -->
+      <div id="product_wrapper">
+        <input type="hidden" name="product_count" id="product_count" [value]="products.length" />
+        <div class="toolbar d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3">
+          <div class="number">
+            Showing <span id="showing_count">{{ products.length }}</span> of
+            <span id="total_count">{{ products.length }}</span> items
+          </div>
+          <div class="sort-option d-flex align-items-center gap-2 flex-wrap">
+            Sort by:
+            <div id="sort_container" class="d-flex gap-2 flex-wrap">
+              <button class="sort-button active">Popularity</button>
+              <button class="sort-button">High to Low</button>
+              <button class="sort-button">Low to High</button>
+              <button class="sort-button">Discount</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product List -->
+        <div class="white-bg box-padding">
+          <div class="all-product">
+            <h2 class="all-product-title">ALL PRODUCTS</h2>
+            <div class="row product-list">
+              <div class="col-md-3 padding-none mb-4" *ngFor="let product of products">
+                <div 
+                  class="cat-item card p-2 h-100 position-relative d-flex flex-column"
+                  [routerLink]="['/products/product-details', product.type, product.id]"
+                  style="cursor: pointer;"
+                >
+                  <span class="save-badge">{{ product.disc }}% OFF</span>
+
+                  <div class="cat-img">
+                    <img [src]="product.image" [alt]="product.name" class="product-image-photo img-fluid" />
+                  </div>
+
+                  <h5 class="clsgetname mt-2">{{ product.name }}</h5>
+                  <p class="text-muted mb-1 fst-italic">{{ product.brand }}</p>
+
+                  <div class="price-box mb-2">
+                    <span class="final-price text-success fw-bold">₹{{ product.disc_price }}</span>
+                    <p class="price text-muted mb-0">
+                      MRP <span class="text-decoration-line-through">₹{{ product.price }}</span>
+                    </p>
+                  </div>
+
+                  <div class="cate_filter mb-2">
+                    <span *ngFor="let cat of product.category" class="gen_drug ellipsis me-2">{{ cat }}</span>
+                  </div>
+
+                  <button class="toCart cartbag addtocartbtn prodbtn netmeds-btn mt-auto" type="button">
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div> 
+    </div>
+  </div>
+</div>
