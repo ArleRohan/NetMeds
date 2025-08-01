@@ -6627,35 +6627,7 @@
       }
     ]
   },
-  "cart": [
-    {
-      "id": "1",
-      "name": "Romsons Kare N95 Face Mask 1's",
-      "brand": "Romsons Scientific & Surgical Pvt Ltd",
-      "mainImage": "assets/images/Wellness/Personal Care/Home & Health/Mask1Small_H&H.jpg",
-      "category": [
-        "Covid Essentials",
-        "Equipment"
-      ],
-      "images": [
-        "assets/images/Wellness/Personal Care/Home & Health/Mask1Small_H&H.jpg",
-        "assets/images/Wellness/Personal Care/Home & Health/Mask2Small_H&H.jpg",
-        "assets/images/Wellness/Personal Care/Home & Health/Mask3Small_H&H.jpg"
-      ],
-      "product-content": [
-        "*This product cannot be returned for a refund or exchange.",
-        "* Mkt: Romsons Scientific & Surgical Pvt Ltd",
-        "* Country of Origin: India",
-        "* Delivery charges if applicable will be applied at checkout"
-      ],
-      "disc_price": 73.5,
-      "price": "210",
-      "disc": 65,
-      "image": "assets/images/Wellness/Personal Care/Home & Health/home-health1.jpg",
-      "productId": 1,
-      "quantity": 1
-    }
-  ],
+  "cart": [],
   "diabetes": {
     "bannerImage": "assets/images/moduleBannerImage/ayush_0.jpg",
     "categories": [
