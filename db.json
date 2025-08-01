@@ -6588,8 +6588,8 @@
       "phone": "9309449960"
     },
     {
-      "id": "4777",
-      "fullName": "Darshana ",
+      "id": "9175",
+      "fullName": "Darshana",
       "email": "darshj2210@gmail.com",
       "password": "12345",
       "address": "Station Area murtizapur",
@@ -6644,6 +6644,33 @@
       "disc": 65,
       "image": "assets/images/Wellness/Personal Care/Home & Health/home-health1.jpg",
       "productId": 1,
+      "quantity": 1
+    },
+    {
+      "id": "2",
+      "name": "Evver Anti-Aging Anti-Oxidant Face Serum C 25 ml",
+      "brand": " Eliph Nutrition Pvt Ltd",
+      "mainImage": "assets/images/skinCare/evver_anti_aging_anti_oxidant_face_serum_c_25_ml_0.jpg",
+      "category": [
+        "skincare",
+        "eye-care"
+      ],
+      "images": [
+        "assets/images/skinCare/plum_bright_years_all_day_defence_cream_spf_45_50_ml_0_2.jpg",
+        "assets/images/skinCare/evver_anti_aging_anti_oxidant_face_serum_c_25_ml_1(small1).jpg",
+        "assets/images/skinCare/evver_anti_aging_anti_oxidant_face_serum_c_25_ml_3(small2).jpg"
+      ],
+      "product-content": [
+        "*This product cannot be returned for a refund or exchange.",
+        "* Mkt: Eliph Nutrition Pvt Ltd",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "disc_price": 1199.2,
+      "price": 1499,
+      "disc": 20,
+      "image": "assets/images/skinCare/evver_anti_aging_anti_oxidant_face_serum_c_25_ml_0.jpg",
+      "productId": 5,
       "quantity": 1
     }
   ],
@@ -7560,7 +7587,8 @@
         }
       ],
       "category": "ADHD",
-      "description": "ADHD - Overview: Attention deficit hyperactivity disorder (ADHD) is a neurodevelopmental disorder that affects adults and children. It is characterised by lack of attention, hyperactivity, and impulsivity, which can impact daily activities and social interactions. Symptoms may include difficulty in paying attention, forgetfulness, fidgeting, interrupting others, and impulsive behaviour. ADHD is often treated with medication, behavioural therapy, or a combination of both. While there is no cure for ADHD, management and support can lead to improved functioning and quality of life."
+      "description": "ADHD - Overview: Attention deficit hyperactivity disorder (ADHD) is a neurodevelopmental disorder that affects adults and children. It is characterised by lack of attention, hyperactivity, and impulsivity, which can impact daily activities and social interactions. Symptoms may include difficulty in paying attention, forgetfulness, fidgeting, interrupting others, and impulsive behaviour. ADHD is often treated with medication, behavioural therapy, or a combination of both. While there is no cure for ADHD, management and support can lead to improved functioning and quality of life.",
+      "id": "9a57"
     },
     {
       "medicines": [
@@ -7598,7 +7626,8 @@
         }
       ],
       "category": "Acne",
-      "description": "Acne Acne is a common skin condition caused due to clogged hair follicles. These tiny hair follicles are clogged due to excess sebum production and dead skin cells on the skin, which leads to the formation of pimples, pustules, blackheads and whiteheads. Additionally, hormonal changes, presence of bacteria like Acne vulgaris, certain medications, stress and diet can also trigger acne breakouts on the skin."
+      "description": "Acne Acne is a common skin condition caused due to clogged hair follicles. These tiny hair follicles are clogged due to excess sebum production and dead skin cells on the skin, which leads to the formation of pimples, pustules, blackheads and whiteheads. Additionally, hormonal changes, presence of bacteria like Acne vulgaris, certain medications, stress and diet can also trigger acne breakouts on the skin.",
+      "id": "ba13"
     },
     {
       "medicines": [
@@ -7634,7 +7663,8 @@
         }
       ],
       "category": "Alcohol Addiction",
-      "description": "Alcohol Addiction - Overview Alcohol addiction is a chronic disease characterised by a strong craving for alcohol, loss of control over drinking, and physical dependence. It affects both physical and mental health, leading to various health problems such as liver disease, heart disease, depression, and anxiety. Treatment for addiction involves a combination alcohol addiction tablet and support groups. Alcohol addiction can cause financial problems, social isolation, and damage to relationships. Long-term recovery is possible with a commitment to abstinence and ongoing support."
+      "description": "Alcohol Addiction - Overview Alcohol addiction is a chronic disease characterised by a strong craving for alcohol, loss of control over drinking, and physical dependence. It affects both physical and mental health, leading to various health problems such as liver disease, heart disease, depression, and anxiety. Treatment for addiction involves a combination alcohol addiction tablet and support groups. Alcohol addiction can cause financial problems, social isolation, and damage to relationships. Long-term recovery is possible with a commitment to abstinence and ongoing support.",
+      "id": "10ba"
     },
     {
       "medicines": [
@@ -7672,7 +7702,8 @@
         }
       ],
       "category": "Allergies",
-      "description": "Allergies - Overview Allergies are the types of immune system responses to substances that are usually harmless. These substances, known as allergens, occur in various forms such as pollen, animal fur, certain foods, medications, and insect venom. When an allergic person is exposed to an allergen, their immune system releases histamines and other chemicals, leading to symptoms such as sneezing, runny nose, itching, rashes, and difficulty breathing. One can try capsule for allergy, which can be taken orally to alleviate symptoms caused by such allergens. Allergies can range from mild to severe. Some of them can be life-threatening, requiring immediate medical attention. Treatment options include avoiding allergens, taking allergies tablets to alleviate symptoms, as well as immunotherapy."
+      "description": "Allergies - Overview Allergies are the types of immune system responses to substances that are usually harmless. These substances, known as allergens, occur in various forms such as pollen, animal fur, certain foods, medications, and insect venom. When an allergic person is exposed to an allergen, their immune system releases histamines and other chemicals, leading to symptoms such as sneezing, runny nose, itching, rashes, and difficulty breathing. One can try capsule for allergy, which can be taken orally to alleviate symptoms caused by such allergens. Allergies can range from mild to severe. Some of them can be life-threatening, requiring immediate medical attention. Treatment options include avoiding allergens, taking allergies tablets to alleviate symptoms, as well as immunotherapy.",
+      "id": "8fc1"
     },
     {
       "medicines": [
@@ -7712,7 +7743,8 @@
         }
       ],
       "category": "Alzheimer",
-      "description": "Alzheimer - Overview Alzheimer's disease is a progressive brain disease that affects thinking, memory, and behaviour. It is the most eminent reason behind dementia in older adults and is characterised by the accumulation of toxin proteins within the brain. The exact cause of Alzheimer's disease is not fully understood yet, but the factors that are believed to play a major role are genetics, lifestyle factors, and age. Currently, only symptomatic therapy is available for Alzheimer's disease, in the form of Alzheimer tablets and other treatments that can help to manage the symptoms and improve quality of life of affected individuals."
+      "description": "Alzheimer - Overview Alzheimer's disease is a progressive brain disease that affects thinking, memory, and behaviour. It is the most eminent reason behind dementia in older adults and is characterised by the accumulation of toxin proteins within the brain. The exact cause of Alzheimer's disease is not fully understood yet, but the factors that are believed to play a major role are genetics, lifestyle factors, and age. Currently, only symptomatic therapy is available for Alzheimer's disease, in the form of Alzheimer tablets and other treatments that can help to manage the symptoms and improve quality of life of affected individuals.",
+      "id": "372a"
     },
     {
       "medicines": [
@@ -7748,7 +7780,8 @@
         }
       ],
       "category": "Amoebiasis",
-      "description": "Amoebiasis - Overview Amoebiasis is an infectious disease caused by an amoeba parasite, named Entamoeba histolytica. The parasite is found in contaminated food or water and can infect the intestines or other organs such as the liver, lungs, or brain. Symptoms can range from mild diarrhoea to severe dysentery, and may also include stomach pain, fever, and nausea. In some cases, the infection can become chronic and lead to tissue damage or abscesses (collection of pus locally). Treatment typically involves medications to kill the parasite, as well as prevention methods including good hygiene practices and avoiding contaminated food and water. It is essential to consult a doctor to buy amoebiasis medicines and determine the most appropriate treatment plan for managing the symptoms of the disease."
+      "description": "Amoebiasis - Overview Amoebiasis is an infectious disease caused by an amoeba parasite, named Entamoeba histolytica. The parasite is found in contaminated food or water and can infect the intestines or other organs such as the liver, lungs, or brain. Symptoms can range from mild diarrhoea to severe dysentery, and may also include stomach pain, fever, and nausea. In some cases, the infection can become chronic and lead to tissue damage or abscesses (collection of pus locally). Treatment typically involves medications to kill the parasite, as well as prevention methods including good hygiene practices and avoiding contaminated food and water. It is essential to consult a doctor to buy amoebiasis medicines and determine the most appropriate treatment plan for managing the symptoms of the disease.",
+      "id": "d10c"
     },
     {
       "medicines": [
@@ -7784,7 +7817,8 @@
         }
       ],
       "category": "Anaemia",
-      "description": "Anaemia - Anaemia is a condition in which the body doesn't have enough red blood cells or haemoglobin, which carries oxygen to the body's tissues. It can be triggered by factors including vitamin B12 deficiency, iron deficiency, chronic kidney disease, and blood loss. Treatment depends on the underlying cause and may include iron or vitamin supplements, anaemia tablets, anaemia syrup, or blood transfusions. If left untreated, anaemia can lead to complications such as heart problems and developmental delays in children."
+      "description": "Anaemia - Anaemia is a condition in which the body doesn't have enough red blood cells or haemoglobin, which carries oxygen to the body's tissues. It can be triggered by factors including vitamin B12 deficiency, iron deficiency, chronic kidney disease, and blood loss. Treatment depends on the underlying cause and may include iron or vitamin supplements, anaemia tablets, anaemia syrup, or blood transfusions. If left untreated, anaemia can lead to complications such as heart problems and developmental delays in children.",
+      "id": "a5fd"
     },
     {
       "medicines": [
@@ -7821,7 +7855,8 @@
         }
       ],
       "category": "Anaesthesia - Local",
-      "description": "Anaesthesia Local - Overview - Local anaesthesia is a type of anaesthesia that numbs a specific part of the body without putting the patient to sleep. It can be administered either as an injection or as topical creams and gels. Local anaesthesia is commonly used for minor surgical procedures such as dental work, skin biopsies, and suturing wounds. It is also used for diagnostic procedures such as lumbar punctures and joint aspirations. Local anaesthesia works by blocking the nerves that transmit pain signals from the affected area to the brain. It is important to follow the instructions of the doctor before, during, and after the procedure."
+      "description": "Anaesthesia Local - Overview - Local anaesthesia is a type of anaesthesia that numbs a specific part of the body without putting the patient to sleep. It can be administered either as an injection or as topical creams and gels. Local anaesthesia is commonly used for minor surgical procedures such as dental work, skin biopsies, and suturing wounds. It is also used for diagnostic procedures such as lumbar punctures and joint aspirations. Local anaesthesia works by blocking the nerves that transmit pain signals from the affected area to the brain. It is important to follow the instructions of the doctor before, during, and after the procedure.",
+      "id": "8a2e"
     },
     {
       "medicines": [
@@ -7845,7 +7880,8 @@
         }
       ],
       "category": "Anaesthesia - General",
-      "description": "Anaesthesia General - General anaesthesia is a type of anaesthesia that induces a reversible state of unconsciousness, immobility, and analgesia. It is typically used for surgical procedures and involves administering intravenous or inhaled drugs to the patient. These drugs work by depressing the central nervous system, which leads to loss of consciousness and pain perception. During the procedure, the anaesthesiologist monitors the patient's vital signs and adjusts the dosage of drugs as necessary to maintain the desired level of anaesthesia. After the procedure is completed, the anaesthesiologist gradually reverses the effects of the drugs and monitors the patient until they are fully awake and stable."
+      "description": "Anaesthesia General - General anaesthesia is a type of anaesthesia that induces a reversible state of unconsciousness, immobility, and analgesia. It is typically used for surgical procedures and involves administering intravenous or inhaled drugs to the patient. These drugs work by depressing the central nervous system, which leads to loss of consciousness and pain perception. During the procedure, the anaesthesiologist monitors the patient's vital signs and adjusts the dosage of drugs as necessary to maintain the desired level of anaesthesia. After the procedure is completed, the anaesthesiologist gradually reverses the effects of the drugs and monitors the patient until they are fully awake and stable.",
+      "id": "95fb"
     },
     {
       "medicines": [
@@ -7875,7 +7911,8 @@
         }
       ],
       "category": "Anal Fissure",
-      "description": "Anal Fissure - Overview - An anal fissure is a crack or a tear in the anus, that can cause bleeding, pain, and discomfort during bowel movements. The condition can be triggered by constipation, diarrhoea, or trauma to the anal area. Treatment usually involves increasing fibre intake and applying topical anal fissure cream or ointments. Prevention methods include maintaining regular bowel movements, staying hydrated, and avoiding excessive straining while passing the stool."
+      "description": "Anal Fissure - Overview - An anal fissure is a crack or a tear in the anus, that can cause bleeding, pain, and discomfort during bowel movements. The condition can be triggered by constipation, diarrhoea, or trauma to the anal area. Treatment usually involves increasing fibre intake and applying topical anal fissure cream or ointments. Prevention methods include maintaining regular bowel movements, staying hydrated, and avoiding excessive straining while passing the stool.",
+      "id": "9010"
     }
   ],
   "ADHD": {
@@ -8094,43 +8131,43 @@
   ],
   "testimonials": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Nisha Menon",
       "location": "Mumbai",
       "description": "Netmeds’ newest feature, which allows customers to choose delivery dates, is impressive and super convenient."
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Harsh Kumar",
       "location": "Mumbai",
       "description": "Permit me to record my deepest appreciation for Siya from your call centre team."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Ayesha Singh",
       "location": "Delhi",
       "description": "The UI is user-friendly, and I enjoy the discounts and fast delivery."
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Karan Mehta",
       "location": "Bangalore",
       "description": "Support team is prompt and professional. Kudos!"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Neha Sharma",
       "location": "Kolkata",
       "description": "I have very good experience with netmeds.netmeds has large network of medicine with great offers and good customer support.I recommend netmeds for online medicine to save money. Excellent cashback percentage and discount coupons are offered  from time to time."
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Shubham Deb",
       "location": "Siliguri",
       "description": "Very good customer service. It is user-friendly and satifying. Good Experience."
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Vidhi Bhatt",
       "location": "Junagadh",
       "description": "Super experience from this site.Its my first order.I am very satisfied.Thank you NETMEDS."

@@ -7,7 +7,7 @@ const routes: Routes = [
   { path: 'shared', loadChildren: () => import('./shared/shared.module').then(m => m.SharedModule) ,canActivate:[authGuard]},
   { path: 'order', loadChildren: () => import('./orders/orders.module').then(m => m.OrdersModule) ,canActivate:[authGuard]},
   { path: 'products', loadChildren: () => import('./products/products.module').then(m => m.ProductsModule) ,canActivate:[authGuard],canLoad:[authCanLoadGuard]},
-  { path: 'carts',loadChildren: () => import('./carts/carts.module').then(m => m.CartsModule),canActivate:[authGuard]},
+  { path: 'carts',loadChildren: () => import('./carts/carts.module').then(m => m.CartsModule)},
   { path: 'auth', loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule)},
   { path: '**', redirectTo: '' }
 ];
