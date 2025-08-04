@@ -6583,6 +6583,15 @@
       "address": "Velapur",
       "gender": "Male",
       "phone": "7350669331"
+    },
+    {
+      "id": "11df",
+      "fullName": "Shubham Shahaji Dhanavate ",
+      "email": "shubhamdhanavate8@gmail.com",
+      "password": "shubham17",
+      "address": "Velapur",
+      "gender": "Male",
+      "phone": "7798083183"
     }
   ],
   "ayush": {
@@ -6603,6 +6612,218 @@
       {
         "categoryImage": "assets/images/moduleBannerImage/AyushSection/unani.png",
         "categoryName": "unani"
+      }
+    ]
+  },
+  "aminoAcidProducts": {
+    "items": [
+      {
+        "id": "1",
+        "type": "aminoAcidProducts",
+        "name": "GNC Pro Performance Creatine Monohydrate - 250 gm",
+        "brand": "GNC India",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 950,
+        "price": "1190.00",
+        "disc": 20,
+        "mainImage": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0 (1).jpg",
+        "image": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
+        "images": [
+          "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
+          "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_1_0.jpg",
+          "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_2_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: GNC India",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "2",
+        "type": "aminoAcidProducts",
+        "name": "INLIFE L-Arginine 1000 mg - 60 Tablets",
+        "brand": "INLIFE Healthcare",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 480,
+        "price": "600.00",
+        "disc": 20,
+        "mainImage": "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2 (1).jpg",
+        "image": "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2.jpg",
+        "images": [
+          "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2.jpg",
+          "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568379_2_2.jpg",
+          "assets/images/cancer/inlife_l_arginine_1000_mg_60s_713478_3_1.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: INLIFE Healthcare",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "3",
+        "type": "aminoAcidProducts",
+        "name": "Samika Nutricare Prostek Softgel Capsule 30's",
+        "brand": "Samika",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 1094.27,
+        "price": "1499.00",
+        "disc": 27,
+        "mainImage": "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586778_0_1 (1).jpg",
+        "image": "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586778_0_1.jpg",
+        "images": [
+          "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586778_0_1.jpg",
+          "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586779_1_0.jpg",
+          "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586780_2_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: Samika",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "4",
+        "type": "aminoAcidProducts",
+        "name": "Samika Nutricare Grow Sperm Capsule 30's",
+        "brand": "Samika Nutricare",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 1104.15,
+        "price": "1299.00",
+        "disc": 15,
+        "mainImage": "assets/images/cancer/samika_nutricare_grow_sperm_capsule_30s_586770_0_1 (2).jpg",
+        "image": "assets/images/cancer/samika_nutricare_grow_sperm_capsule_30s_586770_0_1.jpg",
+        "images": [
+          "assets/images/cancer/samika_nutricare_grow_sperm_capsule_30s_586771_1_0.jpg",
+          "assets/images/cancer/samika_nutricare_grow_sperm_capsule_30s_586772_2_0.jpg",
+          "assets/images/cancer/samika_nutricare_grow_sperm_capsule_30s_586773_3_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: Samika Nutricare",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "5",
+        "type": "aminoAcidProducts",
+        "name": "INLIFE Alpha Lipoic Acid Capsules 60's",
+        "brand": "Inlife Pharma Pvt Ltd",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 699.02,
+        "price": "1199.00",
+        "disc": 42,
+        "mainImage": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0 (1).jpg",
+        "image": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0.jpg",
+        "images": [
+          "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819935_1_0.jpg",
+          "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819936_2_0.jpg",
+          "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819938_4_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: Inlife Pharma Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "6",
+        "type": "aminoAcidProducts",
+        "name": "GNC L-Arginine 1000 mg Tablet 90's",
+        "brand": "GNC",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 989.34,
+        "price": "1499.00",
+        "disc": 34,
+        "mainImage": "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_0_0 (1).jpg",
+        "image": "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_0_0.jpg",
+        "images": [
+          "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_0_0.jpg",
+          "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_1_0.jpg",
+          "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_2_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: GNC",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "7",
+        "type": "aminoAcidProducts",
+        "name": "Optimum Nutrition (ON) Micronized Creatine Powder - Unflavoured 250 gm",
+        "brand": "Optimum Nutrition",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 931.78,
+        "price": "1175.00",
+        "disc": 21,
+        "mainImage": "assets/images/cancer/optimum_nutrition_on_micronized_creatine_powder_unflavoured_250_gm_0_1 (1).jpg",
+        "image": "assets/images/cancer/optimum_nutrition_on_micronized_creatine_powder_unflavoured_250_gm_0_1.jpg",
+        "images": [
+          "assets/images/cancer/optimum_nutrition_on_micronized_creatine_powder_unflavoured_250_gm_1_1.jpg",
+          "assets/images/cancer/optimum_nutrition_on_micronized_creatine_powder_unflavoured_250_gm_2_1.jpg",
+          "assets/images/cancer/optimum_nutrition_on_micronized_creatine_powder_unflavoured_250_gm_5_1.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: Glanbia Performance Nutrition India Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "8",
+        "type": "aminoAcidProducts",
+        "name": "GNC Pro Performance L-Carnitine 500 mg Tablet 60's",
+        "brand": "Gnc",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 704.53,
+        "price": "1499.00",
+        "disc": 53,
+        "mainImage": "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716017_0_0 (1).jpg",
+        "image": "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716017_0_0.jpg",
+        "images": [
+          "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716018_1_0.jpg",
+          "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716019_2_0.jpg",
+          "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716020_3_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: Guardian Healthcare Services Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
       }
     ]
   },
@@ -6637,44 +6858,85 @@
     {
       "id": "2",
       "type": "aminoAcidProducts",
-      "name": "INLIFE L-Arginine 1000 mg - 60 Tablets",
-      "brand": "INLIFE Healthcare",
+      "name": "GNC Pro Performance L-Carnitine 500 mg Tablet 60's",
+      "brand": "Gnc",
       "category": [
         "Fitness",
-        "Amino Acids"
+        "Sports Supplements"
       ],
-      "disc_price": 480,
-      "price": "600.00",
-      "disc": 20,
-      "mainImage": "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2.jpg",
+      "disc_price": 704.53,
+      "price": "1499.00",
+      "disc": 53,
+      "mainImage": "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716017_0_0 (1).jpg",
+      "image": "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716017_0_0.jpg",
       "images": [
-        "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2.jpg",
-        "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568379_2_2.jpg",
-        "assets/images/cancer/inlife_l_arginine_1000_mg_60s_713478_3_1.jpg"
+        "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716018_1_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716019_2_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716020_3_0.jpg"
       ],
-      "productId": "1",
+      "product-content": [
+        "Inclusive of all taxes",
+        "* Mkt: Guardian Healthcare Services Pvt Ltd",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "productId": "8",
       "quantity": 1
     },
     {
       "id": "3",
       "type": "aminoAcidProducts",
-      "name": "GNC L-Arginine 1000 mg Tablet 90's",
-      "brand": "GNC",
+      "name": "GNC Pro Performance Creatine Monohydrate - 250 gm",
+      "brand": "GNC India",
       "category": [
         "Fitness",
-        "Sports Supplements",
-        "Amino Acids"
+        "Sports Supplements"
       ],
-      "disc_price": 989.34,
-      "price": "1499.00",
-      "disc": 34,
-      "mainImage": "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_0_0.jpg",
+      "disc_price": 950,
+      "price": "1190.00",
+      "disc": 20,
+      "mainImage": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0 (1).jpg",
+      "image": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
       "images": [
-        "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_0_0.jpg",
-        "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_1_0.jpg",
-        "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_2_0.jpg"
+        "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_1_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_2_0.jpg"
       ],
-      "productId": "4",
+      "product-content": [
+        "Inclusive of all taxes",
+        "* Mkt: GNC India",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "productId": "1",
+      "quantity": 1
+    },
+    {
+      "id": "4",
+      "type": "aminoAcidProducts",
+      "name": "INLIFE Alpha Lipoic Acid Capsules 60's",
+      "brand": "Inlife Pharma Pvt Ltd",
+      "category": [
+        "Fitness",
+        "Sports Supplements"
+      ],
+      "disc_price": 699.02,
+      "price": "1199.00",
+      "disc": 42,
+      "mainImage": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0 (1).jpg",
+      "image": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0.jpg",
+      "images": [
+        "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819935_1_0.jpg",
+        "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819936_2_0.jpg",
+        "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819938_4_0.jpg"
+      ],
+      "product-content": [
+        "Inclusive of all taxes",
+        "* Mkt: Inlife Pharma Pvt Ltd",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "productId": "5",
       "quantity": 1
     }
   ],
@@ -7553,87 +7815,6 @@
       }
     ]
   },
-  "aminoAcidProducts": {
-    "items": [
-      {
-        "id": "1",
-        "type": "aminoAcidProducts",
-        "name": "INLIFE L-Arginine 1000 mg - 60 Tablets",
-        "brand": "INLIFE Healthcare",
-        "category": [
-          "Fitness",
-          "Amino Acids"
-        ],
-        "disc_price": 480,
-        "price": "600.00",
-        "disc": 20,
-        "mainImage": "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2.jpg",
-        "images": [
-          "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2.jpg",
-          "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568379_2_2.jpg",
-          "assets/images/cancer/inlife_l_arginine_1000_mg_60s_713478_3_1.jpg"
-        ]
-      },
-      {
-        "id": "2",
-        "type": "aminoAcidProducts",
-        "name": "GNC Pro Performance Creatine Monohydrate - 250 gm",
-        "brand": "GNC India",
-        "category": [
-          "Fitness",
-          "Amino Acids"
-        ],
-        "disc_price": 950,
-        "price": "1190.00",
-        "disc": 20,
-        "mainImage": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
-        "images": [
-          "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
-          "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_1_0.jpg",
-          "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_2_0.jpg"
-        ]
-      },
-      {
-        "id": "3",
-        "type": "aminoAcidProducts",
-        "name": "Samika Nutricare Prostek Softgel Capsule 30's",
-        "brand": "Samika",
-        "category": [
-          "Fitness",
-          "Amino Acids"
-        ],
-        "disc_price": 1094.27,
-        "price": "1499.00",
-        "disc": 27,
-        "mainImage": "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586778_0_1.jpg",
-        "images": [
-          "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586778_0_1.jpg",
-          "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586779_1_0.jpg",
-          "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586780_2_0.jpg"
-        ]
-      },
-      {
-        "id": "4",
-        "type": "aminoAcidProducts",
-        "name": "GNC L-Arginine 1000 mg Tablet 90's",
-        "brand": "GNC",
-        "category": [
-          "Fitness",
-          "Sports Supplements",
-          "Amino Acids"
-        ],
-        "disc_price": 989.34,
-        "price": "1499.00",
-        "disc": 34,
-        "mainImage": "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_0_0.jpg",
-        "images": [
-          "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_0_0.jpg",
-          "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_1_0.jpg",
-          "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_2_0.jpg"
-        ]
-      }
-    ]
-  },
   "coronaAwareness": {
     "ebooks": [
       {
@@ -7641,28 +7822,28 @@
         "title": "COVID-19 Prevention Guide",
         "subtitle": "An Illustrated Handbook",
         "img": "assets/images/corona/1620107731_E-Book_Cover.jpg",
-        "pdf": "assets/pdf/covid_19_prevention_guide.pdf"
+        "pdf": "assets/images/corona/pdf/coronavirus-ebook4.pdf"
       },
       {
         "id": 2,
         "title": "COVID-19 Guide for Kids",
         "subtitle": "Awareness Through Cartoons",
         "img": "assets/images/corona/1585404404_covid_1.jpg",
-        "pdf": "assets/pdf/corona_kids_ebook.pdf"
+        "pdf": "assets/images/corona/pdf/Coronavirus_Ebook2.pdf"
       },
       {
         "id": 3,
         "title": "COVID-19 Vaccine Info",
         "subtitle": "Everything About Vaccination",
         "img": "assets/images/corona/corona_1.jpg",
-        "pdf": "assets/pdf/vaccine_awareness.pdf"
+        "pdf": "assets/images/corona/pdf/Coronavirus_Ebook.pdf"
       },
       {
         "id": 4,
         "title": "Mental Health During Pandemic",
         "subtitle": "Stay Strong, Stay Safe",
         "img": "assets/images/corona/corona_2.jpg",
-        "pdf": "assets/pdf/mental_health_covid.pdf"
+        "pdf": "assets/images/corona/pdf/Home_quarantine_E_Book.pdf"
       }
     ],
     "articles": [
@@ -7758,14 +7939,14 @@
         "title": "COVID-19 and Children",
         "subtitle": "A Guide to getting back to school",
         "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
-        "url": "https://www.youtube.com/embed/bVgpxdYm6fY"
+        "url": "https://www.youtube.com/embed/u70T1SZ5ano"
       },
       {
         "id": 9,
         "title": "COVID-19 and Food",
         "subtitle": "7 essential foods to stock up during an emergency",
         "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
-        "url": "https://www.youtube.com/embed/bVgpxdYm6fY"
+        "url": "https://www.youtube.com/embed/W_2aX2OT6pg"
       }
     ]
   },
