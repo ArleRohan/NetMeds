@@ -41,7 +41,7 @@ initForm(): void {
     fullName: [this.user.fullName, Validators.required],
     email: [this.user.email, [Validators.required, Validators.email]],
     address: [this.user.address, Validators.required],
-    gender: [this.user.gender, Validators.required],  // ✅ fixed here
+    gender: [this.user.gender, Validators.required],  
     phone: [
       this.user.phone,
       [Validators.required, Validators.pattern(/^[0-9]{10}$/)]
