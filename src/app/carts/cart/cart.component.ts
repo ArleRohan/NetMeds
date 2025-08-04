@@ -148,22 +148,21 @@ removeFromCart(item: any) {
   toggleDropdown(): void {
     this.showDropdown = !this.showDropdown;
   }
-  proceedToCheckout() {
-  const isOtpVerified = !!sessionStorage.getItem('userOTP');
-  const isUserRegistered = !!sessionStorage.getItem('loggedInUser');
+ proceedToCheckout() {
+  const isUserLoggedIn = !!sessionStorage.getItem('user');
 
-  if (isOtpVerified && isUserRegistered) {
-    // Store cart and totals in localStorage
+  if (isUserLoggedIn) {
+    // Save cart
     localStorage.setItem('cartData', JSON.stringify(this.cartItems));
     localStorage.setItem('totalMRP', this.totalMRP.toString());
     localStorage.setItem('totalDiscount', this.totalDiscount.toString());
     localStorage.setItem('totalPayable', this.totalPayable.toString());
     localStorage.setItem('totalSavings', this.totalSavings.toString());
 
-    // Then navigate to billing
+    // Navigate
     this.router.navigate(['/carts/billing']);
   } else {
-    alert("Please login and register before proceeding to checkout.");
+    alert("Please login before proceeding to checkout.");
     this.router.navigate(['/auth/login']);
   }
 }

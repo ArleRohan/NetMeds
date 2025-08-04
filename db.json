@@ -6449,6 +6449,7 @@
         "disc": 5,
         "image": "assets/images/skinCare/fair_and_handsome_long_lasting_radiance_cream_30_gm_484158_0_0.jpg"
       },
+      
       {
         "id": 7,
         "name": "VLCC New Gold Single Facial Kit 60 gm",
@@ -6505,35 +6506,18 @@
       "phone": "7666845902"
     },
     {
-      "id": "b63c",
-      "fullName": "Geeta Bagal",
-      "email": "geetab@gmail.com",
-      "password": "1234",
-      "address": "pandharpur",
-      "phone": "7249277420"
-    },
-    {
       "id": "e254",
       "fullName": "Admin",
       "email": "admin@gmail.com",
       "password": "1234",
-      "address": "pune",
+      "address": "pune MH12",
       "phone": "7249277420",
       "gender": "Female"
     },
     {
-      "id": "3fe2",
-      "fullName": "Geeta Patil",
-      "email": "geetapatil@gmail.com",
-      "password": "123456",
-      "address": "pandharpur",
-      "gender": "Female",
-      "phone": "7249927420"
-    },
-    {
-      "id": "3971",
-      "fullName": "Geeta",
-      "email": "geetapatil1234@gmail.com",
+      "id": "7e54",
+      "fullName": "Mayuri Patil",
+      "email": "mayuri@gmail.com",
       "password": "1234",
       "address": "pandharpur",
       "gender": "Female",
@@ -6830,29 +6814,29 @@
   "cart": [
     {
       "id": "1",
-      "name": "Romsons Kare N95 Face Mask 1's",
-      "brand": "Romsons Scientific & Surgical Pvt Ltd",
-      "mainImage": "assets/images/Wellness/Personal Care/Home & Health/Mask1Small_H&H.jpg",
+      "name": "Lakme Color Crush Nail Art T2 6 Ml",
+      "brand": "Hindustan Unilever Limited",
+      "mainImage": "assets/images/Make-Up/Nails/lakme_color_crush_nail_art_t2_6_ml_202037_0_1.jpg",
       "category": [
-        "Covid Essentials",
-        "Equipment"
+        "MakeUp",
+        "Nails"
       ],
       "images": [
-        "assets/images/Wellness/Personal Care/Home & Health/Mask1Small_H&H.jpg",
-        "assets/images/Wellness/Personal Care/Home & Health/Mask2Small_H&H.jpg",
-        "assets/images/Wellness/Personal Care/Home & Health/Mask3Small_H&H.jpg"
+        "assets/images/Make-Up/Nails/nailsSmallImg/lakme_9to5_primer_gloss_nail_colour_summer_blue_6_ml_445624_2_1.jpg",
+        "assets/images/Make-Up/Nails/nailsSmallImg/lakme_9to5_primer_gloss_nail_colour_summer_blue_6_ml_820570_9_0 (1).jpg",
+        "assets/images/Make-Up/Nails/nailsSmallImg/lakme_color_crush_nail_art_p1_6_ml_202050_4_2.jpg"
       ],
       "product-content": [
         "*This product cannot be returned for a refund or exchange.",
-        "* Mkt: Romsons Scientific & Surgical Pvt Ltd",
-        "* Country of Origin: India",
+        "* Mkt:Mayuri Kumkum",
+        "* Country of Origin:  United States",
         "* Delivery charges if applicable will be applied at checkout"
       ],
-      "disc_price": 73.5,
-      "price": "210",
-      "disc": 65,
-      "image": "assets/images/Wellness/Personal Care/Home & Health/home-health1.jpg",
-      "productId": 1,
+      "disc_price": 150,
+      "price": "199.00",
+      "disc": 3,
+      "image": "assets/images/Make-Up/Nails/lakme_color_crush_nail_art_t2_6_ml_202037_0_1.jpg",
+      "productId": 2,
       "quantity": 1
     },
     {
