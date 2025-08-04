@@ -6449,7 +6449,6 @@
         "disc": 5,
         "image": "assets/images/skinCare/fair_and_handsome_long_lasting_radiance_cream_30_gm_484158_0_0.jpg"
       },
-      
       {
         "id": 7,
         "name": "VLCC New Gold Single Facial Kit 60 gm",
@@ -6628,7 +6627,87 @@
       }
     ]
   },
-  "cart": [],
+  "cart": [
+    {
+      "id": "1",
+      "name": "Atrest 12.5mg Tablet 10'S",
+      "brand": "Mkt: Centaur Pharmaceuticals Pvt Ltd",
+      "mainImage": "assets/images/medicines/allMedicines/1/MainImg1Atrest.jpg",
+      "category": [
+        "ADHD",
+        "Rx required"
+      ],
+      "images": [
+        "assets/images/medicines/allMedicines/1/atrest_12_5mg_tablet_10s_1_0.jpg",
+        "assets/images/medicines/allMedicines/1/atrest_12_5mg_tablet_10s_2_0.jpg",
+        "assets/images/medicines/allMedicines/1/atrest_12_5mg_tablet_10s_3_0.jpg"
+      ],
+      "product-content": [
+        "*10 Tablet(s) in a Strip",
+        "* Mkt: Centaur Pharmaceuticals Pvt Ltd",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "disc_price": 152.05,
+      "price": "186.05",
+      "disc": 20,
+      "image": "assets/images/medicines/allMedicines/1/MainImg1Atrest.jpg",
+      "productId": 1,
+      "quantity": 1
+    },
+    {
+      "id": "2",
+      "name": "Capnea Oral Solution 1ml",
+      "brand": "Mkt: Cipla Ltd",
+      "mainImage": "assets/images/medicines/allMedicines/5/capnea_oral_solution_1ml_Main(1).jpg",
+      "category": [
+        "ADHD",
+        "Rx required"
+      ],
+      "images": [
+        "assets/images/medicines/allMedicines/5/capnea_oral_solution_1ml_0_0.jpg",
+        "assets/images/medicines/allMedicines/5/capnea_oral_solution_1ml_1_0.jpg"
+      ],
+      "product-content": [
+        "* Mkt: Cipla Ltd",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "disc_price": 225.62,
+      "price": "275.15",
+      "disc": 18,
+      "image": "assets/images/medicines/allMedicines/5/capnea_oral_solution_1ml_1_0.jpg",
+      "productId": 5,
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "name": "Atrest 12.5mg Tablet 10'S",
+      "brand": "Mkt: Centaur Pharmaceuticals Pvt Ltd",
+      "mainImage": "assets/images/medicines/allMedicines/1/MainImg1Atrest.jpg",
+      "category": [
+        "ADHD",
+        "Rx required"
+      ],
+      "images": [
+        "assets/images/medicines/allMedicines/1/atrest_12_5mg_tablet_10s_1_0.jpg",
+        "assets/images/medicines/allMedicines/1/atrest_12_5mg_tablet_10s_2_0.jpg",
+        "assets/images/medicines/allMedicines/1/atrest_12_5mg_tablet_10s_3_0.jpg"
+      ],
+      "product-content": [
+        "*10 Tablet(s) in a Strip",
+        "* Mkt: Centaur Pharmaceuticals Pvt Ltd",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "disc_price": 152.05,
+      "price": "186.05",
+      "disc": 20,
+      "image": "assets/images/medicines/allMedicines/1/MainImg1Atrest.jpg",
+      "productId": 1,
+      "quantity": 1
+    }
+  ],
   "diabetes": {
     "bannerImage": "assets/images/moduleBannerImage/ayush_0.jpg",
     "categories": [
