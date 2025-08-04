@@ -10,6 +10,8 @@ import { ProductService } from 'src/app/core/services/product.service';
 })
 export class ProductDetailsComponent implements OnInit {
   product: any;
+  selectedImage: string = '';
+
   constructor(
     private route: ActivatedRoute,
     private productService: ProductService,
@@ -38,5 +40,9 @@ export class ProductDetailsComponent implements OnInit {
         alert(err.message);
       }
     });
+  }
+
+  onThumbnailClick(imgUrl: string) {
+    this.selectedImage = imgUrl;
   }
 }
