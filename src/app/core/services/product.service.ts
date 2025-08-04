@@ -7,7 +7,7 @@ import { forkJoin, map, Observable } from 'rxjs';
 })
 export class ProductService {
 
-  private apiUrl = "http://localhost:3000"
+  private apiUrl = "http://localhost:3000";
   constructor(private http: HttpClient) { }
 
   getAllProducts(key:any): Observable<any[]> {
@@ -25,5 +25,12 @@ export class ProductService {
 
   getMedicineProducts():Observable<any>{
     return this.http.get<any>(this.apiUrl2);
+  }
+
+  getmergedata(category: any[]): Observable<any[]> {
+    const requests = category.map(cat => this.http.get<any[]>(`${this.apiUrl}/${cat}`));
+    return forkJoin(requests).pipe(
+      map(results => results.flat())
+    );
   }
 }
