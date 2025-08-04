@@ -6536,35 +6536,18 @@
       "phone": "7666845902"
     },
     {
-      "id": "b63c",
-      "fullName": "Geeta Bagal",
-      "email": "geetab@gmail.com",
-      "password": "1234",
-      "address": "pandharpur",
-      "phone": "7249277420"
-    },
-    {
       "id": "e254",
       "fullName": "Admin",
       "email": "admin@gmail.com",
       "password": "1234",
-      "address": "pune",
+      "address": "pune MH12",
       "phone": "7249277420",
       "gender": "Female"
     },
     {
-      "id": "3fe2",
-      "fullName": "Geeta Patil",
-      "email": "geetapatil@gmail.com",
-      "password": "123456",
-      "address": "pandharpur",
-      "gender": "Female",
-      "phone": "7249927420"
-    },
-    {
-      "id": "3971",
-      "fullName": "Geeta",
-      "email": "geetapatil1234@gmail.com",
+      "id": "7e54",
+      "fullName": "Mayuri Patil",
+      "email": "mayuri@gmail.com",
       "password": "1234",
       "address": "pandharpur",
       "gender": "Female",
@@ -6628,7 +6611,35 @@
       }
     ]
   },
-  "cart": [],
+  "cart": [
+    {
+      "id": "1",
+      "name": "Lakme Color Crush Nail Art T2 6 Ml",
+      "brand": "Hindustan Unilever Limited",
+      "mainImage": "assets/images/Make-Up/Nails/lakme_color_crush_nail_art_t2_6_ml_202037_0_1.jpg",
+      "category": [
+        "MakeUp",
+        "Nails"
+      ],
+      "images": [
+        "assets/images/Make-Up/Nails/nailsSmallImg/lakme_9to5_primer_gloss_nail_colour_summer_blue_6_ml_445624_2_1.jpg",
+        "assets/images/Make-Up/Nails/nailsSmallImg/lakme_9to5_primer_gloss_nail_colour_summer_blue_6_ml_820570_9_0 (1).jpg",
+        "assets/images/Make-Up/Nails/nailsSmallImg/lakme_color_crush_nail_art_p1_6_ml_202050_4_2.jpg"
+      ],
+      "product-content": [
+        "*This product cannot be returned for a refund or exchange.",
+        "* Mkt:Mayuri Kumkum",
+        "* Country of Origin:  United States",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "disc_price": 150,
+      "price": "199.00",
+      "disc": 3,
+      "image": "assets/images/Make-Up/Nails/lakme_color_crush_nail_art_t2_6_ml_202037_0_1.jpg",
+      "productId": 2,
+      "quantity": 1
+    }
+  ],
   "diabetes": {
     "bannerImage": "assets/images/moduleBannerImage/ayush_0.jpg",
     "categories": [
