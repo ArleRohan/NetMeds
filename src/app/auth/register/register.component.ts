@@ -27,22 +27,31 @@ export class RegisterComponent implements OnInit {
   onSubmit(): void {
   if (this.registerForm.valid) {
     const formData = this.registerForm.value;
-    console.log("Registering User:", formData); // DEBUG
 
-    this.authSer.addUser(formData).subscribe({
-      next: () => {
-        alert('User registered successfully!');
-        this.registerForm.reset();
-         this.router.navigate(['auth/login']); //  Navigate to login
-      },
-      error: (err) => {
-        alert('Error while registering user!');
-        console.error(err); // DEBUG
+    // 🔍 Step 1: First check if email already exists
+    this.authSer.checkUserByEmail(formData.email).subscribe(users => {
+      if (users.length > 0) {
+        // Email already exists
+        alert('Email already exists , Plz Enter New Email !');
+      } else {
+        // ✅ Proceed with registration
+        this.authSer.addUser(formData).subscribe({
+          next: () => {
+            alert('User registered successfully!');
+            this.registerForm.reset();
+            this.router.navigate(['auth/login']);
+          },
+          error: (err) => {
+            alert('Error while registering user!');
+            console.error(err);
+          }
+        });
       }
     });
   } else {
     this.registerForm.markAllAsTouched();
   }
 }
+
 
 }
