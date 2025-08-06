@@ -204,6 +204,7 @@
       }
     ]
   },
+  
   "FaceMakeupProduct": {
     "banner": "assets/images/Make-Up/Face-Makeup/face_makeup.jpg",
     "items": [
@@ -6810,7 +6811,119 @@
       }
     ]
   },
-  "cart": [],
+  "cart": [
+    {
+      "id": "1",
+      "name": "Lakme Color Crush Nail Art T2 6 Ml",
+      "brand": "Hindustan Unilever Limited",
+      "mainImage": "assets/images/Make-Up/Nails/lakme_color_crush_nail_art_t2_6_ml_202037_0_1.jpg",
+      "category": [
+        "MakeUp",
+        "Nails"
+      ],
+      "images": [
+        "assets/images/Make-Up/Nails/nailsSmallImg/lakme_9to5_primer_gloss_nail_colour_summer_blue_6_ml_445624_2_1.jpg",
+        "assets/images/Make-Up/Nails/nailsSmallImg/lakme_9to5_primer_gloss_nail_colour_summer_blue_6_ml_820570_9_0 (1).jpg",
+        "assets/images/Make-Up/Nails/nailsSmallImg/lakme_color_crush_nail_art_p1_6_ml_202050_4_2.jpg"
+      ],
+      "product-content": [
+        "*This product cannot be returned for a refund or exchange.",
+        "* Mkt:Mayuri Kumkum",
+        "* Country of Origin:  United States",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "disc_price": 150,
+      "price": "199.00",
+      "disc": 3,
+      "image": "assets/images/Make-Up/Nails/lakme_color_crush_nail_art_t2_6_ml_202037_0_1.jpg",
+      "productId": 2,
+      "quantity": 1
+    },
+    {
+      "id": "2",
+      "type": "aminoAcidProducts",
+      "name": "GNC Pro Performance L-Carnitine 500 mg Tablet 60's",
+      "brand": "Gnc",
+      "category": [
+        "Fitness",
+        "Sports Supplements"
+      ],
+      "disc_price": 704.53,
+      "price": "1499.00",
+      "disc": 53,
+      "mainImage": "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716017_0_0 (1).jpg",
+      "image": "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716017_0_0.jpg",
+      "images": [
+        "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716018_1_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716019_2_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716020_3_0.jpg"
+      ],
+      "product-content": [
+        "Inclusive of all taxes",
+        "* Mkt: Guardian Healthcare Services Pvt Ltd",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "productId": "8",
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "type": "aminoAcidProducts",
+      "name": "GNC Pro Performance Creatine Monohydrate - 250 gm",
+      "brand": "GNC India",
+      "category": [
+        "Fitness",
+        "Sports Supplements"
+      ],
+      "disc_price": 950,
+      "price": "1190.00",
+      "disc": 20,
+      "mainImage": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0 (1).jpg",
+      "image": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
+      "images": [
+        "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_1_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_2_0.jpg"
+      ],
+      "product-content": [
+        "Inclusive of all taxes",
+        "* Mkt: GNC India",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "productId": "1",
+      "quantity": 1
+    },
+    {
+      "id": "4",
+      "type": "aminoAcidProducts",
+      "name": "INLIFE Alpha Lipoic Acid Capsules 60's",
+      "brand": "Inlife Pharma Pvt Ltd",
+      "category": [
+        "Fitness",
+        "Sports Supplements"
+      ],
+      "disc_price": 699.02,
+      "price": "1199.00",
+      "disc": 42,
+      "mainImage": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0 (1).jpg",
+      "image": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0.jpg",
+      "images": [
+        "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819935_1_0.jpg",
+        "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819936_2_0.jpg",
+        "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819938_4_0.jpg"
+      ],
+      "product-content": [
+        "Inclusive of all taxes",
+        "* Mkt: Inlife Pharma Pvt Ltd",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "productId": "5",
+      "quantity": 1
+    }
+  ],
   "diabetes": {
     "bannerImage": "assets/images/moduleBannerImage/ayush_0.jpg",
     "categories": [
