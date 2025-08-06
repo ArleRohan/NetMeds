@@ -204,6 +204,7 @@
       }
     ]
   },
+  
   "FaceMakeupProduct": {
     "banner": "assets/images/Make-Up/Face-Makeup/face_makeup.jpg",
     "items": [
@@ -6449,7 +6450,6 @@
         "disc": 5,
         "image": "assets/images/skinCare/fair_and_handsome_long_lasting_radiance_cream_30_gm_484158_0_0.jpg"
       },
-      
       {
         "id": 7,
         "name": "VLCC New Gold Single Facial Kit 60 gm",
