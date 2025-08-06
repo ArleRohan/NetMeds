@@ -137,33 +137,32 @@ removeFromCart(item: any) {
     this.currentIndex = (this.currentIndex - 1 + this.images.length) % this.images.length;
   }
 
-  //  Slider 2
+  //Slider 2
   startAutoSlide1(): void {
     this.autoSlideInterval1 = setInterval(() => {
       this.currentIndex1 = (this.currentIndex1 + 1) % this.slideContent.length;
     }, 3000);
   }
 
-  // Dropdown
+  //Dropdown
   toggleDropdown(): void {
     this.showDropdown = !this.showDropdown;
   }
-  proceedToCheckout() {
-  const isOtpVerified = !!sessionStorage.getItem('userOTP');
-  const isUserRegistered = !!sessionStorage.getItem('loggedInUser');
+ proceedToCheckout() {
+  const isUserLoggedIn = !!sessionStorage.getItem('user');
 
-  if (isOtpVerified && isUserRegistered) {
-    // Store cart and totals in localStorage
+  if (isUserLoggedIn) {
+    // Save cart
     localStorage.setItem('cartData', JSON.stringify(this.cartItems));
     localStorage.setItem('totalMRP', this.totalMRP.toString());
     localStorage.setItem('totalDiscount', this.totalDiscount.toString());
     localStorage.setItem('totalPayable', this.totalPayable.toString());
     localStorage.setItem('totalSavings', this.totalSavings.toString());
 
-    // Then navigate to billing
+    // Navigate
     this.router.navigate(['/carts/billing']);
   } else {
-    alert("Please login and register before proceeding to checkout.");
+    alert("Please login before proceeding to checkout.");
     this.router.navigate(['/auth/login']);
   }
 }

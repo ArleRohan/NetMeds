@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ProductService } from 'src/app/core/services/product.service';
 import { CartserviceService } from 'src/app/carts/servicecart/cartservice.service';
-
+import { ProductService } from 'src/app/core/services/product.service';
 
 @Component({
   selector: 'app-product-details',
@@ -11,6 +10,8 @@ import { CartserviceService } from 'src/app/carts/servicecart/cartservice.servic
 })
 export class ProductDetailsComponent implements OnInit {
   product: any;
+  selectedImage: string = '';
+
   constructor(
     private route: ActivatedRoute,
     private productService: ProductService,
@@ -28,8 +29,8 @@ export class ProductDetailsComponent implements OnInit {
     }
   
   }
-  
-  addToCart(product: any) {
+
+   addToCart(product: any) {
     this.cartService.addToCart(product).subscribe({
       next: () => {
         alert(`${product.name} added to cart!`);
@@ -39,5 +40,9 @@ export class ProductDetailsComponent implements OnInit {
         alert(err.message);
       }
     });
+  }
+
+  onThumbnailClick(imgUrl: string) {
+    this.selectedImage = imgUrl;
   }
 }

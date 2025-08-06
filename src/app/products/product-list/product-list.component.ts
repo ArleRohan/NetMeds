@@ -33,7 +33,6 @@ export class ProductListComponent {
     });
   }
 
-
   getAllProducts(key: any) {
     // debugger
     this.prodServ.getAllProducts(key).subscribe({
@@ -48,7 +47,6 @@ export class ProductListComponent {
       }
     })
   }
-
   addToCart(product: any) {
     this.cartService.addToCart(product).subscribe({
       next: () => {
@@ -60,6 +58,7 @@ export class ProductListComponent {
       }
     });
   }
+
   applyFilters(event: any) {
     console.log('Received Filters:', event);
     if (!event.brands || event.brands.length === 0) {

@@ -66,7 +66,7 @@ constructor(private service1 : ProductService, private actRoute:ActivatedRoute, 
 
   goToDetail(varient:any) {
 
-      const product = this.allCatagoryData.find((item: any) => item.name === varient);
+  const product = this.allCatagoryData.find((item: any) => item.name === varient);
 
   if (product) {
     const id = product.id;

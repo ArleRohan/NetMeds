@@ -19,13 +19,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { EyesComponent } from './components/Beauty/make-up/eyes/eyes.component';
 import { LoginComponent } from '../auth/login/login.component';
-import { FormsModule } from '@angular/forms';
+import { SupplementsComponent } from './components/Health-Center/cancer/supplements-for-cancer/supplements.component';
+import { AcidsComponent } from './components/Health-Center/cancer/supplements-for-cancer/amino-acids/acids.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BlogsComponent } from './components/Health-Center/health-library/blogs/blogs.component';
+import { BeautyComponent } from './components/Beauty/beauty/beauty.component';
+import { UploadComponent } from './components/upload/upload.component';
+import { OrderReviewComponent } from './components/order-review/order-review.component';
 import { CategoryComponent } from './components/category/category.component';
 import { CustomPipe } from './pipes/custom.pipe';
-import { SupplementsComponent } from './components/Health-Center/cancer/supplements/supplements/supplements.component';
-import { AcidsComponent } from './components/Health-Center/cancer/supplements/acids/acids/acids.component';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { BlogsComponent } from './components/Health-Center/health-library/blogs/blogs.component';
+import { WellnessComponent } from './components/Wellness/wellness/wellness.component';
+import { SwiperModule } from 'swiper/angular';
 import { PrescriptionMedicinesComponent } from './components/Medicine/all-medicine/prescription-medicines/prescription-medicines.component';
 import { LabTestComponent } from './components/lab-test/lab-test.component';
 import { OffersComponent } from './components/offers/offers.component';
@@ -33,19 +37,28 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { MatListModule } from '@angular/material/list';
 import { MatExpansionModule } from '@angular/material/expansion';
 
+
 const routes: Routes = [
-  {  path:  'BuyAgain', component:  BuyAgainComponent  },
-  {  path:  'OrderOnline',  component:  OrderOnlineComponent  },
-  {  path:  'cancer',  component:  CancerComponent  },
-  {  path:  'supplements', component: SupplementsComponent },
-  { path: 'amoni-acids', component: AcidsComponent },
-  { path: 'signin', component:  LoginComponent },
-  { path: "category/:keyName", component: CategoryComponent  },
+  { path: 'BuyAgain', component: BuyAgainComponent },
+  { path: 'OrderOnline', component: OrderOnlineComponent },
+  { path: 'cancer', component: CancerComponent },
+  { path: 'supplements', component: SupplementsComponent },
+  { path: 'amino-acids', component: AcidsComponent },
+  { path: 'signin', component: LoginComponent },
+  { path: 'category/:keyName', component: CategoryComponent },
   { path: 'HealthLibrary', component: HealthLibraryComponent },
-  {path:'offers',component:OffersComponent},
-  {path:"allmedicine",component:AllMedicineComponent},
-  {path:"labTest",component:LabTestComponent},
-  {path:'prescriptionMedicines/:category',component:PrescriptionMedicinesComponent}
+  { path: 'wellness', component: WellnessComponent },
+  { path: 'offers', component: OffersComponent },
+  { path: 'allmedicine', component: AllMedicineComponent },
+  { path: 'labTest', component: LabTestComponent },
+  {
+    path: 'prescriptionMedicines/:category',
+    component: PrescriptionMedicinesComponent,
+  },
+  { path: 'upload', component: UploadComponent },
+  { path: 'order-review', component: OrderReviewComponent },
+  { path: 'beauty', component: BeautyComponent },
+  { path: 'corona-awareness', component: CoronaAwarenessComponent },
 ];
 
 @NgModule({
@@ -67,17 +80,28 @@ const routes: Routes = [
     CoronaAwarenessComponent,
     SideBarComponent,
     EyesComponent,
+    SupplementsComponent,
+    AcidsComponent,
     BlogsComponent,
+    BeautyComponent,
+    UploadComponent,
+    OrderReviewComponent,
+    WellnessComponent,
     CustomPipe,
     CategoryComponent,
     PrescriptionMedicinesComponent,
     OffersComponent,
-    LabTestComponent
+    LabTestComponent,
+    SupplementsComponent,
+    AcidsComponent,
+    CoronaAwarenessComponent,
   ],
   imports: [
     RouterModule.forChild(routes),
     CommonModule,
     FormsModule,
+    ReactiveFormsModule,
+    SwiperModule,
     NgxPaginationModule,
     MatListModule,
     MatExpansionModule,
@@ -89,12 +113,16 @@ const routes: Routes = [
     // CarouselModule
     // CustomPipe
   ],
+
   exports: [
     FooterComponent,
     HeaderComponent,
+    OrderReviewComponent,
+    ReactiveFormsModule,
+    FormsModule,
     CustomPipe,
     MatListModule,
-    SideBarComponent
-  ]
+    SideBarComponent,
+  ],
 })
 export class SharedModule {}
