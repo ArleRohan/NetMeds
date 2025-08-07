@@ -2,14 +2,12 @@ import { CanActivateFn, CanDeactivateFn, CanLoadFn, ResolveFn } from '@angular/r
 import { inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
-// import { ProductService } from '../services/product.service';
 
 export const authGuard: CanActivateFn = (route, state) => {
   const router = inject(Router);
   const isLoggedIn = sessionStorage.getItem('user');
 
   return isLoggedIn ? true : router.createUrlTree(['/auth/login']);
-  // return isLoggedIn ? true : router.navigate(['']);
 };
 
 export const authCanLoadGuard: CanLoadFn = (route, state) => {
@@ -18,7 +16,6 @@ export const authCanLoadGuard: CanLoadFn = (route, state) => {
   console.log('canLoad called', sessionStorage.getItem('user'));
 
   return isLoggedIn ? true : router.createUrlTree(['/auth/login']);
-  // return isLoggedIn ? true : router.navigate(['']);
 };
 
 export const authCanDeactivateGuard:CanDeactivateFn<CanComponentDeactivate> =(component)=>{
