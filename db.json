@@ -6500,7 +6500,7 @@
       "fullName": "Shivam Nanavare",
       "email": "shivamnanavare@gmail.com",
       "password": "1234",
-      "address": "pune",
+      "address": "solapur",
       "gender": "Male",
       "phone": "7666845902"
     },
@@ -6929,6 +6929,33 @@
         "* Delivery charges if applicable will be applied at checkout"
       ],
       "productId": "5",
+      "quantity": 1
+    },
+    {
+      "id": "5",
+      "name": "Accu-Chek Active Glucose Monitor with Free 10 Test Strips",
+      "brand": "Roche Diabetes Care India Pvt LTD",
+      "mainImage": "assets/images/Wellness/Diabetes Support/Glucometers/gluco_details/gluco_main_image1.jpg",
+      "category": [
+        "Devices",
+        "Measurement"
+      ],
+      "images": [
+        "assets/images/Wellness/Diabetes Support/Glucometers/gluco_details/gluco_small1-1.jpg",
+        "assets/images/Wellness/Diabetes Support/Glucometers/gluco_details/gluco_small1-1.jpg",
+        "assets/images/Wellness/Diabetes Support/Glucometers/gluco_details/gluco_small1-1.jpg"
+      ],
+      "product-content": [
+        "*This product cannot be returned for a refund or exchange.",
+        "* Mkt: Roche Diabetes Care India Pvt LTD",
+        "* Country of Origin: Germany",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "disc_price": 1263.21,
+      "price": "1599.00",
+      "disc": 21,
+      "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-1.jpg",
+      "productId": 1,
       "quantity": 1
     }
   ],

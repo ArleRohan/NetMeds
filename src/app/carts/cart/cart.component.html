@@ -59,7 +59,7 @@
               <select [(ngModel)]="item.quantity" (change)="updateQuantity()" class="form-select form-select-sm mb-2 border border-danger text-danger" style="width: auto;">
                 <option *ngFor="let qty of [1,2,3,4,5]" [value]="qty">{{ qty }}</option>
               </select>
-              <button (click)="removeFromCart(item)">Remove</button>
+              <button class="btn btn-danger" (click)="removeFromCart(item)">Remove</button>
             </div>
           </div>
         </div>

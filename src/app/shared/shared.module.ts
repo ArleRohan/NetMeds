@@ -101,7 +101,6 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-
     SwiperModule,
     NgxPaginationModule,
     MatListModule,
