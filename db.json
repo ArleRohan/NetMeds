@@ -6627,7 +6627,33 @@
       }
     ]
   },
-  "cart": [],
+  "cart": [
+    {
+      "id": "3",
+      "name": "Aroma Treasures Pure Essential Oil - Lemon Grass 10 ml",
+      "brand": "Roohwellness",
+      "mainImage": "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg",
+      "category": [
+        "Aromatherapy",
+        "skincare"
+      ],
+      "images": [
+        "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg"
+      ],
+      "product-content": [
+        "This product cannot be returned for a refund or exchange.",
+        " Country of Origin: Germany",
+        "Country of Origin: India",
+        "Delivery charges if applicable will be applied at checkout"
+      ],
+      "disc_price": 182.7,
+      "price": 210,
+      "disc": 13,
+      "image": "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg",
+      "productId": 1,
+      "quantity": 1
+    }
+  ],
   "diabetes": {
     "bannerImage": "assets/images/moduleBannerImage/ayush_0.jpg",
     "categories": [
