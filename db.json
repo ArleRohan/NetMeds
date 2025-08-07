@@ -122,7 +122,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 764.10,
+        "disc_price": 764.1,
         "price": "849.00",
         "disc": 10,
         "image": "assets/images/Make-Up/Eyes/sugar_cosmetics_lash_mob_limitless_mascara_01_black_with_a_bang_black_9_gm_0_0.jpg"
@@ -147,7 +147,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 472.10,
+        "disc_price": 472.1,
         "price": "525.00",
         "disc": 10,
         "image": "assets/images/Make-Up/Eyes/sugar_cosmetics_arch_arrival_brow_definer_03_woody_scooby_deep_brown_3_5_gm_0_0.jpg"
@@ -172,7 +172,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 340.00,
+        "disc_price": 340,
         "price": "425.00",
         "disc": 20,
         "image": "assets/images/Make-Up/Eyes/wet_n_wild_megalast_retractable_eyeliner_blackest_black_0_23_gm_0_0.jpg"
@@ -197,13 +197,14 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 467.00,
+        "disc_price": 467,
         "price": "550.00",
         "disc": 15,
         "image": "assets/images/Make-Up/Eyes/wet_n_wild_h2o_proof_liquid_eyeliner_black_noir_3_5_ml_0_0.jpg"
       }
     ]
   },
+  
   "FaceMakeupProduct": {
     "banner": "assets/images/Make-Up/Face-Makeup/face_makeup.jpg",
     "items": [
@@ -252,7 +253,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 118.50,
+        "disc_price": 118.5,
         "price": "125.00",
         "disc": 5,
         "image": "assets/images/Make-Up/Face-Makeup/insight_cosmetics_concealer_rose_ivory_3_5_gm_245936_0_2.jpg"
@@ -277,7 +278,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 228.50,
+        "disc_price": 228.5,
         "price": "240.00",
         "disc": 5,
         "image": "assets/images/Make-Up/Face-Makeup/insight_cosmetics_pro_concealer_palette_corrector_15_gm_245927_0_4.jpg"
@@ -302,7 +303,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 260.00,
+        "disc_price": 260,
         "price": "280.00",
         "disc": 5,
         "image": "assets/images/Make-Up/Face-Makeup/insight_cosmetics_stay_matte_liquid_foundation_soft_tan_30_ml_245824_0_1.jpg"
@@ -327,7 +328,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 153.00,
+        "disc_price": 153,
         "price": "165.00",
         "disc": 7,
         "image": "assets/images/Make-Up/Face-Makeup/insight_cosmetics_hd_finishing_loose_powder_light_30_gm_245756_0_3.jpg"
@@ -352,7 +353,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 650.00,
+        "disc_price": 650,
         "price": "749.00",
         "disc": 10,
         "image": "assets/images/Make-Up/Face-Makeup/sugar_cosmetics_grand_finale_dewy_setting_mist_50_gm_0_0.jpg"
@@ -377,7 +378,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 650.00,
+        "disc_price": 650,
         "price": "749.00",
         "disc": 10,
         "image": "assets/images/Make-Up/Face-Makeup/sugar_cosmetics_grand_finale_highlighting_setting_mist_50_gm_0_0.jpg"
@@ -402,7 +403,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 650.00,
+        "disc_price": 650,
         "price": "749.00",
         "disc": 10,
         "image": "assets/images/Make-Up/Face-Makeup/sugar_cosmetics_grand_finale_matte_setting_mist_50_gm_0_0.jpg"
@@ -432,7 +433,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 236.00,
+        "disc_price": 236,
         "price": "248.00",
         "disc": 5,
         "image": "assets/images/Make-Up/Lips/lakme_lip_love_chapstick_cherry_4_5_gm_0_0.jpg"
@@ -457,7 +458,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1199.00,
+        "disc_price": 1199,
         "price": "1499.00",
         "disc": 20,
         "image": "assets/images/Make-Up/Lips/colorbar_hickey_028_4_gm_0_0.jpg"
@@ -482,7 +483,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1199.00,
+        "disc_price": 1199,
         "price": "1499.00",
         "disc": 20,
         "image": "assets/images/Make-Up/Lips/colorbar_dirty_date_027_4_gm_0_0.jpg"
@@ -507,7 +508,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 539.00,
+        "disc_price": 539,
         "price": "599.00",
         "disc": 20,
         "image": "assets/images/Make-Up/Lips/sugar_cosmetics_time_to_shine_lip_gloss_02_velma_pinkley_4_5_gm_0_1.jpg"
@@ -532,7 +533,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 500.00,
+        "disc_price": 500,
         "price": "525.00",
         "disc": 20,
         "image": "assets/images/Make-Up/Lips/sugar_cosmetics_lipping_on_the_edge_lip_liner_05_brazen_raisin_1_2_gm_0_0.jpg"
@@ -557,7 +558,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 500.00,
+        "disc_price": 500,
         "price": "525.00",
         "disc": 5,
         "image": "assets/images/Make-Up/Lips/sugar_cosmetics_lipping_on_the_edge_lip_liner_02_wooed_by_nude_1_2_gm_0_0.jpg"
@@ -582,7 +583,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 699.00,
+        "disc_price": 699,
         "price": "748.00",
         "disc": 5,
         "image": "assets/images/Make-Up/Lips/sugar_cosmetics_matte_attack_transferproof_lipstick_06_spring_crimson_crimson_red_2_gm_0_0.jpg"
@@ -607,7 +608,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 699.00,
+        "disc_price": 699,
         "price": "748.00",
         "disc": 10,
         "image": "assets/images/Make-Up/Lips/sugar_cosmetics_matte_attack_transferproof_lipstick_05_tan_halen_chocolate_brown_2_gm_0_0.jpg"
@@ -637,7 +638,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1299.00,
+        "disc_price": 1299,
         "price": "1039.00",
         "disc": 10,
         "image": "assets/images/Make-Up/Nails/colorbar_instant_glow_cream_12_gm_0_0.jpg"
@@ -662,7 +663,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 150.00,
+        "disc_price": 150,
         "price": "199.00",
         "disc": 3,
         "image": "assets/images/Make-Up/Nails/lakme_color_crush_nail_art_t2_6_ml_202037_0_1.jpg"
@@ -687,7 +688,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 150.00,
+        "disc_price": 150,
         "price": "199.00",
         "disc": 3,
         "image": "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m16_mint_blue_6_ml_201633_0_1.jpg"
@@ -712,7 +713,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 150.00,
+        "disc_price": 150,
         "price": "199.00",
         "disc": 3,
         "image": "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m11_classic_silver_6_ml_201588_0_1.jpg"
@@ -737,7 +738,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 150.00,
+        "disc_price": 150,
         "price": "199.00",
         "disc": 3,
         "image": "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m10_fern_green_6_ml_201579_0_1.jpg"
@@ -762,7 +763,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 150.00,
+        "disc_price": 150,
         "price": "199.00",
         "disc": 3,
         "image": "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m9_fuschia_6_ml_201570_0_1.jpg"
@@ -787,7 +788,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 150.00,
+        "disc_price": 150,
         "price": "199.00",
         "disc": 3,
         "image": "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m2_6ml_201507_0_3.jpg"
@@ -812,7 +813,7 @@
           "* Country of Origin:  United States",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 150.00,
+        "disc_price": 150,
         "price": "199.00",
         "disc": 3,
         "image": "assets/images/Make-Up/Nails/lakme_color_crush_nailart_m1_ox_blood_6_ml_201498_0_2.jpg"
@@ -1017,7 +1018,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1252.00,
+        "disc_price": 1252,
         "price": "1165.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-8.jpg"
@@ -1042,7 +1043,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 547.50,
+        "disc_price": 547.5,
         "price": "730.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-9.jpg"
@@ -1117,7 +1118,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 696.00,
+        "disc_price": 696,
         "price": "870.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-12.jpg"
@@ -1142,7 +1143,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1242.00,
+        "disc_price": 1242,
         "price": "1380.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-13.jpg"
@@ -1167,7 +1168,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1549.00,
+        "disc_price": 1549,
         "price": "4666.10",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-14.jpg"
@@ -1190,7 +1191,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1259.00,
+        "disc_price": 1259,
         "price": "1799.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-15.jpg"
@@ -1240,7 +1241,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 975.00,
+        "disc_price": 975,
         "price": "1300.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-17.jpg"
@@ -1290,7 +1291,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1087.00,
+        "disc_price": 1087,
         "price": "1450.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-19.jpg"
@@ -1315,7 +1316,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Glucometers/glucometer1-20.jpg"
@@ -1370,7 +1371,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 130.00,
+        "disc_price": 130,
         "price": "145.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar2.jpg"
@@ -1393,7 +1394,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar3.jpg"
@@ -1416,7 +1417,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar4.jpg"
@@ -1439,7 +1440,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar5.jpg"
@@ -1464,7 +1465,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar6.jpg"
@@ -1489,7 +1490,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar7.jpg"
@@ -1514,7 +1515,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar8.jpg"
@@ -1539,7 +1540,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar9.jpg"
@@ -1564,7 +1565,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar10.jpg"
@@ -1589,7 +1590,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar11.jpg"
@@ -1614,7 +1615,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar12.jpg"
@@ -1639,7 +1640,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar13.jpg"
@@ -1664,7 +1665,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar14.jpg"
@@ -1687,7 +1688,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar15.jpg"
@@ -1711,7 +1712,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1245.00,
+        "disc_price": 1245,
         "price": "1660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Sugar/sugar16.jpg"
@@ -1739,7 +1740,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 611.60,
+        "disc_price": 611.6,
         "price": "695.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement1.jpg"
@@ -1764,7 +1765,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 671.50,
+        "disc_price": 671.5,
         "price": "790.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement2.jpg"
@@ -1789,7 +1790,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 549.00,
+        "disc_price": 549,
         "price": "900.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement3.jpg"
@@ -1814,7 +1815,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 583.80,
+        "disc_price": 583.8,
         "price": "695.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement4.jpg"
@@ -1839,7 +1840,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 513.00,
+        "disc_price": 513,
         "price": "540.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement5.jpg"
@@ -1889,7 +1890,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 523.80,
+        "disc_price": 523.8,
         "price": "540.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement7.jpg"
@@ -1939,7 +1940,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 949.00,
+        "disc_price": 949,
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement9.jpg"
       },
@@ -1963,7 +1964,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 29.40,
+        "disc_price": 29.4,
         "price": "30.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement10.jpg"
@@ -1988,7 +1989,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 699.20,
+        "disc_price": 699.2,
         "price": "699.20",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement11.jpg"
@@ -2013,7 +2014,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 410.00,
+        "disc_price": 410,
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement12.jpg"
       },
@@ -2037,7 +2038,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 632.50,
+        "disc_price": 632.5,
         "price": "687.50",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement13.jpg"
@@ -2062,7 +2063,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 705.50,
+        "disc_price": 705.5,
         "price": "850.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement14.jpg"
@@ -2112,7 +2113,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 655.70,
+        "disc_price": 655.7,
         "price": "790.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement16.jpg"
@@ -2162,7 +2163,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 72.00,
+        "disc_price": 72,
         "price": "100.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement18.jpg"
@@ -2212,7 +2213,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 711.00,
+        "disc_price": 711,
         "price": "790.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Management/diabetes_management_supplement20.jpg"
@@ -2242,7 +2243,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 490.00,
+        "disc_price": 490,
         "price": "",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda1.jpg"
@@ -2292,7 +2293,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 549.00,
+        "disc_price": 549,
         "price": "900.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda3.jpg"
@@ -2317,7 +2318,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 599.00,
+        "disc_price": 599,
         "price": "",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda4.jpg"
@@ -2392,7 +2393,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 949.00,
+        "disc_price": 949,
         "price": "",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda7.jpg"
@@ -2417,7 +2418,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 124.20,
+        "disc_price": 124.2,
         "price": "180.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda8.jpg"
@@ -2438,7 +2439,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 272.80,
+        "disc_price": 272.8,
         "price": "310.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda9.jpg"
@@ -2459,7 +2460,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 60.00,
+        "disc_price": 60,
         "price": "",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda10.jpg"
@@ -2480,7 +2481,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 230.90,
+        "disc_price": 230.9,
         "price": "315.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda11.jpg"
@@ -2522,7 +2523,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 78.00,
+        "disc_price": 78,
         "price": "Rs. 120.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda13.jpg"
@@ -2606,7 +2607,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 711.00,
+        "disc_price": 711,
         "price": "790.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda17.jpg"
@@ -2648,7 +2649,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 633.60,
+        "disc_price": 633.6,
         "price": "660.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda19.jpg"
@@ -2669,7 +2670,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 174.00,
+        "disc_price": 174,
         "price": "200.00",
         "disc": 21,
         "image": "assets/images/Wellness/Diabetes Support/Diebetes-Care-Ayurveda/diabetes_care_ayurveda20.jpg"
@@ -2700,7 +2701,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 320.00,
+        "disc_price": 320,
         "price": "400",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Women's-Care/women's_care1.jpg"
@@ -2725,7 +2726,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 47.00,
+        "disc_price": 47,
         "price": "50",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Women's-Care/women's_care2.jpg"
@@ -2750,7 +2751,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 98.70,
+        "disc_price": 98.7,
         "price": "105",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Women's-Care/women's_care3.jpg"
@@ -2797,7 +2798,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 184.00,
+        "disc_price": 184,
         "price": "200.00",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Women's-Care/women's_care5.jpg"
@@ -2847,7 +2848,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 121.80,
+        "disc_price": 121.8,
         "price": "140.00",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Women's-Care/women's_care7.jpg"
@@ -2872,7 +2873,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 405.00,
+        "disc_price": 405,
         "price": "500.00",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Women's-Care/women's_care8.jpg"
@@ -2901,7 +2902,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 277.20,
+        "disc_price": 277.2,
         "price": "315.00",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Piles-Care/piles_care1.jpg"
@@ -2924,7 +2925,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 246.00,
+        "disc_price": 246,
         "price": "300.00",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Piles-Care/piles_care2.jpg"
@@ -2947,7 +2948,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 112.20,
+        "disc_price": 112.2,
         "price": "165.00",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Piles-Care/piles_care3.jpg"
@@ -3018,7 +3019,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 136.90,
+        "disc_price": 136.9,
         "price": "185.00",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Piles-Care/piles_care6.jpg"
@@ -3068,7 +3069,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 178.00,
+        "disc_price": 178,
         "price": "220.00",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Piles-Care/piles_care8.jpg"
@@ -3170,7 +3171,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 300.00,
+        "disc_price": 300,
         "price": "4000.00",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Liver-Care/liver_care4.jpg"
@@ -3243,7 +3244,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 224.00,
+        "disc_price": 224,
         "price": "280.00",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Liver-Care/liver_care7.jpg"
@@ -3347,7 +3348,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 84.420,
+        "disc_price": 84.42,
         "price": "190.00",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Bone-And-Joint-Pain/bone_and_joint3.jpg"
@@ -3372,7 +3373,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 2804.50,
+        "disc_price": 2804.5,
         "price": "3950.00",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Bone-And-Joint-Pain/bone_and_joint4.jpg"
@@ -3422,7 +3423,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 97.00,
+        "disc_price": 97,
         "price": "100.00",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Bone-And-Joint-Pain/bone_and_joint6.jpg"
@@ -3447,7 +3448,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 171.50,
+        "disc_price": 171.5,
         "price": "180.00",
         "disc": 21,
         "image": "assets/images/Wellness/Health Conditions/Bone-And-Joint-Pain/bone_and_joint7.jpg"
@@ -3500,7 +3501,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 275.00,
+        "disc_price": 275,
         "price": "275.00",
         "disc": 0,
         "image": "assets/images/Beauty/Fragrances/Men/products/men_1.jpg"
@@ -3525,7 +3526,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 552.50,
+        "disc_price": 552.5,
         "price": "650.00",
         "disc": 15,
         "image": "assets/images/Beauty/Fragrances/Men/products/men_2.jpg"
@@ -3550,7 +3551,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 650.00,
+        "disc_price": 650,
         "price": "650.00",
         "disc": 0,
         "image": "assets/images/Beauty/Fragrances/Men/products/men_3.jpg"
@@ -3574,7 +3575,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 275.00,
+        "disc_price": 275,
         "price": "261.25",
         "disc": 5,
         "image": "assets/images/Beauty/Fragrances/Men/products/men_4.jpg"
@@ -3598,7 +3599,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 125.00,
+        "disc_price": 125,
         "price": "125.00",
         "disc": 0,
         "image": "assets/images/Beauty/Fragrances/Men/products/men_5.jpg"
@@ -3621,7 +3622,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 184.00,
+        "disc_price": 184,
         "price": "230.00",
         "disc": 20,
         "image": "assets/images/Beauty/Fragrances/Men/products/men_6.jpg"
@@ -3669,7 +3670,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 2700.00,
+        "disc_price": 2700,
         "price": "2700.00",
         "disc": 0,
         "image": "assets/images/Beauty/Fragrances/Men/products/men_8.jpg"
@@ -3799,7 +3800,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 525.00,
+        "disc_price": 525,
         "price": "1500.00",
         "disc": 65,
         "image": "assets/images/Beauty/Fragrances/Unisex/products/unisex_5.jpg"
@@ -3822,7 +3823,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 349.00,
+        "disc_price": 349,
         "price": "349.00",
         "disc": 0,
         "image": "assets/images/Beauty/Fragrances/Unisex/products/unisex_6.jpg"
@@ -3847,7 +3848,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 159.60,
+        "disc_price": 159.6,
         "price": "399.00",
         "disc": 60,
         "image": "assets/images/Beauty/Fragrances/Unisex/products/unisex_7.jpg"
@@ -3872,7 +3873,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1200.00,
+        "disc_price": 1200,
         "price": "1500.00",
         "disc": 20,
         "image": "assets/images/Beauty/Fragrances/Unisex/products/unisex_8.jpg"
@@ -3900,7 +3901,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 275.00,
+        "disc_price": 275,
         "price": "275.00",
         "disc": 0,
         "image": "assets/images/Beauty/Fragrances/Women/products/women_1.jpg"
@@ -3948,7 +3949,7 @@
           "* Country of Origin: Spain",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 2700.00,
+        "disc_price": 2700,
         "price": "2700.00",
         "disc": 0,
         "image": "assets/images/Beauty/Fragrances/Women/products/women_3.jpg"
@@ -3971,7 +3972,7 @@
           "* Country of Origin: Spain",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 449.00,
+        "disc_price": 449,
         "price": "449.00",
         "disc": 0,
         "image": "assets/images/Beauty/Fragrances/Women/products/women_4.jpg"
@@ -3996,7 +3997,7 @@
           "* Country of Origin: Spain",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 2750.00,
+        "disc_price": 2750,
         "price": "2750.00",
         "disc": 0,
         "image": "assets/images/Beauty/Fragrances/Women/products/women_5.jpg"
@@ -4021,7 +4022,7 @@
           "* Country of Origin: Spain",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 4100.00,
+        "disc_price": 4100,
         "price": "4100.00",
         "disc": 0,
         "image": "assets/images/Beauty/Fragrances/Women/products/women_6.jpg"
@@ -4044,7 +4045,7 @@
           "* Country of Origin: Spain",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 349.00,
+        "disc_price": 349,
         "price": "349.00",
         "disc": 0,
         "image": "assets/images/Beauty/Fragrances/Women/products/women_7.jpg"
@@ -4069,7 +4070,7 @@
           "* Country of Origin: Spain",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 349.00,
+        "disc_price": 349,
         "price": "349.00",
         "disc": 0,
         "image": "assets/images/Beauty/Fragrances/Women/products/women_8.jpg"
@@ -4167,7 +4168,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 73.50,
+        "disc_price": 73.5,
         "price": "210",
         "disc": 65,
         "image": "assets/images/Wellness/Personal Care/Home & Health/home-health1.jpg"
@@ -4192,7 +4193,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 135.50,
+        "disc_price": 135.5,
         "price": "210",
         "disc": 35,
         "image": "assets/images/Wellness/Personal Care/Home & Health/home-health2.jpg"
@@ -4241,7 +4242,7 @@
           "* Country of Origin: India ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 88.00,
+        "disc_price": 88,
         "price": "100",
         "disc": 12,
         "image": "assets/images/Wellness/Personal Care/Home & Health/home-health4.jpg"
@@ -4339,7 +4340,7 @@
           "* Country of Origin:  India ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 77.30,
+        "disc_price": 77.3,
         "price": "80.52",
         "disc": 4,
         "image": "assets/images/Wellness/Personal Care/Home & Health/home-health8.jpg"
@@ -4392,7 +4393,7 @@
           "* Country of Origin: India ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 441.00,
+        "disc_price": 441,
         "price": "525.00",
         "disc": 16,
         "image": "assets/images/Wellness/Personal Care/Senior Care/senior care2.jpg"
@@ -4415,7 +4416,7 @@
           "* Country of Origin:  India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 243.20,
+        "disc_price": 243.2,
         "price": "608.00",
         "disc": 60,
         "image": "assets/images/Wellness/Personal Care/Senior Care/senior care3.jpg"
@@ -4440,7 +4441,7 @@
           "* Country of Origin: India ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 450.00,
+        "disc_price": 450,
         "price": "600.00",
         "disc": 25,
         "image": "assets/images/Wellness/Personal Care/Senior Care/senior care4.jpg"
@@ -4490,7 +4491,7 @@
           "* Country of Origin: India ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 544.50,
+        "disc_price": 544.5,
         "price": "605.00",
         "disc": 10,
         "image": "assets/images/Wellness/Personal Care/Senior Care/senior care6.jpg"
@@ -4540,7 +4541,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 528.00,
+        "disc_price": 528,
         "price": "600.00",
         "disc": 12,
         "image": "assets/images/Wellness/Personal Care/Senior Care/senior care8.jpg"
@@ -4619,7 +4620,7 @@
           "* Country of Origin: France ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1196.00,
+        "disc_price": 1196,
         "price": "1300.00",
         "disc": 8,
         "image": "assets/images/Wellness/Personal Care/Face Personal Care/face personalCare3.jpg"
@@ -4694,7 +4695,7 @@
           "* Country of Origin: India ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1058.00,
+        "disc_price": 1058,
         "price": "1150.00",
         "disc": 8,
         "image": "assets/images/Wellness/Personal Care/Face Personal Care/face personalCare6.jpg"
@@ -4774,7 +4775,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1133.10,
+        "disc_price": 1133.1,
         "price": "1259.00",
         "disc": 10,
         "image": "assets/images/Wellness/Personal Care/Body Care/body care1.jpg"
@@ -4799,7 +4800,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 558.00,
+        "disc_price": 558,
         "price": "620.00",
         "disc": 10,
         "image": "assets/images/Wellness/Personal Care/Body Care/body care2.jpg"
@@ -4824,7 +4825,7 @@
           "* Country of Origin: France ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1426.00,
+        "disc_price": 1426,
         "price": "1550.00",
         "disc": 8,
         "image": "assets/images/Wellness/Personal Care/Body Care/body care3.jpg"
@@ -4849,7 +4850,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1169.10,
+        "disc_price": 1169.1,
         "price": "1299.00",
         "disc": 10,
         "image": "assets/images/Wellness/Personal Care/Body Care/body care4.jpg"
@@ -4898,7 +4899,7 @@
           "* Country of Origin: France ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1094.80,
+        "disc_price": 1094.8,
         "price": "1190.00",
         "disc": 8,
         "image": "assets/images/Wellness/Personal Care/Body Care/body care6.jpg"
@@ -4923,7 +4924,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 473.00,
+        "disc_price": 473,
         "price": "550.00",
         "disc": 14,
         "image": "assets/images/Wellness/Personal Care/Body Care/body care7.jpg"
@@ -4978,7 +4979,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 73.50,
+        "disc_price": 73.5,
         "price": "210",
         "disc": 65,
         "image": "assets/images/Beauty/Personal Care/Home & Health/home-health1.jpg"
@@ -5002,7 +5003,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 135.50,
+        "disc_price": 135.5,
         "price": "210",
         "disc": 35,
         "image": "assets/images/Beauty/Personal Care/Home & Health/home-health2.jpg"
@@ -5051,7 +5052,7 @@
           "* Country of Origin: India ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 88.00,
+        "disc_price": 88,
         "price": "100",
         "disc": 12,
         "image": "assets/images/Beauty/Personal Care/Home & Health/home-health4.jpg"
@@ -5149,7 +5150,7 @@
           "* Country of Origin:  India ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 77.30,
+        "disc_price": 77.3,
         "price": "80.52",
         "disc": 4,
         "image": "assets/images/Beauty/Personal Care/Home & Health/home-health8.jpg"
@@ -5202,7 +5203,7 @@
           "* Country of Origin: India ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 441.00,
+        "disc_price": 441,
         "price": "525.00",
         "disc": 16,
         "image": "assets/images/Beauty/Personal Care/Senior Care/senior care2.jpg"
@@ -5225,7 +5226,7 @@
           "* Country of Origin:  India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 243.20,
+        "disc_price": 243.2,
         "price": "608.00",
         "disc": 60,
         "image": "assets/images/Beauty/Personal Care/Senior Care/senior care3.jpg"
@@ -5250,7 +5251,7 @@
           "* Country of Origin: India ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 450.00,
+        "disc_price": 450,
         "price": "600.00",
         "disc": 25,
         "image": "assets/images/Beauty/Personal Care/Senior Care/senior care4.jpg"
@@ -5300,7 +5301,7 @@
           "* Country of Origin: India ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 544.50,
+        "disc_price": 544.5,
         "price": "605.00",
         "disc": 10,
         "image": "assets/images/Beauty/Personal Care/Senior Care/senior care6.jpg"
@@ -5350,7 +5351,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 528.00,
+        "disc_price": 528,
         "price": "600.00",
         "disc": 12,
         "image": "assets/images/Beauty/Personal Care/Senior Care/senior care8.jpg"
@@ -5429,7 +5430,7 @@
           "* Country of Origin: France ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1196.00,
+        "disc_price": 1196,
         "price": "1300.00",
         "disc": 8,
         "image": "assets/images/Beauty/Personal Care/Face Personal Care/face personalCare3.jpg"
@@ -5504,7 +5505,7 @@
           "* Country of Origin: India ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1058.00,
+        "disc_price": 1058,
         "price": "1150.00",
         "disc": 8,
         "image": "assets/images/Beauty/Personal Care/Face Personal Care/face personalCare6.jpg"
@@ -5584,7 +5585,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1133.10,
+        "disc_price": 1133.1,
         "price": "1259.00",
         "disc": 10,
         "image": "assets/images/Beauty/Personal Care/Body Care/body care1.jpg"
@@ -5609,7 +5610,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 558.00,
+        "disc_price": 558,
         "price": "620.00",
         "disc": 10,
         "image": "assets/images/Beauty/Personal Care/Body Care/body care2.jpg"
@@ -5634,7 +5635,7 @@
           "* Country of Origin: France ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1426.00,
+        "disc_price": 1426,
         "price": "1550.00",
         "disc": 8,
         "image": "assets/images/Beauty/Personal Care/Body Care/body care3.jpg"
@@ -5659,7 +5660,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1169.10,
+        "disc_price": 1169.1,
         "price": "1299.00",
         "disc": 10,
         "image": "assets/images/Beauty/Personal Care/Body Care/body care4.jpg"
@@ -5708,7 +5709,7 @@
           "* Country of Origin: France ",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1094.80,
+        "disc_price": 1094.8,
         "price": "1190.00",
         "disc": 8,
         "image": "assets/images/Beauty/Personal Care/Body Care/body care6.jpg"
@@ -5733,7 +5734,7 @@
           "* Country of Origin: Germany",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 473.00,
+        "disc_price": 473,
         "price": "550.00",
         "disc": 14,
         "image": "assets/images/Beauty/Personal Care/Body Care/body care7.jpg"
@@ -6494,61 +6495,87 @@
       }
     ]
   },
-  "aminoAcidProducts": {
-    "items": [
-      {
-        "id": "1",
-        "name": "INLIFE L-Arginine 1000 mg - 60 Tablets",
-        "brand": "INLIFE Healthcare",
-        "category": [
-          "Fitness",
-          "Amino Acids"
-        ],
-        "disc_price": 480,
-        "price": "600.00",
-        "disc": 20,
-        "image": "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2.jpg"
-      },
-      {
-        "id": "2",
-        "name": "GNC Pro Performance Creatine Monohydrate - 250 gm",
-        "brand": "GNC India",
-        "category": [
-          "Fitness",
-          "Amino Acids"
-        ],
-        "disc_price": 950,
-        "price": "1190.00",
-        "disc": 20,
-        "image": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg"
-      }
-    ]
-  },
-  "cart": [
+  "users": [
     {
-      "id": "1",
-      "name": "Aroma Treasures Pure Essential Oil - Lemon Grass 10 ml",
-      "brand": "Roohwellness",
-      "mainImage": "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg",
-      "category": [
-        "Aromatherapy",
-        "skincare"
-      ],
-      "images": [
-        "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg"
-      ],
-      "product-content": [
-        "This product cannot be returned for a refund or exchange.",
-        " Country of Origin: Germany",
-        "Country of Origin: India",
-        "Delivery charges if applicable will be applied at checkout"
-      ],
-      "disc_price": 182.7,
-      "price": 210,
-      "disc": 13,
-      "image": "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg",
-      "productId": 1,
-      "quantity": 1
+      "id": "b1c2",
+      "fullName": "Shivam Nanavare",
+      "email": "shivamnanavare@gmail.com",
+      "password": "1234",
+      "address": "pune",
+      "gender": "Male",
+      "phone": "7666845902"
+    },
+    {
+      "id": "e254",
+      "fullName": "Admin",
+      "email": "admin@gmail.com",
+      "password": "1234",
+      "address": "pune MH12",
+      "phone": "7249277420",
+      "gender": "Female"
+    },
+    {
+      "id": "7e54",
+      "fullName": "Mayuri Patil",
+      "email": "mayuri@gmail.com",
+      "password": "1234",
+      "address": "pandharpur",
+      "gender": "Female",
+      "phone": "7249277420"
+    },
+    {
+      "id": "24eb",
+      "fullName": "Shantanu Pravin Patil",
+      "email": "shantanup6172@gmail.com",
+      "password": "shantanu",
+      "address": "Kolhapur",
+      "gender": "Male",
+      "phone": "8446246172"
+    },
+    {
+      "id": "a3a6",
+      "fullName": "komal",
+      "email": "komal@gmail.com",
+      "password": "12345",
+      "address": "pandharpur",
+      "gender": "Female",
+      "phone": "9309449960"
+    },
+    {
+      "id": "4777",
+      "fullName": "Darshana ",
+      "email": "darshj2210@gmail.com",
+      "password": "12345",
+      "address": "Station Area murtizapur",
+      "gender": "Female",
+      "phone": "7218212412"
+    },
+    {
+      "id": "b2bd",
+      "fullName": "Sarthak",
+      "email": "patil01sarthak21@gmail.com",
+      "password": "12345",
+      "address": "A.P. Bolwad TAL. Miraj DIST. sangli",
+      "gender": "Male",
+      "phone": "9404405850"
+    },
+    {
+      "id": "a36e",
+      "fullName": "shubham dilip yadav",
+      "email": "shubhamdyadav17@gmail.com",
+      "password": "shubham17",
+      "address": "Velapur",
+      "gender": "Male",
+      "phone": "7350669331"
+    },
+    {
+      "id": "11df",
+      "fullName": "Shubham Shahaji Dhanavate ",
+      "email": "shubhamdhanavate8@gmail.com",
+      "password": "shubham17",
+      "address": "Velapur",
+      "gender": "Male",
+      "phone": "7798083183"
     }
   ],
   "ayush": {
@@ -6572,6 +6599,331 @@
       }
     ]
   },
+  "aminoAcidProducts": {
+    "items": [
+      {
+        "id": "1",
+        "type": "aminoAcidProducts",
+        "name": "GNC Pro Performance Creatine Monohydrate - 250 gm",
+        "brand": "GNC India",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 950,
+        "price": "1190.00",
+        "disc": 20,
+        "mainImage": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0 (1).jpg",
+        "image": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
+        "images": [
+          "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
+          "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_1_0.jpg",
+          "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_2_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: GNC India",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "2",
+        "type": "aminoAcidProducts",
+        "name": "INLIFE L-Arginine 1000 mg - 60 Tablets",
+        "brand": "INLIFE Healthcare",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 480,
+        "price": "600.00",
+        "disc": 20,
+        "mainImage": "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2 (1).jpg",
+        "image": "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2.jpg",
+        "images": [
+          "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2.jpg",
+          "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568379_2_2.jpg",
+          "assets/images/cancer/inlife_l_arginine_1000_mg_60s_713478_3_1.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: INLIFE Healthcare",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "3",
+        "type": "aminoAcidProducts",
+        "name": "Samika Nutricare Prostek Softgel Capsule 30's",
+        "brand": "Samika",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 1094.27,
+        "price": "1499.00",
+        "disc": 27,
+        "mainImage": "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586778_0_1 (1).jpg",
+        "image": "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586778_0_1.jpg",
+        "images": [
+          "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586778_0_1.jpg",
+          "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586779_1_0.jpg",
+          "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586780_2_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: Samika",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "4",
+        "type": "aminoAcidProducts",
+        "name": "Samika Nutricare Grow Sperm Capsule 30's",
+        "brand": "Samika Nutricare",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 1104.15,
+        "price": "1299.00",
+        "disc": 15,
+        "mainImage": "assets/images/cancer/samika_nutricare_grow_sperm_capsule_30s_586770_0_1 (2).jpg",
+        "image": "assets/images/cancer/samika_nutricare_grow_sperm_capsule_30s_586770_0_1.jpg",
+        "images": [
+          "assets/images/cancer/samika_nutricare_grow_sperm_capsule_30s_586771_1_0.jpg",
+          "assets/images/cancer/samika_nutricare_grow_sperm_capsule_30s_586772_2_0.jpg",
+          "assets/images/cancer/samika_nutricare_grow_sperm_capsule_30s_586773_3_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: Samika Nutricare",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "5",
+        "type": "aminoAcidProducts",
+        "name": "INLIFE Alpha Lipoic Acid Capsules 60's",
+        "brand": "Inlife Pharma Pvt Ltd",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 699.02,
+        "price": "1199.00",
+        "disc": 42,
+        "mainImage": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0 (1).jpg",
+        "image": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0.jpg",
+        "images": [
+          "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819935_1_0.jpg",
+          "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819936_2_0.jpg",
+          "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819938_4_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: Inlife Pharma Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "6",
+        "type": "aminoAcidProducts",
+        "name": "GNC L-Arginine 1000 mg Tablet 90's",
+        "brand": "GNC",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 989.34,
+        "price": "1499.00",
+        "disc": 34,
+        "mainImage": "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_0_0 (1).jpg",
+        "image": "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_0_0.jpg",
+        "images": [
+          "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_0_0.jpg",
+          "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_1_0.jpg",
+          "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_2_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: GNC",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "7",
+        "type": "aminoAcidProducts",
+        "name": "Optimum Nutrition (ON) Micronized Creatine Powder - Unflavoured 250 gm",
+        "brand": "Optimum Nutrition",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 931.78,
+        "price": "1175.00",
+        "disc": 21,
+        "mainImage": "assets/images/cancer/optimum_nutrition_on_micronized_creatine_powder_unflavoured_250_gm_0_1 (1).jpg",
+        "image": "assets/images/cancer/optimum_nutrition_on_micronized_creatine_powder_unflavoured_250_gm_0_1.jpg",
+        "images": [
+          "assets/images/cancer/optimum_nutrition_on_micronized_creatine_powder_unflavoured_250_gm_1_1.jpg",
+          "assets/images/cancer/optimum_nutrition_on_micronized_creatine_powder_unflavoured_250_gm_2_1.jpg",
+          "assets/images/cancer/optimum_nutrition_on_micronized_creatine_powder_unflavoured_250_gm_5_1.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: Glanbia Performance Nutrition India Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "8",
+        "type": "aminoAcidProducts",
+        "name": "GNC Pro Performance L-Carnitine 500 mg Tablet 60's",
+        "brand": "Gnc",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 704.53,
+        "price": "1499.00",
+        "disc": 53,
+        "mainImage": "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716017_0_0 (1).jpg",
+        "image": "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716017_0_0.jpg",
+        "images": [
+          "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716018_1_0.jpg",
+          "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716019_2_0.jpg",
+          "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716020_3_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: Guardian Healthcare Services Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      }
+    ]
+  },
+  "cart": [
+    {
+      "id": "1",
+      "name": "Lakme Color Crush Nail Art T2 6 Ml",
+      "brand": "Hindustan Unilever Limited",
+      "mainImage": "assets/images/Make-Up/Nails/lakme_color_crush_nail_art_t2_6_ml_202037_0_1.jpg",
+      "category": [
+        "MakeUp",
+        "Nails"
+      ],
+      "images": [
+        "assets/images/Make-Up/Nails/nailsSmallImg/lakme_9to5_primer_gloss_nail_colour_summer_blue_6_ml_445624_2_1.jpg",
+        "assets/images/Make-Up/Nails/nailsSmallImg/lakme_9to5_primer_gloss_nail_colour_summer_blue_6_ml_820570_9_0 (1).jpg",
+        "assets/images/Make-Up/Nails/nailsSmallImg/lakme_color_crush_nail_art_p1_6_ml_202050_4_2.jpg"
+      ],
+      "product-content": [
+        "*This product cannot be returned for a refund or exchange.",
+        "* Mkt:Mayuri Kumkum",
+        "* Country of Origin:  United States",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "disc_price": 150,
+      "price": "199.00",
+      "disc": 3,
+      "image": "assets/images/Make-Up/Nails/lakme_color_crush_nail_art_t2_6_ml_202037_0_1.jpg",
+      "productId": 2,
+      "quantity": 1
+    },
+    {
+      "id": "2",
+      "type": "aminoAcidProducts",
+      "name": "GNC Pro Performance L-Carnitine 500 mg Tablet 60's",
+      "brand": "Gnc",
+      "category": [
+        "Fitness",
+        "Sports Supplements"
+      ],
+      "disc_price": 704.53,
+      "price": "1499.00",
+      "disc": 53,
+      "mainImage": "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716017_0_0 (1).jpg",
+      "image": "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716017_0_0.jpg",
+      "images": [
+        "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716018_1_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716019_2_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716020_3_0.jpg"
+      ],
+      "product-content": [
+        "Inclusive of all taxes",
+        "* Mkt: Guardian Healthcare Services Pvt Ltd",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "productId": "8",
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "type": "aminoAcidProducts",
+      "name": "GNC Pro Performance Creatine Monohydrate - 250 gm",
+      "brand": "GNC India",
+      "category": [
+        "Fitness",
+        "Sports Supplements"
+      ],
+      "disc_price": 950,
+      "price": "1190.00",
+      "disc": 20,
+      "mainImage": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0 (1).jpg",
+      "image": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
+      "images": [
+        "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_1_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_2_0.jpg"
+      ],
+      "product-content": [
+        "Inclusive of all taxes",
+        "* Mkt: GNC India",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "productId": "1",
+      "quantity": 1
+    },
+    {
+      "id": "4",
+      "type": "aminoAcidProducts",
+      "name": "INLIFE Alpha Lipoic Acid Capsules 60's",
+      "brand": "Inlife Pharma Pvt Ltd",
+      "category": [
+        "Fitness",
+        "Sports Supplements"
+      ],
+      "disc_price": 699.02,
+      "price": "1199.00",
+      "disc": 42,
+      "mainImage": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0 (1).jpg",
+      "image": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0.jpg",
+      "images": [
+        "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819935_1_0.jpg",
+        "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819936_2_0.jpg",
+        "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819938_4_0.jpg"
+      ],
+      "product-content": [
+        "Inclusive of all taxes",
+        "* Mkt: Inlife Pharma Pvt Ltd",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "productId": "5",
+      "quantity": 1
+    }
+  ],
   "diabetes": {
     "bannerImage": "assets/images/moduleBannerImage/ayush_0.jpg",
     "categories": [
@@ -6590,10 +6942,6 @@
       {
         "categoryImage": "assets/images/moduleBannerImage/Diabetes/sugar_substitutes.png",
         "categoryName": "sugar-substitutes"
-      },
-      {
-        "categoryImage": "assets/images/moduleBannerImage/Diabetes/lancets_test_strips.png",
-        "categoryName": "lancets_test_strips"
       }
     ]
   },
@@ -6738,7 +7086,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 225.60,
+        "disc_price": 225.6,
         "price": " 240.00 ",
         "disc": 5,
         "image": "assets/images/Wellness/Ayush/Ayurvedic/himalaya_wellness_ashvagandha_tablet_60s_58979_0_3.jpg"
@@ -6763,7 +7111,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 320.00,
+        "disc_price": 320,
         "price": "400.00",
         "disc": 20,
         "image": "assets/images/Wellness/Ayush/Ayurvedic/pankajakasthuri_breathe_easy_granules_400_gm_43929_0_2.jpg"
@@ -6810,7 +7158,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 202.40,
+        "disc_price": 202.4,
         "price": " 220.00",
         "disc": 8,
         "image": "assets/images/Wellness/Ayush/Ayurvedic/pankajakasthuri_breathe_easy_syrup_200_ml_0.jpg"
@@ -6832,7 +7180,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 305.00,
+        "disc_price": 305,
         "price": "280.60",
         "disc": 8,
         "image": "assets/images/Wellness/Ayush/Ayurvedic/lama_isobael_granules_200_gm_0_0.jpg"
@@ -6876,7 +7224,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1458.00,
+        "disc_price": 1458,
         "price": "1620.00",
         "disc": 10,
         "image": "assets/images/Wellness/Ayush/Ayurvedic/planet_ayurveda_total_heart_support_capsules_60_s_0.jpg"
@@ -6928,7 +7276,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1520.00,
+        "disc_price": 1520,
         "price": " 1900.00 ",
         "disc": 20,
         "image": "assets/images/Wellness/Ayush/Unani/hashmi_sikander_e_azam_plus_capsule_10s_207903_0_1 (1).jpg"
@@ -6953,7 +7301,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 823.50,
+        "disc_price": 823.5,
         "price": "915.00",
         "disc": 20,
         "image": "assets/images/Wellness/Ayush/Unani/hashmi_mughal_e_azam_plus_capsule_10s_0_0.jpg"
@@ -6977,7 +7325,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 75.00,
+        "disc_price": 75,
         "price": " 75.00",
         "disc": 0,
         "image": "assets/images/Wellness/Ayush/Unani/hamdard_joshina_syrup_100_ml_0.jpg"
@@ -7021,7 +7369,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 107.80,
+        "disc_price": 107.8,
         "price": "110.00",
         "disc": 2,
         "image": "assets/images/Wellness/Ayush/Unani/rex_majun_arad_khurma_200_gm_0.jpg"
@@ -7043,7 +7391,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 110.40,
+        "disc_price": 110.4,
         "price": "120.00",
         "disc": 8,
         "image": "assets/images/Wellness/Ayush/Unani/rex_sharbat_e_faulad_tonic_200_ml_421485_0_0.jpg"
@@ -7064,7 +7412,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 200.00,
+        "disc_price": 200,
         "price": "200.00 ",
         "disc": 0,
         "image": "assets/images/Wellness/Ayush/Unani/hamdard_jigreena_capsules_60s_69664_0_1.jpg"
@@ -7085,7 +7433,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 171.50,
+        "disc_price": 171.5,
         "price": "245.00  ",
         "disc": 30,
         "image": "assets/images/Wellness/Ayush/Unani/similia_trituration_aurum_mur_6x_tablet_25_gm_0_0.jpg"
@@ -7114,7 +7462,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 124.20,
+        "disc_price": 124.2,
         "price": " 150.00  ",
         "disc": 17.2,
         "image": "assets/images/Wellness/Ayush/Homeopathy/bio_indias_immunity_drops_31_30_ml_0_0.jpg"
@@ -7138,7 +7486,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 126.00,
+        "disc_price": 126,
         "price": "150.00",
         "disc": 16,
         "image": "assets/images/Wellness/Ayush/Homeopathy/bio_indias_bach_flower_crab_apple_30_ml_609247_0_1.jpg"
@@ -7182,7 +7530,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 4095.00,
+        "disc_price": 4095,
         "price": "6300.00",
         "disc": 35,
         "image": "assets/images/Wellness/Ayush/Homeopathy/dr_willmar_schwabe_oleum_santali_q_liquid_30_ml_0.jpg"
@@ -7203,7 +7551,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1463.00,
+        "disc_price": 1463,
         "price": "2090.00",
         "disc": 30,
         "image": "assets/images/Wellness/Ayush/Homeopathy/similia_trituration_testis_3x_tablet_450_gm_0_0.jpg"
@@ -7295,7 +7643,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 88.20,
+        "disc_price": 88.2,
         "price": "90.00",
         "disc": 2,
         "image": "assets/images/Wellness/Ayush/Siddha/dr_jrks_kabasura_kudineer_chooranam_50_gm_0_1.jpg"
@@ -7318,7 +7666,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 123.20,
+        "disc_price": 123.2,
         "price": "140.00 ",
         "disc": 12,
         "image": "assets/images/Wellness/Ayush/Siddha/dr_jrks_af_anti_fungal_cream_25_gm_0_0.jpg"
@@ -7339,7 +7687,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 105.60,
+        "disc_price": 105.6,
         "price": " 120.00",
         "disc": 12,
         "image": "assets/images/Wellness/Ayush/Siddha/dr_jrk_psorolin_derma_skincare_soap_75_gm_675618_0_0.jpg"
@@ -7360,7 +7708,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 211.20,
+        "disc_price": 211.2,
         "price": "240.00 ",
         "disc": 12,
         "image": "assets/images/Wellness/Ayush/Siddha/dr_jrks_anagen_grow_unique_hair_serum_100_ml_0_0.jpg"
@@ -7423,7 +7771,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 693.00,
+        "disc_price": 693,
         "price": "693.00",
         "disc": 0,
         "image": "assets/images/Wellness/Ayush/Siddha/skm_viigorwin_legiyam_200_gm_0.jpg"
@@ -7444,10 +7792,145 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 204.70,
+        "disc_price": 204.7,
         "price": "230.00  ",
         "disc": 11,
         "image": "assets/images/Wellness/Ayush/Siddha/dr_jrk_tolenorm_oil_50_ml_0.jpg"
+      }
+    ]
+  },
+  "coronaAwareness": {
+    "ebooks": [
+      {
+        "id": 1,
+        "title": "COVID-19 Prevention Guide",
+        "subtitle": "An Illustrated Handbook",
+        "img": "assets/images/corona/1620107731_E-Book_Cover.jpg",
+        "pdf": "assets/images/corona/pdf/coronavirus-ebook4.pdf"
+      },
+      {
+        "id": 2,
+        "title": "COVID-19 Guide for Kids",
+        "subtitle": "Awareness Through Cartoons",
+        "img": "assets/images/corona/1585404404_covid_1.jpg",
+        "pdf": "assets/images/corona/pdf/Coronavirus_Ebook2.pdf"
+      },
+      {
+        "id": 3,
+        "title": "COVID-19 Vaccine Info",
+        "subtitle": "Everything About Vaccination",
+        "img": "assets/images/corona/corona_1.jpg",
+        "pdf": "assets/images/corona/pdf/Coronavirus_Ebook.pdf"
+      },
+      {
+        "id": 4,
+        "title": "Mental Health During Pandemic",
+        "subtitle": "Stay Strong, Stay Safe",
+        "img": "assets/images/corona/corona_2.jpg",
+        "pdf": "assets/images/corona/pdf/Home_quarantine_E_Book.pdf"
+      }
+    ],
+    "articles": [
+      {
+        "id": 1,
+        "title": "Health Lessons From 2020",
+        "subtitle": "Here's What Pandemic Taught Us About Overall Wellbeing",
+        "img": "assets/images/corona/22.jpg"
+      },
+      {
+        "id": 2,
+        "title": "COVID-19 Vaccinations FAQs",
+        "subtitle": "All You Need To Know Before Getting The Shot",
+        "img": "assets/images/corona/23.jpg"
+      },
+      {
+        "id": 3,
+        "title": "COVID Tongue",
+        "subtitle": "All You Need To Know About This New Coronavirus Symptom",
+        "img": "https://www.netmeds.com/images/cms/wysiwyg/webengage/24.jpg"
+      },
+      {
+        "id": 4,
+        "title": "COVID-19 Vaccination",
+        "subtitle": "Are You Above 45 and Confused About Comorbidities? Here Is The List",
+        "img": "https://www.netmeds.com/images/cms/wysiwyg/webengage/25.jpg"
+      },
+      {
+        "id": 5,
+        "title": "World Tuberculosis Day 2021",
+        "subtitle": "Learn About The Common Facts About TB And COVID-19",
+        "img": "assets/images/corona/26.jpg"
+      },
+      {
+        "id": 6,
+        "title": "World Health Day 2021",
+        "subtitle": "Useful Tips To Maintain Work-Life Balance Amidst COVID-19 Lockdown",
+        "img": "assets/images/corona/27.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "id": 1,
+        "title": "Coronavirus Vaccines: Information",
+        "subtitle": "What you need to know",
+        "thumbnail": "assets/images/corona/28.jpg",
+        "url": "https://www.youtube.com/embed/mCEHIGcAwgg"
+      },
+      {
+        "id": 2,
+        "title": "How to register for Covid-19 Vaccines",
+        "subtitle": "How vaccines help control pandemics",
+        "thumbnail": "assets/images/corona/1620211303_covid_video_01.jpg",
+        "url": "https://www.youtube.com/embed/1mrLzVoVwlU"
+      },
+      {
+        "id": 3,
+        "title": "Covid-19 and Masks",
+        "subtitle": "Unmasking 7 common mistakes",
+        "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
+        "url": "https://www.youtube.com/embed/IVOn-GqcLik"
+      },
+      {
+        "id": 4,
+        "title": "COVID-19",
+        "subtitle": "How to  make disinfectant spray at home",
+        "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
+        "url": "https://www.youtube.com/embed/0fyTmWsQgMg"
+      },
+      {
+        "id": 5,
+        "title": "Coronavirus Outbreak",
+        "subtitle": "7 best ways to stop touching yourself",
+        "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
+        "url": "https://www.youtube.com/embed/vNqryRUPxuc"
+      },
+      {
+        "id": 6,
+        "title": "Pregnant during COVID-19",
+        "subtitle": "Here's what you need to know",
+        "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
+        "url": "https://www.youtube.com/embed/WCFmklDtYH0"
+      },
+      {
+        "id": 7,
+        "title": "COVID-19 and Sanitizers",
+        "subtitle": "How to Use Hand Sanitizers Effectively",
+        "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
+        "url": "https://www.youtube.com/embed/bVgpxdYm6fY"
+      },
+      {
+        "id": 8,
+        "title": "COVID-19 and Children",
+        "subtitle": "A Guide to getting back to school",
+        "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
+        "url": "https://www.youtube.com/embed/u70T1SZ5ano"
+      },
+      {
+        "id": 9,
+        "title": "COVID-19 and Food",
+        "subtitle": "7 essential foods to stock up during an emergency",
+        "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
+        "url": "https://www.youtube.com/embed/W_2aX2OT6pg"
       }
     ]
   },
@@ -7489,7 +7972,8 @@
         }
       ],
       "category": "ADHD",
-      "description": "ADHD - Overview: Attention deficit hyperactivity disorder (ADHD) is a neurodevelopmental disorder that affects adults and children. It is characterised by lack of attention, hyperactivity, and impulsivity, which can impact daily activities and social interactions. Symptoms may include difficulty in paying attention, forgetfulness, fidgeting, interrupting others, and impulsive behaviour. ADHD is often treated with medication, behavioural therapy, or a combination of both. While there is no cure for ADHD, management and support can lead to improved functioning and quality of life."
+      "description": "ADHD - Overview: Attention deficit hyperactivity disorder (ADHD) is a neurodevelopmental disorder that affects adults and children. It is characterised by lack of attention, hyperactivity, and impulsivity, which can impact daily activities and social interactions. Symptoms may include difficulty in paying attention, forgetfulness, fidgeting, interrupting others, and impulsive behaviour. ADHD is often treated with medication, behavioural therapy, or a combination of both. While there is no cure for ADHD, management and support can lead to improved functioning and quality of life.",
+      "id": "6622"
     },
     {
       "medicines": [
@@ -7527,7 +8011,8 @@
         }
       ],
       "category": "Acne",
-      "description": "Acne Acne is a common skin condition caused due to clogged hair follicles. These tiny hair follicles are clogged due to excess sebum production and dead skin cells on the skin, which leads to the formation of pimples, pustules, blackheads and whiteheads. Additionally, hormonal changes, presence of bacteria like Acne vulgaris, certain medications, stress and diet can also trigger acne breakouts on the skin."
+      "description": "Acne Acne is a common skin condition caused due to clogged hair follicles. These tiny hair follicles are clogged due to excess sebum production and dead skin cells on the skin, which leads to the formation of pimples, pustules, blackheads and whiteheads. Additionally, hormonal changes, presence of bacteria like Acne vulgaris, certain medications, stress and diet can also trigger acne breakouts on the skin.",
+      "id": "572c"
     },
     {
       "medicines": [
@@ -7563,7 +8048,8 @@
         }
       ],
       "category": "Alcohol Addiction",
-      "description": "Alcohol Addiction - Overview Alcohol addiction is a chronic disease characterised by a strong craving for alcohol, loss of control over drinking, and physical dependence. It affects both physical and mental health, leading to various health problems such as liver disease, heart disease, depression, and anxiety. Treatment for addiction involves a combination alcohol addiction tablet and support groups. Alcohol addiction can cause financial problems, social isolation, and damage to relationships. Long-term recovery is possible with a commitment to abstinence and ongoing support."
+      "description": "Alcohol Addiction - Overview Alcohol addiction is a chronic disease characterised by a strong craving for alcohol, loss of control over drinking, and physical dependence. It affects both physical and mental health, leading to various health problems such as liver disease, heart disease, depression, and anxiety. Treatment for addiction involves a combination alcohol addiction tablet and support groups. Alcohol addiction can cause financial problems, social isolation, and damage to relationships. Long-term recovery is possible with a commitment to abstinence and ongoing support.",
+      "id": "7282"
     },
     {
       "medicines": [
@@ -7601,7 +8087,8 @@
         }
       ],
       "category": "Allergies",
-      "description": "Allergies - Overview Allergies are the types of immune system responses to substances that are usually harmless. These substances, known as allergens, occur in various forms such as pollen, animal fur, certain foods, medications, and insect venom. When an allergic person is exposed to an allergen, their immune system releases histamines and other chemicals, leading to symptoms such as sneezing, runny nose, itching, rashes, and difficulty breathing. One can try capsule for allergy, which can be taken orally to alleviate symptoms caused by such allergens. Allergies can range from mild to severe. Some of them can be life-threatening, requiring immediate medical attention. Treatment options include avoiding allergens, taking allergies tablets to alleviate symptoms, as well as immunotherapy."
+      "description": "Allergies - Overview Allergies are the types of immune system responses to substances that are usually harmless. These substances, known as allergens, occur in various forms such as pollen, animal fur, certain foods, medications, and insect venom. When an allergic person is exposed to an allergen, their immune system releases histamines and other chemicals, leading to symptoms such as sneezing, runny nose, itching, rashes, and difficulty breathing. One can try capsule for allergy, which can be taken orally to alleviate symptoms caused by such allergens. Allergies can range from mild to severe. Some of them can be life-threatening, requiring immediate medical attention. Treatment options include avoiding allergens, taking allergies tablets to alleviate symptoms, as well as immunotherapy.",
+      "id": "4099"
     },
     {
       "medicines": [
@@ -7641,7 +8128,8 @@
         }
       ],
       "category": "Alzheimer",
-      "description": "Alzheimer - Overview Alzheimer's disease is a progressive brain disease that affects thinking, memory, and behaviour. It is the most eminent reason behind dementia in older adults and is characterised by the accumulation of toxin proteins within the brain. The exact cause of Alzheimer's disease is not fully understood yet, but the factors that are believed to play a major role are genetics, lifestyle factors, and age. Currently, only symptomatic therapy is available for Alzheimer's disease, in the form of Alzheimer tablets and other treatments that can help to manage the symptoms and improve quality of life of affected individuals."
+      "description": "Alzheimer - Overview Alzheimer's disease is a progressive brain disease that affects thinking, memory, and behaviour. It is the most eminent reason behind dementia in older adults and is characterised by the accumulation of toxin proteins within the brain. The exact cause of Alzheimer's disease is not fully understood yet, but the factors that are believed to play a major role are genetics, lifestyle factors, and age. Currently, only symptomatic therapy is available for Alzheimer's disease, in the form of Alzheimer tablets and other treatments that can help to manage the symptoms and improve quality of life of affected individuals.",
+      "id": "52d2"
     },
     {
       "medicines": [
@@ -7677,7 +8165,8 @@
         }
       ],
       "category": "Amoebiasis",
-      "description": "Amoebiasis - Overview Amoebiasis is an infectious disease caused by an amoeba parasite, named Entamoeba histolytica. The parasite is found in contaminated food or water and can infect the intestines or other organs such as the liver, lungs, or brain. Symptoms can range from mild diarrhoea to severe dysentery, and may also include stomach pain, fever, and nausea. In some cases, the infection can become chronic and lead to tissue damage or abscesses (collection of pus locally). Treatment typically involves medications to kill the parasite, as well as prevention methods including good hygiene practices and avoiding contaminated food and water. It is essential to consult a doctor to buy amoebiasis medicines and determine the most appropriate treatment plan for managing the symptoms of the disease."
+      "description": "Amoebiasis - Overview Amoebiasis is an infectious disease caused by an amoeba parasite, named Entamoeba histolytica. The parasite is found in contaminated food or water and can infect the intestines or other organs such as the liver, lungs, or brain. Symptoms can range from mild diarrhoea to severe dysentery, and may also include stomach pain, fever, and nausea. In some cases, the infection can become chronic and lead to tissue damage or abscesses (collection of pus locally). Treatment typically involves medications to kill the parasite, as well as prevention methods including good hygiene practices and avoiding contaminated food and water. It is essential to consult a doctor to buy amoebiasis medicines and determine the most appropriate treatment plan for managing the symptoms of the disease.",
+      "id": "c3df"
     },
     {
       "medicines": [
@@ -7713,7 +8202,8 @@
         }
       ],
       "category": "Anaemia",
-      "description": "Anaemia - Anaemia is a condition in which the body doesn't have enough red blood cells or haemoglobin, which carries oxygen to the body's tissues. It can be triggered by factors including vitamin B12 deficiency, iron deficiency, chronic kidney disease, and blood loss. Treatment depends on the underlying cause and may include iron or vitamin supplements, anaemia tablets, anaemia syrup, or blood transfusions. If left untreated, anaemia can lead to complications such as heart problems and developmental delays in children."
+      "description": "Anaemia - Anaemia is a condition in which the body doesn't have enough red blood cells or haemoglobin, which carries oxygen to the body's tissues. It can be triggered by factors including vitamin B12 deficiency, iron deficiency, chronic kidney disease, and blood loss. Treatment depends on the underlying cause and may include iron or vitamin supplements, anaemia tablets, anaemia syrup, or blood transfusions. If left untreated, anaemia can lead to complications such as heart problems and developmental delays in children.",
+      "id": "cc3c"
     },
     {
       "medicines": [
@@ -7750,7 +8240,8 @@
         }
       ],
       "category": "Anaesthesia - Local",
-      "description": "Anaesthesia Local - Overview - Local anaesthesia is a type of anaesthesia that numbs a specific part of the body without putting the patient to sleep. It can be administered either as an injection or as topical creams and gels. Local anaesthesia is commonly used for minor surgical procedures such as dental work, skin biopsies, and suturing wounds. It is also used for diagnostic procedures such as lumbar punctures and joint aspirations. Local anaesthesia works by blocking the nerves that transmit pain signals from the affected area to the brain. It is important to follow the instructions of the doctor before, during, and after the procedure."
+      "description": "Anaesthesia Local - Overview - Local anaesthesia is a type of anaesthesia that numbs a specific part of the body without putting the patient to sleep. It can be administered either as an injection or as topical creams and gels. Local anaesthesia is commonly used for minor surgical procedures such as dental work, skin biopsies, and suturing wounds. It is also used for diagnostic procedures such as lumbar punctures and joint aspirations. Local anaesthesia works by blocking the nerves that transmit pain signals from the affected area to the brain. It is important to follow the instructions of the doctor before, during, and after the procedure.",
+      "id": "7a2a"
     },
     {
       "medicines": [
@@ -7774,7 +8265,8 @@
         }
       ],
       "category": "Anaesthesia - General",
-      "description": "Anaesthesia General - General anaesthesia is a type of anaesthesia that induces a reversible state of unconsciousness, immobility, and analgesia. It is typically used for surgical procedures and involves administering intravenous or inhaled drugs to the patient. These drugs work by depressing the central nervous system, which leads to loss of consciousness and pain perception. During the procedure, the anaesthesiologist monitors the patient's vital signs and adjusts the dosage of drugs as necessary to maintain the desired level of anaesthesia. After the procedure is completed, the anaesthesiologist gradually reverses the effects of the drugs and monitors the patient until they are fully awake and stable."
+      "description": "Anaesthesia General - General anaesthesia is a type of anaesthesia that induces a reversible state of unconsciousness, immobility, and analgesia. It is typically used for surgical procedures and involves administering intravenous or inhaled drugs to the patient. These drugs work by depressing the central nervous system, which leads to loss of consciousness and pain perception. During the procedure, the anaesthesiologist monitors the patient's vital signs and adjusts the dosage of drugs as necessary to maintain the desired level of anaesthesia. After the procedure is completed, the anaesthesiologist gradually reverses the effects of the drugs and monitors the patient until they are fully awake and stable.",
+      "id": "c03b"
     },
     {
       "medicines": [
@@ -7804,7 +8296,8 @@
         }
       ],
       "category": "Anal Fissure",
-      "description": "Anal Fissure - Overview - An anal fissure is a crack or a tear in the anus, that can cause bleeding, pain, and discomfort during bowel movements. The condition can be triggered by constipation, diarrhoea, or trauma to the anal area. Treatment usually involves increasing fibre intake and applying topical anal fissure cream or ointments. Prevention methods include maintaining regular bowel movements, staying hydrated, and avoiding excessive straining while passing the stool."
+      "description": "Anal Fissure - Overview - An anal fissure is a crack or a tear in the anus, that can cause bleeding, pain, and discomfort during bowel movements. The condition can be triggered by constipation, diarrhoea, or trauma to the anal area. Treatment usually involves increasing fibre intake and applying topical anal fissure cream or ointments. Prevention methods include maintaining regular bowel movements, staying hydrated, and avoiding excessive straining while passing the stool.",
+      "id": "576a"
     }
   ],
   "ADHD": {
@@ -7854,7 +8347,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 335.70,
+        "disc_price": 335.7,
         "price": "381.48",
         "disc": 12,
         "image": "assets/images/medicines/allMedicines/2/Main atrest 25mg_0.jpg"
@@ -7876,7 +8369,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 225.50,
+        "disc_price": 225.5,
         "price": "275.00",
         "disc": 18,
         "image": "assets/images/medicines/allMedicines/3/injections.jpg"
@@ -7967,7 +8460,7 @@
           "* Country of Origin: India",
           "* Delivery charges if applicable will be applied at checkout"
         ],
-        "disc_price": 1314.90,
+        "disc_price": 1314.9,
         "price": "1494.20",
         "disc": 12,
         "image": "assets/images/medicines/allMedicines/7/cognistar_60mg_injection_0.jpg"
@@ -7998,5 +8491,71 @@
         "image": "assets/images/medicines/allMedicines/8/cogniza_tablet_10s_0_1.jpg"
       }
     ]
-  }
+  },
+  "wellness": [
+    {
+      "src": "assets/images/Wellness/carousel_1.jpg",
+      "alt": "",
+      "id": "ee84"
+    },
+    {
+      "src": "assets/images/Wellness/carousel_2.jpg",
+      "alt": "",
+      "id": "9650"
+    },
+    {
+      "src": "assets/images/Wellness/carousel_3.jpg",
+      "alt": "",
+      "id": "c313"
+    },
+    {
+      "src": "assets/images/Wellness/carousel_4.jpg",
+      "alt": "",
+      "id": "c96a"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Nisha Menon",
+      "location": "Mumbai",
+      "description": "Netmeds’ newest feature, which allows customers to choose delivery dates, is impressive and super convenient."
+    },
+    {
+      "id": "2",
+      "name": "Harsh Kumar",
+      "location": "Mumbai",
+      "description": "Permit me to record my deepest appreciation for Siya from your call centre team."
+    },
+    {
+      "id": "3",
+      "name": "Ayesha Singh",
+      "location": "Delhi",
+      "description": "The UI is user-friendly, and I enjoy the discounts and fast delivery."
+    },
+    {
+      "id": "4",
+      "name": "Karan Mehta",
+      "location": "Bangalore",
+      "description": "Support team is prompt and professional. Kudos!"
+    },
+    {
+      "id": "5",
+      "name": "Neha Sharma",
+      "location": "Kolkata",
+      "description": "I have very good experience with netmeds.netmeds has large network of medicine with great offers and good customer support.I recommend netmeds for online medicine to save money. Excellent cashback percentage and discount coupons are offered  from time to time."
+    },
+    {
+      "id": "6",
+      "name": "Shubham Deb",
+      "location": "Siliguri",
+      "description": "Very good customer service. It is user-friendly and satifying. Good Experience."
+    },
+    {
+      "id": "7",
+      "name": "Vidhi Bhatt",
+      "location": "Junagadh",
+      "description": "Super experience from this site.Its my first order.I am very satisfied.Thank you NETMEDS."
+    }
+  ]
 }

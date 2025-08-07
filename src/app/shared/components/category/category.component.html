@@ -23,7 +23,7 @@
                 *ngFor="let product of filteredProducts | paginate: { itemsPerPage: itemsPerPage, currentPage: page }"
                 (click)="goToDetail(product)">
 
-                <div class="card my-3 p-2" style="cursor: pointer;">
+                <div class="card my-3 p-2 ms-2" style="cursor: pointer;">
                     <div class="d-flex justify-content-center">
                         <img class="pro_img" [src]="product.image" />
                     </div>

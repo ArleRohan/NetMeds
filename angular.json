@@ -29,6 +29,7 @@
               "node_modules/owl.carousel/dist/assets/owl.theme.default.min.css",
               "@angular/material/prebuilt-themes/indigo-pink.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/swiper/swiper-bundle.min.css",
               "src/styles.css"
             ],
             "scripts": [
@@ -47,8 +48,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "5kb",
+                  "maximumError": "6kb"
                 }
               ],
               "outputHashing": "all"
