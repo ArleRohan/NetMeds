@@ -6449,7 +6449,6 @@
         "disc": 5,
         "image": "assets/images/skinCare/fair_and_handsome_long_lasting_radiance_cream_30_gm_484158_0_0.jpg"
       },
-      
       {
         "id": 7,
         "name": "VLCC New Gold Single Facial Kit 60 gm",
@@ -6588,6 +6587,15 @@
       "address": "A.P. Bolwad TAL. Miraj DIST. sangli",
       "gender": "Male",
       "phone": "9404405850"
+    },
+    {
+      "id": "c20d",
+      "fullName": "Geeta Patil",
+      "email": "geetapatil123@gmail.com",
+      "password": "1234",
+      "address": "pandharpur",
+      "gender": "Female",
+      "phone": "7249277420"
     }
   ],
   "ayush": {
