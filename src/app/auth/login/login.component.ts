@@ -28,25 +28,25 @@ export class LoginComponent {
   if (this.userLoginForm.valid) {
     const { email, password } = this.userLoginForm.value;
 
-    console.log('Form values:', this.userLoginForm.value);
-
-    this.authSer.getAllUsers().subscribe(users => {
-      console.log('All users:', users);  
-
-      const matchedUser = users.find(
-        (user: any) => user.email === email && user.password === password
-      );
-
-      if (matchedUser) {
-        alert('Login successful!');
-        // for interceptor
-        localStorage.setItem('token','eyJhbGciOiJIUzI1NiIsInR5')
-        sessionStorage.setItem('user', JSON.stringify(matchedUser));
-        this.router.navigate(['/home']);
+    // 🔍 Step 1: Check if email exists
+    this.authSer.checkUserByEmail(email).subscribe(users => {
+      if (users.length === 0) {
+        alert('Email not registered!');
       } else {
-        alert('Invalid email or password!');
+        const user = users[0];  // email is unique, so only one user
+
+        // 🔒 Step 2: Check password
+        if (user.password === password) {
+          alert('Login successful!');
+          localStorage.setItem('token', 'eyJhbGciOiJIUzI1NiIsInR5');  // dummy token
+          sessionStorage.setItem('user', JSON.stringify(user));
+          this.router.navigate(['/home']);
+        } else {
+          alert('Invalid password!');
+        }
       }
     });
+
   } else {
     this.userLoginForm.markAllAsTouched();
   }
