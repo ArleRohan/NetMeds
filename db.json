@@ -204,7 +204,6 @@
       }
     ]
   },
-  
   "FaceMakeupProduct": {
     "banner": "assets/images/Make-Up/Face-Makeup/face_makeup.jpg",
     "items": [
@@ -6576,6 +6575,15 @@
       "address": "Velapur",
       "gender": "Male",
       "phone": "7798083183"
+    },
+    {
+      "id": "d47d",
+      "fullName": "Dnyaneshwari Kamble",
+      "email": "dnyaneshwarikamble56@gmail.com",
+      "password": "Dnyanu10",
+      "address": "​Pune - Pandharpur Road\nHaripooja Recidency Wakhari Pandharpur, Plot no. 56, Om Sai Niwas",
+      "gender": "Female",
+      "phone": "7620391364"
     }
   ],
   "ayush": {
