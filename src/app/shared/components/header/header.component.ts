@@ -16,10 +16,6 @@ export class HeaderComponent implements OnInit {
 
     public dropdownstyle = "color: #32aeb1;";
     // cart
-    public carts = [
-        { routepath: "carts/cart", category: "Cart" }
-    ];
-
     constructor(private router: Router, private cartService: CartserviceService, private authService: AuthService) { }
     userName: string = '';
     ngOnInit(): void {

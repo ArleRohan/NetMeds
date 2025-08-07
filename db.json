@@ -204,6 +204,7 @@
       }
     ]
   },
+  
   "FaceMakeupProduct": {
     "banner": "assets/images/Make-Up/Face-Makeup/face_makeup.jpg",
     "items": [
@@ -6494,36 +6495,6 @@
       }
     ]
   },
-  "aminoAcidProducts": {
-    "items": [
-      {
-        "id": "1",
-        "name": "INLIFE L-Arginine 1000 mg - 60 Tablets",
-        "brand": "INLIFE Healthcare",
-        "category": [
-          "Fitness",
-          "Amino Acids"
-        ],
-        "disc_price": 480,
-        "price": "600.00",
-        "disc": 20,
-        "image": "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2.jpg"
-      },
-      {
-        "id": "2",
-        "name": "GNC Pro Performance Creatine Monohydrate - 250 gm",
-        "brand": "GNC India",
-        "category": [
-          "Fitness",
-          "Amino Acids"
-        ],
-        "disc_price": 950,
-        "price": "1190.00",
-        "disc": 20,
-        "image": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg"
-      }
-    ]
-  },
   "users": [
     {
       "id": "b1c2",
@@ -6535,35 +6506,18 @@
       "phone": "7666845902"
     },
     {
-      "id": "b63c",
-      "fullName": "Geeta Bagal",
-      "email": "geetab@gmail.com",
-      "password": "1234",
-      "address": "pandharpur",
-      "phone": "7249277420"
-    },
-    {
       "id": "e254",
       "fullName": "Admin",
       "email": "admin@gmail.com",
       "password": "1234",
-      "address": "pune",
+      "address": "pune MH12",
       "phone": "7249277420",
       "gender": "Female"
     },
     {
-      "id": "3fe2",
-      "fullName": "Geeta Patil",
-      "email": "geetapatil@gmail.com",
-      "password": "123456",
-      "address": "pandharpur",
-      "gender": "Female",
-      "phone": "7249927420"
-    },
-    {
-      "id": "3971",
-      "fullName": "Geeta",
-      "email": "geetapatil1234@gmail.com",
+      "id": "7e54",
+      "fullName": "Mayuri Patil",
+      "email": "mayuri@gmail.com",
       "password": "1234",
       "address": "pandharpur",
       "gender": "Female",
@@ -6604,6 +6558,24 @@
       "address": "A.P. Bolwad TAL. Miraj DIST. sangli",
       "gender": "Male",
       "phone": "9404405850"
+    },
+    {
+      "id": "a36e",
+      "fullName": "shubham dilip yadav",
+      "email": "shubhamdyadav17@gmail.com",
+      "password": "shubham17",
+      "address": "Velapur",
+      "gender": "Male",
+      "phone": "7350669331"
+    },
+    {
+      "id": "11df",
+      "fullName": "Shubham Shahaji Dhanavate ",
+      "email": "shubhamdhanavate8@gmail.com",
+      "password": "shubham17",
+      "address": "Velapur",
+      "gender": "Male",
+      "phone": "7798083183"
     }
   ],
   "ayush": {
@@ -6627,30 +6599,328 @@
       }
     ]
   },
+  "aminoAcidProducts": {
+    "items": [
+      {
+        "id": "1",
+        "type": "aminoAcidProducts",
+        "name": "GNC Pro Performance Creatine Monohydrate - 250 gm",
+        "brand": "GNC India",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 950,
+        "price": "1190.00",
+        "disc": 20,
+        "mainImage": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0 (1).jpg",
+        "image": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
+        "images": [
+          "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
+          "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_1_0.jpg",
+          "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_2_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: GNC India",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "2",
+        "type": "aminoAcidProducts",
+        "name": "INLIFE L-Arginine 1000 mg - 60 Tablets",
+        "brand": "INLIFE Healthcare",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 480,
+        "price": "600.00",
+        "disc": 20,
+        "mainImage": "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2 (1).jpg",
+        "image": "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2.jpg",
+        "images": [
+          "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568377_0_2.jpg",
+          "assets/images/cancer/inlife_l_arginine_1000_mg_60s_568379_2_2.jpg",
+          "assets/images/cancer/inlife_l_arginine_1000_mg_60s_713478_3_1.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: INLIFE Healthcare",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "3",
+        "type": "aminoAcidProducts",
+        "name": "Samika Nutricare Prostek Softgel Capsule 30's",
+        "brand": "Samika",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 1094.27,
+        "price": "1499.00",
+        "disc": 27,
+        "mainImage": "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586778_0_1 (1).jpg",
+        "image": "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586778_0_1.jpg",
+        "images": [
+          "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586778_0_1.jpg",
+          "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586779_1_0.jpg",
+          "assets/images/cancer/samika_nutricare_prostek_softgel_capsule_30s_586780_2_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: Samika",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "4",
+        "type": "aminoAcidProducts",
+        "name": "Samika Nutricare Grow Sperm Capsule 30's",
+        "brand": "Samika Nutricare",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 1104.15,
+        "price": "1299.00",
+        "disc": 15,
+        "mainImage": "assets/images/cancer/samika_nutricare_grow_sperm_capsule_30s_586770_0_1 (2).jpg",
+        "image": "assets/images/cancer/samika_nutricare_grow_sperm_capsule_30s_586770_0_1.jpg",
+        "images": [
+          "assets/images/cancer/samika_nutricare_grow_sperm_capsule_30s_586771_1_0.jpg",
+          "assets/images/cancer/samika_nutricare_grow_sperm_capsule_30s_586772_2_0.jpg",
+          "assets/images/cancer/samika_nutricare_grow_sperm_capsule_30s_586773_3_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: Samika Nutricare",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "5",
+        "type": "aminoAcidProducts",
+        "name": "INLIFE Alpha Lipoic Acid Capsules 60's",
+        "brand": "Inlife Pharma Pvt Ltd",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 699.02,
+        "price": "1199.00",
+        "disc": 42,
+        "mainImage": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0 (1).jpg",
+        "image": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0.jpg",
+        "images": [
+          "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819935_1_0.jpg",
+          "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819936_2_0.jpg",
+          "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819938_4_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: Inlife Pharma Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "6",
+        "type": "aminoAcidProducts",
+        "name": "GNC L-Arginine 1000 mg Tablet 90's",
+        "brand": "GNC",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 989.34,
+        "price": "1499.00",
+        "disc": 34,
+        "mainImage": "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_0_0 (1).jpg",
+        "image": "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_0_0.jpg",
+        "images": [
+          "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_0_0.jpg",
+          "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_1_0.jpg",
+          "assets/images/cancer/gnc_l_arginine_1000_mg_tablet_90s_2_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: GNC",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "7",
+        "type": "aminoAcidProducts",
+        "name": "Optimum Nutrition (ON) Micronized Creatine Powder - Unflavoured 250 gm",
+        "brand": "Optimum Nutrition",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 931.78,
+        "price": "1175.00",
+        "disc": 21,
+        "mainImage": "assets/images/cancer/optimum_nutrition_on_micronized_creatine_powder_unflavoured_250_gm_0_1 (1).jpg",
+        "image": "assets/images/cancer/optimum_nutrition_on_micronized_creatine_powder_unflavoured_250_gm_0_1.jpg",
+        "images": [
+          "assets/images/cancer/optimum_nutrition_on_micronized_creatine_powder_unflavoured_250_gm_1_1.jpg",
+          "assets/images/cancer/optimum_nutrition_on_micronized_creatine_powder_unflavoured_250_gm_2_1.jpg",
+          "assets/images/cancer/optimum_nutrition_on_micronized_creatine_powder_unflavoured_250_gm_5_1.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: Glanbia Performance Nutrition India Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      },
+      {
+        "id": "8",
+        "type": "aminoAcidProducts",
+        "name": "GNC Pro Performance L-Carnitine 500 mg Tablet 60's",
+        "brand": "Gnc",
+        "category": [
+          "Fitness",
+          "Sports Supplements"
+        ],
+        "disc_price": 704.53,
+        "price": "1499.00",
+        "disc": 53,
+        "mainImage": "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716017_0_0 (1).jpg",
+        "image": "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716017_0_0.jpg",
+        "images": [
+          "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716018_1_0.jpg",
+          "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716019_2_0.jpg",
+          "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716020_3_0.jpg"
+        ],
+        "product-content": [
+          "Inclusive of all taxes",
+          "* Mkt: Guardian Healthcare Services Pvt Ltd",
+          "* Country of Origin: India",
+          "* Delivery charges if applicable will be applied at checkout"
+        ]
+      }
+    ]
+  },
   "cart": [
     {
-      "id": "3",
-      "name": "Aroma Treasures Pure Essential Oil - Lemon Grass 10 ml",
-      "brand": "Roohwellness",
-      "mainImage": "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg",
+      "id": "1",
+      "name": "Lakme Color Crush Nail Art T2 6 Ml",
+      "brand": "Hindustan Unilever Limited",
+      "mainImage": "assets/images/Make-Up/Nails/lakme_color_crush_nail_art_t2_6_ml_202037_0_1.jpg",
       "category": [
-        "Aromatherapy",
-        "skincare"
+        "MakeUp",
+        "Nails"
       ],
       "images": [
-        "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg"
+        "assets/images/Make-Up/Nails/nailsSmallImg/lakme_9to5_primer_gloss_nail_colour_summer_blue_6_ml_445624_2_1.jpg",
+        "assets/images/Make-Up/Nails/nailsSmallImg/lakme_9to5_primer_gloss_nail_colour_summer_blue_6_ml_820570_9_0 (1).jpg",
+        "assets/images/Make-Up/Nails/nailsSmallImg/lakme_color_crush_nail_art_p1_6_ml_202050_4_2.jpg"
       ],
       "product-content": [
-        "This product cannot be returned for a refund or exchange.",
-        " Country of Origin: Germany",
-        "Country of Origin: India",
-        "Delivery charges if applicable will be applied at checkout"
+        "*This product cannot be returned for a refund or exchange.",
+        "* Mkt:Mayuri Kumkum",
+        "* Country of Origin:  United States",
+        "* Delivery charges if applicable will be applied at checkout"
       ],
-      "disc_price": 182.7,
-      "price": 210,
-      "disc": 13,
-      "image": "assets/images/skinCare/aroma_treasures_pure_essential_oil_lemon_grass_10_ml_0.jpg",
-      "productId": 1,
+      "disc_price": 150,
+      "price": "199.00",
+      "disc": 3,
+      "image": "assets/images/Make-Up/Nails/lakme_color_crush_nail_art_t2_6_ml_202037_0_1.jpg",
+      "productId": 2,
+      "quantity": 1
+    },
+    {
+      "id": "2",
+      "type": "aminoAcidProducts",
+      "name": "GNC Pro Performance L-Carnitine 500 mg Tablet 60's",
+      "brand": "Gnc",
+      "category": [
+        "Fitness",
+        "Sports Supplements"
+      ],
+      "disc_price": 704.53,
+      "price": "1499.00",
+      "disc": 53,
+      "mainImage": "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716017_0_0 (1).jpg",
+      "image": "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716017_0_0.jpg",
+      "images": [
+        "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716018_1_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716019_2_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_l_carnitine_500_mg_tablet_60s_716020_3_0.jpg"
+      ],
+      "product-content": [
+        "Inclusive of all taxes",
+        "* Mkt: Guardian Healthcare Services Pvt Ltd",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "productId": "8",
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "type": "aminoAcidProducts",
+      "name": "GNC Pro Performance Creatine Monohydrate - 250 gm",
+      "brand": "GNC India",
+      "category": [
+        "Fitness",
+        "Sports Supplements"
+      ],
+      "disc_price": 950,
+      "price": "1190.00",
+      "disc": 20,
+      "mainImage": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0 (1).jpg",
+      "image": "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
+      "images": [
+        "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_0_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_1_0.jpg",
+        "assets/images/cancer/gnc_pro_performance_creatine_monohydrate_3000_mg_powder_unflavored_250_gm_2_0.jpg"
+      ],
+      "product-content": [
+        "Inclusive of all taxes",
+        "* Mkt: GNC India",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "productId": "1",
+      "quantity": 1
+    },
+    {
+      "id": "4",
+      "type": "aminoAcidProducts",
+      "name": "INLIFE Alpha Lipoic Acid Capsules 60's",
+      "brand": "Inlife Pharma Pvt Ltd",
+      "category": [
+        "Fitness",
+        "Sports Supplements"
+      ],
+      "disc_price": 699.02,
+      "price": "1199.00",
+      "disc": 42,
+      "mainImage": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0 (1).jpg",
+      "image": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0.jpg",
+      "images": [
+        "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819935_1_0.jpg",
+        "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819936_2_0.jpg",
+        "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819938_4_0.jpg"
+      ],
+      "product-content": [
+        "Inclusive of all taxes",
+        "* Mkt: Inlife Pharma Pvt Ltd",
+        "* Country of Origin: India",
+        "* Delivery charges if applicable will be applied at checkout"
+      ],
+      "productId": "5",
       "quantity": 1
     }
   ],
@@ -7526,6 +7796,141 @@
         "price": "230.00  ",
         "disc": 11,
         "image": "assets/images/Wellness/Ayush/Siddha/dr_jrk_tolenorm_oil_50_ml_0.jpg"
+      }
+    ]
+  },
+  "coronaAwareness": {
+    "ebooks": [
+      {
+        "id": 1,
+        "title": "COVID-19 Prevention Guide",
+        "subtitle": "An Illustrated Handbook",
+        "img": "assets/images/corona/1620107731_E-Book_Cover.jpg",
+        "pdf": "assets/images/corona/pdf/coronavirus-ebook4.pdf"
+      },
+      {
+        "id": 2,
+        "title": "COVID-19 Guide for Kids",
+        "subtitle": "Awareness Through Cartoons",
+        "img": "assets/images/corona/1585404404_covid_1.jpg",
+        "pdf": "assets/images/corona/pdf/Coronavirus_Ebook2.pdf"
+      },
+      {
+        "id": 3,
+        "title": "COVID-19 Vaccine Info",
+        "subtitle": "Everything About Vaccination",
+        "img": "assets/images/corona/corona_1.jpg",
+        "pdf": "assets/images/corona/pdf/Coronavirus_Ebook.pdf"
+      },
+      {
+        "id": 4,
+        "title": "Mental Health During Pandemic",
+        "subtitle": "Stay Strong, Stay Safe",
+        "img": "assets/images/corona/corona_2.jpg",
+        "pdf": "assets/images/corona/pdf/Home_quarantine_E_Book.pdf"
+      }
+    ],
+    "articles": [
+      {
+        "id": 1,
+        "title": "Health Lessons From 2020",
+        "subtitle": "Here's What Pandemic Taught Us About Overall Wellbeing",
+        "img": "assets/images/corona/22.jpg"
+      },
+      {
+        "id": 2,
+        "title": "COVID-19 Vaccinations FAQs",
+        "subtitle": "All You Need To Know Before Getting The Shot",
+        "img": "assets/images/corona/23.jpg"
+      },
+      {
+        "id": 3,
+        "title": "COVID Tongue",
+        "subtitle": "All You Need To Know About This New Coronavirus Symptom",
+        "img": "https://www.netmeds.com/images/cms/wysiwyg/webengage/24.jpg"
+      },
+      {
+        "id": 4,
+        "title": "COVID-19 Vaccination",
+        "subtitle": "Are You Above 45 and Confused About Comorbidities? Here Is The List",
+        "img": "https://www.netmeds.com/images/cms/wysiwyg/webengage/25.jpg"
+      },
+      {
+        "id": 5,
+        "title": "World Tuberculosis Day 2021",
+        "subtitle": "Learn About The Common Facts About TB And COVID-19",
+        "img": "assets/images/corona/26.jpg"
+      },
+      {
+        "id": 6,
+        "title": "World Health Day 2021",
+        "subtitle": "Useful Tips To Maintain Work-Life Balance Amidst COVID-19 Lockdown",
+        "img": "assets/images/corona/27.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "id": 1,
+        "title": "Coronavirus Vaccines: Information",
+        "subtitle": "What you need to know",
+        "thumbnail": "assets/images/corona/28.jpg",
+        "url": "https://www.youtube.com/embed/mCEHIGcAwgg"
+      },
+      {
+        "id": 2,
+        "title": "How to register for Covid-19 Vaccines",
+        "subtitle": "How vaccines help control pandemics",
+        "thumbnail": "assets/images/corona/1620211303_covid_video_01.jpg",
+        "url": "https://www.youtube.com/embed/1mrLzVoVwlU"
+      },
+      {
+        "id": 3,
+        "title": "Covid-19 and Masks",
+        "subtitle": "Unmasking 7 common mistakes",
+        "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
+        "url": "https://www.youtube.com/embed/IVOn-GqcLik"
+      },
+      {
+        "id": 4,
+        "title": "COVID-19",
+        "subtitle": "How to  make disinfectant spray at home",
+        "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
+        "url": "https://www.youtube.com/embed/0fyTmWsQgMg"
+      },
+      {
+        "id": 5,
+        "title": "Coronavirus Outbreak",
+        "subtitle": "7 best ways to stop touching yourself",
+        "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
+        "url": "https://www.youtube.com/embed/vNqryRUPxuc"
+      },
+      {
+        "id": 6,
+        "title": "Pregnant during COVID-19",
+        "subtitle": "Here's what you need to know",
+        "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
+        "url": "https://www.youtube.com/embed/WCFmklDtYH0"
+      },
+      {
+        "id": 7,
+        "title": "COVID-19 and Sanitizers",
+        "subtitle": "How to Use Hand Sanitizers Effectively",
+        "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
+        "url": "https://www.youtube.com/embed/bVgpxdYm6fY"
+      },
+      {
+        "id": 8,
+        "title": "COVID-19 and Children",
+        "subtitle": "A Guide to getting back to school",
+        "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
+        "url": "https://www.youtube.com/embed/u70T1SZ5ano"
+      },
+      {
+        "id": 9,
+        "title": "COVID-19 and Food",
+        "subtitle": "7 essential foods to stock up during an emergency",
+        "thumbnail": "assets/images/corona/1620211313_covid_video_02.jpg",
+        "url": "https://www.youtube.com/embed/W_2aX2OT6pg"
       }
     ]
   },
