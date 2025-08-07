@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
+import { FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { AuthService } from 'src/app/core/services/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -7,53 +9,48 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-  phoneNumber: string = '';
-  enteredOTP: string = '';
-  generatedOTP: string = '';
-  showOtpBox: boolean = false;
 
-  constructor(private router: Router) {}
+  userLoginForm:any;
 
-  // Generate random 6-digit OTP
-  generateOTP(length: number = 6): string {
-    let otp = '';
-    for (let i = 0; i < length; i++) {
-      otp += Math.floor(Math.random() * 10); // Random digit 0-9
-    }
-    return otp;
-  }
-
-  // Called when user clicks "USE OTP"
-  onUseOtp() {
-    if (!this.phoneNumber || this.phoneNumber.length !== 10) {
-      alert("Please enter a valid 10-digit phone number.");
-      return;
+  constructor(private router:Router ,
+    private fb:FormBuilder , private authSer:AuthService){
+      this.userLoginForm = this.fb.group({
+        email:['', [Validators.required, Validators.email]],
+        password:['', [Validators.required, Validators.minLength(4)]]
+      })
     }
 
-    this.generatedOTP = this.generateOTP();
-    sessionStorage.setItem("userOTP", this.generatedOTP);
+// onSubmit(){
+//   console.log(this.userLoginForm.value);
+// }
 
-    // Debug logs
-    console.log("Generated OTP:", this.generatedOTP);
-    alert("Your OTP is: " + this.generatedOTP);
+ onSubmit(): void {
+  if (this.userLoginForm.valid) {
+    const { email, password } = this.userLoginForm.value;
 
-    this.showOtpBox = true;
+    // 🔍 Step 1: Check if email exists
+    this.authSer.checkUserByEmail(email).subscribe(users => {
+      if (users.length === 0) {
+        alert('Email not registered!');
+      } else {
+        const user = users[0];  // email is unique, so only one user
+
+        // 🔒 Step 2: Check password
+        if (user.password === password) {
+          alert('Login successful!');
+          localStorage.setItem('token', 'eyJhbGciOiJIUzI1NiIsInR5');  // dummy token
+          sessionStorage.setItem('user', JSON.stringify(user));
+          this.router.navigate(['/home']);
+        } else {
+          alert('Invalid password!');
+        }
+      }
+    });
+
+  } else {
+    this.userLoginForm.markAllAsTouched();
   }
+}
 
-  // Called when user clicks "Verify OTP"
-  verifyOTP() {
-    const storedOTP = sessionStorage.getItem("userOTP")?.trim();
-    const entered = this.enteredOTP.trim();
 
-    // Debug logs
-    console.log("Stored OTP:", storedOTP);
-    console.log("Entered OTP:", entered);
-
-    if (entered === storedOTP) {
-      alert("OTP verified successfully!");
-      this.router.navigate(['/auth/register']);  // Navigate to /register route
-    } else {
-      alert("Invalid OTP. Please try again.");
-    }
-  }
 }
