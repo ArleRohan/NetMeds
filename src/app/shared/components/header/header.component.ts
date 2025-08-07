@@ -184,7 +184,7 @@ export class HeaderComponent implements OnInit {
         { routepath: "", category: "Mom & Baby" },
         { routepath: "", category: "Devices" },
         { routepath: "", category: "Surgicals" },
-        { routepath: "", category: "Sexual Wellness" },
+        // { routepath: "", category: "Sexual Wellness" },
         { routepath: "", category: "Treatments" },
         { routepath: "", category: "Skin Care" },
         { routepath: "", category: "Personal Care" }

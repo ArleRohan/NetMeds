@@ -6904,34 +6904,6 @@
       "quantity": 1
     },
     {
-      "id": "4",
-      "type": "aminoAcidProducts",
-      "name": "INLIFE Alpha Lipoic Acid Capsules 60's",
-      "brand": "Inlife Pharma Pvt Ltd",
-      "category": [
-        "Fitness",
-        "Sports Supplements"
-      ],
-      "disc_price": 699.02,
-      "price": "1199.00",
-      "disc": 42,
-      "mainImage": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0 (1).jpg",
-      "image": "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819934_0_0.jpg",
-      "images": [
-        "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819935_1_0.jpg",
-        "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819936_2_0.jpg",
-        "assets/images/cancer/inlife_alpha_lipoic_acid_capsules_60s_819938_4_0.jpg"
-      ],
-      "product-content": [
-        "Inclusive of all taxes",
-        "* Mkt: Inlife Pharma Pvt Ltd",
-        "* Country of Origin: India",
-        "* Delivery charges if applicable will be applied at checkout"
-      ],
-      "productId": "5",
-      "quantity": 1
-    },
-    {
       "id": "5",
       "name": "Accu-Chek Active Glucose Monitor with Free 10 Test Strips",
       "brand": "Roche Diabetes Care India Pvt LTD",
